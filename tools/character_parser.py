@@ -12,7 +12,7 @@ def Parse_Selective (ID, Group):
         ID: {
             "name": Group['name'],
             # 'description': Group['description'],
-            'rarity': Group['rarity'],
+            'rarity': Group['rarity'] + 1,
             'profession': Group['profession'],
             'potential': Group['potentialRanks']
         }
@@ -56,7 +56,7 @@ def Parse_Selective (ID, Group):
         'atkSpd': stats['attackSpeed'],
         'atkTime': stats['baseAttackTime'],
         'hpRec': stats['hpRecoveryPerSec'],
-        'spRecoveryPerSec': stats['spRecoveryPerSec'],
+        'spRec': stats['spRecoveryPerSec'],
         'respawn': stats['respawnTime']
     }
 
