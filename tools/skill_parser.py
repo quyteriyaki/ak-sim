@@ -71,6 +71,9 @@ def Parse_Desc(Group):
             if neg: val *= -1
             val = str(int(val))
         desc = desc.replace(old_key, str(val))
+
+    # Reconfigure Blackboard to match dict
+    Group['levels']['blackboard'] = bb
     # Return reference
     Group['levels']['description'] = desc
 
