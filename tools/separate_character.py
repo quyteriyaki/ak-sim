@@ -15,4 +15,4 @@ for character in characters:
                 if str(skill) in skills:
                     characters[character]['skills'].remove(skill)
                     characters[character]['skills'].append(skills[skill])
-        file.write(json.dumps(characters[character]))
+        file.write(json.dumps(characters[character], indent=2))

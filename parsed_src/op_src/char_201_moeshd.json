@@ -1,1 +1,82 @@
-{"name": "Croissant", "rarity": 4, "profession": "Defender", "potential": [{"description": "DP Cost -1", "cost": -1.0}, {"description": "Redeployment Time -4 sec", "respawn": -4.0}, {"description": "DEF +26", "def": 26.0}, {"description": "Improves Talent"}, {"description": "DP Cost -1", "cost": -1.0}], "skills": ["skchr_moeshd_2", {"skillId": "skchr_moeshd_1", "iconId": null, "hidden": false, "levels": {"name": "Auto Defense", "rangeId": null, "description": "DEF +70%; Talent effect increases to 200%\nAutomatically activated", "skillType": 2, "spData": {"spType": 1, "levelUpCost": null, "maxChargeTime": 1, "spCost": 20, "initSp": 12, "increment": 1.0}, "prefabId": "skchr_moeshd_1", "duration": 30.0, "blackboard": {"def": 0.7, "talent_scale": 2.0}}}], "stats": {"level": 80, "maxHp": 3520, "atk": 380, "def": 710, "res": 0.0, "cost": 22, "block": 3, "atkSpd": 100.0, "atkTime": 1.2, "hpRec": 0.0, "spRecoveryPerSec": 1.0, "respawn": 70}, "talents": [{"name": "Miracle Field", "description": "Has a 23% <@ba.talpu>(+3%)</> chance to resist Physical and Arts Damage. The allies in the four surrounding grids obtain half of the effect", "blackboard": {"moeshd_t_1[self].prob": 0.23, "moeshd_t_1[aura].prob": 0.115}}], "trust": {"maxHp": 150, "def": 60}}
+{
+  "name": "Croissant",
+  "rarity": 4,
+  "profession": "Defender",
+  "potential": [
+    {
+      "description": "DP Cost -1",
+      "cost": -1.0
+    },
+    {
+      "description": "Redeployment Time -4 sec",
+      "respawn": -4.0
+    },
+    {
+      "description": "DEF +26",
+      "def": 26.0
+    },
+    {
+      "description": "Improves Talent"
+    },
+    {
+      "description": "DP Cost -1",
+      "cost": -1.0
+    }
+  ],
+  "skills": [
+    "skchr_moeshd_2",
+    {
+      "skillId": "skchr_moeshd_1",
+      "iconId": null,
+      "hidden": false,
+      "levels": {
+        "name": "Auto Defense",
+        "rangeId": null,
+        "description": "DEF +70%; Talent effect increases to 200%\nAutomatically activated",
+        "skillType": 2,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 20,
+          "initSp": 12,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_moeshd_1",
+        "duration": 30.0,
+        "blackboard": {
+          "def": 0.7,
+          "talent_scale": 2.0
+        }
+      }
+    }
+  ],
+  "stats": {
+    "level": 80,
+    "maxHp": 3520,
+    "atk": 380,
+    "def": 710,
+    "res": 0.0,
+    "cost": 22,
+    "block": 3,
+    "atkSpd": 100.0,
+    "atkTime": 1.2,
+    "hpRec": 0.0,
+    "spRecoveryPerSec": 1.0,
+    "respawn": 70
+  },
+  "talents": [
+    {
+      "name": "Miracle Field",
+      "description": "Has a 23% <@ba.talpu>(+3%)</> chance to resist Physical and Arts Damage. The allies in the four surrounding grids obtain half of the effect",
+      "blackboard": {
+        "moeshd_t_1[self].prob": 0.23,
+        "moeshd_t_1[aura].prob": 0.115
+      }
+    }
+  ],
+  "trust": {
+    "maxHp": 150,
+    "def": 60
+  }
+}

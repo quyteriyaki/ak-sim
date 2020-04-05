@@ -1,1 +1,80 @@
-{"name": "Beehunter", "rarity": 3, "profession": "Guard", "potential": [{"description": "DP Cost -1", "cost": -1.0}, {"description": "Redeployment Time -4 sec", "respawn": -4.0}, {"description": "Max HP +180", "maxHp": 180.0}, {"description": "Improves Talent"}, {"description": "DP Cost -1", "cost": -1.0}], "skills": ["skchr_brownb_2", {"skillId": "skchr_brownb_1", "iconId": null, "hidden": false, "levels": {"name": "Flexibility", "rangeId": null, "description": "60% chance to dodge Physical attacks", "skillType": 0, "spData": {"spType": 8, "levelUpCost": null, "maxChargeTime": 0, "spCost": 0, "initSp": 0, "increment": 0.0}, "prefabId": "skchr_brownb_1", "duration": 0.0, "blackboard": {"prob": 0.6}}}], "stats": {"level": 70, "maxHp": 2135, "atk": 488, "def": 312, "res": 0.0, "cost": 9, "block": 1, "atkSpd": 100.0, "atkTime": 0.78, "hpRec": 0.0, "spRecoveryPerSec": 1.0, "respawn": 70}, "talents": [{"name": "Boxer's Concentration", "description": "Each consecutive attack on the same target increases ATK by 6% <@ba.talpu>(+1%)</>, stacking up to 5 times. Stacks will be lost upon switching targets.", "blackboard": {"max_stack_cnt": 5.0, "atk": 0.06}}], "trust": {"atk": 60}}
+{
+  "name": "Beehunter",
+  "rarity": 3,
+  "profession": "Guard",
+  "potential": [
+    {
+      "description": "DP Cost -1",
+      "cost": -1.0
+    },
+    {
+      "description": "Redeployment Time -4 sec",
+      "respawn": -4.0
+    },
+    {
+      "description": "Max HP +180",
+      "maxHp": 180.0
+    },
+    {
+      "description": "Improves Talent"
+    },
+    {
+      "description": "DP Cost -1",
+      "cost": -1.0
+    }
+  ],
+  "skills": [
+    "skchr_brownb_2",
+    {
+      "skillId": "skchr_brownb_1",
+      "iconId": null,
+      "hidden": false,
+      "levels": {
+        "name": "Flexibility",
+        "rangeId": null,
+        "description": "60% chance to dodge Physical attacks",
+        "skillType": 0,
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "skchr_brownb_1",
+        "duration": 0.0,
+        "blackboard": {
+          "prob": 0.6
+        }
+      }
+    }
+  ],
+  "stats": {
+    "level": 70,
+    "maxHp": 2135,
+    "atk": 488,
+    "def": 312,
+    "res": 0.0,
+    "cost": 9,
+    "block": 1,
+    "atkSpd": 100.0,
+    "atkTime": 0.78,
+    "hpRec": 0.0,
+    "spRecoveryPerSec": 1.0,
+    "respawn": 70
+  },
+  "talents": [
+    {
+      "name": "Boxer's Concentration",
+      "description": "Each consecutive attack on the same target increases ATK by 6% <@ba.talpu>(+1%)</>, stacking up to 5 times. Stacks will be lost upon switching targets.",
+      "blackboard": {
+        "max_stack_cnt": 5.0,
+        "atk": 0.06
+      }
+    }
+  ],
+  "trust": {
+    "atk": 60
+  }
+}

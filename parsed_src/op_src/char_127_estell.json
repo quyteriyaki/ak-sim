@@ -1,1 +1,79 @@
-{"name": "Estelle", "rarity": 3, "profession": "Guard", "potential": [{"description": "DP Cost -1", "cost": -1.0}, {"description": "Redeployment Time -4 sec", "respawn": -4.0}, {"description": "Max HP +200", "maxHp": 200.0}, {"description": "Improves Talent"}, {"description": "DP Cost -1", "cost": -1.0}], "skills": ["skchr_estell_2", {"skillId": "skcom_atk_up[2]", "iconId": null, "hidden": false, "levels": {"name": "ATK Up \u03b2", "rangeId": null, "description": "ATK +80%", "skillType": 1, "spData": {"spType": 1, "levelUpCost": null, "maxChargeTime": 1, "spCost": 35, "initSp": 10, "increment": 1.0}, "prefabId": "skcom_atk_up", "duration": 25.0, "blackboard": {"atk": 0.8}}}], "stats": {"level": 70, "maxHp": 2500, "atk": 690, "def": 315, "res": 0.0, "cost": 22, "block": 3, "atkSpd": 100.0, "atkTime": 1.2, "hpRec": 0.0, "spRecoveryPerSec": 1.0, "respawn": 70}, "talents": [{"name": "Self-Healing", "description": "Restores HP by 14% <@ba.talpu>(+2%)</> of Max HP when there is an enemy killed within the 8 surrounding grids", "blackboard": {"hp_ratio": 0.14}}], "trust": {"maxHp": 350}}
+{
+  "name": "Estelle",
+  "rarity": 3,
+  "profession": "Guard",
+  "potential": [
+    {
+      "description": "DP Cost -1",
+      "cost": -1.0
+    },
+    {
+      "description": "Redeployment Time -4 sec",
+      "respawn": -4.0
+    },
+    {
+      "description": "Max HP +200",
+      "maxHp": 200.0
+    },
+    {
+      "description": "Improves Talent"
+    },
+    {
+      "description": "DP Cost -1",
+      "cost": -1.0
+    }
+  ],
+  "skills": [
+    "skchr_estell_2",
+    {
+      "skillId": "skcom_atk_up[2]",
+      "iconId": null,
+      "hidden": false,
+      "levels": {
+        "name": "ATK Up \u03b2",
+        "rangeId": null,
+        "description": "ATK +80%",
+        "skillType": 1,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 35,
+          "initSp": 10,
+          "increment": 1.0
+        },
+        "prefabId": "skcom_atk_up",
+        "duration": 25.0,
+        "blackboard": {
+          "atk": 0.8
+        }
+      }
+    }
+  ],
+  "stats": {
+    "level": 70,
+    "maxHp": 2500,
+    "atk": 690,
+    "def": 315,
+    "res": 0.0,
+    "cost": 22,
+    "block": 3,
+    "atkSpd": 100.0,
+    "atkTime": 1.2,
+    "hpRec": 0.0,
+    "spRecoveryPerSec": 1.0,
+    "respawn": 70
+  },
+  "talents": [
+    {
+      "name": "Self-Healing",
+      "description": "Restores HP by 14% <@ba.talpu>(+2%)</> of Max HP when there is an enemy killed within the 8 surrounding grids",
+      "blackboard": {
+        "hp_ratio": 0.14
+      }
+    }
+  ],
+  "trust": {
+    "maxHp": 350
+  }
+}

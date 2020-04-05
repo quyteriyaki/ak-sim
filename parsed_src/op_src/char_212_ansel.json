@@ -1,1 +1,79 @@
-{"name": "Ansel", "rarity": 2, "profession": "Medic", "potential": [{"description": "DP Cost -1", "cost": -1.0}, {"description": "Redeployment Time -4 sec", "respawn": -4.0}, {"description": "ATK +20", "atk": 20.0}, {"description": "Improves Talent"}, {"description": "DP Cost -1", "cost": -1.0}], "skills": [{"skillId": "skcom_range_extend", "iconId": null, "hidden": false, "levels": {"name": "Healing Range Up", "rangeId": null, "description": "Range +2 grids; ATK +40%", "skillType": 1, "spData": {"spType": 1, "levelUpCost": null, "maxChargeTime": 1, "spCost": 35, "initSp": 10, "increment": 1.0}, "prefabId": "skcom_range_extend", "duration": 25.0, "blackboard": {"atk": 0.4, "ability_range_forward_extend": 2.0}}}], "stats": {"level": 55, "maxHp": 1135, "atk": 362, "def": 109, "res": 0.0, "cost": 17, "block": 1, "atkSpd": 100.0, "atkTime": 2.85, "hpRec": 0.0, "spRecoveryPerSec": 1.0, "respawn": 70}, "talents": [{"name": "Additional Healing", "description": "18% <@ba.talpu>(+3%)</> chance to heal 1 extra ally", "blackboard": {"attack@prob": 0.18}}], "trust": {"atk": 45}}
+{
+  "name": "Ansel",
+  "rarity": 2,
+  "profession": "Medic",
+  "potential": [
+    {
+      "description": "DP Cost -1",
+      "cost": -1.0
+    },
+    {
+      "description": "Redeployment Time -4 sec",
+      "respawn": -4.0
+    },
+    {
+      "description": "ATK +20",
+      "atk": 20.0
+    },
+    {
+      "description": "Improves Talent"
+    },
+    {
+      "description": "DP Cost -1",
+      "cost": -1.0
+    }
+  ],
+  "skills": [
+    {
+      "skillId": "skcom_range_extend",
+      "iconId": null,
+      "hidden": false,
+      "levels": {
+        "name": "Healing Range Up",
+        "rangeId": null,
+        "description": "Range +2 grids; ATK +40%",
+        "skillType": 1,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 35,
+          "initSp": 10,
+          "increment": 1.0
+        },
+        "prefabId": "skcom_range_extend",
+        "duration": 25.0,
+        "blackboard": {
+          "atk": 0.4,
+          "ability_range_forward_extend": 2.0
+        }
+      }
+    }
+  ],
+  "stats": {
+    "level": 55,
+    "maxHp": 1135,
+    "atk": 362,
+    "def": 109,
+    "res": 0.0,
+    "cost": 17,
+    "block": 1,
+    "atkSpd": 100.0,
+    "atkTime": 2.85,
+    "hpRec": 0.0,
+    "spRecoveryPerSec": 1.0,
+    "respawn": 70
+  },
+  "talents": [
+    {
+      "name": "Additional Healing",
+      "description": "18% <@ba.talpu>(+3%)</> chance to heal 1 extra ally",
+      "blackboard": {
+        "attack@prob": 0.18
+      }
+    }
+  ],
+  "trust": {
+    "atk": 45
+  }
+}

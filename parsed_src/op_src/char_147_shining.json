@@ -1,1 +1,112 @@
-{"name": "Shining", "rarity": 5, "profession": "Medic", "potential": [{"description": "DP Cost -1", "cost": -1.0}, {"description": "Improves Second Talent"}, {"description": "DEF +25", "def": 25.0}, {"description": "DP Cost -1", "cost": -1.0}, {"description": "Improves First Talent"}], "skills": ["skchr_shining_2", {"skillId": "skchr_shining_1", "iconId": null, "hidden": false, "levels": {"name": "Creed", "rangeId": null, "description": "ATK +80%; ASPD +20", "skillType": 1, "spData": {"spType": 1, "levelUpCost": null, "maxChargeTime": 1, "spCost": 40, "initSp": 20, "increment": 1.0}, "prefabId": "skchr_shining_1", "duration": 20.0, "blackboard": {"atk": 0.8, "attack_speed": 20.0}}}, {"skillId": "skchr_shining_3", "iconId": null, "hidden": false, "levels": {"name": "Creed Field", "rangeId": null, "description": "ATK +50%\nAll allies within range DEF +100%", "skillType": 1, "spData": {"spType": 1, "levelUpCost": null, "maxChargeTime": 1, "spCost": 120, "initSp": 115, "increment": 1.0}, "prefabId": "skchr_shining_3", "duration": 60.0, "blackboard": {"def": 1.0, "atk": 0.5}}}], "stats": {"level": 90, "maxHp": 1613, "atk": 530, "def": 138, "res": 0.0, "cost": 20, "block": 1, "atkSpd": 100.0, "atkTime": 2.85, "hpRec": 0.0, "spRecoveryPerSec": 1.0, "respawn": 70}, "talents": [{"name": "Black Fiend's Protection", "description": "DEF of allies within range +65 <@ba.talpu>(+5)</>", "blackboard": {"def": 65.0}}, {"name": "Code of Law", "description": "ASPD +13 <@ba.talpu>(+3)</>", "blackboard": {"attack_speed": 13.0}}], "trust": {"atk": 80, "def": 20}}
+{
+  "name": "Shining",
+  "rarity": 5,
+  "profession": "Medic",
+  "potential": [
+    {
+      "description": "DP Cost -1",
+      "cost": -1.0
+    },
+    {
+      "description": "Improves Second Talent"
+    },
+    {
+      "description": "DEF +25",
+      "def": 25.0
+    },
+    {
+      "description": "DP Cost -1",
+      "cost": -1.0
+    },
+    {
+      "description": "Improves First Talent"
+    }
+  ],
+  "skills": [
+    "skchr_shining_2",
+    {
+      "skillId": "skchr_shining_1",
+      "iconId": null,
+      "hidden": false,
+      "levels": {
+        "name": "Creed",
+        "rangeId": null,
+        "description": "ATK +80%; ASPD +20",
+        "skillType": 1,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 40,
+          "initSp": 20,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_shining_1",
+        "duration": 20.0,
+        "blackboard": {
+          "atk": 0.8,
+          "attack_speed": 20.0
+        }
+      }
+    },
+    {
+      "skillId": "skchr_shining_3",
+      "iconId": null,
+      "hidden": false,
+      "levels": {
+        "name": "Creed Field",
+        "rangeId": null,
+        "description": "ATK +50%\nAll allies within range DEF +100%",
+        "skillType": 1,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 120,
+          "initSp": 115,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_shining_3",
+        "duration": 60.0,
+        "blackboard": {
+          "def": 1.0,
+          "atk": 0.5
+        }
+      }
+    }
+  ],
+  "stats": {
+    "level": 90,
+    "maxHp": 1613,
+    "atk": 530,
+    "def": 138,
+    "res": 0.0,
+    "cost": 20,
+    "block": 1,
+    "atkSpd": 100.0,
+    "atkTime": 2.85,
+    "hpRec": 0.0,
+    "spRecoveryPerSec": 1.0,
+    "respawn": 70
+  },
+  "talents": [
+    {
+      "name": "Black Fiend's Protection",
+      "description": "DEF of allies within range +65 <@ba.talpu>(+5)</>",
+      "blackboard": {
+        "def": 65.0
+      }
+    },
+    {
+      "name": "Code of Law",
+      "description": "ASPD +13 <@ba.talpu>(+3)</>",
+      "blackboard": {
+        "attack_speed": 13.0
+      }
+    }
+  ],
+  "trust": {
+    "atk": 80,
+    "def": 20
+  }
+}

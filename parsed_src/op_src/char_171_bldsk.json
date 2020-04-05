@@ -1,1 +1,82 @@
-{"name": "Warfarin", "rarity": 4, "profession": "Medic", "potential": [{"description": "DP Cost -1", "cost": -1.0}, {"description": "Redeployment Time -4 sec", "respawn": -4.0}, {"description": "ATK +27", "atk": 27.0}, {"description": "Redeployment Time -6 sec", "respawn": -6.0}, {"description": "DP Cost -1", "cost": -1.0}], "skills": ["skchr_bldsk_2", {"skillId": "skchr_bldsk_1", "iconId": null, "hidden": false, "levels": {"name": "Emergency Triage", "rangeId": null, "description": "The next heal restores an additional 25% of its target's Max HP\nOnly available when the target's HP is lower than 50%; Can store 4 charge(s)", "skillType": 2, "spData": {"spType": 2, "levelUpCost": null, "maxChargeTime": 4, "spCost": 4, "initSp": 0, "increment": 1.0}, "prefabId": "skchr_bldsk_1", "duration": 0.0, "blackboard": {"hp_ratio": 0.25, "ct": 4.0}}}], "stats": {"level": 80, "maxHp": 1520, "atk": 505, "def": 125, "res": 0.0, "cost": 19, "block": 1, "atkSpd": 100.0, "atkTime": 2.85, "hpRec": 0.0, "spRecoveryPerSec": 1.0, "respawn": 70}, "talents": [{"name": "Blood Sample Recycle", "description": "Restores 2 Skill Points to this Operator and a random ally within range when an enemy within range is killed", "blackboard": {"bldsk_t_1[self].sp": 2.0, "bldsk_t_1[rand].sp": 2.0}}], "trust": {"atk": 75}}
+{
+  "name": "Warfarin",
+  "rarity": 4,
+  "profession": "Medic",
+  "potential": [
+    {
+      "description": "DP Cost -1",
+      "cost": -1.0
+    },
+    {
+      "description": "Redeployment Time -4 sec",
+      "respawn": -4.0
+    },
+    {
+      "description": "ATK +27",
+      "atk": 27.0
+    },
+    {
+      "description": "Redeployment Time -6 sec",
+      "respawn": -6.0
+    },
+    {
+      "description": "DP Cost -1",
+      "cost": -1.0
+    }
+  ],
+  "skills": [
+    "skchr_bldsk_2",
+    {
+      "skillId": "skchr_bldsk_1",
+      "iconId": null,
+      "hidden": false,
+      "levels": {
+        "name": "Emergency Triage",
+        "rangeId": null,
+        "description": "The next heal restores an additional 25% of its target's Max HP\nOnly available when the target's HP is lower than 50%; Can store 4 charge(s)",
+        "skillType": 2,
+        "spData": {
+          "spType": 2,
+          "levelUpCost": null,
+          "maxChargeTime": 4,
+          "spCost": 4,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_bldsk_1",
+        "duration": 0.0,
+        "blackboard": {
+          "hp_ratio": 0.25,
+          "ct": 4.0
+        }
+      }
+    }
+  ],
+  "stats": {
+    "level": 80,
+    "maxHp": 1520,
+    "atk": 505,
+    "def": 125,
+    "res": 0.0,
+    "cost": 19,
+    "block": 1,
+    "atkSpd": 100.0,
+    "atkTime": 2.85,
+    "hpRec": 0.0,
+    "spRecoveryPerSec": 1.0,
+    "respawn": 70
+  },
+  "talents": [
+    {
+      "name": "Blood Sample Recycle",
+      "description": "Restores 2 Skill Points to this Operator and a random ally within range when an enemy within range is killed",
+      "blackboard": {
+        "bldsk_t_1[self].sp": 2.0,
+        "bldsk_t_1[rand].sp": 2.0
+      }
+    }
+  ],
+  "trust": {
+    "atk": 75
+  }
+}

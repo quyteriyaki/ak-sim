@@ -1,1 +1,81 @@
-{"name": "Cliffheart", "rarity": 4, "profession": "Specialist", "potential": [{"description": "DP Cost -1", "cost": -1.0}, {"description": "Redeployment Time -4 sec", "respawn": -4.0}, {"description": "ASPD +8", "attackSpeed": 8.0}, {"description": "Improves Talent"}, {"description": "DP Cost -1", "cost": -1.0}], "skills": ["skchr_slchan_2", {"skillId": "skchr_slchan_1", "iconId": null, "hidden": false, "levels": {"name": "Chain Hook", "rangeId": null, "description": "Drags the target to Cliffheart significantly in the next attack, dealing 180% of ATK Arts damage to it", "skillType": 2, "spData": {"spType": 1, "levelUpCost": null, "maxChargeTime": 1, "spCost": 4, "initSp": 0, "increment": 1.0}, "prefabId": "skchr_slchan_1", "duration": 0.0, "blackboard": {"atk_scale": 1.8, "force": 2.0}}}], "stats": {"level": 80, "maxHp": 1970, "atk": 765, "def": 340, "res": 0.0, "cost": 13, "block": 2, "atkSpd": 100.0, "atkTime": 1.8, "hpRec": 0.0, "spRecoveryPerSec": 1.0, "respawn": 70}, "talents": [{"name": "Karlan Hunter", "description": "ATK and DEF +14% <@ba.talpu>(+2%)</> when Cliffheart is not blocking any enemies", "blackboard": {"atk": 0.14, "def": 0.14}}], "trust": {"atk": 70}}
+{
+  "name": "Cliffheart",
+  "rarity": 4,
+  "profession": "Specialist",
+  "potential": [
+    {
+      "description": "DP Cost -1",
+      "cost": -1.0
+    },
+    {
+      "description": "Redeployment Time -4 sec",
+      "respawn": -4.0
+    },
+    {
+      "description": "ASPD +8",
+      "attackSpeed": 8.0
+    },
+    {
+      "description": "Improves Talent"
+    },
+    {
+      "description": "DP Cost -1",
+      "cost": -1.0
+    }
+  ],
+  "skills": [
+    "skchr_slchan_2",
+    {
+      "skillId": "skchr_slchan_1",
+      "iconId": null,
+      "hidden": false,
+      "levels": {
+        "name": "Chain Hook",
+        "rangeId": null,
+        "description": "Drags the target to Cliffheart significantly in the next attack, dealing 180% of ATK Arts damage to it",
+        "skillType": 2,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 4,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_slchan_1",
+        "duration": 0.0,
+        "blackboard": {
+          "atk_scale": 1.8,
+          "force": 2.0
+        }
+      }
+    }
+  ],
+  "stats": {
+    "level": 80,
+    "maxHp": 1970,
+    "atk": 765,
+    "def": 340,
+    "res": 0.0,
+    "cost": 13,
+    "block": 2,
+    "atkSpd": 100.0,
+    "atkTime": 1.8,
+    "hpRec": 0.0,
+    "spRecoveryPerSec": 1.0,
+    "respawn": 70
+  },
+  "talents": [
+    {
+      "name": "Karlan Hunter",
+      "description": "ATK and DEF +14% <@ba.talpu>(+2%)</> when Cliffheart is not blocking any enemies",
+      "blackboard": {
+        "atk": 0.14,
+        "def": 0.14
+      }
+    }
+  ],
+  "trust": {
+    "atk": 70
+  }
+}

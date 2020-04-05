@@ -1,1 +1,53 @@
-{"name": "Rangers", "rarity": 1, "profession": "Sniper", "potential": [{"description": "DP Cost -1", "cost": -1.0}, {"description": "ASPD +6", "attackSpeed": 6.0}, {"description": "ASPD +6", "attackSpeed": 6.0}, {"description": "Redeployment Time -5 sec", "respawn": -5.0}, {"description": "DP Cost -1", "cost": -1.0}], "stats": {"level": 30, "maxHp": 780, "atk": 269, "def": 66, "res": 0.0, "cost": 7, "block": 1, "atkSpd": 100.0, "atkTime": 1.0, "hpRec": 0.0, "spRecoveryPerSec": 1.0, "respawn": 70}, "talents": [{"name": "Anti-Air Master", "description": "ATK +50% when attacking aerial targets", "blackboard": {"atk_scale": 1.5}}], "trust": {"atk": 30}}
+{
+  "name": "Rangers",
+  "rarity": 1,
+  "profession": "Sniper",
+  "potential": [
+    {
+      "description": "DP Cost -1",
+      "cost": -1.0
+    },
+    {
+      "description": "ASPD +6",
+      "attackSpeed": 6.0
+    },
+    {
+      "description": "ASPD +6",
+      "attackSpeed": 6.0
+    },
+    {
+      "description": "Redeployment Time -5 sec",
+      "respawn": -5.0
+    },
+    {
+      "description": "DP Cost -1",
+      "cost": -1.0
+    }
+  ],
+  "stats": {
+    "level": 30,
+    "maxHp": 780,
+    "atk": 269,
+    "def": 66,
+    "res": 0.0,
+    "cost": 7,
+    "block": 1,
+    "atkSpd": 100.0,
+    "atkTime": 1.0,
+    "hpRec": 0.0,
+    "spRecoveryPerSec": 1.0,
+    "respawn": 70
+  },
+  "talents": [
+    {
+      "name": "Anti-Air Master",
+      "description": "ATK +50% when attacking aerial targets",
+      "blackboard": {
+        "atk_scale": 1.5
+      }
+    }
+  ],
+  "trust": {
+    "atk": 30
+  }
+}

@@ -1,1 +1,80 @@
-{"name": "Scavenger", "rarity": 3, "profession": "Vanguard", "potential": [{"description": "DP Cost -1", "cost": -1.0}, {"description": "Redeployment Time -4 sec", "respawn": -4.0}, {"description": "ATK +25", "atk": 25.0}, {"description": "Improves Talent"}, {"description": "DP Cost -1", "cost": -1.0}], "skills": ["skchr_scave_2", {"skillId": "skcom_charge_cost[2]", "iconId": null, "hidden": false, "levels": {"name": "Charge \u03b2", "rangeId": null, "description": "Instantly gains 9 Deployment Points.", "skillType": 2, "spData": {"spType": 1, "levelUpCost": null, "maxChargeTime": 1, "spCost": 30, "initSp": 13, "increment": 1.0}, "prefabId": "skcom_charge_cost", "duration": 0.0, "blackboard": {"cost": 9.0}}}], "stats": {"level": 70, "maxHp": 1835, "atk": 470, "def": 310, "res": 0.0, "cost": 12, "block": 2, "atkSpd": 100.0, "atkTime": 1.05, "hpRec": 0.0, "spRecoveryPerSec": 1.0, "respawn": 70}, "talents": [{"name": "Lone Wolf", "description": "ATK and DEF +13% <@ba.talpu>(+2%)</> when there are no allies in the four adjacent grids", "blackboard": {"atk": 0.13, "def": 0.13}}], "trust": {"atk": 60}}
+{
+  "name": "Scavenger",
+  "rarity": 3,
+  "profession": "Vanguard",
+  "potential": [
+    {
+      "description": "DP Cost -1",
+      "cost": -1.0
+    },
+    {
+      "description": "Redeployment Time -4 sec",
+      "respawn": -4.0
+    },
+    {
+      "description": "ATK +25",
+      "atk": 25.0
+    },
+    {
+      "description": "Improves Talent"
+    },
+    {
+      "description": "DP Cost -1",
+      "cost": -1.0
+    }
+  ],
+  "skills": [
+    "skchr_scave_2",
+    {
+      "skillId": "skcom_charge_cost[2]",
+      "iconId": null,
+      "hidden": false,
+      "levels": {
+        "name": "Charge \u03b2",
+        "rangeId": null,
+        "description": "Instantly gains 9 Deployment Points.",
+        "skillType": 2,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 30,
+          "initSp": 13,
+          "increment": 1.0
+        },
+        "prefabId": "skcom_charge_cost",
+        "duration": 0.0,
+        "blackboard": {
+          "cost": 9.0
+        }
+      }
+    }
+  ],
+  "stats": {
+    "level": 70,
+    "maxHp": 1835,
+    "atk": 470,
+    "def": 310,
+    "res": 0.0,
+    "cost": 12,
+    "block": 2,
+    "atkSpd": 100.0,
+    "atkTime": 1.05,
+    "hpRec": 0.0,
+    "spRecoveryPerSec": 1.0,
+    "respawn": 70
+  },
+  "talents": [
+    {
+      "name": "Lone Wolf",
+      "description": "ATK and DEF +13% <@ba.talpu>(+2%)</> when there are no allies in the four adjacent grids",
+      "blackboard": {
+        "atk": 0.13,
+        "def": 0.13
+      }
+    }
+  ],
+  "trust": {
+    "atk": 60
+  }
+}

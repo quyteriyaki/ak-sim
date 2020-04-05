@@ -1,1 +1,81 @@
-{"name": "Indra", "rarity": 4, "profession": "Guard", "potential": [{"description": "DP Cost -1", "cost": -1.0}, {"description": "Redeployment Time -4 sec", "respawn": -4.0}, {"description": "ATK +23", "atk": 23.0}, {"description": "Improves Talent"}, {"description": "DP Cost -1", "cost": -1.0}], "skills": ["skchr_tiger_2", {"skillId": "skchr_tiger_1", "iconId": null, "hidden": false, "levels": {"name": "Armorcrusher", "rangeId": null, "description": "The ATK of the next hit +140% and ignores 60% of the target's DEF", "skillType": 2, "spData": {"spType": 2, "levelUpCost": null, "maxChargeTime": 1, "spCost": 4, "initSp": 0, "increment": 1.0}, "prefabId": "skchr_tiger_1", "duration": 0.0, "blackboard": {"atk": 1.4, "def_penetrate": 0.6}}}], "stats": {"level": 80, "maxHp": 2265, "atk": 500, "def": 350, "res": 0.0, "cost": 10, "block": 1, "atkSpd": 100.0, "atkTime": 0.78, "hpRec": 0.0, "spRecoveryPerSec": 1.0, "respawn": 70}, "talents": [{"name": "Quick Fists", "description": "Has a 33% <@ba.talpu>(+3%)</> chance to Dodge the enemy's Physical Melee Attack. ATK +100% in the next attack if the Dodge is successful", "blackboard": {"tiger_t_1[evade].prob": 0.33, "charge_on_evade.atk": 1.0}}], "trust": {"atk": 75}}
+{
+  "name": "Indra",
+  "rarity": 4,
+  "profession": "Guard",
+  "potential": [
+    {
+      "description": "DP Cost -1",
+      "cost": -1.0
+    },
+    {
+      "description": "Redeployment Time -4 sec",
+      "respawn": -4.0
+    },
+    {
+      "description": "ATK +23",
+      "atk": 23.0
+    },
+    {
+      "description": "Improves Talent"
+    },
+    {
+      "description": "DP Cost -1",
+      "cost": -1.0
+    }
+  ],
+  "skills": [
+    "skchr_tiger_2",
+    {
+      "skillId": "skchr_tiger_1",
+      "iconId": null,
+      "hidden": false,
+      "levels": {
+        "name": "Armorcrusher",
+        "rangeId": null,
+        "description": "The ATK of the next hit +140% and ignores 60% of the target's DEF",
+        "skillType": 2,
+        "spData": {
+          "spType": 2,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 4,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_tiger_1",
+        "duration": 0.0,
+        "blackboard": {
+          "atk": 1.4,
+          "def_penetrate": 0.6
+        }
+      }
+    }
+  ],
+  "stats": {
+    "level": 80,
+    "maxHp": 2265,
+    "atk": 500,
+    "def": 350,
+    "res": 0.0,
+    "cost": 10,
+    "block": 1,
+    "atkSpd": 100.0,
+    "atkTime": 0.78,
+    "hpRec": 0.0,
+    "spRecoveryPerSec": 1.0,
+    "respawn": 70
+  },
+  "talents": [
+    {
+      "name": "Quick Fists",
+      "description": "Has a 33% <@ba.talpu>(+3%)</> chance to Dodge the enemy's Physical Melee Attack. ATK +100% in the next attack if the Dodge is successful",
+      "blackboard": {
+        "tiger_t_1[evade].prob": 0.33,
+        "charge_on_evade.atk": 1.0
+      }
+    }
+  ],
+  "trust": {
+    "atk": 75
+  }
+}

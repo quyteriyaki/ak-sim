@@ -1,1 +1,82 @@
-{"name": "Gravel", "rarity": 3, "profession": "Specialist", "potential": [{"description": "DP Cost -1", "cost": -1.0}, {"description": "Max HP +160", "maxHp": 160.0}, {"description": "Redeployment Time -2 sec", "respawn": -2.0}, {"description": "Improves Talent"}, {"description": "DP Cost -1", "cost": -1.0}], "skills": ["skchr_gravel_2", {"skillId": "skchr_gravel_1", "iconId": null, "hidden": false, "levels": {"name": "Shadow Assault", "rangeId": null, "description": "DEF +400% after Gravel is deployed; her DEF continually decreases over 12 seconds", "skillType": 0, "spData": {"spType": 8, "levelUpCost": null, "maxChargeTime": 0, "spCost": 0, "initSp": 0, "increment": 0.0}, "prefabId": "skchr_gravel_1", "duration": -1.0, "blackboard": {"def": 4.0, "duration": 12.0}}}], "stats": {"level": 70, "maxHp": 1420, "atk": 452, "def": 335, "res": 0.0, "cost": 8, "block": 1, "atkSpd": 100.0, "atkTime": 0.93, "hpRec": 0.0, "spRecoveryPerSec": 1.0, "respawn": 18}, "talents": [{"name": "Support of the Little", "description": "DP Cost -1; The DEF of all allies with DP Cost lower than 10 increases by 8% <@ba.talpu>(+2%)</>", "blackboard": {"cost": -1.0, "def": 0.08, "cond.cost": 10.0}}], "trust": {"maxHp": 300}}
+{
+  "name": "Gravel",
+  "rarity": 3,
+  "profession": "Specialist",
+  "potential": [
+    {
+      "description": "DP Cost -1",
+      "cost": -1.0
+    },
+    {
+      "description": "Max HP +160",
+      "maxHp": 160.0
+    },
+    {
+      "description": "Redeployment Time -2 sec",
+      "respawn": -2.0
+    },
+    {
+      "description": "Improves Talent"
+    },
+    {
+      "description": "DP Cost -1",
+      "cost": -1.0
+    }
+  ],
+  "skills": [
+    "skchr_gravel_2",
+    {
+      "skillId": "skchr_gravel_1",
+      "iconId": null,
+      "hidden": false,
+      "levels": {
+        "name": "Shadow Assault",
+        "rangeId": null,
+        "description": "DEF +400% after Gravel is deployed; her DEF continually decreases over 12 seconds",
+        "skillType": 0,
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "skchr_gravel_1",
+        "duration": -1.0,
+        "blackboard": {
+          "def": 4.0,
+          "duration": 12.0
+        }
+      }
+    }
+  ],
+  "stats": {
+    "level": 70,
+    "maxHp": 1420,
+    "atk": 452,
+    "def": 335,
+    "res": 0.0,
+    "cost": 8,
+    "block": 1,
+    "atkSpd": 100.0,
+    "atkTime": 0.93,
+    "hpRec": 0.0,
+    "spRecoveryPerSec": 1.0,
+    "respawn": 18
+  },
+  "talents": [
+    {
+      "name": "Support of the Little",
+      "description": "DP Cost -1; The DEF of all allies with DP Cost lower than 10 increases by 8% <@ba.talpu>(+2%)</>",
+      "blackboard": {
+        "cost": -1.0,
+        "def": 0.08,
+        "cond.cost": 10.0
+      }
+    }
+  ],
+  "trust": {
+    "maxHp": 300
+  }
+}

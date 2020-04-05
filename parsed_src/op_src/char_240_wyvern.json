@@ -1,1 +1,80 @@
-{"name": "Vanilla", "rarity": 2, "profession": "Vanguard", "potential": [{"description": "DP Cost -1", "cost": -1.0}, {"description": "Redeployment Time -4 sec", "respawn": -4.0}, {"description": "ATK +20", "atk": 20.0}, {"description": "Redeployment Time -6 sec", "respawn": -6.0}, {"description": "DP Cost -1", "cost": -1.0}], "skills": [{"skillId": "skchr_wyvern_1", "iconId": null, "hidden": false, "levels": {"name": "Command - Reinforcement", "rangeId": null, "description": "Gain 6 Deployment Points; ATK +35%", "skillType": 1, "spData": {"spType": 1, "levelUpCost": null, "maxChargeTime": 1, "spCost": 20, "initSp": 6, "increment": 1.0}, "prefabId": "skchr_wyvern_1", "duration": 10.0, "blackboard": {"cost": 6.0, "atk": 0.35}}}], "stats": {"level": 55, "maxHp": 1270, "atk": 355, "def": 240, "res": 0.0, "cost": 11, "block": 2, "atkSpd": 100.0, "atkTime": 1.05, "hpRec": 0.0, "spRecoveryPerSec": 1.0, "respawn": 70}, "talents": [{"name": "ATK Up", "description": "ATK +8%", "blackboard": {"atk": 0.08}}], "trust": {"atk": 50}}
+{
+  "name": "Vanilla",
+  "rarity": 2,
+  "profession": "Vanguard",
+  "potential": [
+    {
+      "description": "DP Cost -1",
+      "cost": -1.0
+    },
+    {
+      "description": "Redeployment Time -4 sec",
+      "respawn": -4.0
+    },
+    {
+      "description": "ATK +20",
+      "atk": 20.0
+    },
+    {
+      "description": "Redeployment Time -6 sec",
+      "respawn": -6.0
+    },
+    {
+      "description": "DP Cost -1",
+      "cost": -1.0
+    }
+  ],
+  "skills": [
+    {
+      "skillId": "skchr_wyvern_1",
+      "iconId": null,
+      "hidden": false,
+      "levels": {
+        "name": "Command - Reinforcement",
+        "rangeId": null,
+        "description": "Gain 6 Deployment Points; ATK +35%",
+        "skillType": 1,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 20,
+          "initSp": 6,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_wyvern_1",
+        "duration": 10.0,
+        "blackboard": {
+          "cost": 6.0,
+          "atk": 0.35
+        }
+      }
+    }
+  ],
+  "stats": {
+    "level": 55,
+    "maxHp": 1270,
+    "atk": 355,
+    "def": 240,
+    "res": 0.0,
+    "cost": 11,
+    "block": 2,
+    "atkSpd": 100.0,
+    "atkTime": 1.05,
+    "hpRec": 0.0,
+    "spRecoveryPerSec": 1.0,
+    "respawn": 70
+  },
+  "talents": [
+    {
+      "name": "ATK Up",
+      "description": "ATK +8%",
+      "blackboard": {
+        "atk": 0.08
+      }
+    }
+  ],
+  "trust": {
+    "atk": 50
+  }
+}

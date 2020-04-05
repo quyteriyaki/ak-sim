@@ -1,1 +1,80 @@
-{"name": "Vermeil", "rarity": 3, "profession": "Sniper", "potential": [{"description": "DP Cost -1", "cost": -1.0}, {"description": "Redeployment Time -4 sec", "respawn": -4.0}, {"description": "ATK +24", "atk": 24.0}, {"description": "Redeployment Time -6 sec", "respawn": -6.0}, {"description": "DP Cost -1", "cost": -1.0}], "skills": ["skchr_clour_2", {"skillId": "skcom_atk_up[2]", "iconId": null, "hidden": false, "levels": {"name": "ATK Up \u03b2", "rangeId": null, "description": "ATK +80%", "skillType": 1, "spData": {"spType": 1, "levelUpCost": null, "maxChargeTime": 1, "spCost": 35, "initSp": 10, "increment": 1.0}, "prefabId": "skcom_atk_up", "duration": 25.0, "blackboard": {"atk": 0.8}}}], "stats": {"level": 70, "maxHp": 1230, "atk": 485, "def": 162, "res": 0.0, "cost": 12, "block": 1, "atkSpd": 100.0, "atkTime": 1.0, "hpRec": 0.0, "spRecoveryPerSec": 1.0, "respawn": 70}, "talents": [{"name": "Hunter's Wisdom", "description": "Significantly increases this unit\u2019s Skill Point recovery speed", "blackboard": {"sp_recovery_per_sec": 0.3}}], "trust": {"atk": 65}}
+{
+  "name": "Vermeil",
+  "rarity": 3,
+  "profession": "Sniper",
+  "potential": [
+    {
+      "description": "DP Cost -1",
+      "cost": -1.0
+    },
+    {
+      "description": "Redeployment Time -4 sec",
+      "respawn": -4.0
+    },
+    {
+      "description": "ATK +24",
+      "atk": 24.0
+    },
+    {
+      "description": "Redeployment Time -6 sec",
+      "respawn": -6.0
+    },
+    {
+      "description": "DP Cost -1",
+      "cost": -1.0
+    }
+  ],
+  "skills": [
+    "skchr_clour_2",
+    {
+      "skillId": "skcom_atk_up[2]",
+      "iconId": null,
+      "hidden": false,
+      "levels": {
+        "name": "ATK Up \u03b2",
+        "rangeId": null,
+        "description": "ATK +80%",
+        "skillType": 1,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 35,
+          "initSp": 10,
+          "increment": 1.0
+        },
+        "prefabId": "skcom_atk_up",
+        "duration": 25.0,
+        "blackboard": {
+          "atk": 0.8
+        }
+      }
+    }
+  ],
+  "stats": {
+    "level": 70,
+    "maxHp": 1230,
+    "atk": 485,
+    "def": 162,
+    "res": 0.0,
+    "cost": 12,
+    "block": 1,
+    "atkSpd": 100.0,
+    "atkTime": 1.0,
+    "hpRec": 0.0,
+    "spRecoveryPerSec": 1.0,
+    "respawn": 70
+  },
+  "talents": [
+    {
+      "name": "Hunter's Wisdom",
+      "description": "Significantly increases this unit\u2019s Skill Point recovery speed",
+      "blackboard": {
+        "sp_recovery_per_sec": 0.3
+      }
+    }
+  ],
+  "trust": {
+    "atk": 65
+  }
+}

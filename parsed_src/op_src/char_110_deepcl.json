@@ -1,1 +1,82 @@
-{"name": "Deepcolor", "rarity": 3, "profession": "Supporter", "potential": [{"description": "DP Cost -1", "cost": -1.0}, {"description": "Redeployment Time -4 sec", "respawn": -4.0}, {"description": "ASPD +8", "attackSpeed": 8.0}, {"description": "Redeployment Time -6 sec", "respawn": -6.0}, {"description": "DP Cost -1", "cost": -1.0}], "skills": ["skchr_deepcl_2", {"skillId": "skchr_deepcl_1", "iconId": null, "hidden": false, "levels": {"name": "Shadow Tentacle", "rangeId": null, "description": "All Tentacles' ATK and DEF +60%; Restores 70 HP per second", "skillType": 1, "spData": {"spType": 1, "levelUpCost": null, "maxChargeTime": 1, "spCost": 30, "initSp": 0, "increment": 1.0}, "prefabId": "skchr_deepcl_1", "duration": 30.0, "blackboard": {"atk": 0.6, "def": 0.6, "hp_recovery_per_sec": 70.0}}}], "stats": {"level": 70, "maxHp": 1050, "atk": 403, "def": 125, "res": 15.0, "cost": 10, "block": 1, "atkSpd": 100.0, "atkTime": 1.6, "hpRec": 0.0, "spRecoveryPerSec": 1.0, "respawn": 70}, "talents": [{"name": "Tentacle Summoner", "description": "Can summon 4 Tentacles to help in combat", "blackboard": {"cnt": 4.0}}], "trust": {"maxHp": 300}}
+{
+  "name": "Deepcolor",
+  "rarity": 3,
+  "profession": "Supporter",
+  "potential": [
+    {
+      "description": "DP Cost -1",
+      "cost": -1.0
+    },
+    {
+      "description": "Redeployment Time -4 sec",
+      "respawn": -4.0
+    },
+    {
+      "description": "ASPD +8",
+      "attackSpeed": 8.0
+    },
+    {
+      "description": "Redeployment Time -6 sec",
+      "respawn": -6.0
+    },
+    {
+      "description": "DP Cost -1",
+      "cost": -1.0
+    }
+  ],
+  "skills": [
+    "skchr_deepcl_2",
+    {
+      "skillId": "skchr_deepcl_1",
+      "iconId": null,
+      "hidden": false,
+      "levels": {
+        "name": "Shadow Tentacle",
+        "rangeId": null,
+        "description": "All Tentacles' ATK and DEF +60%; Restores 70 HP per second",
+        "skillType": 1,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 30,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_deepcl_1",
+        "duration": 30.0,
+        "blackboard": {
+          "atk": 0.6,
+          "def": 0.6,
+          "hp_recovery_per_sec": 70.0
+        }
+      }
+    }
+  ],
+  "stats": {
+    "level": 70,
+    "maxHp": 1050,
+    "atk": 403,
+    "def": 125,
+    "res": 15.0,
+    "cost": 10,
+    "block": 1,
+    "atkSpd": 100.0,
+    "atkTime": 1.6,
+    "hpRec": 0.0,
+    "spRecoveryPerSec": 1.0,
+    "respawn": 70
+  },
+  "talents": [
+    {
+      "name": "Tentacle Summoner",
+      "description": "Can summon 4 Tentacles to help in combat",
+      "blackboard": {
+        "cnt": 4.0
+      }
+    }
+  ],
+  "trust": {
+    "maxHp": 300
+  }
+}

@@ -1,1 +1,82 @@
-{"name": "Sora", "rarity": 4, "profession": "Supporter", "potential": [{"description": "DP Cost -1", "cost": -1.0}, {"description": "Redeployment Time -4 sec", "respawn": -4.0}, {"description": "Max HP +140", "maxHp": 140.0}, {"description": "Redeployment Time -6 sec", "respawn": -6.0}, {"description": "DP Cost -1", "cost": -1.0}], "skills": ["skchr_sora_2", {"skillId": "skchr_sora_1", "iconId": null, "hidden": false, "levels": {"name": "Hymn of Respite", "rangeId": "x-2", "description": "Range expands; All enemies within range are put to Sleep  (Stun and Invincible) and the effect of Sora's Feature increases to 100%", "skillType": 1, "spData": {"spType": 1, "levelUpCost": null, "maxChargeTime": 1, "spCost": 60, "initSp": 45, "increment": 1.0}, "prefabId": "skchr_sora_1", "duration": 7.0, "blackboard": {"attack@atk_to_hp_recovery_ratio": 1.0}}}], "stats": {"level": 80, "maxHp": 1356, "atk": 335, "def": 238, "res": 0.0, "cost": 7, "block": 1, "atkSpd": 100.0, "atkTime": 1.0, "hpRec": 0.0, "spRecoveryPerSec": 1.0, "respawn": 70}, "talents": [{"name": "Encore", "description": "Has a 50% chance to immediately restore Skill Point by 50% of Max Skill Points when the skill ends", "blackboard": {"prob": 0.5, "sp": 0.5}}], "trust": {"atk": 50, "def": 20}}
+{
+  "name": "Sora",
+  "rarity": 4,
+  "profession": "Supporter",
+  "potential": [
+    {
+      "description": "DP Cost -1",
+      "cost": -1.0
+    },
+    {
+      "description": "Redeployment Time -4 sec",
+      "respawn": -4.0
+    },
+    {
+      "description": "Max HP +140",
+      "maxHp": 140.0
+    },
+    {
+      "description": "Redeployment Time -6 sec",
+      "respawn": -6.0
+    },
+    {
+      "description": "DP Cost -1",
+      "cost": -1.0
+    }
+  ],
+  "skills": [
+    "skchr_sora_2",
+    {
+      "skillId": "skchr_sora_1",
+      "iconId": null,
+      "hidden": false,
+      "levels": {
+        "name": "Hymn of Respite",
+        "rangeId": "x-2",
+        "description": "Range expands; All enemies within range are put to Sleep  (Stun and Invincible) and the effect of Sora's Feature increases to 100%",
+        "skillType": 1,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 60,
+          "initSp": 45,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_sora_1",
+        "duration": 7.0,
+        "blackboard": {
+          "attack@atk_to_hp_recovery_ratio": 1.0
+        }
+      }
+    }
+  ],
+  "stats": {
+    "level": 80,
+    "maxHp": 1356,
+    "atk": 335,
+    "def": 238,
+    "res": 0.0,
+    "cost": 7,
+    "block": 1,
+    "atkSpd": 100.0,
+    "atkTime": 1.0,
+    "hpRec": 0.0,
+    "spRecoveryPerSec": 1.0,
+    "respawn": 70
+  },
+  "talents": [
+    {
+      "name": "Encore",
+      "description": "Has a 50% chance to immediately restore Skill Point by 50% of Max Skill Points when the skill ends",
+      "blackboard": {
+        "prob": 0.5,
+        "sp": 0.5
+      }
+    }
+  ],
+  "trust": {
+    "atk": 50,
+    "def": 20
+  }
+}

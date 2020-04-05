@@ -1,1 +1,82 @@
-{"name": "Platinum", "rarity": 4, "profession": "Sniper", "potential": [{"description": "DP Cost -1", "cost": -1.0}, {"description": "Redeployment Time -4 sec", "respawn": -4.0}, {"description": "ATK +23", "atk": 23.0}, {"description": "Improves Talent"}, {"description": "DP Cost -1", "cost": -1.0}], "skills": ["skchr_platnm_2", {"skillId": "skcom_atk_up[3]", "iconId": null, "hidden": false, "levels": {"name": "ATK Up \u03b3", "rangeId": null, "description": "ATK +100%", "skillType": 1, "spData": {"spType": 1, "levelUpCost": null, "maxChargeTime": 1, "spCost": 30, "initSp": 15, "increment": 1.0}, "prefabId": "skcom_atk_up", "duration": 30.0, "blackboard": {"atk": 1.0}}}], "stats": {"level": 80, "maxHp": 1550, "atk": 495, "def": 165, "res": 0.0, "cost": 13, "block": 1, "atkSpd": 100.0, "atkTime": 1.0, "hpRec": 0.0, "spRecoveryPerSec": 1.0, "respawn": 70}, "talents": [{"name": "All-Out Attack", "description": "The longer the interval from the last attack is, the higher the ATK of the next attack will be (The longest interval is 2.5 seconds and the corresponding ATK increases to 190% <@ba.talpu>(+10%)</> )", "blackboard": {"attack@min_delta": 1.0, "attack@max_delta": 2.5, "attack@min_atk_scale": 1.0, "attack@max_atk_scale": 1.9}}], "trust": {"atk": 75}}
+{
+  "name": "Platinum",
+  "rarity": 4,
+  "profession": "Sniper",
+  "potential": [
+    {
+      "description": "DP Cost -1",
+      "cost": -1.0
+    },
+    {
+      "description": "Redeployment Time -4 sec",
+      "respawn": -4.0
+    },
+    {
+      "description": "ATK +23",
+      "atk": 23.0
+    },
+    {
+      "description": "Improves Talent"
+    },
+    {
+      "description": "DP Cost -1",
+      "cost": -1.0
+    }
+  ],
+  "skills": [
+    "skchr_platnm_2",
+    {
+      "skillId": "skcom_atk_up[3]",
+      "iconId": null,
+      "hidden": false,
+      "levels": {
+        "name": "ATK Up \u03b3",
+        "rangeId": null,
+        "description": "ATK +100%",
+        "skillType": 1,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 30,
+          "initSp": 15,
+          "increment": 1.0
+        },
+        "prefabId": "skcom_atk_up",
+        "duration": 30.0,
+        "blackboard": {
+          "atk": 1.0
+        }
+      }
+    }
+  ],
+  "stats": {
+    "level": 80,
+    "maxHp": 1550,
+    "atk": 495,
+    "def": 165,
+    "res": 0.0,
+    "cost": 13,
+    "block": 1,
+    "atkSpd": 100.0,
+    "atkTime": 1.0,
+    "hpRec": 0.0,
+    "spRecoveryPerSec": 1.0,
+    "respawn": 70
+  },
+  "talents": [
+    {
+      "name": "All-Out Attack",
+      "description": "The longer the interval from the last attack is, the higher the ATK of the next attack will be (The longest interval is 2.5 seconds and the corresponding ATK increases to 190% <@ba.talpu>(+10%)</> )",
+      "blackboard": {
+        "attack@min_delta": 1.0,
+        "attack@max_delta": 2.5,
+        "attack@min_atk_scale": 1.0,
+        "attack@max_atk_scale": 1.9
+      }
+    }
+  ],
+  "trust": {
+    "atk": 75
+  }
+}

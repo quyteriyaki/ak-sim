@@ -1,1 +1,44 @@
-{"name": "Roadblock", "rarity": 0, "profession": "TRAP", "potential": [], "skills": [{"skillId": "sktok_crate", "iconId": null, "hidden": false, "levels": {"name": "Obstruct", "rangeId": null, "description": "Deploy a Roadblock, changing enemies' route\nIf the Roadblock is deployed on enemies, they will destroy it", "skillType": 0, "spData": {"spType": 8, "levelUpCost": null, "maxChargeTime": 0, "spCost": 0, "initSp": 0, "increment": 0.0}, "prefabId": null, "duration": 0.0, "blackboard": {}}}], "stats": {"level": 30, "maxHp": 100, "atk": 0, "def": 0, "res": 0.0, "cost": 5, "block": 3, "atkSpd": 100.0, "atkTime": 1.0, "hpRec": 0.0, "spRecoveryPerSec": 1.0, "respawn": 5}}
+{
+  "name": "Roadblock",
+  "rarity": 0,
+  "profession": "TRAP",
+  "potential": [],
+  "skills": [
+    {
+      "skillId": "sktok_crate",
+      "iconId": null,
+      "hidden": false,
+      "levels": {
+        "name": "Obstruct",
+        "rangeId": null,
+        "description": "Deploy a Roadblock, changing enemies' route\nIf the Roadblock is deployed on enemies, they will destroy it",
+        "skillType": 0,
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": null,
+        "duration": 0.0,
+        "blackboard": {}
+      }
+    }
+  ],
+  "stats": {
+    "level": 30,
+    "maxHp": 100,
+    "atk": 0,
+    "def": 0,
+    "res": 0.0,
+    "cost": 5,
+    "block": 3,
+    "atkSpd": 100.0,
+    "atkTime": 1.0,
+    "hpRec": 0.0,
+    "spRecoveryPerSec": 1.0,
+    "respawn": 5
+  }
+}

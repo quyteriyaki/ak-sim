@@ -1,1 +1,87 @@
-{"name": "Frostleaf", "rarity": 3, "profession": "Guard", "potential": [{"description": "DP Cost -1", "cost": -1.0}, {"description": "Redeployment Time -4 sec", "respawn": -4.0}, {"description": "ASPD +8", "attackSpeed": 8.0}, {"description": "Redeployment Time -6 sec", "respawn": -6.0}, {"description": "DP Cost -1", "cost": -1.0}], "skills": ["skchr_frostl_2", {"skillId": "skchr_frostl_1", "iconId": null, "hidden": false, "levels": {"name": "Frost Tomahawk", "rangeId": null, "description": "Deals 150% of ATK Physical damage in the next attack and the Movement Speed of targets -50% for 3 seconds", "skillType": 2, "spData": {"spType": 1, "levelUpCost": null, "maxChargeTime": 1, "spCost": 3, "initSp": 0, "increment": 1.0}, "prefabId": "skchr_frostl_1", "duration": -1.0, "blackboard": {"move_speed": -0.5, "duration": 3.0, "atk_scale": 1.5}}}], "stats": {"level": 70, "maxHp": 2260, "atk": 660, "def": 323, "res": 10.0, "cost": 18, "block": 2, "atkSpd": 100.0, "atkTime": 1.3, "hpRec": 0.0, "spRecoveryPerSec": 1.0, "respawn": 70}, "talents": [{"name": "Covered Strike", "description": "Range expands, but Attack Interval increases slightly", "blackboard": {"base_attack_time": 0.15}}], "trait": [{"atk_scale": 0.8}], "trust": {"def": 55}}
+{
+  "name": "Frostleaf",
+  "rarity": 3,
+  "profession": "Guard",
+  "potential": [
+    {
+      "description": "DP Cost -1",
+      "cost": -1.0
+    },
+    {
+      "description": "Redeployment Time -4 sec",
+      "respawn": -4.0
+    },
+    {
+      "description": "ASPD +8",
+      "attackSpeed": 8.0
+    },
+    {
+      "description": "Redeployment Time -6 sec",
+      "respawn": -6.0
+    },
+    {
+      "description": "DP Cost -1",
+      "cost": -1.0
+    }
+  ],
+  "skills": [
+    "skchr_frostl_2",
+    {
+      "skillId": "skchr_frostl_1",
+      "iconId": null,
+      "hidden": false,
+      "levels": {
+        "name": "Frost Tomahawk",
+        "rangeId": null,
+        "description": "Deals 150% of ATK Physical damage in the next attack and the Movement Speed of targets -50% for 3 seconds",
+        "skillType": 2,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 3,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_frostl_1",
+        "duration": -1.0,
+        "blackboard": {
+          "move_speed": -0.5,
+          "duration": 3.0,
+          "atk_scale": 1.5
+        }
+      }
+    }
+  ],
+  "stats": {
+    "level": 70,
+    "maxHp": 2260,
+    "atk": 660,
+    "def": 323,
+    "res": 10.0,
+    "cost": 18,
+    "block": 2,
+    "atkSpd": 100.0,
+    "atkTime": 1.3,
+    "hpRec": 0.0,
+    "spRecoveryPerSec": 1.0,
+    "respawn": 70
+  },
+  "talents": [
+    {
+      "name": "Covered Strike",
+      "description": "Range expands, but Attack Interval increases slightly",
+      "blackboard": {
+        "base_attack_time": 0.15
+      }
+    }
+  ],
+  "trait": [
+    {
+      "atk_scale": 0.8
+    }
+  ],
+  "trust": {
+    "def": 55
+  }
+}

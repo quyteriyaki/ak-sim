@@ -1,1 +1,79 @@
-{"name": "Cardigan", "rarity": 2, "profession": "Defender", "potential": [{"description": "DP Cost -1", "cost": -1.0}, {"description": "Redeployment Time -4 sec", "respawn": -4.0}, {"description": "Max HP +200", "maxHp": 200.0}, {"description": "Redeployment Time -6 sec", "respawn": -6.0}, {"description": "DP Cost -1", "cost": -1.0}], "skills": [{"skillId": "skcom_heal_self[1]", "iconId": null, "hidden": false, "levels": {"name": "Regeneration \u03b1", "rangeId": null, "description": "Restores HP by 40% of Max HP", "skillType": 1, "spData": {"spType": 1, "levelUpCost": null, "maxChargeTime": 1, "spCost": 20, "initSp": 10, "increment": 1.0}, "prefabId": "skcom_heal_self", "duration": 0.0, "blackboard": {"heal_scale": 0.4}}}], "stats": {"level": 55, "maxHp": 2130, "atk": 305, "def": 475, "res": 0.0, "cost": 18, "block": 3, "atkSpd": 100.0, "atkTime": 1.2, "hpRec": 0.0, "spRecoveryPerSec": 1.0, "respawn": 70}, "talents": [{"name": "Max HP Up", "description": "Max HP +12%", "blackboard": {"max_hp": 0.12}}], "trust": {"maxHp": 300}}
+{
+  "name": "Cardigan",
+  "rarity": 2,
+  "profession": "Defender",
+  "potential": [
+    {
+      "description": "DP Cost -1",
+      "cost": -1.0
+    },
+    {
+      "description": "Redeployment Time -4 sec",
+      "respawn": -4.0
+    },
+    {
+      "description": "Max HP +200",
+      "maxHp": 200.0
+    },
+    {
+      "description": "Redeployment Time -6 sec",
+      "respawn": -6.0
+    },
+    {
+      "description": "DP Cost -1",
+      "cost": -1.0
+    }
+  ],
+  "skills": [
+    {
+      "skillId": "skcom_heal_self[1]",
+      "iconId": null,
+      "hidden": false,
+      "levels": {
+        "name": "Regeneration \u03b1",
+        "rangeId": null,
+        "description": "Restores HP by 40% of Max HP",
+        "skillType": 1,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 20,
+          "initSp": 10,
+          "increment": 1.0
+        },
+        "prefabId": "skcom_heal_self",
+        "duration": 0.0,
+        "blackboard": {
+          "heal_scale": 0.4
+        }
+      }
+    }
+  ],
+  "stats": {
+    "level": 55,
+    "maxHp": 2130,
+    "atk": 305,
+    "def": 475,
+    "res": 0.0,
+    "cost": 18,
+    "block": 3,
+    "atkSpd": 100.0,
+    "atkTime": 1.2,
+    "hpRec": 0.0,
+    "spRecoveryPerSec": 1.0,
+    "respawn": 70
+  },
+  "talents": [
+    {
+      "name": "Max HP Up",
+      "description": "Max HP +12%",
+      "blackboard": {
+        "max_hp": 0.12
+      }
+    }
+  ],
+  "trust": {
+    "maxHp": 300
+  }
+}

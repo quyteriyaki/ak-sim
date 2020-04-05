@@ -1,1 +1,81 @@
-{"name": "Meteor", "rarity": 3, "profession": "Sniper", "potential": [{"description": "DP Cost -1", "cost": -1.0}, {"description": "Redeployment Time -4 sec", "respawn": -4.0}, {"description": "ATK +23", "atk": 23.0}, {"description": "Improves Talent"}, {"description": "DP Cost -1", "cost": -1.0}], "skills": ["skchr_shotst_2", {"skillId": "skchr_shotst_1", "iconId": null, "hidden": false, "levels": {"name": "Armor Breaker", "rangeId": null, "description": "The next attack deals 180% of ATK physical damage and the target's DEF -35% for 5 seconds", "skillType": 2, "spData": {"spType": 2, "levelUpCost": null, "maxChargeTime": 1, "spCost": 4, "initSp": 0, "increment": 1.0}, "prefabId": "skchr_shotst_1", "duration": -1.0, "blackboard": {"atk_scale": 1.8, "def": -0.35, "duration": 5.0}}}], "stats": {"level": 70, "maxHp": 1370, "atk": 465, "def": 165, "res": 0.0, "cost": 12, "block": 1, "atkSpd": 100.0, "atkTime": 1.0, "hpRec": 0.0, "spRecoveryPerSec": 1.0, "respawn": 70}, "talents": [{"name": "Anti-Air Specialist", "description": "ATK +40% <@ba.talpu>(+5%)</> when attacking aerial targets", "blackboard": {"atk_scale": 1.4}}], "trust": {"atk": 65}}
+{
+  "name": "Meteor",
+  "rarity": 3,
+  "profession": "Sniper",
+  "potential": [
+    {
+      "description": "DP Cost -1",
+      "cost": -1.0
+    },
+    {
+      "description": "Redeployment Time -4 sec",
+      "respawn": -4.0
+    },
+    {
+      "description": "ATK +23",
+      "atk": 23.0
+    },
+    {
+      "description": "Improves Talent"
+    },
+    {
+      "description": "DP Cost -1",
+      "cost": -1.0
+    }
+  ],
+  "skills": [
+    "skchr_shotst_2",
+    {
+      "skillId": "skchr_shotst_1",
+      "iconId": null,
+      "hidden": false,
+      "levels": {
+        "name": "Armor Breaker",
+        "rangeId": null,
+        "description": "The next attack deals 180% of ATK physical damage and the target's DEF -35% for 5 seconds",
+        "skillType": 2,
+        "spData": {
+          "spType": 2,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 4,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_shotst_1",
+        "duration": -1.0,
+        "blackboard": {
+          "atk_scale": 1.8,
+          "def": -0.35,
+          "duration": 5.0
+        }
+      }
+    }
+  ],
+  "stats": {
+    "level": 70,
+    "maxHp": 1370,
+    "atk": 465,
+    "def": 165,
+    "res": 0.0,
+    "cost": 12,
+    "block": 1,
+    "atkSpd": 100.0,
+    "atkTime": 1.0,
+    "hpRec": 0.0,
+    "spRecoveryPerSec": 1.0,
+    "respawn": 70
+  },
+  "talents": [
+    {
+      "name": "Anti-Air Specialist",
+      "description": "ATK +40% <@ba.talpu>(+5%)</> when attacking aerial targets",
+      "blackboard": {
+        "atk_scale": 1.4
+      }
+    }
+  ],
+  "trust": {
+    "atk": 65
+  }
+}

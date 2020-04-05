@@ -1,1 +1,80 @@
-{"name": "Matoimaru", "rarity": 3, "profession": "Guard", "potential": [{"description": "DP Cost -1", "cost": -1.0}, {"description": "Redeployment Time -4 sec", "respawn": -4.0}, {"description": "Max HP +180", "maxHp": 180.0}, {"description": "Improves Talent"}, {"description": "DP Cost -1", "cost": -1.0}], "skills": ["skchr_gyuki_2", {"skillId": "skcom_heal_self[2]", "iconId": null, "hidden": false, "levels": {"name": "Regeneration \u03b2", "rangeId": null, "description": "Restores HP by 50% of Max HP", "skillType": 1, "spData": {"spType": 1, "levelUpCost": null, "maxChargeTime": 1, "spCost": 20, "initSp": 10, "increment": 1.0}, "prefabId": "skcom_heal_self", "duration": 0.0, "blackboard": {"heal_scale": 0.5}}}], "stats": {"level": 70, "maxHp": 3470, "atk": 855, "def": 156, "res": 0.0, "cost": 17, "block": 1, "atkSpd": 100.0, "atkTime": 1.5, "hpRec": 0.0, "spRecoveryPerSec": 1.0, "respawn": 70}, "talents": [{"name": "Demonic Physique", "description": "DEF -20%; Max HP +23% <@ba.talpu>(+3%)</>", "blackboard": {"def": -0.2, "max_hp": 0.23}}], "trust": {"maxHp": 450}}
+{
+  "name": "Matoimaru",
+  "rarity": 3,
+  "profession": "Guard",
+  "potential": [
+    {
+      "description": "DP Cost -1",
+      "cost": -1.0
+    },
+    {
+      "description": "Redeployment Time -4 sec",
+      "respawn": -4.0
+    },
+    {
+      "description": "Max HP +180",
+      "maxHp": 180.0
+    },
+    {
+      "description": "Improves Talent"
+    },
+    {
+      "description": "DP Cost -1",
+      "cost": -1.0
+    }
+  ],
+  "skills": [
+    "skchr_gyuki_2",
+    {
+      "skillId": "skcom_heal_self[2]",
+      "iconId": null,
+      "hidden": false,
+      "levels": {
+        "name": "Regeneration \u03b2",
+        "rangeId": null,
+        "description": "Restores HP by 50% of Max HP",
+        "skillType": 1,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 20,
+          "initSp": 10,
+          "increment": 1.0
+        },
+        "prefabId": "skcom_heal_self",
+        "duration": 0.0,
+        "blackboard": {
+          "heal_scale": 0.5
+        }
+      }
+    }
+  ],
+  "stats": {
+    "level": 70,
+    "maxHp": 3470,
+    "atk": 855,
+    "def": 156,
+    "res": 0.0,
+    "cost": 17,
+    "block": 1,
+    "atkSpd": 100.0,
+    "atkTime": 1.5,
+    "hpRec": 0.0,
+    "spRecoveryPerSec": 1.0,
+    "respawn": 70
+  },
+  "talents": [
+    {
+      "name": "Demonic Physique",
+      "description": "DEF -20%; Max HP +23% <@ba.talpu>(+3%)</>",
+      "blackboard": {
+        "def": -0.2,
+        "max_hp": 0.23
+      }
+    }
+  ],
+  "trust": {
+    "maxHp": 450
+  }
+}

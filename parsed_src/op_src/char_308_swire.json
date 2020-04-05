@@ -1,1 +1,82 @@
-{"name": "Swire", "rarity": 4, "profession": "Guard", "potential": [{"description": "DP Cost -1", "cost": -1.0}, {"description": "Redeployment Time -4 sec", "respawn": -4.0}, {"description": "ATK +26", "atk": 26.0}, {"description": "Improves Talent"}, {"description": "DP Cost -1", "cost": -1.0}], "skills": ["skchr_swire_2", {"skillId": "skchr_swire_1", "iconId": null, "hidden": false, "levels": {"name": "Command and Dispatch", "rangeId": "x-2", "description": "The effect range of Talent expands significantly and the Talent is 2 times as effective", "skillType": 1, "spData": {"spType": 1, "levelUpCost": null, "maxChargeTime": 1, "spCost": 40, "initSp": 20, "increment": 1.0}, "prefabId": "skchr_swire_1", "duration": 35.0, "blackboard": {"talent_scale": 2.0, "talent_range_flag": 1.0, "atk": 0.105}}}], "stats": {"level": 80, "maxHp": 1740, "atk": 593, "def": 413, "res": 0.0, "cost": 16, "block": 2, "atkSpd": 100.0, "atkTime": 1.05, "hpRec": 0.0, "spRecoveryPerSec": 1.0, "respawn": 70}, "talents": [{"name": "Melee Combat Guidance", "description": "ATK of Melee allies in the 8 surrounding grids +12% <@ba.talpu>(+2%)</> when Swire is deployed", "blackboard": {"atk": 0.12}}], "trust": {"atk": 40, "def": 30}}
+{
+  "name": "Swire",
+  "rarity": 4,
+  "profession": "Guard",
+  "potential": [
+    {
+      "description": "DP Cost -1",
+      "cost": -1.0
+    },
+    {
+      "description": "Redeployment Time -4 sec",
+      "respawn": -4.0
+    },
+    {
+      "description": "ATK +26",
+      "atk": 26.0
+    },
+    {
+      "description": "Improves Talent"
+    },
+    {
+      "description": "DP Cost -1",
+      "cost": -1.0
+    }
+  ],
+  "skills": [
+    "skchr_swire_2",
+    {
+      "skillId": "skchr_swire_1",
+      "iconId": null,
+      "hidden": false,
+      "levels": {
+        "name": "Command and Dispatch",
+        "rangeId": "x-2",
+        "description": "The effect range of Talent expands significantly and the Talent is 2 times as effective",
+        "skillType": 1,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 40,
+          "initSp": 20,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_swire_1",
+        "duration": 35.0,
+        "blackboard": {
+          "talent_scale": 2.0,
+          "talent_range_flag": 1.0,
+          "atk": 0.105
+        }
+      }
+    }
+  ],
+  "stats": {
+    "level": 80,
+    "maxHp": 1740,
+    "atk": 593,
+    "def": 413,
+    "res": 0.0,
+    "cost": 16,
+    "block": 2,
+    "atkSpd": 100.0,
+    "atkTime": 1.05,
+    "hpRec": 0.0,
+    "spRecoveryPerSec": 1.0,
+    "respawn": 70
+  },
+  "talents": [
+    {
+      "name": "Melee Combat Guidance",
+      "description": "ATK of Melee allies in the 8 surrounding grids +12% <@ba.talpu>(+2%)</> when Swire is deployed",
+      "blackboard": {
+        "atk": 0.12
+      }
+    }
+  ],
+  "trust": {
+    "atk": 40,
+    "def": 30
+  }
+}

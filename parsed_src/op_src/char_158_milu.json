@@ -1,1 +1,79 @@
-{"name": "Firewatch", "rarity": 4, "profession": "Sniper", "potential": [{"description": "DP Cost -1", "cost": -1.0}, {"description": "Redeployment Time -4 sec", "respawn": -4.0}, {"description": "ATK +35", "atk": 35.0}, {"description": "Improves Talent"}, {"description": "DP Cost -1", "cost": -1.0}], "skills": ["skchr_milu_2", {"skillId": "skchr_milu_1", "iconId": null, "hidden": false, "levels": {"name": "Camouflage", "rangeId": null, "description": "ATK +70%; Turns into Invisible state (Will not become the target of ranged enemies)", "skillType": 1, "spData": {"spType": 1, "levelUpCost": null, "maxChargeTime": 1, "spCost": 20, "initSp": 0, "increment": 1.0}, "prefabId": "skchr_milu_1", "duration": 50.0, "blackboard": {"atk": 0.7}}}], "stats": {"level": 80, "maxHp": 1450, "atk": 1085, "def": 131, "res": 0.0, "cost": 21, "block": 1, "atkSpd": 100.0, "atkTime": 2.7, "hpRec": 0.0, "spRecoveryPerSec": 1.0, "respawn": 70}, "talents": [{"name": "Assassin", "description": "ATK increases to 145% <@ba.talpu>(+5%)</> when attacking ranged enemies", "blackboard": {"atk_scale": 1.45}}], "trust": {"atk": 90}}
+{
+  "name": "Firewatch",
+  "rarity": 4,
+  "profession": "Sniper",
+  "potential": [
+    {
+      "description": "DP Cost -1",
+      "cost": -1.0
+    },
+    {
+      "description": "Redeployment Time -4 sec",
+      "respawn": -4.0
+    },
+    {
+      "description": "ATK +35",
+      "atk": 35.0
+    },
+    {
+      "description": "Improves Talent"
+    },
+    {
+      "description": "DP Cost -1",
+      "cost": -1.0
+    }
+  ],
+  "skills": [
+    "skchr_milu_2",
+    {
+      "skillId": "skchr_milu_1",
+      "iconId": null,
+      "hidden": false,
+      "levels": {
+        "name": "Camouflage",
+        "rangeId": null,
+        "description": "ATK +70%; Turns into Invisible state (Will not become the target of ranged enemies)",
+        "skillType": 1,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 20,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_milu_1",
+        "duration": 50.0,
+        "blackboard": {
+          "atk": 0.7
+        }
+      }
+    }
+  ],
+  "stats": {
+    "level": 80,
+    "maxHp": 1450,
+    "atk": 1085,
+    "def": 131,
+    "res": 0.0,
+    "cost": 21,
+    "block": 1,
+    "atkSpd": 100.0,
+    "atkTime": 2.7,
+    "hpRec": 0.0,
+    "spRecoveryPerSec": 1.0,
+    "respawn": 70
+  },
+  "talents": [
+    {
+      "name": "Assassin",
+      "description": "ATK increases to 145% <@ba.talpu>(+5%)</> when attacking ranged enemies",
+      "blackboard": {
+        "atk_scale": 1.45
+      }
+    }
+  ],
+  "trust": {
+    "atk": 90
+  }
+}

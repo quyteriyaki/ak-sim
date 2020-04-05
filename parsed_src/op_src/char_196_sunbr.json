@@ -1,1 +1,82 @@
-{"name": "Gummy", "rarity": 3, "profession": "Defender", "potential": [{"description": "DP Cost -1", "cost": -1.0}, {"description": "Redeployment Time -4 sec", "respawn": -4.0}, {"description": "ATK +21", "atk": 21.0}, {"description": "Improves Talent"}, {"description": "DP Cost -1", "cost": -1.0}], "skills": ["skchr_sunbr_2", {"skillId": "skchr_sunbr_1", "iconId": null, "hidden": false, "levels": {"name": "Provisions", "rangeId": "x-4", "description": "Restores the HP of a nearby ally by 160% of Gummy's ATK in the next attack\nCan store 3 charge(s)", "skillType": 2, "spData": {"spType": 1, "levelUpCost": null, "maxChargeTime": 3, "spCost": 4, "initSp": 0, "increment": 1.0}, "prefabId": "skchr_sunbr_1", "duration": 0.0, "blackboard": {"heal_scale": 1.6, "ct": 3.0}}}], "stats": {"level": 70, "maxHp": 2550, "atk": 435, "def": 562, "res": 10.0, "cost": 20, "block": 3, "atkSpd": 100.0, "atkTime": 1.2, "hpRec": 0.0, "spRecoveryPerSec": 1.0, "respawn": 70}, "talents": [{"name": "Frying Pan Specialist", "description": "When attacking, has a 18% <@ba.talpu>(+3%)</> chance to increase the current damage of that attack to 200% and Stun the target for 1 second", "blackboard": {"prob": 0.18, "atk_scale": 2.0, "stun": 1.0}}], "trust": {"maxHp": 400}}
+{
+  "name": "Gummy",
+  "rarity": 3,
+  "profession": "Defender",
+  "potential": [
+    {
+      "description": "DP Cost -1",
+      "cost": -1.0
+    },
+    {
+      "description": "Redeployment Time -4 sec",
+      "respawn": -4.0
+    },
+    {
+      "description": "ATK +21",
+      "atk": 21.0
+    },
+    {
+      "description": "Improves Talent"
+    },
+    {
+      "description": "DP Cost -1",
+      "cost": -1.0
+    }
+  ],
+  "skills": [
+    "skchr_sunbr_2",
+    {
+      "skillId": "skchr_sunbr_1",
+      "iconId": null,
+      "hidden": false,
+      "levels": {
+        "name": "Provisions",
+        "rangeId": "x-4",
+        "description": "Restores the HP of a nearby ally by 160% of Gummy's ATK in the next attack\nCan store 3 charge(s)",
+        "skillType": 2,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 3,
+          "spCost": 4,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_sunbr_1",
+        "duration": 0.0,
+        "blackboard": {
+          "heal_scale": 1.6,
+          "ct": 3.0
+        }
+      }
+    }
+  ],
+  "stats": {
+    "level": 70,
+    "maxHp": 2550,
+    "atk": 435,
+    "def": 562,
+    "res": 10.0,
+    "cost": 20,
+    "block": 3,
+    "atkSpd": 100.0,
+    "atkTime": 1.2,
+    "hpRec": 0.0,
+    "spRecoveryPerSec": 1.0,
+    "respawn": 70
+  },
+  "talents": [
+    {
+      "name": "Frying Pan Specialist",
+      "description": "When attacking, has a 18% <@ba.talpu>(+3%)</> chance to increase the current damage of that attack to 200% and Stun the target for 1 second",
+      "blackboard": {
+        "prob": 0.18,
+        "atk_scale": 2.0,
+        "stun": 1.0
+      }
+    }
+  ],
+  "trust": {
+    "maxHp": 400
+  }
+}

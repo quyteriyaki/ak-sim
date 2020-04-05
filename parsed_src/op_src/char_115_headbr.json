@@ -1,1 +1,80 @@
-{"name": "Zima", "rarity": 4, "profession": "Vanguard", "potential": [{"description": "DP Cost -1", "cost": -1.0}, {"description": "Redeployment Time -4 sec", "respawn": -4.0}, {"description": "DEF +24", "def": 24.0}, {"description": "Redeployment Time -6 sec", "respawn": -6.0}, {"description": "DP Cost -1", "cost": -1.0}], "skills": ["skchr_headbr_2", {"skillId": "skcom_charge_cost[3]", "iconId": null, "hidden": false, "levels": {"name": "Charge \u03b3", "rangeId": null, "description": "Instantly gains 12 Deployment Points.", "skillType": 2, "spData": {"spType": 1, "levelUpCost": null, "maxChargeTime": 1, "spCost": 35, "initSp": 20, "increment": 1.0}, "prefabId": "skcom_charge_cost", "duration": 0.0, "blackboard": {"cost": 12.0}}}], "stats": {"level": 80, "maxHp": 2150, "atk": 470, "def": 350, "res": 0.0, "cost": 13, "block": 2, "atkSpd": 100.0, "atkTime": 1.05, "hpRec": 0.0, "spRecoveryPerSec": 1.0, "respawn": 70}, "talents": [{"name": "Spearheader", "description": "All [Vanguard] Operators' DP Cost -1 when Zima is in the squad", "blackboard": {"cost": -1.0}}], "trust": {"def": 70}}
+{
+  "name": "Zima",
+  "rarity": 4,
+  "profession": "Vanguard",
+  "potential": [
+    {
+      "description": "DP Cost -1",
+      "cost": -1.0
+    },
+    {
+      "description": "Redeployment Time -4 sec",
+      "respawn": -4.0
+    },
+    {
+      "description": "DEF +24",
+      "def": 24.0
+    },
+    {
+      "description": "Redeployment Time -6 sec",
+      "respawn": -6.0
+    },
+    {
+      "description": "DP Cost -1",
+      "cost": -1.0
+    }
+  ],
+  "skills": [
+    "skchr_headbr_2",
+    {
+      "skillId": "skcom_charge_cost[3]",
+      "iconId": null,
+      "hidden": false,
+      "levels": {
+        "name": "Charge \u03b3",
+        "rangeId": null,
+        "description": "Instantly gains 12 Deployment Points.",
+        "skillType": 2,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 35,
+          "initSp": 20,
+          "increment": 1.0
+        },
+        "prefabId": "skcom_charge_cost",
+        "duration": 0.0,
+        "blackboard": {
+          "cost": 12.0
+        }
+      }
+    }
+  ],
+  "stats": {
+    "level": 80,
+    "maxHp": 2150,
+    "atk": 470,
+    "def": 350,
+    "res": 0.0,
+    "cost": 13,
+    "block": 2,
+    "atkSpd": 100.0,
+    "atkTime": 1.05,
+    "hpRec": 0.0,
+    "spRecoveryPerSec": 1.0,
+    "respawn": 70
+  },
+  "talents": [
+    {
+      "name": "Spearheader",
+      "description": "All [Vanguard] Operators' DP Cost -1 when Zima is in the squad",
+      "blackboard": {
+        "cost": -1.0
+      }
+    }
+  ],
+  "trust": {
+    "def": 70
+  }
+}

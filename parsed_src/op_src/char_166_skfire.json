@@ -1,1 +1,79 @@
-{"name": "Skyfire", "rarity": 4, "profession": "Caster", "potential": [{"description": "DP Cost -1", "cost": -1.0}, {"description": "Redeployment Time -4 sec", "respawn": -4.0}, {"description": "ATK +33", "atk": 33.0}, {"description": "Improves Talent"}, {"description": "DP Cost -1", "cost": -1.0}], "skills": ["skchr_skfire_2", {"skillId": "skcom_atk_up[3]", "iconId": null, "hidden": false, "levels": {"name": "ATK Up \u03b3", "rangeId": null, "description": "ATK +100%", "skillType": 1, "spData": {"spType": 1, "levelUpCost": null, "maxChargeTime": 1, "spCost": 30, "initSp": 15, "increment": 1.0}, "prefabId": "skcom_atk_up", "duration": 30.0, "blackboard": {"atk": 1.0}}}], "stats": {"level": 80, "maxHp": 1530, "atk": 715, "def": 122, "res": 20.0, "cost": 33, "block": 1, "atkSpd": 100.0, "atkTime": 2.9, "hpRec": 0.0, "spRecoveryPerSec": 1.0, "respawn": 70}, "talents": [{"name": "Arts Sniper", "description": "Increases the Arts Damage taken by all blocked enemies by 18% <@ba.talpu>(+3%)</> when deployed", "blackboard": {"damage_scale": 1.18}}], "trust": {"atk": 90}}
+{
+  "name": "Skyfire",
+  "rarity": 4,
+  "profession": "Caster",
+  "potential": [
+    {
+      "description": "DP Cost -1",
+      "cost": -1.0
+    },
+    {
+      "description": "Redeployment Time -4 sec",
+      "respawn": -4.0
+    },
+    {
+      "description": "ATK +33",
+      "atk": 33.0
+    },
+    {
+      "description": "Improves Talent"
+    },
+    {
+      "description": "DP Cost -1",
+      "cost": -1.0
+    }
+  ],
+  "skills": [
+    "skchr_skfire_2",
+    {
+      "skillId": "skcom_atk_up[3]",
+      "iconId": null,
+      "hidden": false,
+      "levels": {
+        "name": "ATK Up \u03b3",
+        "rangeId": null,
+        "description": "ATK +100%",
+        "skillType": 1,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 30,
+          "initSp": 15,
+          "increment": 1.0
+        },
+        "prefabId": "skcom_atk_up",
+        "duration": 30.0,
+        "blackboard": {
+          "atk": 1.0
+        }
+      }
+    }
+  ],
+  "stats": {
+    "level": 80,
+    "maxHp": 1530,
+    "atk": 715,
+    "def": 122,
+    "res": 20.0,
+    "cost": 33,
+    "block": 1,
+    "atkSpd": 100.0,
+    "atkTime": 2.9,
+    "hpRec": 0.0,
+    "spRecoveryPerSec": 1.0,
+    "respawn": 70
+  },
+  "talents": [
+    {
+      "name": "Arts Sniper",
+      "description": "Increases the Arts Damage taken by all blocked enemies by 18% <@ba.talpu>(+3%)</> when deployed",
+      "blackboard": {
+        "damage_scale": 1.18
+      }
+    }
+  ],
+  "trust": {
+    "atk": 90
+  }
+}

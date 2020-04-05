@@ -1,1 +1,53 @@
-{"name": "Durin", "rarity": 1, "profession": "Caster", "potential": [{"description": "DP Cost -1", "cost": -1.0}, {"description": "Max HP +50", "maxHp": 50.0}, {"description": "Redeployment Time -5 sec", "respawn": -5.0}, {"description": "Max HP +50", "maxHp": 50.0}, {"description": "DP Cost -1", "cost": -1.0}], "stats": {"level": 30, "maxHp": 952, "atk": 340, "def": 62, "res": 10.0, "cost": 12, "block": 1, "atkSpd": 100.0, "atkTime": 1.6, "hpRec": 0.0, "spRecoveryPerSec": 1.0, "respawn": 70}, "talents": [{"name": "Lucky Lass", "description": "50% Arts Dodge", "blackboard": {"prob": 0.5}}], "trust": {"atk": 30}}
+{
+  "name": "Durin",
+  "rarity": 1,
+  "profession": "Caster",
+  "potential": [
+    {
+      "description": "DP Cost -1",
+      "cost": -1.0
+    },
+    {
+      "description": "Max HP +50",
+      "maxHp": 50.0
+    },
+    {
+      "description": "Redeployment Time -5 sec",
+      "respawn": -5.0
+    },
+    {
+      "description": "Max HP +50",
+      "maxHp": 50.0
+    },
+    {
+      "description": "DP Cost -1",
+      "cost": -1.0
+    }
+  ],
+  "stats": {
+    "level": 30,
+    "maxHp": 952,
+    "atk": 340,
+    "def": 62,
+    "res": 10.0,
+    "cost": 12,
+    "block": 1,
+    "atkSpd": 100.0,
+    "atkTime": 1.6,
+    "hpRec": 0.0,
+    "spRecoveryPerSec": 1.0,
+    "respawn": 70
+  },
+  "talents": [
+    {
+      "name": "Lucky Lass",
+      "description": "50% Arts Dodge",
+      "blackboard": {
+        "prob": 0.5
+      }
+    }
+  ],
+  "trust": {
+    "atk": 30
+  }
+}

@@ -1,1 +1,46 @@
-{"name": "Gate", "rarity": 0, "profession": "TRAP", "potential": [], "skills": [{"skillId": "sktok_gate", "iconId": null, "hidden": false, "levels": {"name": "Gate Closing", "rangeId": null, "description": "Consumes 10 DP to close the gate", "skillType": 1, "spData": {"spType": 1, "levelUpCost": null, "maxChargeTime": 1, "spCost": 5, "initSp": 0, "increment": 1.0}, "prefabId": "sktok_gate", "duration": 0.0, "blackboard": {"cost": 10.0}}}], "stats": {"level": 30, "maxHp": 100, "atk": 0, "def": 0, "res": 0.0, "cost": 5, "block": 3, "atkSpd": 100.0, "atkTime": 1.0, "hpRec": 0.0, "spRecoveryPerSec": 1.0, "respawn": 5}}
+{
+  "name": "Gate",
+  "rarity": 0,
+  "profession": "TRAP",
+  "potential": [],
+  "skills": [
+    {
+      "skillId": "sktok_gate",
+      "iconId": null,
+      "hidden": false,
+      "levels": {
+        "name": "Gate Closing",
+        "rangeId": null,
+        "description": "Consumes 10 DP to close the gate",
+        "skillType": 1,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 5,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_gate",
+        "duration": 0.0,
+        "blackboard": {
+          "cost": 10.0
+        }
+      }
+    }
+  ],
+  "stats": {
+    "level": 30,
+    "maxHp": 100,
+    "atk": 0,
+    "def": 0,
+    "res": 0.0,
+    "cost": 5,
+    "block": 3,
+    "atkSpd": 100.0,
+    "atkTime": 1.0,
+    "hpRec": 0.0,
+    "spRecoveryPerSec": 1.0,
+    "respawn": 5
+  }
+}

@@ -1,1 +1,80 @@
-{"name": "Haze", "rarity": 3, "profession": "Caster", "potential": [{"description": "DP Cost -1", "cost": -1.0}, {"description": "Redeployment Time -4 sec", "respawn": -4.0}, {"description": "Max HP +100", "maxHp": 100.0}, {"description": "Improves Talent"}, {"description": "DP Cost -1", "cost": -1.0}], "skills": ["skchr_nights_2", {"skillId": "skcom_atk_up[2]", "iconId": null, "hidden": false, "levels": {"name": "ATK Up \u03b2", "rangeId": null, "description": "ATK +80%", "skillType": 1, "spData": {"spType": 1, "levelUpCost": null, "maxChargeTime": 1, "spCost": 35, "initSp": 10, "increment": 1.0}, "prefabId": "skcom_atk_up", "duration": 25.0, "blackboard": {"atk": 0.8}}}], "stats": {"level": 70, "maxHp": 1420, "atk": 583, "def": 110, "res": 20.0, "cost": 19, "block": 1, "atkSpd": 100.0, "atkTime": 1.6, "hpRec": 0.0, "spRecoveryPerSec": 1.0, "respawn": 70}, "talents": [{"name": "Black Mist", "description": "Attacks reduce the target's RES by 23% <@ba.talpu>(+3%)</> for 1 second", "blackboard": {"duration": 1.0, "magic_resistance": -0.23}}], "trust": {"atk": 60}}
+{
+  "name": "Haze",
+  "rarity": 3,
+  "profession": "Caster",
+  "potential": [
+    {
+      "description": "DP Cost -1",
+      "cost": -1.0
+    },
+    {
+      "description": "Redeployment Time -4 sec",
+      "respawn": -4.0
+    },
+    {
+      "description": "Max HP +100",
+      "maxHp": 100.0
+    },
+    {
+      "description": "Improves Talent"
+    },
+    {
+      "description": "DP Cost -1",
+      "cost": -1.0
+    }
+  ],
+  "skills": [
+    "skchr_nights_2",
+    {
+      "skillId": "skcom_atk_up[2]",
+      "iconId": null,
+      "hidden": false,
+      "levels": {
+        "name": "ATK Up \u03b2",
+        "rangeId": null,
+        "description": "ATK +80%",
+        "skillType": 1,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 35,
+          "initSp": 10,
+          "increment": 1.0
+        },
+        "prefabId": "skcom_atk_up",
+        "duration": 25.0,
+        "blackboard": {
+          "atk": 0.8
+        }
+      }
+    }
+  ],
+  "stats": {
+    "level": 70,
+    "maxHp": 1420,
+    "atk": 583,
+    "def": 110,
+    "res": 20.0,
+    "cost": 19,
+    "block": 1,
+    "atkSpd": 100.0,
+    "atkTime": 1.6,
+    "hpRec": 0.0,
+    "spRecoveryPerSec": 1.0,
+    "respawn": 70
+  },
+  "talents": [
+    {
+      "name": "Black Mist",
+      "description": "Attacks reduce the target's RES by 23% <@ba.talpu>(+3%)</> for 1 second",
+      "blackboard": {
+        "duration": 1.0,
+        "magic_resistance": -0.23
+      }
+    }
+  ],
+  "trust": {
+    "atk": 60
+  }
+}

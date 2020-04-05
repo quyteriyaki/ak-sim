@@ -1,1 +1,80 @@
-{"name": "Specter", "rarity": 4, "profession": "Guard", "potential": [{"description": "DP Cost -1", "cost": -1.0}, {"description": "Redeployment Time -4 sec", "respawn": -4.0}, {"description": "ATK +27", "atk": 27.0}, {"description": "Improves Talent"}, {"description": "DP Cost -1", "cost": -1.0}], "skills": ["skchr_ghost_2", {"skillId": "skcom_atk_up[3]", "iconId": null, "hidden": false, "levels": {"name": "ATK Up \u03b3", "rangeId": null, "description": "ATK +100%", "skillType": 1, "spData": {"spType": 1, "levelUpCost": null, "maxChargeTime": 1, "spCost": 30, "initSp": 15, "increment": 1.0}, "prefabId": "skcom_atk_up", "duration": 30.0, "blackboard": {"atk": 1.0}}}], "stats": {"level": 80, "maxHp": 2630, "atk": 725, "def": 355, "res": 0.0, "cost": 23, "block": 3, "atkSpd": 100.0, "atkTime": 1.2, "hpRec": 0.0, "spRecoveryPerSec": 1.0, "respawn": 70}, "talents": [{"name": "Abyssal Regeneration", "description": "Max HP +12% <@ba.talpu>(+2%)</>; Restores HP by 2.5% <@ba.talpu>(+0.5%)</> of Max HP per second", "blackboard": {"max_hp": 0.12, "hp_recovery_per_sec_by_max_hp_ratio": 0.025}}], "trust": {"atk": 80}}
+{
+  "name": "Specter",
+  "rarity": 4,
+  "profession": "Guard",
+  "potential": [
+    {
+      "description": "DP Cost -1",
+      "cost": -1.0
+    },
+    {
+      "description": "Redeployment Time -4 sec",
+      "respawn": -4.0
+    },
+    {
+      "description": "ATK +27",
+      "atk": 27.0
+    },
+    {
+      "description": "Improves Talent"
+    },
+    {
+      "description": "DP Cost -1",
+      "cost": -1.0
+    }
+  ],
+  "skills": [
+    "skchr_ghost_2",
+    {
+      "skillId": "skcom_atk_up[3]",
+      "iconId": null,
+      "hidden": false,
+      "levels": {
+        "name": "ATK Up \u03b3",
+        "rangeId": null,
+        "description": "ATK +100%",
+        "skillType": 1,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 30,
+          "initSp": 15,
+          "increment": 1.0
+        },
+        "prefabId": "skcom_atk_up",
+        "duration": 30.0,
+        "blackboard": {
+          "atk": 1.0
+        }
+      }
+    }
+  ],
+  "stats": {
+    "level": 80,
+    "maxHp": 2630,
+    "atk": 725,
+    "def": 355,
+    "res": 0.0,
+    "cost": 23,
+    "block": 3,
+    "atkSpd": 100.0,
+    "atkTime": 1.2,
+    "hpRec": 0.0,
+    "spRecoveryPerSec": 1.0,
+    "respawn": 70
+  },
+  "talents": [
+    {
+      "name": "Abyssal Regeneration",
+      "description": "Max HP +12% <@ba.talpu>(+2%)</>; Restores HP by 2.5% <@ba.talpu>(+0.5%)</> of Max HP per second",
+      "blackboard": {
+        "max_hp": 0.12,
+        "hp_recovery_per_sec_by_max_hp_ratio": 0.025
+      }
+    }
+  ],
+  "trust": {
+    "atk": 80
+  }
+}

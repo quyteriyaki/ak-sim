@@ -1,1 +1,49 @@
-{"name": "Lancet-2", "rarity": 0, "profession": "Medic", "potential": [{"description": "Improves Talent"}, {"description": "Improves Talent"}, {"description": "Improves Talent"}, {"description": "Improves Talent"}, {"description": "Improves Talent"}], "stats": {"level": 30, "maxHp": 435, "atk": 70, "def": 27, "res": 0.0, "cost": 3, "block": 1, "atkSpd": 100.0, "atkTime": 2.85, "hpRec": 0.0, "spRecoveryPerSec": 1.0, "respawn": 200}, "talents": [{"name": "Support Spray 6", "description": "Immediately restores the HP of all allies by 500 after deployment", "blackboard": {"value": 500.0}}], "trust": {"maxHp": 100, "atk": 40}}
+{
+  "name": "Lancet-2",
+  "rarity": 0,
+  "profession": "Medic",
+  "potential": [
+    {
+      "description": "Improves Talent"
+    },
+    {
+      "description": "Improves Talent"
+    },
+    {
+      "description": "Improves Talent"
+    },
+    {
+      "description": "Improves Talent"
+    },
+    {
+      "description": "Improves Talent"
+    }
+  ],
+  "stats": {
+    "level": 30,
+    "maxHp": 435,
+    "atk": 70,
+    "def": 27,
+    "res": 0.0,
+    "cost": 3,
+    "block": 1,
+    "atkSpd": 100.0,
+    "atkTime": 2.85,
+    "hpRec": 0.0,
+    "spRecoveryPerSec": 1.0,
+    "respawn": 200
+  },
+  "talents": [
+    {
+      "name": "Support Spray 6",
+      "description": "Immediately restores the HP of all allies by 500 after deployment",
+      "blackboard": {
+        "value": 500.0
+      }
+    }
+  ],
+  "trust": {
+    "maxHp": 100,
+    "atk": 40
+  }
+}

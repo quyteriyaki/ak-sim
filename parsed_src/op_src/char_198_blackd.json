@@ -1,1 +1,80 @@
-{"name": "Courier", "rarity": 3, "profession": "Vanguard", "potential": [{"description": "DP Cost -1", "cost": -1.0}, {"description": "Redeployment Time -4 sec", "respawn": -4.0}, {"description": "DEF +23", "def": 23.0}, {"description": "Improves Talent"}, {"description": "DP Cost -1", "cost": -1.0}], "skills": ["skchr_blackd_2", {"skillId": "skcom_charge_cost[2]", "iconId": null, "hidden": false, "levels": {"name": "Charge \u03b2", "rangeId": null, "description": "Instantly gains 9 Deployment Points.", "skillType": 2, "spData": {"spType": 1, "levelUpCost": null, "maxChargeTime": 1, "spCost": 30, "initSp": 13, "increment": 1.0}, "prefabId": "skcom_charge_cost", "duration": 0.0, "blackboard": {"cost": 9.0}}}], "stats": {"level": 70, "maxHp": 1985, "atk": 435, "def": 322, "res": 0.0, "cost": 12, "block": 2, "atkSpd": 100.0, "atkTime": 1.05, "hpRec": 0.0, "spRecoveryPerSec": 1.0, "respawn": 70}, "talents": [{"name": "Karlan Patrol", "description": "DEF +19% <@ba.talpu>(+3%)</> when two or more enemies are blocked", "blackboard": {"cnt": 2.0, "def": 0.19}}], "trust": {"def": 60}}
+{
+  "name": "Courier",
+  "rarity": 3,
+  "profession": "Vanguard",
+  "potential": [
+    {
+      "description": "DP Cost -1",
+      "cost": -1.0
+    },
+    {
+      "description": "Redeployment Time -4 sec",
+      "respawn": -4.0
+    },
+    {
+      "description": "DEF +23",
+      "def": 23.0
+    },
+    {
+      "description": "Improves Talent"
+    },
+    {
+      "description": "DP Cost -1",
+      "cost": -1.0
+    }
+  ],
+  "skills": [
+    "skchr_blackd_2",
+    {
+      "skillId": "skcom_charge_cost[2]",
+      "iconId": null,
+      "hidden": false,
+      "levels": {
+        "name": "Charge \u03b2",
+        "rangeId": null,
+        "description": "Instantly gains 9 Deployment Points.",
+        "skillType": 2,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 30,
+          "initSp": 13,
+          "increment": 1.0
+        },
+        "prefabId": "skcom_charge_cost",
+        "duration": 0.0,
+        "blackboard": {
+          "cost": 9.0
+        }
+      }
+    }
+  ],
+  "stats": {
+    "level": 70,
+    "maxHp": 1985,
+    "atk": 435,
+    "def": 322,
+    "res": 0.0,
+    "cost": 12,
+    "block": 2,
+    "atkSpd": 100.0,
+    "atkTime": 1.05,
+    "hpRec": 0.0,
+    "spRecoveryPerSec": 1.0,
+    "respawn": 70
+  },
+  "talents": [
+    {
+      "name": "Karlan Patrol",
+      "description": "DEF +19% <@ba.talpu>(+3%)</> when two or more enemies are blocked",
+      "blackboard": {
+        "cnt": 2.0,
+        "def": 0.19
+      }
+    }
+  ],
+  "trust": {
+    "def": 60
+  }
+}

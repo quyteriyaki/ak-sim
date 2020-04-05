@@ -1,1 +1,84 @@
-{"name": "Midnight", "rarity": 2, "profession": "Guard", "potential": [{"description": "DP Cost -1", "cost": -1.0}, {"description": "Redeployment Time -4 sec", "respawn": -4.0}, {"description": "ATK +22", "atk": 22.0}, {"description": "Improves Talent"}, {"description": "DP Cost -1", "cost": -1.0}], "skills": [{"skillId": "skchr_midn_1", "iconId": "skcom_enchant[1]", "hidden": false, "levels": {"name": "Enchant Weapon \u03b1", "rangeId": null, "description": "ATK +35%; Damage dealt by Normal Attacks turn into Arts Damage", "skillType": 1, "spData": {"spType": 1, "levelUpCost": null, "maxChargeTime": 1, "spCost": 70, "initSp": 30, "increment": 1.0}, "prefabId": "skchr_midn_1", "duration": 40.0, "blackboard": {"atk": 0.35}}}], "stats": {"level": 55, "maxHp": 1653, "atk": 497, "def": 282, "res": 10.0, "cost": 16, "block": 2, "atkSpd": 100.0, "atkTime": 1.3, "hpRec": 0.0, "spRecoveryPerSec": 1.0, "respawn": 70}, "talents": [{"name": "Targeting - Primary", "description": "When attacking, has a 20% chance to increase the current damage of that attack to 160% <@ba.talpu>(+10%)</>", "blackboard": {"prob": 0.2, "atk_scale": 1.6}}], "trait": [{"atk_scale": 0.8}], "trust": {"atk": 50}}
+{
+  "name": "Midnight",
+  "rarity": 2,
+  "profession": "Guard",
+  "potential": [
+    {
+      "description": "DP Cost -1",
+      "cost": -1.0
+    },
+    {
+      "description": "Redeployment Time -4 sec",
+      "respawn": -4.0
+    },
+    {
+      "description": "ATK +22",
+      "atk": 22.0
+    },
+    {
+      "description": "Improves Talent"
+    },
+    {
+      "description": "DP Cost -1",
+      "cost": -1.0
+    }
+  ],
+  "skills": [
+    {
+      "skillId": "skchr_midn_1",
+      "iconId": "skcom_enchant[1]",
+      "hidden": false,
+      "levels": {
+        "name": "Enchant Weapon \u03b1",
+        "rangeId": null,
+        "description": "ATK +35%; Damage dealt by Normal Attacks turn into Arts Damage",
+        "skillType": 1,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 70,
+          "initSp": 30,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_midn_1",
+        "duration": 40.0,
+        "blackboard": {
+          "atk": 0.35
+        }
+      }
+    }
+  ],
+  "stats": {
+    "level": 55,
+    "maxHp": 1653,
+    "atk": 497,
+    "def": 282,
+    "res": 10.0,
+    "cost": 16,
+    "block": 2,
+    "atkSpd": 100.0,
+    "atkTime": 1.3,
+    "hpRec": 0.0,
+    "spRecoveryPerSec": 1.0,
+    "respawn": 70
+  },
+  "talents": [
+    {
+      "name": "Targeting - Primary",
+      "description": "When attacking, has a 20% chance to increase the current damage of that attack to 160% <@ba.talpu>(+10%)</>",
+      "blackboard": {
+        "prob": 0.2,
+        "atk_scale": 1.6
+      }
+    }
+  ],
+  "trait": [
+    {
+      "atk_scale": 0.8
+    }
+  ],
+  "trust": {
+    "atk": 50
+  }
+}

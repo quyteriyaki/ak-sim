@@ -1,1 +1,33 @@
-{"name": "Tentacle", "rarity": 3, "profession": "TOKEN", "potential": [], "skills": [null, null], "stats": {"level": 70, "maxHp": 2016, "atk": 462, "def": 335, "res": 0.0, "cost": 5, "block": 1, "atkSpd": 100.0, "atkTime": 1.25, "hpRec": 0.0, "spRecoveryPerSec": 1.0, "respawn": 10}, "talents": [{"name": null, "description": "+3 Tokens", "blackboard": {"max_deploy_count": 3.0}}]}
+{
+  "name": "Tentacle",
+  "rarity": 3,
+  "profession": "TOKEN",
+  "potential": [],
+  "skills": [
+    null,
+    null
+  ],
+  "stats": {
+    "level": 70,
+    "maxHp": 2016,
+    "atk": 462,
+    "def": 335,
+    "res": 0.0,
+    "cost": 5,
+    "block": 1,
+    "atkSpd": 100.0,
+    "atkTime": 1.25,
+    "hpRec": 0.0,
+    "spRecoveryPerSec": 1.0,
+    "respawn": 10
+  },
+  "talents": [
+    {
+      "name": null,
+      "description": "+3 Tokens",
+      "blackboard": {
+        "max_deploy_count": 3.0
+      }
+    }
+  ]
+}
