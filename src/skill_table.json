@@ -21668,7 +21668,7 @@
     "hidden": false,
     "levels": [
       {
-        "name": "Muzzle’s Elegy",
+        "name": "Muzzle's Elegy",
         "rangeId": null,
         "description": "ATK <@ba.vup>+{atk:0%}</>, attacks apply this unit’s Feature effect to all enemies within range.",
         "skillType": 1,
