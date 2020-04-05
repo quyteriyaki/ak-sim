@@ -78,7 +78,7 @@ for ID in skills:
     Parse_Desc(skills[ID])
 
 with open('parsed_src/skill_table.json', 'w') as file:
-    out = json.dumps(skills)
+    out = json.dumps(skills, indent=2)
     # Remove Blackboards
     # bb_pat = r'\, \"blackboard\": \[.*?\]'
     # bb_instance = re.findall(bb_pat, out)
