@@ -1,6 +1,6 @@
 {
   "name": "Liskarm",
-  "rarity": 4,
+  "rarity": 5,
   "profession": "Defender",
   "potential": [
     {
@@ -90,7 +90,7 @@
     "atkSpd": 100.0,
     "atkTime": 1.2,
     "hpRec": 0.0,
-    "spRecoveryPerSec": 1.0,
+    "spRec": 1.0,
     "respawn": 70
   },
   "talents": [

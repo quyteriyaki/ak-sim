@@ -1,7 +1,7 @@
 {
     "char_285_medic2": {
         "name": "Lancet-2",
-        "rarity": 0,
+        "rarity": 1,
         "profession": "Medic",
         "potential": [
             {
@@ -31,7 +31,7 @@
             "atkSpd": 100.0,
             "atkTime": 2.85,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 200
         },
         "talents": [
@@ -50,7 +50,7 @@
     },
     "char_286_cast3": {
         "name": "Castle-3",
-        "rarity": 0,
+        "rarity": 1,
         "profession": "Guard",
         "potential": [
             {
@@ -80,7 +80,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.5,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 200
         },
         "talents": [
@@ -101,7 +101,7 @@
     },
     "char_502_nblade": {
         "name": "Yato",
-        "rarity": 1,
+        "rarity": 2,
         "profession": "Vanguard",
         "potential": [
             {
@@ -136,7 +136,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.05,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -154,7 +154,7 @@
     },
     "char_500_noirc": {
         "name": "Noir Corne",
-        "rarity": 1,
+        "rarity": 2,
         "profession": "Defender",
         "potential": [
             {
@@ -189,7 +189,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.2,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -208,7 +208,7 @@
     },
     "char_503_rang": {
         "name": "Rangers",
-        "rarity": 1,
+        "rarity": 2,
         "profession": "Sniper",
         "potential": [
             {
@@ -243,7 +243,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.0,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -261,7 +261,7 @@
     },
     "char_501_durin": {
         "name": "Durin",
-        "rarity": 1,
+        "rarity": 2,
         "profession": "Caster",
         "potential": [
             {
@@ -296,7 +296,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.6,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -314,7 +314,7 @@
     },
     "char_009_12fce": {
         "name": "12F",
-        "rarity": 1,
+        "rarity": 2,
         "profession": "Caster",
         "potential": [
             {
@@ -349,7 +349,7 @@
             "atkSpd": 100.0,
             "atkTime": 2.9,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -367,7 +367,7 @@
     },
     "char_123_fang": {
         "name": "Fang",
-        "rarity": 2,
+        "rarity": 3,
         "profession": "Vanguard",
         "potential": [
             {
@@ -405,7 +405,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.05,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -423,7 +423,7 @@
     },
     "char_240_wyvern": {
         "name": "Vanilla",
-        "rarity": 2,
+        "rarity": 3,
         "profession": "Vanguard",
         "potential": [
             {
@@ -461,7 +461,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.05,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -479,7 +479,7 @@
     },
     "char_192_falco": {
         "name": "Plume",
-        "rarity": 2,
+        "rarity": 3,
         "profession": "Vanguard",
         "potential": [
             {
@@ -517,7 +517,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.0,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -540,7 +540,7 @@
     },
     "char_208_melan": {
         "name": "Melantha",
-        "rarity": 2,
+        "rarity": 3,
         "profession": "Guard",
         "potential": [
             {
@@ -578,7 +578,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.5,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -596,7 +596,7 @@
     },
     "char_281_popka": {
         "name": "Popukar",
-        "rarity": 2,
+        "rarity": 3,
         "profession": "Guard",
         "potential": [
             {
@@ -633,7 +633,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.2,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -652,7 +652,7 @@
     },
     "char_209_ardign": {
         "name": "Cardigan",
-        "rarity": 2,
+        "rarity": 3,
         "profession": "Defender",
         "potential": [
             {
@@ -690,7 +690,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.2,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -708,7 +708,7 @@
     },
     "char_122_beagle": {
         "name": "Beagle",
-        "rarity": 2,
+        "rarity": 3,
         "profession": "Defender",
         "potential": [
             {
@@ -746,7 +746,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.2,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -764,7 +764,7 @@
     },
     "char_284_spot": {
         "name": "Spot",
-        "rarity": 2,
+        "rarity": 3,
         "profession": "Defender",
         "potential": [
             {
@@ -801,7 +801,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.2,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -821,7 +821,7 @@
     },
     "char_124_kroos": {
         "name": "Kroos",
-        "rarity": 2,
+        "rarity": 3,
         "profession": "Sniper",
         "potential": [
             {
@@ -858,7 +858,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.0,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -877,7 +877,7 @@
     },
     "char_211_adnach": {
         "name": "Adnachiel",
-        "rarity": 2,
+        "rarity": 3,
         "profession": "Sniper",
         "potential": [
             {
@@ -915,7 +915,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.0,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -933,7 +933,7 @@
     },
     "char_121_lava": {
         "name": "Lava",
-        "rarity": 2,
+        "rarity": 3,
         "profession": "Caster",
         "potential": [
             {
@@ -970,7 +970,7 @@
             "atkSpd": 100.0,
             "atkTime": 2.9,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -988,7 +988,7 @@
     },
     "char_120_hibisc": {
         "name": "Hibiscus",
-        "rarity": 2,
+        "rarity": 3,
         "profession": "Medic",
         "potential": [
             {
@@ -1026,7 +1026,7 @@
             "atkSpd": 100.0,
             "atkTime": 2.85,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -1044,7 +1044,7 @@
     },
     "char_212_ansel": {
         "name": "Ansel",
-        "rarity": 2,
+        "rarity": 3,
         "profession": "Medic",
         "potential": [
             {
@@ -1081,7 +1081,7 @@
             "atkSpd": 100.0,
             "atkTime": 2.85,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -1099,7 +1099,7 @@
     },
     "char_210_stward": {
         "name": "Steward",
-        "rarity": 2,
+        "rarity": 3,
         "profession": "Caster",
         "potential": [
             {
@@ -1137,7 +1137,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.6,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -1155,7 +1155,7 @@
     },
     "char_278_orchid": {
         "name": "Orchid",
-        "rarity": 2,
+        "rarity": 3,
         "profession": "Supporter",
         "potential": [
             {
@@ -1193,7 +1193,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.9,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -1216,7 +1216,7 @@
     },
     "char_141_nights": {
         "name": "Haze",
-        "rarity": 3,
+        "rarity": 4,
         "profession": "Caster",
         "potential": [
             {
@@ -1254,7 +1254,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.6,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -1273,7 +1273,7 @@
     },
     "char_109_fmout": {
         "name": "Gitano",
-        "rarity": 3,
+        "rarity": 4,
         "profession": "Caster",
         "potential": [
             {
@@ -1311,7 +1311,7 @@
             "atkSpd": 100.0,
             "atkTime": 2.9,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -1331,7 +1331,7 @@
     },
     "char_253_greyy": {
         "name": "Greyy",
-        "rarity": 3,
+        "rarity": 4,
         "profession": "Caster",
         "potential": [
             {
@@ -1370,7 +1370,7 @@
             "atkSpd": 100.0,
             "atkTime": 2.9,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -1388,7 +1388,7 @@
     },
     "char_235_jesica": {
         "name": "Jessica",
-        "rarity": 3,
+        "rarity": 4,
         "profession": "Sniper",
         "potential": [
             {
@@ -1427,7 +1427,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.0,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -1445,7 +1445,7 @@
     },
     "char_126_shotst": {
         "name": "Meteor",
-        "rarity": 3,
+        "rarity": 4,
         "profession": "Sniper",
         "potential": [
             {
@@ -1483,7 +1483,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.0,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -1501,7 +1501,7 @@
     },
     "char_190_clour": {
         "name": "Vermeil",
-        "rarity": 3,
+        "rarity": 4,
         "profession": "Sniper",
         "potential": [
             {
@@ -1540,7 +1540,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.0,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -1558,7 +1558,7 @@
     },
     "char_118_yuki": {
         "name": "Shirayuki",
-        "rarity": 3,
+        "rarity": 4,
         "profession": "Sniper",
         "potential": [
             {
@@ -1597,7 +1597,7 @@
             "atkSpd": 100.0,
             "atkTime": 2.8,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -1616,7 +1616,7 @@
     },
     "char_198_blackd": {
         "name": "Courier",
-        "rarity": 3,
+        "rarity": 4,
         "profession": "Vanguard",
         "potential": [
             {
@@ -1654,7 +1654,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.05,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -1673,7 +1673,7 @@
     },
     "char_149_scave": {
         "name": "Scavenger",
-        "rarity": 3,
+        "rarity": 4,
         "profession": "Vanguard",
         "potential": [
             {
@@ -1711,7 +1711,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.05,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -1730,7 +1730,7 @@
     },
     "char_290_vigna": {
         "name": "Vigna",
-        "rarity": 3,
+        "rarity": 4,
         "profession": "Vanguard",
         "potential": [
             {
@@ -1768,7 +1768,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.0,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -1793,7 +1793,7 @@
     },
     "char_130_doberm": {
         "name": "Dobermann",
-        "rarity": 3,
+        "rarity": 4,
         "profession": "Guard",
         "potential": [
             {
@@ -1831,7 +1831,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.05,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -1850,7 +1850,7 @@
     },
     "char_289_gyuki": {
         "name": "Matoimaru",
-        "rarity": 3,
+        "rarity": 4,
         "profession": "Guard",
         "potential": [
             {
@@ -1888,7 +1888,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.5,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -1907,7 +1907,7 @@
     },
     "char_193_frostl": {
         "name": "Frostleaf",
-        "rarity": 3,
+        "rarity": 4,
         "profession": "Guard",
         "potential": [
             {
@@ -1946,7 +1946,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.3,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -1969,7 +1969,7 @@
     },
     "char_127_estell": {
         "name": "Estelle",
-        "rarity": 3,
+        "rarity": 4,
         "profession": "Guard",
         "potential": [
             {
@@ -2007,7 +2007,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.2,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -2025,7 +2025,7 @@
     },
     "char_185_frncat": {
         "name": "Mousse",
-        "rarity": 3,
+        "rarity": 4,
         "profession": "Guard",
         "potential": [
             {
@@ -2063,7 +2063,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.25,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -2082,7 +2082,7 @@
     },
     "char_237_gravel": {
         "name": "Gravel",
-        "rarity": 3,
+        "rarity": 4,
         "profession": "Specialist",
         "potential": [
             {
@@ -2120,7 +2120,7 @@
             "atkSpd": 100.0,
             "atkTime": 0.93,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 18
         },
         "talents": [
@@ -2140,7 +2140,7 @@
     },
     "char_236_rope": {
         "name": "Rope",
-        "rarity": 3,
+        "rarity": 4,
         "profession": "Specialist",
         "potential": [
             {
@@ -2178,7 +2178,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.8,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -2196,7 +2196,7 @@
     },
     "char_117_myrrh": {
         "name": "Myrrh",
-        "rarity": 3,
+        "rarity": 4,
         "profession": "Medic",
         "potential": [
             {
@@ -2234,7 +2234,7 @@
             "atkSpd": 100.0,
             "atkTime": 2.85,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -2252,7 +2252,7 @@
     },
     "char_187_ccheal": {
         "name": "Gavial",
-        "rarity": 3,
+        "rarity": 4,
         "profession": "Medic",
         "potential": [
             {
@@ -2290,7 +2290,7 @@
             "atkSpd": 100.0,
             "atkTime": 2.85,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -2311,7 +2311,7 @@
     },
     "char_181_flower": {
         "name": "Perfumer",
-        "rarity": 3,
+        "rarity": 4,
         "profession": "Medic",
         "potential": [
             {
@@ -2349,7 +2349,7 @@
             "atkSpd": 100.0,
             "atkTime": 2.85,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -2368,7 +2368,7 @@
     },
     "char_199_yak": {
         "name": "Matterhorn",
-        "rarity": 3,
+        "rarity": 4,
         "profession": "Defender",
         "potential": [
             {
@@ -2407,7 +2407,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.2,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -2425,7 +2425,7 @@
     },
     "char_150_snakek": {
         "name": "Cuora",
-        "rarity": 3,
+        "rarity": 4,
         "profession": "Defender",
         "potential": [
             {
@@ -2464,7 +2464,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.2,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -2482,7 +2482,7 @@
     },
     "char_196_sunbr": {
         "name": "Gummy",
-        "rarity": 3,
+        "rarity": 4,
         "profession": "Defender",
         "potential": [
             {
@@ -2520,7 +2520,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.2,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -2540,7 +2540,7 @@
     },
     "char_110_deepcl": {
         "name": "Deepcolor",
-        "rarity": 3,
+        "rarity": 4,
         "profession": "Supporter",
         "potential": [
             {
@@ -2579,7 +2579,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.6,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -2597,7 +2597,7 @@
     },
     "char_183_skgoat": {
         "name": "Earthspirit",
-        "rarity": 3,
+        "rarity": 4,
         "profession": "Supporter",
         "potential": [
             {
@@ -2635,7 +2635,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.9,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -2658,7 +2658,7 @@
     },
     "char_277_sqrrel": {
         "name": "Shaw",
-        "rarity": 3,
+        "rarity": 4,
         "profession": "Specialist",
         "potential": [
             {
@@ -2697,7 +2697,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.2,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -2716,7 +2716,7 @@
     },
     "char_128_plosis": {
         "name": "Ptilopsis",
-        "rarity": 4,
+        "rarity": 5,
         "profession": "Medic",
         "potential": [
             {
@@ -2755,7 +2755,7 @@
             "atkSpd": 100.0,
             "atkTime": 2.85,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -2773,7 +2773,7 @@
     },
     "char_115_headbr": {
         "name": "Zima",
-        "rarity": 4,
+        "rarity": 5,
         "profession": "Vanguard",
         "potential": [
             {
@@ -2812,7 +2812,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.05,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -2830,7 +2830,7 @@
     },
     "char_102_texas": {
         "name": "Texas",
-        "rarity": 4,
+        "rarity": 5,
         "profession": "Vanguard",
         "potential": [
             {
@@ -2869,7 +2869,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.05,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -2887,7 +2887,7 @@
     },
     "char_308_swire": {
         "name": "Swire",
-        "rarity": 4,
+        "rarity": 5,
         "profession": "Guard",
         "potential": [
             {
@@ -2925,7 +2925,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.05,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -2944,7 +2944,7 @@
     },
     "char_106_franka": {
         "name": "Franka",
-        "rarity": 4,
+        "rarity": 5,
         "profession": "Guard",
         "potential": [
             {
@@ -2983,7 +2983,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.5,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -3002,7 +3002,7 @@
     },
     "char_131_flameb": {
         "name": "Flamebringer",
-        "rarity": 4,
+        "rarity": 5,
         "profession": "Guard",
         "potential": [
             {
@@ -3040,7 +3040,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.5,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 80
         },
         "talents": [
@@ -3060,7 +3060,7 @@
     },
     "char_155_tiger": {
         "name": "Indra",
-        "rarity": 4,
+        "rarity": 5,
         "profession": "Guard",
         "potential": [
             {
@@ -3098,7 +3098,7 @@
             "atkSpd": 100.0,
             "atkTime": 0.78,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -3117,7 +3117,7 @@
     },
     "char_140_whitew": {
         "name": "Lappland",
-        "rarity": 4,
+        "rarity": 5,
         "profession": "Guard",
         "potential": [
             {
@@ -3155,7 +3155,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.3,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -3178,7 +3178,7 @@
     },
     "char_143_ghost": {
         "name": "Specter",
-        "rarity": 4,
+        "rarity": 5,
         "profession": "Guard",
         "potential": [
             {
@@ -3216,7 +3216,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.2,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -3235,7 +3235,7 @@
     },
     "char_129_bluep": {
         "name": "Blue Poison",
-        "rarity": 4,
+        "rarity": 5,
         "profession": "Sniper",
         "potential": [
             {
@@ -3273,7 +3273,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.0,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -3292,7 +3292,7 @@
     },
     "char_204_platnm": {
         "name": "Platinum",
-        "rarity": 4,
+        "rarity": 5,
         "profession": "Sniper",
         "potential": [
             {
@@ -3330,7 +3330,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.0,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -3351,7 +3351,7 @@
     },
     "char_219_meteo": {
         "name": "Meteorite",
-        "rarity": 4,
+        "rarity": 5,
         "profession": "Sniper",
         "potential": [
             {
@@ -3390,7 +3390,7 @@
             "atkSpd": 100.0,
             "atkTime": 2.8,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -3409,7 +3409,7 @@
     },
     "char_279_excu": {
         "name": "Executor",
-        "rarity": 4,
+        "rarity": 5,
         "profession": "Sniper",
         "potential": [
             {
@@ -3447,7 +3447,7 @@
             "atkSpd": 100.0,
             "atkTime": 2.3,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -3470,7 +3470,7 @@
     },
     "char_002_amiya": {
         "name": "Amiya",
-        "rarity": 4,
+        "rarity": 5,
         "profession": "Caster",
         "potential": [
             {
@@ -3509,7 +3509,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.6,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -3529,7 +3529,7 @@
     },
     "char_166_skfire": {
         "name": "Skyfire",
-        "rarity": 4,
+        "rarity": 5,
         "profession": "Caster",
         "potential": [
             {
@@ -3567,7 +3567,7 @@
             "atkSpd": 100.0,
             "atkTime": 2.9,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -3585,7 +3585,7 @@
     },
     "char_242_otter": {
         "name": "Mayer",
-        "rarity": 4,
+        "rarity": 5,
         "profession": "Supporter",
         "potential": [
             {
@@ -3624,7 +3624,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.6,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -3643,7 +3643,7 @@
     },
     "char_108_silent": {
         "name": "Silence",
-        "rarity": 4,
+        "rarity": 5,
         "profession": "Medic",
         "potential": [
             {
@@ -3681,7 +3681,7 @@
             "atkSpd": 100.0,
             "atkTime": 2.85,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -3699,7 +3699,7 @@
     },
     "char_171_bldsk": {
         "name": "Warfarin",
-        "rarity": 4,
+        "rarity": 5,
         "profession": "Medic",
         "potential": [
             {
@@ -3738,7 +3738,7 @@
             "atkSpd": 100.0,
             "atkTime": 2.85,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -3757,7 +3757,7 @@
     },
     "char_148_nearl": {
         "name": "Nearl",
-        "rarity": 4,
+        "rarity": 5,
         "profession": "Defender",
         "potential": [
             {
@@ -3795,7 +3795,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.2,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -3814,7 +3814,7 @@
     },
     "char_144_red": {
         "name": "Projekt Red",
-        "rarity": 4,
+        "rarity": 5,
         "profession": "Specialist",
         "potential": [
             {
@@ -3852,7 +3852,7 @@
             "atkSpd": 100.0,
             "atkTime": 0.93,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 18
         },
         "talents": [
@@ -3870,7 +3870,7 @@
     },
     "char_107_liskam": {
         "name": "Liskarm",
-        "rarity": 4,
+        "rarity": 5,
         "profession": "Defender",
         "potential": [
             {
@@ -3908,7 +3908,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.2,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -3934,7 +3934,7 @@
     },
     "char_201_moeshd": {
         "name": "Croissant",
-        "rarity": 4,
+        "rarity": 5,
         "profession": "Defender",
         "potential": [
             {
@@ -3972,7 +3972,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.2,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -3992,7 +3992,7 @@
     },
     "char_163_hpsts": {
         "name": "Vulcan",
-        "rarity": 4,
+        "rarity": 5,
         "profession": "Defender",
         "potential": [
             {
@@ -4030,7 +4030,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.6,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -4050,7 +4050,7 @@
     },
     "char_145_prove": {
         "name": "Provence",
-        "rarity": 4,
+        "rarity": 5,
         "profession": "Sniper",
         "potential": [
             {
@@ -4088,7 +4088,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.6,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -4108,7 +4108,7 @@
     },
     "char_158_milu": {
         "name": "Firewatch",
-        "rarity": 4,
+        "rarity": 5,
         "profession": "Sniper",
         "potential": [
             {
@@ -4146,7 +4146,7 @@
             "atkSpd": 100.0,
             "atkTime": 2.7,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -4164,7 +4164,7 @@
     },
     "char_173_slchan": {
         "name": "Cliffheart",
-        "rarity": 4,
+        "rarity": 5,
         "profession": "Specialist",
         "potential": [
             {
@@ -4202,7 +4202,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.8,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -4221,7 +4221,7 @@
     },
     "char_174_slbell": {
         "name": "Pramanix",
-        "rarity": 4,
+        "rarity": 5,
         "profession": "Supporter",
         "potential": [
             {
@@ -4259,7 +4259,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.6,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -4285,7 +4285,7 @@
     },
     "char_195_glassb": {
         "name": "Istina",
-        "rarity": 4,
+        "rarity": 5,
         "profession": "Supporter",
         "potential": [
             {
@@ -4323,7 +4323,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.9,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -4347,7 +4347,7 @@
     },
     "char_101_sora": {
         "name": "Sora",
-        "rarity": 4,
+        "rarity": 5,
         "profession": "Supporter",
         "potential": [
             {
@@ -4386,7 +4386,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.0,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -4406,7 +4406,7 @@
     },
     "char_215_mantic": {
         "name": "Manticore",
-        "rarity": 4,
+        "rarity": 5,
         "profession": "Specialist",
         "potential": [
             {
@@ -4444,7 +4444,7 @@
             "atkSpd": 100.0,
             "atkTime": 3.5,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -4469,7 +4469,7 @@
     },
     "char_241_panda": {
         "name": "FEater",
-        "rarity": 4,
+        "rarity": 5,
         "profession": "Specialist",
         "potential": [
             {
@@ -4507,7 +4507,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.2,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -4526,7 +4526,7 @@
     },
     "char_103_angel": {
         "name": "Exusiai",
-        "rarity": 5,
+        "rarity": 6,
         "profession": "Sniper",
         "potential": [
             {
@@ -4564,7 +4564,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.0,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -4590,7 +4590,7 @@
     },
     "char_112_siege": {
         "name": "Siege",
-        "rarity": 5,
+        "rarity": 6,
         "profession": "Vanguard",
         "potential": [
             {
@@ -4629,7 +4629,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.05,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -4656,7 +4656,7 @@
     },
     "char_134_ifrit": {
         "name": "Ifrit",
-        "rarity": 5,
+        "rarity": 6,
         "profession": "Caster",
         "potential": [
             {
@@ -4694,7 +4694,7 @@
             "atkSpd": 100.0,
             "atkTime": 2.9,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -4720,7 +4720,7 @@
     },
     "char_180_amgoat": {
         "name": "Eyjafjalla",
-        "rarity": 5,
+        "rarity": 6,
         "profession": "Caster",
         "potential": [
             {
@@ -4758,7 +4758,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.6,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -4784,7 +4784,7 @@
     },
     "char_291_aglina": {
         "name": "Angelina",
-        "rarity": 5,
+        "rarity": 6,
         "profession": "Supporter",
         "potential": [
             {
@@ -4822,7 +4822,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.9,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -4852,7 +4852,7 @@
     },
     "char_248_mgllan": {
         "name": "Magallan",
-        "rarity": 5,
+        "rarity": 6,
         "profession": "Supporter",
         "potential": [
             {
@@ -4891,7 +4891,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.6,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -4915,7 +4915,7 @@
     },
     "char_147_shining": {
         "name": "Shining",
-        "rarity": 5,
+        "rarity": 6,
         "profession": "Medic",
         "potential": [
             {
@@ -4953,7 +4953,7 @@
             "atkSpd": 100.0,
             "atkTime": 2.85,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -4979,7 +4979,7 @@
     },
     "char_179_cgbird": {
         "name": "Nightingale",
-        "rarity": 5,
+        "rarity": 6,
         "profession": "Medic",
         "potential": [
             {
@@ -5018,7 +5018,7 @@
             "atkSpd": 100.0,
             "atkTime": 2.85,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -5043,7 +5043,7 @@
     },
     "char_136_hsguma": {
         "name": "Hoshiguma",
-        "rarity": 5,
+        "rarity": 6,
         "profession": "Defender",
         "potential": [
             {
@@ -5081,7 +5081,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.2,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -5107,7 +5107,7 @@
     },
     "char_202_demkni": {
         "name": "Saria",
-        "rarity": 5,
+        "rarity": 6,
         "profession": "Defender",
         "potential": [
             {
@@ -5146,7 +5146,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.2,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -5175,7 +5175,7 @@
     },
     "char_172_svrash": {
         "name": "SilverAsh",
-        "rarity": 5,
+        "rarity": 6,
         "profession": "Guard",
         "potential": [
             {
@@ -5214,7 +5214,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.3,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -5244,7 +5244,7 @@
     },
     "char_010_chen": {
         "name": "Ch'en",
-        "rarity": 5,
+        "rarity": 6,
         "profession": "Guard",
         "potential": [
             {
@@ -5283,7 +5283,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.3,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -5312,7 +5312,7 @@
     },
     "token_10000_silent_healrb": {
         "name": "Medic Drone",
-        "rarity": 4,
+        "rarity": 5,
         "profession": "TOKEN",
         "potential": [],
         "skills": [
@@ -5330,13 +5330,13 @@
             "atkSpd": 100.0,
             "atkTime": 0.5,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 5
         }
     },
     "token_10001_deepcl_tentac": {
         "name": "Tentacle",
-        "rarity": 3,
+        "rarity": 4,
         "profession": "TOKEN",
         "potential": [],
         "skills": [
@@ -5354,7 +5354,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.25,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 10
         },
         "talents": [
@@ -5369,7 +5369,7 @@
     },
     "token_10003_cgbird_bird": {
         "name": "Mirage",
-        "rarity": 5,
+        "rarity": 6,
         "profession": "TOKEN",
         "potential": [],
         "skills": [
@@ -5388,7 +5388,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.0,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 20
         },
         "talents": [
@@ -5405,7 +5405,7 @@
     },
     "token_10004_otter_motter": {
         "name": "Robotter",
-        "rarity": 4,
+        "rarity": 5,
         "profession": "TOKEN",
         "potential": [],
         "skills": [
@@ -5423,7 +5423,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.25,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 10
         },
         "talents": [
@@ -5439,7 +5439,7 @@
     },
     "token_10005_mgllan_drone1": {
         "name": "Soaring Dragon F",
-        "rarity": 5,
+        "rarity": 6,
         "profession": "TOKEN",
         "potential": [],
         "skills": [
@@ -5458,7 +5458,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.0,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 10
         },
         "talents": [
@@ -5481,7 +5481,7 @@
     },
     "token_10005_mgllan_drone2": {
         "name": "Soaring Dragon L",
-        "rarity": 5,
+        "rarity": 6,
         "profession": "TOKEN",
         "potential": [],
         "skills": [
@@ -5500,7 +5500,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.0,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 10
         },
         "talents": [
@@ -5523,7 +5523,7 @@
     },
     "token_10005_mgllan_drone3": {
         "name": "Soaring Dragon A",
-        "rarity": 5,
+        "rarity": 6,
         "profession": "TOKEN",
         "potential": [],
         "skills": [
@@ -5542,7 +5542,7 @@
             "atkSpd": 100.0,
             "atkTime": 2.3,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 10
         },
         "talents": [
@@ -5565,7 +5565,7 @@
     },
     "trap_001_crate": {
         "name": "Roadblock",
-        "rarity": 0,
+        "rarity": 1,
         "profession": "TRAP",
         "potential": [],
         "skills": [
@@ -5582,13 +5582,13 @@
             "atkSpd": 100.0,
             "atkTime": 1.0,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 5
         }
     },
     "trap_002_emp": {
         "name": "Stun Generator",
-        "rarity": 0,
+        "rarity": 1,
         "profession": "TRAP",
         "potential": [],
         "skills": [
@@ -5605,13 +5605,13 @@
             "atkSpd": 100.0,
             "atkTime": 1.0,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 5
         }
     },
     "trap_003_gate": {
         "name": "Gate",
-        "rarity": 0,
+        "rarity": 1,
         "profession": "TRAP",
         "potential": [],
         "skills": [
@@ -5628,13 +5628,13 @@
             "atkSpd": 100.0,
             "atkTime": 1.0,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 5
         }
     },
     "trap_005_sensor": {
         "name": "Detector",
-        "rarity": 0,
+        "rarity": 1,
         "profession": "TRAP",
         "potential": [],
         "skills": [
@@ -5651,13 +5651,13 @@
             "atkSpd": 100.0,
             "atkTime": 1.0,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 5
         }
     },
     "trap_006_antidr": {
         "name": "Jammer",
-        "rarity": 0,
+        "rarity": 1,
         "profession": "TRAP",
         "potential": [],
         "skills": [
@@ -5674,13 +5674,13 @@
             "atkSpd": 100.0,
             "atkTime": 1.0,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 5
         }
     },
     "trap_007_ballis": {
         "name": "Turret",
-        "rarity": 0,
+        "rarity": 1,
         "profession": "TRAP",
         "potential": [],
         "skills": [
@@ -5697,13 +5697,13 @@
             "atkSpd": 100.0,
             "atkTime": 1.0,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 5
         }
     },
     "char_230_savage": {
         "name": "Savage",
-        "rarity": 4,
+        "rarity": 5,
         "profession": "Guard",
         "potential": [],
         "skills": [
@@ -5721,7 +5721,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.2,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -5741,7 +5741,7 @@
     },
     "char_282_catap": {
         "name": "Catapult",
-        "rarity": 2,
+        "rarity": 3,
         "profession": "Sniper",
         "potential": [
             {
@@ -5779,7 +5779,7 @@
             "atkSpd": 100.0,
             "atkTime": 2.8,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -5797,7 +5797,7 @@
     },
     "char_283_midn": {
         "name": "Midnight",
-        "rarity": 2,
+        "rarity": 3,
         "profession": "Guard",
         "potential": [
             {
@@ -5834,7 +5834,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.3,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -5858,7 +5858,7 @@
     },
     "char_137_brownb": {
         "name": "Beehunter",
-        "rarity": 3,
+        "rarity": 4,
         "profession": "Guard",
         "potential": [
             {
@@ -5896,7 +5896,7 @@
             "atkSpd": 100.0,
             "atkTime": 0.78,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -5915,7 +5915,7 @@
     },
     "char_164_nightm": {
         "name": "Nightmare",
-        "rarity": 4,
+        "rarity": 5,
         "profession": "Caster",
         "potential": [
             {
@@ -5953,7 +5953,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.6,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [
@@ -5972,7 +5972,7 @@
     },
     "char_220_grani": {
         "name": "Grani",
-        "rarity": 4,
+        "rarity": 5,
         "profession": "Vanguard",
         "potential": [
             {
@@ -6010,7 +6010,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.0,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 80
         },
         "talents": [
@@ -6033,7 +6033,7 @@
     },
     "char_263_skadi": {
         "name": "Skadi",
-        "rarity": 5,
+        "rarity": 6,
         "profession": "Guard",
         "potential": [
             {
@@ -6072,7 +6072,7 @@
             "atkSpd": 100.0,
             "atkTime": 1.5,
             "hpRec": 0.0,
-            "spRecoveryPerSec": 1.0,
+            "spRec": 1.0,
             "respawn": 70
         },
         "talents": [

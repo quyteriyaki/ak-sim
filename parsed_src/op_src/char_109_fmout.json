@@ -1,6 +1,6 @@
 {
   "name": "Gitano",
-  "rarity": 3,
+  "rarity": 4,
   "profession": "Caster",
   "potential": [
     {
@@ -85,7 +85,7 @@
     "atkSpd": 100.0,
     "atkTime": 2.9,
     "hpRec": 0.0,
-    "spRecoveryPerSec": 1.0,
+    "spRec": 1.0,
     "respawn": 70
   },
   "talents": [

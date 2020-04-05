@@ -1,6 +1,6 @@
 {
   "name": "Projekt Red",
-  "rarity": 4,
+  "rarity": 5,
   "profession": "Specialist",
   "potential": [
     {
@@ -86,7 +86,7 @@
     "atkSpd": 100.0,
     "atkTime": 0.93,
     "hpRec": 0.0,
-    "spRecoveryPerSec": 1.0,
+    "spRec": 1.0,
     "respawn": 18
   },
   "talents": [

@@ -1,6 +1,6 @@
 {
   "name": "Beehunter",
-  "rarity": 3,
+  "rarity": 4,
   "profession": "Guard",
   "potential": [
     {
@@ -84,7 +84,7 @@
     "atkSpd": 100.0,
     "atkTime": 0.78,
     "hpRec": 0.0,
-    "spRecoveryPerSec": 1.0,
+    "spRec": 1.0,
     "respawn": 70
   },
   "talents": [

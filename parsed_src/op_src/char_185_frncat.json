@@ -1,6 +1,6 @@
 {
   "name": "Mousse",
-  "rarity": 3,
+  "rarity": 4,
   "profession": "Guard",
   "potential": [
     {
@@ -87,7 +87,7 @@
     "atkSpd": 100.0,
     "atkTime": 1.25,
     "hpRec": 0.0,
-    "spRecoveryPerSec": 1.0,
+    "spRec": 1.0,
     "respawn": 70
   },
   "talents": [

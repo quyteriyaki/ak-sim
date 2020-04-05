@@ -1,6 +1,6 @@
 {
   "name": "Stun Generator",
-  "rarity": 0,
+  "rarity": 1,
   "profession": "TRAP",
   "potential": [],
   "skills": [
@@ -41,7 +41,7 @@
     "atkSpd": 100.0,
     "atkTime": 1.0,
     "hpRec": 0.0,
-    "spRecoveryPerSec": 1.0,
+    "spRec": 1.0,
     "respawn": 5
   }
 }

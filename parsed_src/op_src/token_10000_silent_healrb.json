@@ -1,6 +1,6 @@
 {
   "name": "Medic Drone",
-  "rarity": 4,
+  "rarity": 5,
   "profession": "TOKEN",
   "potential": [],
   "skills": [
@@ -60,7 +60,7 @@
     "atkSpd": 100.0,
     "atkTime": 0.5,
     "hpRec": 0.0,
-    "spRecoveryPerSec": 1.0,
+    "spRec": 1.0,
     "respawn": 5
   }
 }
