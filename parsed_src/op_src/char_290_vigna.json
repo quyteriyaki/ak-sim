@@ -24,7 +24,6 @@
     }
   ],
   "skills": [
-    "skchr_vigna_2",
     {
       "skillId": "skchr_vigna_1",
       "iconId": "skcom_atk_up[2]",
@@ -46,6 +45,31 @@
         "duration": 25.0,
         "blackboard": {
           "atk": 0.8
+        }
+      }
+    },
+    {
+      "skillId": "skchr_vigna_2",
+      "iconId": null,
+      "hidden": false,
+      "levels": {
+        "name": "Hammer-On",
+        "rangeId": null,
+        "description": "Attack Interval increases a bit; ATK +200%",
+        "skillType": 1,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 25,
+          "initSp": 10,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_vigna_2",
+        "duration": 30.0,
+        "blackboard": {
+          "atk": 2.0,
+          "base_attack_time": 0.5
         }
       }
     }

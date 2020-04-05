@@ -25,7 +25,6 @@
     }
   ],
   "skills": [
-    "skchr_deepcl_2",
     {
       "skillId": "skchr_deepcl_1",
       "iconId": null,
@@ -49,6 +48,30 @@
           "atk": 0.6,
           "def": 0.6,
           "hp_recovery_per_sec": 70.0
+        }
+      }
+    },
+    {
+      "skillId": "skchr_deepcl_2",
+      "iconId": null,
+      "hidden": false,
+      "levels": {
+        "name": "Visual Trap",
+        "rangeId": "3-4",
+        "description": "Range expands; Allies within range obtain 50% Physical Dodge",
+        "skillType": 1,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 80,
+          "initSp": 60,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_deepcl_2",
+        "duration": 55.0,
+        "blackboard": {
+          "prob": 0.5
         }
       }
     }

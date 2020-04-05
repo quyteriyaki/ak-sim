@@ -24,7 +24,6 @@
     }
   ],
   "skills": [
-    "skchr_myrrh_2",
     {
       "skillId": "skchr_myrrh_1",
       "iconId": null,
@@ -47,6 +46,31 @@
         "blackboard": {
           "heal_scale": 1.25,
           "ct": 3.0
+        }
+      }
+    },
+    {
+      "skillId": "skchr_myrrh_2",
+      "iconId": null,
+      "hidden": false,
+      "levels": {
+        "name": "Medic Field",
+        "rangeId": null,
+        "description": "ATK +65%; Can heal 1 extra ally",
+        "skillType": 1,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 50,
+          "initSp": 20,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_myrrh_2",
+        "duration": 25.0,
+        "blackboard": {
+          "atk": 0.65,
+          "attack_speed": 0.0
         }
       }
     }

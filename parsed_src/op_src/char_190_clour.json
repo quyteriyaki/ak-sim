@@ -25,7 +25,6 @@
     }
   ],
   "skills": [
-    "skchr_clour_2",
     {
       "skillId": "skcom_atk_up[2]",
       "iconId": null,
@@ -47,6 +46,31 @@
         "duration": 25.0,
         "blackboard": {
           "atk": 0.8
+        }
+      }
+    },
+    {
+      "skillId": "skchr_clour_2",
+      "iconId": null,
+      "hidden": false,
+      "levels": {
+        "name": "Double Shot",
+        "rangeId": null,
+        "description": "ATK +45%, each attack hits 1 additional target.",
+        "skillType": 1,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 20,
+          "initSp": 10,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_clour_2",
+        "duration": 20.0,
+        "blackboard": {
+          "atk": 0.45,
+          "attack@max_target": 2.0
         }
       }
     }

@@ -23,7 +23,6 @@
     }
   ],
   "skills": [
-    "skchr_aglina_2",
     {
       "skillId": "skchr_aglina_1",
       "iconId": null,
@@ -45,6 +44,31 @@
         "duration": 35.0,
         "blackboard": {
           "atk": 1.1
+        }
+      }
+    },
+    {
+      "skillId": "skchr_aglina_2",
+      "iconId": null,
+      "hidden": false,
+      "levels": {
+        "name": "Arcane Staff - Particle Mode",
+        "rangeId": null,
+        "description": "Attack Interval reduces dramatically, but the Arts damage dealt by every attack is only 45% of ATK\nCannot use Normal Attack when the skill is not activated",
+        "skillType": 1,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 15,
+          "initSp": 10,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_aglina_2",
+        "duration": 30.0,
+        "blackboard": {
+          "base_attack_time": 0.15,
+          "damage_scale": 0.45
         }
       }
     },

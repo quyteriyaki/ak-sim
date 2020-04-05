@@ -24,7 +24,6 @@
     }
   ],
   "skills": [
-    "skchr_doberm_2",
     {
       "skillId": "skchr_doberm_1",
       "iconId": "skcom_powerstrike[2]",
@@ -46,6 +45,31 @@
         "duration": 0.0,
         "blackboard": {
           "atk_scale": 2.3
+        }
+      }
+    },
+    {
+      "skillId": "skchr_doberm_2",
+      "iconId": null,
+      "hidden": false,
+      "levels": {
+        "name": "Spur",
+        "rangeId": null,
+        "description": "ATK +80%; The Talent becomes 3.0 times as effective",
+        "skillType": 1,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 70,
+          "initSp": 40,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_doberm_2",
+        "duration": 25.0,
+        "blackboard": {
+          "atk": 0.8,
+          "talent_scale": 3.0
         }
       }
     }

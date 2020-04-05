@@ -25,7 +25,6 @@
     }
   ],
   "skills": [
-    "skchr_headbr_2",
     {
       "skillId": "skcom_charge_cost[3]",
       "iconId": null,
@@ -47,6 +46,34 @@
         "duration": 0.0,
         "blackboard": {
           "cost": 12.0
+        }
+      }
+    },
+    {
+      "skillId": "skchr_headbr_2",
+      "iconId": null,
+      "hidden": false,
+      "levels": {
+        "name": "Ursus's Roar",
+        "rangeId": null,
+        "description": "Gradually gains 12 DP over the skill duration\nAll Vanguard Operators' ATK and DEF +60%; Gains 1 extra DP when killing an enemy",
+        "skillType": 1,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 35,
+          "initSp": 20,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_headbr_2",
+        "duration": 10.0,
+        "blackboard": {
+          "value": 12.0,
+          "atk": 0.6,
+          "def": 0.6,
+          "interval": 0.83,
+          "cost": 1.0
         }
       }
     }

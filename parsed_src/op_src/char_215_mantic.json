@@ -24,7 +24,6 @@
     }
   ],
   "skills": [
-    "skchr_mantic_2",
     {
       "skillId": "skchr_mantic_1",
       "iconId": null,
@@ -47,6 +46,32 @@
         "blackboard": {
           "move_speed": -0.5,
           "duration": 5.0
+        }
+      }
+    },
+    {
+      "skillId": "skchr_mantic_2",
+      "iconId": null,
+      "hidden": false,
+      "levels": {
+        "name": "Toxic Overload",
+        "rangeId": null,
+        "description": "Attack Animation and Attack Interval increase; ATK +90%; Stuns the hit targets for 1.0 seconds",
+        "skillType": 1,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 20,
+          "initSp": 10,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_mantic_2",
+        "duration": 40.0,
+        "blackboard": {
+          "base_attack_time": 1.7,
+          "atk": 0.9,
+          "attack@stun": 1.0
         }
       }
     }

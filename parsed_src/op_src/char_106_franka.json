@@ -25,7 +25,6 @@
     }
   ],
   "skills": [
-    "skchr_franka_2",
     {
       "skillId": "skcom_quickattack[3]",
       "iconId": null,
@@ -48,6 +47,31 @@
         "blackboard": {
           "atk": 0.45,
           "attack_speed": 45.0
+        }
+      }
+    },
+    {
+      "skillId": "skchr_franka_2",
+      "iconId": null,
+      "hidden": false,
+      "levels": {
+        "name": "Vorpal Edge",
+        "rangeId": null,
+        "description": "DEF reduces to 0; ATK +100%; The chance of Talent ignoring the target's DEF is increased to 2 times",
+        "skillType": 1,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 20,
+          "initSp": 10,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_franka_2",
+        "duration": 30.0,
+        "blackboard": {
+          "atk": 1.0,
+          "talent_scale": 2.5
         }
       }
     }

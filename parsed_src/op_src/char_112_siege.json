@@ -24,7 +24,6 @@
     }
   ],
   "skills": [
-    "skchr_siege_2",
     {
       "skillId": "skcom_charge_cost[3]",
       "iconId": null,
@@ -46,6 +45,32 @@
         "duration": 0.0,
         "blackboard": {
           "cost": 12.0
+        }
+      }
+    },
+    {
+      "skillId": "skchr_siege_2",
+      "iconId": null,
+      "hidden": false,
+      "levels": {
+        "name": "Aerial Hammer",
+        "rangeId": "x-5",
+        "description": "Deals 340% of ATK Physical damage to all nearby enemies in the next attack; Gains 3 DP\nCan store 3 charge(s)",
+        "skillType": 2,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 3,
+          "spCost": 10,
+          "initSp": 10,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_siege_2",
+        "duration": 0.0,
+        "blackboard": {
+          "atk_scale": 3.4,
+          "cost": 3.0,
+          "ct": 3.0
         }
       }
     },

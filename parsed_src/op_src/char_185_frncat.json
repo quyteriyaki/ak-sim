@@ -24,7 +24,6 @@
     }
   ],
   "skills": [
-    "skchr_frncat_2",
     {
       "skillId": "skchr_frncat_1",
       "iconId": null,
@@ -48,6 +47,31 @@
           "atk": 0.75,
           "frncat_s_1[debuff].atk": -0.4,
           "frncat_s_1[debuff].duration": 5.0
+        }
+      }
+    },
+    {
+      "skillId": "skchr_frncat_2",
+      "iconId": null,
+      "hidden": false,
+      "levels": {
+        "name": "Fury",
+        "rangeId": null,
+        "description": "ATK and DEF +75%",
+        "skillType": 1,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 80,
+          "initSp": 45,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_frncat_2",
+        "duration": 40.0,
+        "blackboard": {
+          "atk": 0.75,
+          "def": 0.75
         }
       }
     }

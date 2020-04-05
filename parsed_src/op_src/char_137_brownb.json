@@ -24,7 +24,6 @@
     }
   ],
   "skills": [
-    "skchr_brownb_2",
     {
       "skillId": "skchr_brownb_1",
       "iconId": null,
@@ -46,6 +45,30 @@
         "duration": 0.0,
         "blackboard": {
           "prob": 0.6
+        }
+      }
+    },
+    {
+      "skillId": "skchr_brownb_2",
+      "iconId": null,
+      "hidden": false,
+      "levels": {
+        "name": "Soaring Fists",
+        "rangeId": null,
+        "description": "Significant Attack Interval reduction",
+        "skillType": 1,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 20,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_brownb_2",
+        "duration": 10.0,
+        "blackboard": {
+          "base_attack_time": -0.6
         }
       }
     }

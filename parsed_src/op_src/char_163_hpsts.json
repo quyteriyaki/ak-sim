@@ -24,7 +24,6 @@
     }
   ],
   "skills": [
-    "skchr_hpsts_2",
     {
       "skillId": "skchr_hpsts_1",
       "iconId": null,
@@ -48,6 +47,33 @@
           "def": 1.2,
           "block_cnt": 1.0,
           "hp_recovery_per_sec_by_max_hp_ratio": 0.05
+        }
+      }
+    },
+    {
+      "skillId": "skchr_hpsts_2",
+      "iconId": null,
+      "hidden": false,
+      "levels": {
+        "name": "Combat Mode",
+        "rangeId": null,
+        "description": "Block -1; Attack Interval slightly increases; ATK +150%; Restores HP by 10% of Max HP when attacking and attacks all targets blocked",
+        "skillType": 1,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 50,
+          "initSp": 40,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_hpsts_2",
+        "duration": 30.0,
+        "blackboard": {
+          "atk": 1.5,
+          "base_attack_time": 0.4,
+          "hp_ratio": 0.1,
+          "block_cnt": -1.0
         }
       }
     }

@@ -23,7 +23,6 @@
     }
   ],
   "skills": [
-    "skchr_shining_2",
     {
       "skillId": "skchr_shining_1",
       "iconId": null,
@@ -46,6 +45,33 @@
         "blackboard": {
           "atk": 0.8,
           "attack_speed": 20.0
+        }
+      }
+    },
+    {
+      "skillId": "skchr_shining_2",
+      "iconId": null,
+      "hidden": false,
+      "levels": {
+        "name": "Auto Protect",
+        "rangeId": null,
+        "description": "The next heal generates a shield on its target for 3 seconds\nThe shield can absorb damage equal to 50% of Shining's ATK and the target's DEF +50%; Can store 3 charge(s)",
+        "skillType": 2,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 3,
+          "spCost": 5,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_shining_2",
+        "duration": -1.0,
+        "blackboard": {
+          "def": 0.5,
+          "atk_scale": 0.5,
+          "duration": 3.0,
+          "ct": 3.0
         }
       }
     },

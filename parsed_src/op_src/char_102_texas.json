@@ -25,7 +25,6 @@
     }
   ],
   "skills": [
-    "skchr_texas_2",
     {
       "skillId": "skcom_charge_cost[3]",
       "iconId": null,
@@ -47,6 +46,33 @@
         "duration": 0.0,
         "blackboard": {
           "cost": 12.0
+        }
+      }
+    },
+    {
+      "skillId": "skchr_texas_2",
+      "iconId": null,
+      "hidden": false,
+      "levels": {
+        "name": "Sword Rain",
+        "rangeId": "x-1",
+        "description": "Immediately gains 12 DP; Deals 170% of ATK Arts damage to all nearby enemies twice and Stuns the hit targets for 3 seconds",
+        "skillType": 1,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 40,
+          "initSp": 30,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_texas_2",
+        "duration": 0.0,
+        "blackboard": {
+          "cost": 12.0,
+          "atk_scale": 1.7,
+          "stun": 3.0,
+          "atk": 0.95
         }
       }
     }

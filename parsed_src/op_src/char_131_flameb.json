@@ -24,7 +24,6 @@
     }
   ],
   "skills": [
-    "skchr_flameb_2",
     {
       "skillId": "skchr_flameb_1",
       "iconId": null,
@@ -47,6 +46,31 @@
         "blackboard": {
           "atk_scale": 2.2,
           "hp_ratio": 0.08
+        }
+      }
+    },
+    {
+      "skillId": "skchr_flameb_2",
+      "iconId": null,
+      "hidden": false,
+      "levels": {
+        "name": "Blade Demon",
+        "rangeId": null,
+        "description": "ATK +70%, ASPD +45\nInfinite duration.",
+        "skillType": 2,
+        "spData": {
+          "spType": 2,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 40,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_flameb_2",
+        "duration": 0.0,
+        "blackboard": {
+          "atk": 0.7,
+          "attack_speed": 45.0
         }
       }
     }

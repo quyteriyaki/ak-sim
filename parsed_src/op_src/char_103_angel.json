@@ -23,7 +23,6 @@
     }
   ],
   "skills": [
-    "skchr_angel_2",
     {
       "skillId": "skchr_angel_1",
       "iconId": null,
@@ -46,6 +45,31 @@
         "blackboard": {
           "atk_scale": 1.45,
           "times": 3.0
+        }
+      }
+    },
+    {
+      "skillId": "skchr_angel_2",
+      "iconId": null,
+      "hidden": false,
+      "levels": {
+        "name": "Shooting Mode",
+        "rangeId": null,
+        "description": "Shoots 4 times in a row, dealing 125% of ATK damage with every shot",
+        "skillType": 1,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 35,
+          "initSp": 25,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_angel_2",
+        "duration": 15.0,
+        "blackboard": {
+          "attack@atk_scale": 1.25,
+          "attack@times": 4.0
         }
       }
     },

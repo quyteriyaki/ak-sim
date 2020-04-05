@@ -24,7 +24,6 @@
     }
   ],
   "skills": [
-    "skchr_bluep_2",
     {
       "skillId": "skchr_bluep_1",
       "iconId": null,
@@ -46,6 +45,31 @@
         "duration": -1.0,
         "blackboard": {
           "atk_scale": 2.0
+        }
+      }
+    },
+    {
+      "skillId": "skchr_bluep_2",
+      "iconId": null,
+      "hidden": false,
+      "levels": {
+        "name": "Venom Spray",
+        "rangeId": null,
+        "description": "ATK +50%, each attack strikes its primary target an additional 1 time, and also hits up to 2 additional targets.",
+        "skillType": 1,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 40,
+          "initSp": 25,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_bluep_2",
+        "duration": 30.0,
+        "blackboard": {
+          "atk": 0.5,
+          "attack@times": 2.0
         }
       }
     }

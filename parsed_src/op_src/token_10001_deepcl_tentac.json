@@ -3,10 +3,7 @@
   "rarity": 3,
   "profession": "TOKEN",
   "potential": [],
-  "skills": [
-    null,
-    null
-  ],
+  "skills": [],
   "stats": {
     "level": 70,
     "maxHp": 2016,

@@ -24,7 +24,6 @@
     }
   ],
   "skills": [
-    "skchr_svrash_2",
     {
       "skillId": "skchr_svrash_1",
       "iconId": "skcom_powerstrike[3]",
@@ -46,6 +45,31 @@
         "duration": 0.0,
         "blackboard": {
           "atk_scale": 2.9
+        }
+      }
+    },
+    {
+      "skillId": "skchr_svrash_2",
+      "iconId": null,
+      "hidden": false,
+      "levels": {
+        "name": "Rules of Survival",
+        "rangeId": "1-2",
+        "description": "Can switch between the original state and the following state:\nRange reduces; DEF +100%; Restores HP by 0.06% of Max HP per second",
+        "skillType": 1,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 5,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_svrash_2",
+        "duration": 0.0,
+        "blackboard": {
+          "def": 1.0,
+          "hp_recovery_per_sec_by_max_hp_ratio": 0.06
         }
       }
     },

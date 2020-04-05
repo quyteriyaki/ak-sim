@@ -24,7 +24,6 @@
     }
   ],
   "skills": [
-    "skchr_glassb_2",
     {
       "skillId": "skchr_glassb_1",
       "iconId": null,
@@ -46,6 +45,31 @@
         "duration": 30.0,
         "blackboard": {
           "base_attack_time": -1.1
+        }
+      }
+    },
+    {
+      "skillId": "skchr_glassb_2",
+      "iconId": null,
+      "hidden": false,
+      "levels": {
+        "name": "Literature Storm",
+        "rangeId": "x-2",
+        "description": "ATK +75%; Range expands; Attacks 2 extra targets",
+        "skillType": 1,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 50,
+          "initSp": 30,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_glassb_2",
+        "duration": 25.0,
+        "blackboard": {
+          "atk": 0.75,
+          "max_target": 3.0
         }
       }
     }

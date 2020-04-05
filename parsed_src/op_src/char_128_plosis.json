@@ -25,7 +25,6 @@
     }
   ],
   "skills": [
-    "skchr_plosis_2",
     {
       "skillId": "skcom_heal_up[3]",
       "iconId": null,
@@ -47,6 +46,30 @@
         "duration": 30.0,
         "blackboard": {
           "atk": 0.9
+        }
+      }
+    },
+    {
+      "skillId": "skchr_plosis_2",
+      "iconId": null,
+      "hidden": false,
+      "levels": {
+        "name": "Enkephalin",
+        "rangeId": "y-7",
+        "description": "Range expands; reduces Attack Interval greatly",
+        "skillType": 1,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 100,
+          "initSp": 85,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_plosis_2",
+        "duration": 40.0,
+        "blackboard": {
+          "base_attack_time": -2.1
         }
       }
     }

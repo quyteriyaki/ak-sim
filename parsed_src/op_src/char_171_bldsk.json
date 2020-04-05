@@ -25,7 +25,6 @@
     }
   ],
   "skills": [
-    "skchr_bldsk_2",
     {
       "skillId": "skchr_bldsk_1",
       "iconId": null,
@@ -48,6 +47,33 @@
         "blackboard": {
           "hp_ratio": 0.25,
           "ct": 4.0
+        }
+      }
+    },
+    {
+      "skillId": "skchr_bldsk_2",
+      "iconId": null,
+      "hidden": false,
+      "levels": {
+        "name": "Unstable Plasma",
+        "rangeId": null,
+        "description": "Warfarin and a random ally within range obtain the following status:\nATK +90%; Loses 3% of Max HP per second, lasting for 15 seconds",
+        "skillType": 1,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 60,
+          "initSp": 50,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_bldsk_2",
+        "duration": -1.0,
+        "blackboard": {
+          "atk": 0.9,
+          "hp_ratio": 0.03,
+          "interval": 1.0,
+          "duration": 15.0
         }
       }
     }

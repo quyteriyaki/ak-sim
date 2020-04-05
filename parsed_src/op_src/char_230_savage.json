@@ -4,7 +4,6 @@
   "profession": "Guard",
   "potential": [],
   "skills": [
-    "skchr_savage_2",
     {
       "skillId": "skchr_savage_1",
       "iconId": "skcom_powerstrike[2]",
@@ -26,6 +25,31 @@
         "duration": 0.0,
         "blackboard": {
           "atk_scale": 2.3
+        }
+      }
+    },
+    {
+      "skillId": "skchr_savage_2",
+      "iconId": null,
+      "hidden": false,
+      "levels": {
+        "name": "Precise Blast",
+        "rangeId": "3-2",
+        "description": "Deals 400% of ATK Physical damage to at most 5 enemies within three grids ahead",
+        "skillType": 1,
+        "spData": {
+          "spType": 2,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 17,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_savage_2",
+        "duration": 0.0,
+        "blackboard": {
+          "max_target": 5.0,
+          "atk_scale": 4.0
         }
       }
     }

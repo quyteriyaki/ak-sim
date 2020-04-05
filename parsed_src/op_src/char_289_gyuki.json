@@ -24,7 +24,6 @@
     }
   ],
   "skills": [
-    "skchr_gyuki_2",
     {
       "skillId": "skcom_heal_self[2]",
       "iconId": null,
@@ -46,6 +45,30 @@
         "duration": 0.0,
         "blackboard": {
           "heal_scale": 0.5
+        }
+      }
+    },
+    {
+      "skillId": "skchr_gyuki_2",
+      "iconId": null,
+      "hidden": false,
+      "levels": {
+        "name": "Demonic Power",
+        "rangeId": null,
+        "description": "DEF reduces to 0; ATK +150%",
+        "skillType": 1,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 25,
+          "initSp": 10,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_gyuki_2",
+        "duration": 15.0,
+        "blackboard": {
+          "atk": 1.5
         }
       }
     }

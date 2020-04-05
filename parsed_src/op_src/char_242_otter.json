@@ -25,7 +25,6 @@
     }
   ],
   "skills": [
-    "skchr_otter_2",
     {
       "skillId": "skchr_otter_1",
       "iconId": null,
@@ -47,6 +46,31 @@
         "duration": 0.0,
         "blackboard": {
           "prob": 0.35
+        }
+      }
+    },
+    {
+      "skillId": "skchr_otter_2",
+      "iconId": null,
+      "hidden": false,
+      "levels": {
+        "name": "Detonate and Recycle",
+        "rangeId": "x-4",
+        "description": "Detonates all deployed Robotters immediately, dealing 600% of Mayer's ATK Arts damage to nearby enemies and Stunning all hit targets for 2 seconds\nThe exploded Robotters will be recycled",
+        "skillType": 1,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 30,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_otter_2",
+        "duration": 0.0,
+        "blackboard": {
+          "atk_scale": 6.0,
+          "stun": 2.0
         }
       }
     }

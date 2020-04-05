@@ -24,7 +24,6 @@
     }
   ],
   "skills": [
-    "skchr_nearl_2",
     {
       "skillId": "skchr_nearl_1",
       "iconId": null,
@@ -47,6 +46,31 @@
         "blackboard": {
           "heal_scale": 1.8,
           "ct": 3.0
+        }
+      }
+    },
+    {
+      "skillId": "skchr_nearl_2",
+      "iconId": null,
+      "hidden": false,
+      "levels": {
+        "name": "First Aid Mode",
+        "rangeId": "x-4",
+        "description": "ATK +80%; Stops attacking and focuses on healing surrounding allies",
+        "skillType": 1,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 40,
+          "initSp": 30,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_nearl_2",
+        "duration": 40.0,
+        "blackboard": {
+          "atk": 0.8,
+          "base_attack_time": 1.3
         }
       }
     }

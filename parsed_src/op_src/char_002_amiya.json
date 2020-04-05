@@ -24,7 +24,6 @@
     }
   ],
   "skills": [
-    "skchr_amiya_2",
     {
       "skillId": "skcom_magic_rage[3]",
       "iconId": null,
@@ -46,6 +45,32 @@
         "duration": 30.0,
         "blackboard": {
           "attack_speed": 90.0
+        }
+      }
+    },
+    {
+      "skillId": "skchr_amiya_2",
+      "iconId": null,
+      "hidden": false,
+      "levels": {
+        "name": "Spirit Burst",
+        "rangeId": null,
+        "description": "Fires 8 times with 60% ATK when attacking and attacks random targets within range\nAutomatically activated; Amiya is Stunned for 10 seconds after the skill duration",
+        "skillType": 2,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 100,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_amiya_2",
+        "duration": 25.0,
+        "blackboard": {
+          "attack@atk_scale": 0.6,
+          "attack@times": 8.0,
+          "stun": 10.0
         }
       }
     },

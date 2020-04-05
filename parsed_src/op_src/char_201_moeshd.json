@@ -24,7 +24,6 @@
     }
   ],
   "skills": [
-    "skchr_moeshd_2",
     {
       "skillId": "skchr_moeshd_1",
       "iconId": null,
@@ -47,6 +46,32 @@
         "blackboard": {
           "def": 0.7,
           "talent_scale": 2.0
+        }
+      }
+    },
+    {
+      "skillId": "skchr_moeshd_2",
+      "iconId": null,
+      "hidden": false,
+      "levels": {
+        "name": "Magnetic Hammer",
+        "rangeId": "x-5",
+        "description": "Bumps nearby enemies away greatly, Stunning them for 4 seconds and dealing 480% of ATK Physical damage to them",
+        "skillType": 1,
+        "spData": {
+          "spType": 4,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 17,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_moeshd_2",
+        "duration": 0.0,
+        "blackboard": {
+          "force": 3.0,
+          "atk_scale": 4.8,
+          "stun": 4.0
         }
       }
     }

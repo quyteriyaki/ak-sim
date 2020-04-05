@@ -24,7 +24,6 @@
     }
   ],
   "skills": [
-    "skchr_excu_2",
     {
       "skillId": "skchr_excu_1",
       "iconId": null,
@@ -47,6 +46,30 @@
         "blackboard": {
           "atk": 0.7,
           "atk_scale": 1.5
+        }
+      }
+    },
+    {
+      "skillId": "skchr_excu_2",
+      "iconId": null,
+      "hidden": false,
+      "levels": {
+        "name": "Final Journey",
+        "rangeId": null,
+        "description": "Normal attacks strike twice, and the attack interval  is significantly shortened",
+        "skillType": 1,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 70,
+          "initSp": 35,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_excu_2",
+        "duration": 20.0,
+        "blackboard": {
+          "base_attack_time": -0.9
         }
       }
     }

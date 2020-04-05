@@ -23,7 +23,6 @@
     }
   ],
   "skills": [
-    "skchr_hsguma_2",
     {
       "skillId": "skchr_hsguma_1",
       "iconId": null,
@@ -46,6 +45,31 @@
         "blackboard": {
           "atk": 0.4,
           "def": 0.8
+        }
+      }
+    },
+    {
+      "skillId": "skchr_hsguma_2",
+      "iconId": null,
+      "hidden": false,
+      "levels": {
+        "name": "Thorns",
+        "rangeId": null,
+        "description": "DEF +30%\nDeals 100% of ATK Physical damage to enemies that attack Hoshiguma",
+        "skillType": 0,
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_hsguma_2",
+        "duration": 0.0,
+        "blackboard": {
+          "atk_scale": 1.0,
+          "def": 0.3
         }
       }
     },

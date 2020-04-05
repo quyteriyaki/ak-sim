@@ -25,7 +25,6 @@
     }
   ],
   "skills": [
-    "skchr_jesica_2",
     {
       "skillId": "skchr_jesica_1",
       "iconId": "skcom_powerstrike[2]",
@@ -47,6 +46,31 @@
         "duration": 0.0,
         "blackboard": {
           "atk_scale": 2.3
+        }
+      }
+    },
+    {
+      "skillId": "skchr_jesica_2",
+      "iconId": null,
+      "hidden": false,
+      "levels": {
+        "name": "Smokescreen",
+        "rangeId": null,
+        "description": "ATK +80%; 75% chance to dodge Physical and Arts attacks",
+        "skillType": 1,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 40,
+          "initSp": 20,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_jesica_2",
+        "duration": 25.0,
+        "blackboard": {
+          "atk": 0.8,
+          "prob": 0.75
         }
       }
     }

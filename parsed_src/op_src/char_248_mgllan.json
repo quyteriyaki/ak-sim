@@ -24,7 +24,6 @@
     }
   ],
   "skills": [
-    "skchr_mgllan_2",
     {
       "skillId": "skchr_mgllan_1",
       "iconId": null,
@@ -48,6 +47,30 @@
           "attack@interval": 3.0,
           "attack@frozen_duration": 2.5,
           "attack@sluggish": 1.0
+        }
+      }
+    },
+    {
+      "skillId": "skchr_mgllan_2",
+      "iconId": null,
+      "hidden": false,
+      "levels": {
+        "name": "Laser Mining Module",
+        "rangeId": null,
+        "description": "Passive: Drones may be deployed on melee tiles, dealing single-target Arts damage. \nActive: Magallan and her drones gain +150 ASPD, and drones gain AoE attacks. Retreats all drones after this effect ends.",
+        "skillType": 1,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 38,
+          "initSp": 25,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_mgllan_2",
+        "duration": 15.0,
+        "blackboard": {
+          "attack_speed": 150.0
         }
       }
     },

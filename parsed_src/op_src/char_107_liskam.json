@@ -24,7 +24,6 @@
     }
   ],
   "skills": [
-    "skchr_liskam_2",
     {
       "skillId": "skchr_liskam_1",
       "iconId": null,
@@ -47,6 +46,35 @@
         "blackboard": {
           "def": 1.0,
           "duration": 8.0
+        }
+      }
+    },
+    {
+      "skillId": "skchr_liskam_2",
+      "iconId": null,
+      "hidden": false,
+      "levels": {
+        "name": "Counter Arc",
+        "rangeId": null,
+        "description": "Attack Interval increases; ATK +200%; Deals Arts damage to at most 4 enemies when attacking and has a 25% chance to Stun the hit targets for 1 seconds\nLiskarm is Stunned for 5 seconds after the skill duration",
+        "skillType": 1,
+        "spData": {
+          "spType": 4,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 34,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_liskam_2",
+        "duration": 20.0,
+        "blackboard": {
+          "atk": 2.0,
+          "base_attack_time": 0.7,
+          "attack@buff_prob": 0.25,
+          "attack@stun": 1.0,
+          "stun": 5.0,
+          "attack@max_target": 4.0
         }
       }
     }

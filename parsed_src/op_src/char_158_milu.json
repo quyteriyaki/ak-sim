@@ -24,7 +24,6 @@
     }
   ],
   "skills": [
-    "skchr_milu_2",
     {
       "skillId": "skchr_milu_1",
       "iconId": null,
@@ -46,6 +45,31 @@
         "duration": 50.0,
         "blackboard": {
           "atk": 0.7
+        }
+      }
+    },
+    {
+      "skillId": "skchr_milu_2",
+      "iconId": null,
+      "hidden": false,
+      "levels": {
+        "name": "Tactical Transceiver",
+        "rangeId": null,
+        "description": "Randomly drops 3 bombs within range (especially to enemy's position); Every bomb deals 300% of ATK Physical damage to all nearby enemies",
+        "skillType": 1,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 50,
+          "initSp": 30,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_milu_2",
+        "duration": 0.0,
+        "blackboard": {
+          "max_cnt": 3.0,
+          "atk_scale": 3.0
         }
       }
     }

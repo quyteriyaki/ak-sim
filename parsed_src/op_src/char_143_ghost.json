@@ -24,7 +24,6 @@
     }
   ],
   "skills": [
-    "skchr_ghost_2",
     {
       "skillId": "skcom_atk_up[3]",
       "iconId": null,
@@ -46,6 +45,31 @@
         "duration": 30.0,
         "blackboard": {
           "atk": 1.0
+        }
+      }
+    },
+    {
+      "skillId": "skchr_ghost_2",
+      "iconId": null,
+      "hidden": false,
+      "levels": {
+        "name": "Bone Fracture",
+        "rangeId": null,
+        "description": "During the skill duration, Specter's HP will not drop below 1; ATK +160%\nSpecter is Stunned for 10 seconds after skill duration",
+        "skillType": 1,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 40,
+          "initSp": 35,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_ghost_2",
+        "duration": 15.0,
+        "blackboard": {
+          "atk": 1.6,
+          "stun": 10.0
         }
       }
     }

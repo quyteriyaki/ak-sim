@@ -24,7 +24,6 @@
     }
   ],
   "skills": [
-    "skchr_ccheal_2",
     {
       "skillId": "skchr_ccheal_1",
       "iconId": null,
@@ -51,6 +50,34 @@
           "interval": 1.0,
           "duration": 5.0,
           "ct": 2.0
+        }
+      }
+    },
+    {
+      "skillId": "skchr_ccheal_2",
+      "iconId": null,
+      "hidden": false,
+      "levels": {
+        "name": "Vitality Restoration - Wide Range",
+        "rangeId": null,
+        "description": "Buffs all allies within range immediately, restoring HP by 30% of Gavial's ATK (by 80% of Gavial's ATK when the target's HP is lower than 50%) per second, lasting 10 seconds",
+        "skillType": 1,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 60,
+          "initSp": 50,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_ccheal_2",
+        "duration": -1.0,
+        "blackboard": {
+          "heal_scale": 0.3,
+          "heal_scale_2": 0.8,
+          "hp_ratio": 0.5,
+          "interval": 1.0,
+          "duration": 10.0
         }
       }
     }

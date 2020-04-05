@@ -24,7 +24,6 @@
     }
   ],
   "skills": [
-    "skchr_chen_2",
     {
       "skillId": "skchr_chen_1",
       "iconId": null,
@@ -47,6 +46,31 @@
         "blackboard": {
           "atk_scale": 3.2,
           "stun": 1.5
+        }
+      }
+    },
+    {
+      "skillId": "skchr_chen_2",
+      "iconId": null,
+      "hidden": false,
+      "levels": {
+        "name": "Chi Xiao - Unsheath",
+        "rangeId": "3-12",
+        "description": "Deals 500% of ATK Physical damage and 500% of ATK Arts damage to at most 7 enemies in front of this unit",
+        "skillType": 1,
+        "spData": {
+          "spType": 2,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 20,
+          "initSp": 20,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_chen_2",
+        "duration": 0.0,
+        "blackboard": {
+          "atk_scale": 5.0,
+          "max_target": 7.0
         }
       }
     },

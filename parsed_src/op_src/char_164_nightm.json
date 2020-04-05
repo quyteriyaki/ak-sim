@@ -24,7 +24,6 @@
     }
   ],
   "skills": [
-    "skchr_nightm_2",
     {
       "skillId": "skchr_nightm_1",
       "iconId": null,
@@ -47,6 +46,34 @@
         "blackboard": {
           "attack@heal_scale": 1.0,
           "attack@max_target": 2.0
+        }
+      }
+    },
+    {
+      "skillId": "skchr_nightm_2",
+      "iconId": null,
+      "hidden": false,
+      "levels": {
+        "name": "Night Phantom",
+        "rangeId": null,
+        "description": "Inflict Nightmare on at most 5 enemies within range:\nTargets' Movement Speed -60%; Deals damage while ignoring targets' DEF and RES according to targets' movement distance for 10 seconds",
+        "skillType": 2,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 20,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_nightm_2",
+        "duration": -1.0,
+        "blackboard": {
+          "move_speed": -0.6,
+          "max_target": 5.0,
+          "interval": 0.33,
+          "value": 800.0,
+          "duration": 10.0
         }
       }
     }

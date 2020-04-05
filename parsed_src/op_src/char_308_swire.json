@@ -24,7 +24,6 @@
     }
   ],
   "skills": [
-    "skchr_swire_2",
     {
       "skillId": "skchr_swire_1",
       "iconId": null,
@@ -48,6 +47,31 @@
           "talent_scale": 2.0,
           "talent_range_flag": 1.0,
           "atk": 0.105
+        }
+      }
+    },
+    {
+      "skillId": "skchr_swire_2",
+      "iconId": null,
+      "hidden": false,
+      "levels": {
+        "name": "Cooperative Combat",
+        "rangeId": null,
+        "description": "ATK +80%; The Talent is 3 times as effective",
+        "skillType": 1,
+        "spData": {
+          "spType": 2,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 45,
+          "initSp": 20,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_swire_2",
+        "duration": 30.0,
+        "blackboard": {
+          "talent_scale": 3.0,
+          "atk": 0.8
         }
       }
     }

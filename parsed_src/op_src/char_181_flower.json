@@ -24,7 +24,6 @@
     }
   ],
   "skills": [
-    "skchr_flower_2",
     {
       "skillId": "skcom_heal_up[2]",
       "iconId": null,
@@ -46,6 +45,31 @@
         "duration": 25.0,
         "blackboard": {
           "atk": 0.7
+        }
+      }
+    },
+    {
+      "skillId": "skchr_flower_2",
+      "iconId": null,
+      "hidden": false,
+      "levels": {
+        "name": "Fine Blending",
+        "rangeId": null,
+        "description": "ASPD -50; ATK +250%",
+        "skillType": 1,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 60,
+          "initSp": 20,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_flower_2",
+        "duration": 30.0,
+        "blackboard": {
+          "atk": 2.5,
+          "attack_speed": -50.0
         }
       }
     }

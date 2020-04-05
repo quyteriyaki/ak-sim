@@ -25,7 +25,6 @@
     }
   ],
   "skills": [
-    "skchr_sora_2",
     {
       "skillId": "skchr_sora_1",
       "iconId": null,
@@ -47,6 +46,30 @@
         "duration": 7.0,
         "blackboard": {
           "attack@atk_to_hp_recovery_ratio": 1.0
+        }
+      }
+    },
+    {
+      "skillId": "skchr_sora_2",
+      "iconId": null,
+      "hidden": false,
+      "levels": {
+        "name": "Hymn of Battle",
+        "rangeId": null,
+        "description": "The ATK of all allies within range is increased by 100% of Sora's ATK",
+        "skillType": 1,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 45,
+          "initSp": 25,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_sora_2",
+        "duration": 30.0,
+        "blackboard": {
+          "atk": 1.0
         }
       }
     }
