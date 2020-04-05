@@ -17,6 +17,26 @@ def Parse_Selective (ID, Group):
             'potential': Group['potentialRanks']
         }
     }
+
+    # Translate Profession
+    profession = Group['profession']
+    if profession == "PIONEER":
+        object[ID]['profession'] = "Vanguard"
+    elif profession == "WARRIOR":
+        object[ID]['profession'] = "Guard"
+    elif profession == "TANK":
+        object[ID]['profession'] = "Defender"
+    elif profession == "MEDIC":
+        object[ID]['profession'] = "Medic"
+    elif profession == "SNIPER":
+        object[ID]['profession'] = "Sniper"
+    elif profession == "CASTER":
+        object[ID]['profession'] = "Caster"
+    elif profession == "SUPPORT":
+        object[ID]['profession'] = "Supporter"
+    elif profession == "SPECIAL":
+        object[ID]['profession'] = "Specialist"
+
     # Remove Unnecessary Skill Information
     if len(Group['skills']) > 0:
         object[ID]['skills'] = []

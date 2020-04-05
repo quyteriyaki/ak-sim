@@ -2,7 +2,7 @@
     "char_285_medic2": {
         "name": "Lancet-2",
         "rarity": 0,
-        "profession": "MEDIC",
+        "profession": "Medic",
         "potential": [
             {
                 "description": "Improves Talent"
@@ -51,7 +51,7 @@
     "char_286_cast3": {
         "name": "Castle-3",
         "rarity": 0,
-        "profession": "WARRIOR",
+        "profession": "Guard",
         "potential": [
             {
                 "description": "Improves Talent"
@@ -102,7 +102,7 @@
     "char_502_nblade": {
         "name": "Yato",
         "rarity": 1,
-        "profession": "PIONEER",
+        "profession": "Vanguard",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -155,7 +155,7 @@
     "char_500_noirc": {
         "name": "Noir Corne",
         "rarity": 1,
-        "profession": "TANK",
+        "profession": "Defender",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -209,7 +209,7 @@
     "char_503_rang": {
         "name": "Rangers",
         "rarity": 1,
-        "profession": "SNIPER",
+        "profession": "Sniper",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -262,7 +262,7 @@
     "char_501_durin": {
         "name": "Durin",
         "rarity": 1,
-        "profession": "CASTER",
+        "profession": "Caster",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -315,7 +315,7 @@
     "char_009_12fce": {
         "name": "12F",
         "rarity": 1,
-        "profession": "CASTER",
+        "profession": "Caster",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -368,7 +368,7 @@
     "char_123_fang": {
         "name": "Fang",
         "rarity": 2,
-        "profession": "PIONEER",
+        "profession": "Vanguard",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -424,7 +424,7 @@
     "char_240_wyvern": {
         "name": "Vanilla",
         "rarity": 2,
-        "profession": "PIONEER",
+        "profession": "Vanguard",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -480,7 +480,7 @@
     "char_192_falco": {
         "name": "Plume",
         "rarity": 2,
-        "profession": "PIONEER",
+        "profession": "Vanguard",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -541,7 +541,7 @@
     "char_208_melan": {
         "name": "Melantha",
         "rarity": 2,
-        "profession": "WARRIOR",
+        "profession": "Guard",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -597,7 +597,7 @@
     "char_281_popka": {
         "name": "Popukar",
         "rarity": 2,
-        "profession": "WARRIOR",
+        "profession": "Guard",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -653,7 +653,7 @@
     "char_209_ardign": {
         "name": "Cardigan",
         "rarity": 2,
-        "profession": "TANK",
+        "profession": "Defender",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -709,7 +709,7 @@
     "char_122_beagle": {
         "name": "Beagle",
         "rarity": 2,
-        "profession": "TANK",
+        "profession": "Defender",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -765,7 +765,7 @@
     "char_284_spot": {
         "name": "Spot",
         "rarity": 2,
-        "profession": "TANK",
+        "profession": "Defender",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -822,7 +822,7 @@
     "char_124_kroos": {
         "name": "Kroos",
         "rarity": 2,
-        "profession": "SNIPER",
+        "profession": "Sniper",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -878,7 +878,7 @@
     "char_211_adnach": {
         "name": "Adnachiel",
         "rarity": 2,
-        "profession": "SNIPER",
+        "profession": "Sniper",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -934,7 +934,7 @@
     "char_121_lava": {
         "name": "Lava",
         "rarity": 2,
-        "profession": "CASTER",
+        "profession": "Caster",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -989,7 +989,7 @@
     "char_120_hibisc": {
         "name": "Hibiscus",
         "rarity": 2,
-        "profession": "MEDIC",
+        "profession": "Medic",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -1045,7 +1045,7 @@
     "char_212_ansel": {
         "name": "Ansel",
         "rarity": 2,
-        "profession": "MEDIC",
+        "profession": "Medic",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -1100,7 +1100,7 @@
     "char_210_stward": {
         "name": "Steward",
         "rarity": 2,
-        "profession": "CASTER",
+        "profession": "Caster",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -1156,7 +1156,7 @@
     "char_278_orchid": {
         "name": "Orchid",
         "rarity": 2,
-        "profession": "SUPPORT",
+        "profession": "Supporter",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -1217,7 +1217,7 @@
     "char_141_nights": {
         "name": "Haze",
         "rarity": 3,
-        "profession": "CASTER",
+        "profession": "Caster",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -1274,7 +1274,7 @@
     "char_109_fmout": {
         "name": "Gitano",
         "rarity": 3,
-        "profession": "CASTER",
+        "profession": "Caster",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -1332,7 +1332,7 @@
     "char_253_greyy": {
         "name": "Greyy",
         "rarity": 3,
-        "profession": "CASTER",
+        "profession": "Caster",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -1389,7 +1389,7 @@
     "char_235_jesica": {
         "name": "Jessica",
         "rarity": 3,
-        "profession": "SNIPER",
+        "profession": "Sniper",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -1446,7 +1446,7 @@
     "char_126_shotst": {
         "name": "Meteor",
         "rarity": 3,
-        "profession": "SNIPER",
+        "profession": "Sniper",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -1502,7 +1502,7 @@
     "char_190_clour": {
         "name": "Vermeil",
         "rarity": 3,
-        "profession": "SNIPER",
+        "profession": "Sniper",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -1559,7 +1559,7 @@
     "char_118_yuki": {
         "name": "Shirayuki",
         "rarity": 3,
-        "profession": "SNIPER",
+        "profession": "Sniper",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -1617,7 +1617,7 @@
     "char_198_blackd": {
         "name": "Courier",
         "rarity": 3,
-        "profession": "PIONEER",
+        "profession": "Vanguard",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -1674,7 +1674,7 @@
     "char_149_scave": {
         "name": "Scavenger",
         "rarity": 3,
-        "profession": "PIONEER",
+        "profession": "Vanguard",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -1731,7 +1731,7 @@
     "char_290_vigna": {
         "name": "Vigna",
         "rarity": 3,
-        "profession": "PIONEER",
+        "profession": "Vanguard",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -1794,7 +1794,7 @@
     "char_130_doberm": {
         "name": "Dobermann",
         "rarity": 3,
-        "profession": "WARRIOR",
+        "profession": "Guard",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -1851,7 +1851,7 @@
     "char_289_gyuki": {
         "name": "Matoimaru",
         "rarity": 3,
-        "profession": "WARRIOR",
+        "profession": "Guard",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -1908,7 +1908,7 @@
     "char_193_frostl": {
         "name": "Frostleaf",
         "rarity": 3,
-        "profession": "WARRIOR",
+        "profession": "Guard",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -1970,7 +1970,7 @@
     "char_127_estell": {
         "name": "Estelle",
         "rarity": 3,
-        "profession": "WARRIOR",
+        "profession": "Guard",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -2026,7 +2026,7 @@
     "char_185_frncat": {
         "name": "Mousse",
         "rarity": 3,
-        "profession": "WARRIOR",
+        "profession": "Guard",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -2083,7 +2083,7 @@
     "char_237_gravel": {
         "name": "Gravel",
         "rarity": 3,
-        "profession": "SPECIAL",
+        "profession": "Specialist",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -2141,7 +2141,7 @@
     "char_236_rope": {
         "name": "Rope",
         "rarity": 3,
-        "profession": "SPECIAL",
+        "profession": "Specialist",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -2197,7 +2197,7 @@
     "char_117_myrrh": {
         "name": "Myrrh",
         "rarity": 3,
-        "profession": "MEDIC",
+        "profession": "Medic",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -2253,7 +2253,7 @@
     "char_187_ccheal": {
         "name": "Gavial",
         "rarity": 3,
-        "profession": "MEDIC",
+        "profession": "Medic",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -2312,7 +2312,7 @@
     "char_181_flower": {
         "name": "Perfumer",
         "rarity": 3,
-        "profession": "MEDIC",
+        "profession": "Medic",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -2369,7 +2369,7 @@
     "char_199_yak": {
         "name": "Matterhorn",
         "rarity": 3,
-        "profession": "TANK",
+        "profession": "Defender",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -2426,7 +2426,7 @@
     "char_150_snakek": {
         "name": "Cuora",
         "rarity": 3,
-        "profession": "TANK",
+        "profession": "Defender",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -2483,7 +2483,7 @@
     "char_196_sunbr": {
         "name": "Gummy",
         "rarity": 3,
-        "profession": "TANK",
+        "profession": "Defender",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -2541,7 +2541,7 @@
     "char_110_deepcl": {
         "name": "Deepcolor",
         "rarity": 3,
-        "profession": "SUPPORT",
+        "profession": "Supporter",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -2598,7 +2598,7 @@
     "char_183_skgoat": {
         "name": "Earthspirit",
         "rarity": 3,
-        "profession": "SUPPORT",
+        "profession": "Supporter",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -2659,7 +2659,7 @@
     "char_277_sqrrel": {
         "name": "Shaw",
         "rarity": 3,
-        "profession": "SPECIAL",
+        "profession": "Specialist",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -2717,7 +2717,7 @@
     "char_128_plosis": {
         "name": "Ptilopsis",
         "rarity": 4,
-        "profession": "MEDIC",
+        "profession": "Medic",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -2774,7 +2774,7 @@
     "char_115_headbr": {
         "name": "Zima",
         "rarity": 4,
-        "profession": "PIONEER",
+        "profession": "Vanguard",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -2831,7 +2831,7 @@
     "char_102_texas": {
         "name": "Texas",
         "rarity": 4,
-        "profession": "PIONEER",
+        "profession": "Vanguard",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -2888,7 +2888,7 @@
     "char_308_swire": {
         "name": "Swire",
         "rarity": 4,
-        "profession": "WARRIOR",
+        "profession": "Guard",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -2945,7 +2945,7 @@
     "char_106_franka": {
         "name": "Franka",
         "rarity": 4,
-        "profession": "WARRIOR",
+        "profession": "Guard",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -3003,7 +3003,7 @@
     "char_131_flameb": {
         "name": "Flamebringer",
         "rarity": 4,
-        "profession": "WARRIOR",
+        "profession": "Guard",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -3061,7 +3061,7 @@
     "char_155_tiger": {
         "name": "Indra",
         "rarity": 4,
-        "profession": "WARRIOR",
+        "profession": "Guard",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -3118,7 +3118,7 @@
     "char_140_whitew": {
         "name": "Lappland",
         "rarity": 4,
-        "profession": "WARRIOR",
+        "profession": "Guard",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -3179,7 +3179,7 @@
     "char_143_ghost": {
         "name": "Specter",
         "rarity": 4,
-        "profession": "WARRIOR",
+        "profession": "Guard",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -3236,7 +3236,7 @@
     "char_129_bluep": {
         "name": "Blue Poison",
         "rarity": 4,
-        "profession": "SNIPER",
+        "profession": "Sniper",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -3293,7 +3293,7 @@
     "char_204_platnm": {
         "name": "Platinum",
         "rarity": 4,
-        "profession": "SNIPER",
+        "profession": "Sniper",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -3352,7 +3352,7 @@
     "char_219_meteo": {
         "name": "Meteorite",
         "rarity": 4,
-        "profession": "SNIPER",
+        "profession": "Sniper",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -3410,7 +3410,7 @@
     "char_279_excu": {
         "name": "Executor",
         "rarity": 4,
-        "profession": "SNIPER",
+        "profession": "Sniper",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -3471,7 +3471,7 @@
     "char_002_amiya": {
         "name": "Amiya",
         "rarity": 4,
-        "profession": "CASTER",
+        "profession": "Caster",
         "potential": [
             {
                 "description": "Max HP +200",
@@ -3530,7 +3530,7 @@
     "char_166_skfire": {
         "name": "Skyfire",
         "rarity": 4,
-        "profession": "CASTER",
+        "profession": "Caster",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -3586,7 +3586,7 @@
     "char_242_otter": {
         "name": "Mayer",
         "rarity": 4,
-        "profession": "SUPPORT",
+        "profession": "Supporter",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -3644,7 +3644,7 @@
     "char_108_silent": {
         "name": "Silence",
         "rarity": 4,
-        "profession": "MEDIC",
+        "profession": "Medic",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -3700,7 +3700,7 @@
     "char_171_bldsk": {
         "name": "Warfarin",
         "rarity": 4,
-        "profession": "MEDIC",
+        "profession": "Medic",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -3758,7 +3758,7 @@
     "char_148_nearl": {
         "name": "Nearl",
         "rarity": 4,
-        "profession": "TANK",
+        "profession": "Defender",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -3815,7 +3815,7 @@
     "char_144_red": {
         "name": "Projekt Red",
         "rarity": 4,
-        "profession": "SPECIAL",
+        "profession": "Specialist",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -3871,7 +3871,7 @@
     "char_107_liskam": {
         "name": "Liskarm",
         "rarity": 4,
-        "profession": "TANK",
+        "profession": "Defender",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -3935,7 +3935,7 @@
     "char_201_moeshd": {
         "name": "Croissant",
         "rarity": 4,
-        "profession": "TANK",
+        "profession": "Defender",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -3993,7 +3993,7 @@
     "char_163_hpsts": {
         "name": "Vulcan",
         "rarity": 4,
-        "profession": "TANK",
+        "profession": "Defender",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -4051,7 +4051,7 @@
     "char_145_prove": {
         "name": "Provence",
         "rarity": 4,
-        "profession": "SNIPER",
+        "profession": "Sniper",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -4109,7 +4109,7 @@
     "char_158_milu": {
         "name": "Firewatch",
         "rarity": 4,
-        "profession": "SNIPER",
+        "profession": "Sniper",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -4165,7 +4165,7 @@
     "char_173_slchan": {
         "name": "Cliffheart",
         "rarity": 4,
-        "profession": "SPECIAL",
+        "profession": "Specialist",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -4222,7 +4222,7 @@
     "char_174_slbell": {
         "name": "Pramanix",
         "rarity": 4,
-        "profession": "SUPPORT",
+        "profession": "Supporter",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -4286,7 +4286,7 @@
     "char_195_glassb": {
         "name": "Istina",
         "rarity": 4,
-        "profession": "SUPPORT",
+        "profession": "Supporter",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -4348,7 +4348,7 @@
     "char_101_sora": {
         "name": "Sora",
         "rarity": 4,
-        "profession": "SUPPORT",
+        "profession": "Supporter",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -4407,7 +4407,7 @@
     "char_215_mantic": {
         "name": "Manticore",
         "rarity": 4,
-        "profession": "SPECIAL",
+        "profession": "Specialist",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -4470,7 +4470,7 @@
     "char_241_panda": {
         "name": "FEater",
         "rarity": 4,
-        "profession": "SPECIAL",
+        "profession": "Specialist",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -4527,7 +4527,7 @@
     "char_103_angel": {
         "name": "Exusiai",
         "rarity": 5,
-        "profession": "SNIPER",
+        "profession": "Sniper",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -4591,7 +4591,7 @@
     "char_112_siege": {
         "name": "Siege",
         "rarity": 5,
-        "profession": "PIONEER",
+        "profession": "Vanguard",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -4657,7 +4657,7 @@
     "char_134_ifrit": {
         "name": "Ifrit",
         "rarity": 5,
-        "profession": "CASTER",
+        "profession": "Caster",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -4721,7 +4721,7 @@
     "char_180_amgoat": {
         "name": "Eyjafjalla",
         "rarity": 5,
-        "profession": "CASTER",
+        "profession": "Caster",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -4785,7 +4785,7 @@
     "char_291_aglina": {
         "name": "Angelina",
         "rarity": 5,
-        "profession": "SUPPORT",
+        "profession": "Supporter",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -4853,7 +4853,7 @@
     "char_248_mgllan": {
         "name": "Magallan",
         "rarity": 5,
-        "profession": "SUPPORT",
+        "profession": "Supporter",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -4916,7 +4916,7 @@
     "char_147_shining": {
         "name": "Shining",
         "rarity": 5,
-        "profession": "MEDIC",
+        "profession": "Medic",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -4980,7 +4980,7 @@
     "char_179_cgbird": {
         "name": "Nightingale",
         "rarity": 5,
-        "profession": "MEDIC",
+        "profession": "Medic",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -5044,7 +5044,7 @@
     "char_136_hsguma": {
         "name": "Hoshiguma",
         "rarity": 5,
-        "profession": "TANK",
+        "profession": "Defender",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -5108,7 +5108,7 @@
     "char_202_demkni": {
         "name": "Saria",
         "rarity": 5,
-        "profession": "TANK",
+        "profession": "Defender",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -5176,7 +5176,7 @@
     "char_172_svrash": {
         "name": "SilverAsh",
         "rarity": 5,
-        "profession": "WARRIOR",
+        "profession": "Guard",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -5245,7 +5245,7 @@
     "char_010_chen": {
         "name": "Ch'en",
         "rarity": 5,
-        "profession": "WARRIOR",
+        "profession": "Guard",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -5704,7 +5704,7 @@
     "char_230_savage": {
         "name": "Savage",
         "rarity": 4,
-        "profession": "WARRIOR",
+        "profession": "Guard",
         "potential": [],
         "skills": [
             "skchr_savage_1",
@@ -5742,7 +5742,7 @@
     "char_282_catap": {
         "name": "Catapult",
         "rarity": 2,
-        "profession": "SNIPER",
+        "profession": "Sniper",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -5798,7 +5798,7 @@
     "char_283_midn": {
         "name": "Midnight",
         "rarity": 2,
-        "profession": "WARRIOR",
+        "profession": "Guard",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -5859,7 +5859,7 @@
     "char_137_brownb": {
         "name": "Beehunter",
         "rarity": 3,
-        "profession": "WARRIOR",
+        "profession": "Guard",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -5916,7 +5916,7 @@
     "char_164_nightm": {
         "name": "Nightmare",
         "rarity": 4,
-        "profession": "CASTER",
+        "profession": "Caster",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -5973,7 +5973,7 @@
     "char_220_grani": {
         "name": "Grani",
         "rarity": 4,
-        "profession": "PIONEER",
+        "profession": "Vanguard",
         "potential": [
             {
                 "description": "DP Cost -1",
@@ -6034,7 +6034,7 @@
     "char_263_skadi": {
         "name": "Skadi",
         "rarity": 5,
-        "profession": "WARRIOR",
+        "profession": "Guard",
         "potential": [
             {
                 "description": "DP Cost -1",
