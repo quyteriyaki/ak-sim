@@ -1,15 +1,10 @@
 import json
 import re
+import bb_Repair
 
 skills = {}
 with open('./src/skill_table.json', 'r') as file:
     skills = json.load(file)
-
-def toDict(blackboard):
-    output = dict()
-    for entry in blackboard:
-        output[entry['key']] = entry['value']
-    return output
 
 def Low_Skill_Removal(Group):
     # while len(Group['levels']) > 1:
@@ -27,7 +22,7 @@ def Name_Repair(Group):
 
 def Parse_Desc(Group):
     desc = Group['levels']['description']
-    bb = toDict(Group['levels']['blackboard'])
+    bb = bb_Repair.toDict(Group['levels']['blackboard'])
 
     # Remove text formatting because we're not interested for the time being
     format_text_pat = "<.*?>"
