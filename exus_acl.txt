@@ -1,0 +1,32 @@
+Exusiai
+base:
+    atk: 540
+talent:
+    atk: +8%
+    aspd: +15
+trust:
+    atk: +90
+potent:
+    atk: +27
+Resultant:
+    atk: (540 + 90 + 27) * 1.08 = 709
+    aspd : 115
+
+60 sec:
+S1: spCost: 4, initSp: 0, spType: offensiveRec, atk_scale: 1.45, times: 3
+    Rate atks: 115 / 1 / 100 = 1.15 per sec         1. Determine hits / sec
+    Times hit: 60 * 1.15 = 69                       2. Determine total hits
+    Activations: spCost + 1 = 5                     3. Determine hits / skill activation
+    Duration: 69 / Activations = 14                 4. Determine activation / total hits
+    Base: 55 S1: 14 * 3 (14)                        5. Indicate hit distribution           
+    Atk: 709 * 1.45 = 815                           6. Calculate S1 mods
+    Total: (659 * 55) + (978 * 42) = 77 321
+
+S2: spCost: 35, initSp: 25, spType: AutoRec, atk_scale: 1.25, times: 4, duration: 15
+    Rate atks: 1.15 per sec                         1. Determine hits / sec
+    Times hit: 60 * rate atks = 69                  2. Determine total hits
+    Activations: Rate atks * times * duration = 69  3. Determine hits / skill activation
+    Base: 10, S2: 15, Base: 35                      4. Indicate time distribution
+    Base: 12, S2: 69, Base: 40                      5. Indicate hit distribution
+    Atk: 709 * 1.25 = 886                           6. Calculate S2 mods
+    Total: (659 * 52) + (836*69) = 91 952

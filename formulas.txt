@@ -1,0 +1,23 @@
+Hits Per Sec
+(atkSpd + [ASPD] /atkTime + [base_attack_time]) / 100
+atkSpd / atkTime
+
+Attack buffs (additive)
+atk * (1 + x)
+
+Damage Taken (Multiplicative)
+atk*(1+x)*(1+x) etc
+
+Def / Res percent reduction (multiplicative)
+(1+x)*(1+x) .....  - 1
+
+Def / Res fixed reduction (additive)
+x + x + x 
+
+Physical Damage
+hitNumber (atk - def) >= atk * 0.05
+(atk - (def + flat_def_down) * (1 - scale_def_down)) * damage_amp
+
+Arts Damage
+hitNumber (Matk * (1 - Mres)) (Mres decimal)
+atk * [1 - {(res + flat_res_down)(1 - scale_res_down) / 100] * damage_amp

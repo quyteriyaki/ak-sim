@@ -1,0 +1,22 @@
+60 sec:
+Base: atkspd: 100, atkTime: 1.0, spRec: 1.0, atk: 535, enemyDef = 50
+    Rate atks: 100 / 1 / 100 = 1 per sec                    1. Determine attacks / sec
+    Times hit in 60 = 60 * 1 = 60                           2. Determine hits in frame
+    Total dmg = 485 * 60 + 85 * 60 = 34 200
+S1: spCost: 2, initSp: 0, spType: offensiveRec atk_scale:2.0
+    Rate atks: 1 per sec                                    1. Determine attacks / sec
+    skill set: spCost + Rate atks = 3 hits                  2. Determine 1 set of skill in terms of hits
+    Duration: 60 / skill set = 20                           3. Determine uptime of skill in terms of hits
+    Base: 40, S1: 20, Talent: 60                            4. Indicate distribution
+    Total: (485 * 40) + [(485 * (1+2)) * 20] + (85*60) = 53 600
+    -------
+    Targets = 2                                             1. Determine skill quantity
+    Total: (485 * 40) + [485 * (1+2) * 20] * 2 + (85 * (60+20))= 84 400
+S2: spCost: 40, initSp: 25, spType: Auto Recovery, atk: 0.5, attack@times: 2.0, duration: 30
+    Rate atks: 1 per sec                                    1. Determine attacks / sec
+    Skill set: Rate atks * attack@times * duration = 60     2. Determine 1 set of skills in terms of hits
+    Base: 15 (15), S2: 60 (30), Base: 15 (15)               3. Indicate distribution
+    Atk = 535 * 1.5 = 803                                   4. Determine final attack
+    Total: (485 * 30) + (753 * 60) = 59 730
+    -------
+    Targets = 2                                             1. Determine skill quantity
