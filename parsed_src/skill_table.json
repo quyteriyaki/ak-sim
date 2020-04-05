@@ -18,12 +18,9 @@
             },
             "prefabId": "skcom_charge_cost",
             "duration": 0.0,
-            "blackboard": [
-                {
-                    "key": "cost",
-                    "value": 6.0
-                }
-            ]
+            "blackboard": {
+                "cost": 6.0
+            }
         }
     },
     "skcom_charge_cost[2]": {
@@ -45,12 +42,9 @@
             },
             "prefabId": "skcom_charge_cost",
             "duration": 0.0,
-            "blackboard": [
-                {
-                    "key": "cost",
-                    "value": 9.0
-                }
-            ]
+            "blackboard": {
+                "cost": 9.0
+            }
         }
     },
     "skcom_charge_cost[3]": {
@@ -72,12 +66,9 @@
             },
             "prefabId": "skcom_charge_cost",
             "duration": 0.0,
-            "blackboard": [
-                {
-                    "key": "cost",
-                    "value": 12.0
-                }
-            ]
+            "blackboard": {
+                "cost": 12.0
+            }
         }
     },
     "skcom_atk_up[1]": {
@@ -99,12 +90,9 @@
             },
             "prefabId": "skcom_atk_up",
             "duration": 20.0,
-            "blackboard": [
-                {
-                    "key": "atk",
-                    "value": 0.5
-                }
-            ]
+            "blackboard": {
+                "atk": 0.5
+            }
         }
     },
     "skcom_atk_up[2]": {
@@ -126,12 +114,9 @@
             },
             "prefabId": "skcom_atk_up",
             "duration": 25.0,
-            "blackboard": [
-                {
-                    "key": "atk",
-                    "value": 0.8
-                }
-            ]
+            "blackboard": {
+                "atk": 0.8
+            }
         }
     },
     "skcom_atk_up[3]": {
@@ -153,12 +138,9 @@
             },
             "prefabId": "skcom_atk_up",
             "duration": 30.0,
-            "blackboard": [
-                {
-                    "key": "atk",
-                    "value": 1.0
-                }
-            ]
+            "blackboard": {
+                "atk": 1.0
+            }
         }
     },
     "skcom_def_up[1]": {
@@ -180,12 +162,9 @@
             },
             "prefabId": "skcom_def_up",
             "duration": 30.0,
-            "blackboard": [
-                {
-                    "key": "def",
-                    "value": 0.5
-                }
-            ]
+            "blackboard": {
+                "def": 0.5
+            }
         }
     },
     "skcom_def_up[2]": {
@@ -207,12 +186,9 @@
             },
             "prefabId": "skcom_def_up",
             "duration": 35.0,
-            "blackboard": [
-                {
-                    "key": "def",
-                    "value": 0.8
-                }
-            ]
+            "blackboard": {
+                "def": 0.8
+            }
         }
     },
     "skcom_def_up[3]": {
@@ -234,12 +210,9 @@
             },
             "prefabId": "skcom_def_up",
             "duration": 40.0,
-            "blackboard": [
-                {
-                    "key": "def",
-                    "value": 1.0
-                }
-            ]
+            "blackboard": {
+                "def": 1.0
+            }
         }
     },
     "skcom_magic_rage[1]": {
@@ -261,12 +234,9 @@
             },
             "prefabId": "skcom_attack_speed_up",
             "duration": 20.0,
-            "blackboard": [
-                {
-                    "key": "attack_speed",
-                    "value": 50.0
-                }
-            ]
+            "blackboard": {
+                "attack_speed": 50.0
+            }
         }
     },
     "skcom_magic_rage[2]": {
@@ -288,12 +258,9 @@
             },
             "prefabId": "skcom_attack_speed_up",
             "duration": 25.0,
-            "blackboard": [
-                {
-                    "key": "attack_speed",
-                    "value": 75.0
-                }
-            ]
+            "blackboard": {
+                "attack_speed": 75.0
+            }
         }
     },
     "skcom_magic_rage[3]": {
@@ -315,12 +282,9 @@
             },
             "prefabId": "skcom_attack_speed_up",
             "duration": 30.0,
-            "blackboard": [
-                {
-                    "key": "attack_speed",
-                    "value": 90.0
-                }
-            ]
+            "blackboard": {
+                "attack_speed": 90.0
+            }
         }
     },
     "skcom_quickattack[1]": {
@@ -342,16 +306,10 @@
             },
             "prefabId": "skcom_quickattack",
             "duration": 25.0,
-            "blackboard": [
-                {
-                    "key": "atk",
-                    "value": 0.25
-                },
-                {
-                    "key": "attack_speed",
-                    "value": 25.0
-                }
-            ]
+            "blackboard": {
+                "atk": 0.25,
+                "attack_speed": 25.0
+            }
         }
     },
     "skcom_quickattack[3]": {
@@ -373,16 +331,10 @@
             },
             "prefabId": "skcom_quickattack",
             "duration": 35.0,
-            "blackboard": [
-                {
-                    "key": "atk",
-                    "value": 0.45
-                },
-                {
-                    "key": "attack_speed",
-                    "value": 45.0
-                }
-            ]
+            "blackboard": {
+                "atk": 0.45,
+                "attack_speed": 45.0
+            }
         }
     },
     "skcom_heal_up[1]": {
@@ -404,12 +356,9 @@
             },
             "prefabId": "skcom_heal_up",
             "duration": 20.0,
-            "blackboard": [
-                {
-                    "key": "atk",
-                    "value": 0.5
-                }
-            ]
+            "blackboard": {
+                "atk": 0.5
+            }
         }
     },
     "skcom_heal_up[2]": {
@@ -431,12 +380,9 @@
             },
             "prefabId": "skcom_heal_up",
             "duration": 25.0,
-            "blackboard": [
-                {
-                    "key": "atk",
-                    "value": 0.7
-                }
-            ]
+            "blackboard": {
+                "atk": 0.7
+            }
         }
     },
     "skcom_heal_up[3]": {
@@ -458,12 +404,9 @@
             },
             "prefabId": "skcom_heal_up",
             "duration": 30.0,
-            "blackboard": [
-                {
-                    "key": "atk",
-                    "value": 0.9
-                }
-            ]
+            "blackboard": {
+                "atk": 0.9
+            }
         }
     },
     "skcom_range_extend": {
@@ -485,16 +428,10 @@
             },
             "prefabId": "skcom_range_extend",
             "duration": 25.0,
-            "blackboard": [
-                {
-                    "key": "atk",
-                    "value": 0.4
-                },
-                {
-                    "key": "ability_range_forward_extend",
-                    "value": 2.0
-                }
-            ]
+            "blackboard": {
+                "atk": 0.4,
+                "ability_range_forward_extend": 2.0
+            }
         }
     },
     "skcom_heal_self[1]": {
@@ -516,12 +453,9 @@
             },
             "prefabId": "skcom_heal_self",
             "duration": 0.0,
-            "blackboard": [
-                {
-                    "key": "heal_scale",
-                    "value": 0.4
-                }
-            ]
+            "blackboard": {
+                "heal_scale": 0.4
+            }
         }
     },
     "skcom_heal_self[2]": {
@@ -543,12 +477,9 @@
             },
             "prefabId": "skcom_heal_self",
             "duration": 0.0,
-            "blackboard": [
-                {
-                    "key": "heal_scale",
-                    "value": 0.5
-                }
-            ]
+            "blackboard": {
+                "heal_scale": 0.5
+            }
         }
     },
     "skchr_midn_1": {
@@ -570,12 +501,9 @@
             },
             "prefabId": "skchr_midn_1",
             "duration": 40.0,
-            "blackboard": [
-                {
-                    "key": "atk",
-                    "value": 0.35
-                }
-            ]
+            "blackboard": {
+                "atk": 0.35
+            }
         }
     },
     "skchr_wyvern_1": {
@@ -597,16 +525,10 @@
             },
             "prefabId": "skchr_wyvern_1",
             "duration": 10.0,
-            "blackboard": [
-                {
-                    "key": "cost",
-                    "value": 6.0
-                },
-                {
-                    "key": "atk",
-                    "value": 0.35
-                }
-            ]
+            "blackboard": {
+                "cost": 6.0,
+                "atk": 0.35
+            }
         }
     },
     "skchr_kroos_1": {
@@ -628,16 +550,10 @@
             },
             "prefabId": "skchr_kroos_1",
             "duration": 0.0,
-            "blackboard": [
-                {
-                    "key": "atk_scale",
-                    "value": 1.4
-                },
-                {
-                    "key": "times",
-                    "value": 2.0
-                }
-            ]
+            "blackboard": {
+                "atk_scale": 1.4,
+                "times": 2.0
+            }
         }
     },
     "skchr_spot_1": {
@@ -659,16 +575,10 @@
             },
             "prefabId": "skchr_spot_1",
             "duration": 25.0,
-            "blackboard": [
-                {
-                    "key": "atk",
-                    "value": 0.45
-                },
-                {
-                    "key": "base_attack_time",
-                    "value": 1.3
-                }
-            ]
+            "blackboard": {
+                "atk": 0.45,
+                "base_attack_time": 1.3
+            }
         }
     },
     "skchr_catap_1": {
@@ -690,12 +600,9 @@
             },
             "prefabId": "skchr_catap_1",
             "duration": 30.0,
-            "blackboard": [
-                {
-                    "key": "attack@range_scale",
-                    "value": 2.0
-                }
-            ]
+            "blackboard": {
+                "attack@range_scale": 2.0
+            }
         }
     },
     "skchr_nights_2": {
@@ -717,20 +624,11 @@
             },
             "prefabId": "skchr_nights_2",
             "duration": 25.0,
-            "blackboard": [
-                {
-                    "key": "attack_speed",
-                    "value": 60.0
-                },
-                {
-                    "key": "atk",
-                    "value": 0.6
-                },
-                {
-                    "key": "max_hp",
-                    "value": -0.75
-                }
-            ]
+            "blackboard": {
+                "attack_speed": 60.0,
+                "atk": 0.6,
+                "max_hp": -0.75
+            }
         }
     },
     "skchr_fmout_2": {
@@ -752,16 +650,10 @@
             },
             "prefabId": "skchr_fmout_2",
             "duration": 30.0,
-            "blackboard": [
-                {
-                    "key": "atk",
-                    "value": 1.0
-                },
-                {
-                    "key": "time",
-                    "value": 10.0
-                }
-            ]
+            "blackboard": {
+                "atk": 1.0,
+                "time": 10.0
+            }
         }
     },
     "skchr_greyy_2": {
@@ -783,16 +675,10 @@
             },
             "prefabId": "skchr_greyy_2",
             "duration": 30.0,
-            "blackboard": [
-                {
-                    "key": "attack_speed",
-                    "value": 80.0
-                },
-                {
-                    "key": "talent_scale",
-                    "value": 2.0
-                }
-            ]
+            "blackboard": {
+                "attack_speed": 80.0,
+                "talent_scale": 2.0
+            }
         }
     },
     "skchr_stward_1": {
@@ -814,12 +700,9 @@
             },
             "prefabId": "skchr_stward_1",
             "duration": 0.0,
-            "blackboard": [
-                {
-                    "key": "atk_scale",
-                    "value": 1.9
-                }
-            ]
+            "blackboard": {
+                "atk_scale": 1.9
+            }
         }
     },
     "skchr_jesica_1": {
@@ -841,12 +724,9 @@
             },
             "prefabId": "skchr_jesica_1",
             "duration": 0.0,
-            "blackboard": [
-                {
-                    "key": "atk_scale",
-                    "value": 2.3
-                }
-            ]
+            "blackboard": {
+                "atk_scale": 2.3
+            }
         }
     },
     "skchr_jesica_2": {
@@ -868,16 +748,10 @@
             },
             "prefabId": "skchr_jesica_2",
             "duration": 25.0,
-            "blackboard": [
-                {
-                    "key": "atk",
-                    "value": 0.8
-                },
-                {
-                    "key": "prob",
-                    "value": 0.75
-                }
-            ]
+            "blackboard": {
+                "atk": 0.8,
+                "prob": 0.75
+            }
         }
     },
     "skchr_shotst_1": {
@@ -899,20 +773,11 @@
             },
             "prefabId": "skchr_shotst_1",
             "duration": -1.0,
-            "blackboard": [
-                {
-                    "key": "atk_scale",
-                    "value": 1.8
-                },
-                {
-                    "key": "def",
-                    "value": -0.35
-                },
-                {
-                    "key": "duration",
-                    "value": 5.0
-                }
-            ]
+            "blackboard": {
+                "atk_scale": 1.8,
+                "def": -0.35,
+                "duration": 5.0
+            }
         }
     },
     "skchr_shotst_2": {
@@ -934,20 +799,11 @@
             },
             "prefabId": "skchr_shotst_2",
             "duration": -1.0,
-            "blackboard": [
-                {
-                    "key": "atk_scale",
-                    "value": 2.0
-                },
-                {
-                    "key": "def",
-                    "value": -0.4
-                },
-                {
-                    "key": "duration",
-                    "value": 5.0
-                }
-            ]
+            "blackboard": {
+                "atk_scale": 2.0,
+                "def": -0.4,
+                "duration": 5.0
+            }
         }
     },
     "skchr_clour_2": {
@@ -969,16 +825,10 @@
             },
             "prefabId": "skchr_clour_2",
             "duration": 20.0,
-            "blackboard": [
-                {
-                    "key": "atk",
-                    "value": 0.45
-                },
-                {
-                    "key": "attack@max_target",
-                    "value": 2.0
-                }
-            ]
+            "blackboard": {
+                "atk": 0.45,
+                "attack@max_target": 2.0
+            }
         }
     },
     "skchr_yuki_1": {
@@ -1000,12 +850,9 @@
             },
             "prefabId": "skchr_yuki_1",
             "duration": 25.0,
-            "blackboard": [
-                {
-                    "key": "ability_range_forward_extend",
-                    "value": 2.0
-                }
-            ]
+            "blackboard": {
+                "ability_range_forward_extend": 2.0
+            }
         }
     },
     "skchr_yuki_2": {
@@ -1027,20 +874,11 @@
             },
             "prefabId": "skchr_yuki_2",
             "duration": 25.0,
-            "blackboard": [
-                {
-                    "key": "attack@atk_scale",
-                    "value": 0.8
-                },
-                {
-                    "key": "attack@duration",
-                    "value": 1.0
-                },
-                {
-                    "key": "attack@move_speed",
-                    "value": -0.35
-                }
-            ]
+            "blackboard": {
+                "attack@atk_scale": 0.8,
+                "attack@duration": 1.0,
+                "attack@move_speed": -0.35
+            }
         }
     },
     "skchr_blackd_2": {
@@ -1062,28 +900,13 @@
             },
             "prefabId": "skchr_blackd_2",
             "duration": 15.0,
-            "blackboard": [
-                {
-                    "key": "blackd_s_2[period].def",
-                    "value": 0.8
-                },
-                {
-                    "key": "blackd_s_2[period].cost",
-                    "value": 1.0
-                },
-                {
-                    "key": "blackd_s_2[period].interval",
-                    "value": 1.87
-                },
-                {
-                    "key": "blackd_s_2[period].trig_cnt",
-                    "value": 8.0
-                },
-                {
-                    "key": "blackd_s_2[once].cost",
-                    "value": 3.0
-                }
-            ]
+            "blackboard": {
+                "blackd_s_2[period].def": 0.8,
+                "blackd_s_2[period].cost": 1.0,
+                "blackd_s_2[period].interval": 1.87,
+                "blackd_s_2[period].trig_cnt": 8.0,
+                "blackd_s_2[once].cost": 3.0
+            }
         }
     },
     "skchr_scave_2": {
@@ -1105,16 +928,10 @@
             },
             "prefabId": "skchr_scave_2",
             "duration": 15.0,
-            "blackboard": [
-                {
-                    "key": "atk",
-                    "value": 0.7
-                },
-                {
-                    "key": "cost",
-                    "value": 11.0
-                }
-            ]
+            "blackboard": {
+                "atk": 0.7,
+                "cost": 11.0
+            }
         }
     },
     "skchr_vigna_1": {
@@ -1136,12 +953,9 @@
             },
             "prefabId": "skchr_vigna_1",
             "duration": 25.0,
-            "blackboard": [
-                {
-                    "key": "atk",
-                    "value": 0.8
-                }
-            ]
+            "blackboard": {
+                "atk": 0.8
+            }
         }
     },
     "skchr_vigna_2": {
@@ -1163,16 +977,10 @@
             },
             "prefabId": "skchr_vigna_2",
             "duration": 30.0,
-            "blackboard": [
-                {
-                    "key": "atk",
-                    "value": 2.0
-                },
-                {
-                    "key": "base_attack_time",
-                    "value": 0.5
-                }
-            ]
+            "blackboard": {
+                "atk": 2.0,
+                "base_attack_time": 0.5
+            }
         }
     },
     "skchr_doberm_1": {
@@ -1194,12 +1002,9 @@
             },
             "prefabId": "skchr_doberm_1",
             "duration": 0.0,
-            "blackboard": [
-                {
-                    "key": "atk_scale",
-                    "value": 2.3
-                }
-            ]
+            "blackboard": {
+                "atk_scale": 2.3
+            }
         }
     },
     "skchr_doberm_2": {
@@ -1221,16 +1026,10 @@
             },
             "prefabId": "skchr_doberm_2",
             "duration": 25.0,
-            "blackboard": [
-                {
-                    "key": "atk",
-                    "value": 0.8
-                },
-                {
-                    "key": "talent_scale",
-                    "value": 3.0
-                }
-            ]
+            "blackboard": {
+                "atk": 0.8,
+                "talent_scale": 3.0
+            }
         }
     },
     "skchr_gyuki_2": {
@@ -1252,12 +1051,9 @@
             },
             "prefabId": "skchr_gyuki_2",
             "duration": 15.0,
-            "blackboard": [
-                {
-                    "key": "atk",
-                    "value": 1.5
-                }
-            ]
+            "blackboard": {
+                "atk": 1.5
+            }
         }
     },
     "skchr_frostl_1": {
@@ -1279,20 +1075,11 @@
             },
             "prefabId": "skchr_frostl_1",
             "duration": -1.0,
-            "blackboard": [
-                {
-                    "key": "move_speed",
-                    "value": -0.5
-                },
-                {
-                    "key": "duration",
-                    "value": 3.0
-                },
-                {
-                    "key": "atk_scale",
-                    "value": 1.5
-                }
-            ]
+            "blackboard": {
+                "move_speed": -0.5,
+                "duration": 3.0,
+                "atk_scale": 1.5
+            }
         }
     },
     "skchr_frostl_2": {
@@ -1314,24 +1101,12 @@
             },
             "prefabId": "skchr_frostl_2",
             "duration": 25.0,
-            "blackboard": [
-                {
-                    "key": "move_speed",
-                    "value": -0.5
-                },
-                {
-                    "key": "attack_speed",
-                    "value": 50.0
-                },
-                {
-                    "key": "prob",
-                    "value": 0.4
-                },
-                {
-                    "key": "debuff",
-                    "value": 2.0
-                }
-            ]
+            "blackboard": {
+                "move_speed": -0.5,
+                "attack_speed": 50.0,
+                "prob": 0.4,
+                "debuff": 2.0
+            }
         }
     },
     "skchr_estell_2": {
@@ -1353,16 +1128,10 @@
             },
             "prefabId": "skchr_estell_2",
             "duration": 15.0,
-            "blackboard": [
-                {
-                    "key": "atk",
-                    "value": 1.5
-                },
-                {
-                    "key": "block_cnt",
-                    "value": 0.0
-                }
-            ]
+            "blackboard": {
+                "atk": 1.5,
+                "block_cnt": 0.0
+            }
         }
     },
     "skchr_frncat_1": {
@@ -1384,20 +1153,11 @@
             },
             "prefabId": "skchr_frncat_1",
             "duration": 0.0,
-            "blackboard": [
-                {
-                    "key": "atk",
-                    "value": 0.75
-                },
-                {
-                    "key": "frncat_s_1[debuff].atk",
-                    "value": -0.4
-                },
-                {
-                    "key": "frncat_s_1[debuff].duration",
-                    "value": 5.0
-                }
-            ]
+            "blackboard": {
+                "atk": 0.75,
+                "frncat_s_1[debuff].atk": -0.4,
+                "frncat_s_1[debuff].duration": 5.0
+            }
         }
     },
     "skchr_frncat_2": {
@@ -1419,16 +1179,10 @@
             },
             "prefabId": "skchr_frncat_2",
             "duration": 40.0,
-            "blackboard": [
-                {
-                    "key": "atk",
-                    "value": 0.75
-                },
-                {
-                    "key": "def",
-                    "value": 0.75
-                }
-            ]
+            "blackboard": {
+                "atk": 0.75,
+                "def": 0.75
+            }
         }
     },
     "skchr_brownb_1": {
@@ -1450,12 +1204,9 @@
             },
             "prefabId": "skchr_brownb_1",
             "duration": 0.0,
-            "blackboard": [
-                {
-                    "key": "prob",
-                    "value": 0.6
-                }
-            ]
+            "blackboard": {
+                "prob": 0.6
+            }
         }
     },
     "skchr_brownb_2": {
@@ -1477,12 +1228,9 @@
             },
             "prefabId": "skchr_brownb_2",
             "duration": 10.0,
-            "blackboard": [
-                {
-                    "key": "base_attack_time",
-                    "value": -0.6
-                }
-            ]
+            "blackboard": {
+                "base_attack_time": -0.6
+            }
         }
     },
     "skchr_gravel_1": {
@@ -1504,16 +1252,10 @@
             },
             "prefabId": "skchr_gravel_1",
             "duration": -1.0,
-            "blackboard": [
-                {
-                    "key": "def",
-                    "value": 4.0
-                },
-                {
-                    "key": "duration",
-                    "value": 12.0
-                }
-            ]
+            "blackboard": {
+                "def": 4.0,
+                "duration": 12.0
+            }
         }
     },
     "skchr_gravel_2": {
@@ -1535,16 +1277,10 @@
             },
             "prefabId": "skchr_gravel_2",
             "duration": -1.0,
-            "blackboard": [
-                {
-                    "key": "hp_ratio",
-                    "value": 2.5
-                },
-                {
-                    "key": "duration",
-                    "value": 10.0
-                }
-            ]
+            "blackboard": {
+                "hp_ratio": 2.5,
+                "duration": 10.0
+            }
         }
     },
     "skchr_rope_1": {
@@ -1566,16 +1302,10 @@
             },
             "prefabId": "skchr_rope_1",
             "duration": 0.0,
-            "blackboard": [
-                {
-                    "key": "atk_scale",
-                    "value": 1.9
-                },
-                {
-                    "key": "force",
-                    "value": 2.0
-                }
-            ]
+            "blackboard": {
+                "atk_scale": 1.9,
+                "force": 2.0
+            }
         }
     },
     "skchr_rope_2": {
@@ -1597,20 +1327,11 @@
             },
             "prefabId": "skchr_rope_2",
             "duration": 0.0,
-            "blackboard": [
-                {
-                    "key": "force",
-                    "value": 2.0
-                },
-                {
-                    "key": "atk_scale",
-                    "value": 2.25
-                },
-                {
-                    "key": "max_target",
-                    "value": 2.0
-                }
-            ]
+            "blackboard": {
+                "force": 2.0,
+                "atk_scale": 2.25,
+                "max_target": 2.0
+            }
         }
     },
     "skchr_myrrh_1": {
@@ -1632,16 +1353,10 @@
             },
             "prefabId": "skchr_myrrh_1",
             "duration": 0.0,
-            "blackboard": [
-                {
-                    "key": "heal_scale",
-                    "value": 1.25
-                },
-                {
-                    "key": "ct",
-                    "value": 3.0
-                }
-            ]
+            "blackboard": {
+                "heal_scale": 1.25,
+                "ct": 3.0
+            }
         }
     },
     "skchr_myrrh_2": {
@@ -1663,16 +1378,10 @@
             },
             "prefabId": "skchr_myrrh_2",
             "duration": 25.0,
-            "blackboard": [
-                {
-                    "key": "atk",
-                    "value": 0.65
-                },
-                {
-                    "key": "attack_speed",
-                    "value": 0.0
-                }
-            ]
+            "blackboard": {
+                "atk": 0.65,
+                "attack_speed": 0.0
+            }
         }
     },
     "skchr_ccheal_1": {
@@ -1694,32 +1403,14 @@
             },
             "prefabId": "skchr_ccheal_1",
             "duration": -1.0,
-            "blackboard": [
-                {
-                    "key": "heal_scale",
-                    "value": 0.35
-                },
-                {
-                    "key": "heal_scale_2",
-                    "value": 0.7
-                },
-                {
-                    "key": "hp_ratio",
-                    "value": 0.5
-                },
-                {
-                    "key": "interval",
-                    "value": 1.0
-                },
-                {
-                    "key": "duration",
-                    "value": 5.0
-                },
-                {
-                    "key": "ct",
-                    "value": 2.0
-                }
-            ]
+            "blackboard": {
+                "heal_scale": 0.35,
+                "heal_scale_2": 0.7,
+                "hp_ratio": 0.5,
+                "interval": 1.0,
+                "duration": 5.0,
+                "ct": 2.0
+            }
         }
     },
     "skchr_ccheal_2": {
@@ -1741,28 +1432,13 @@
             },
             "prefabId": "skchr_ccheal_2",
             "duration": -1.0,
-            "blackboard": [
-                {
-                    "key": "heal_scale",
-                    "value": 0.3
-                },
-                {
-                    "key": "heal_scale_2",
-                    "value": 0.8
-                },
-                {
-                    "key": "hp_ratio",
-                    "value": 0.5
-                },
-                {
-                    "key": "interval",
-                    "value": 1.0
-                },
-                {
-                    "key": "duration",
-                    "value": 10.0
-                }
-            ]
+            "blackboard": {
+                "heal_scale": 0.3,
+                "heal_scale_2": 0.8,
+                "hp_ratio": 0.5,
+                "interval": 1.0,
+                "duration": 10.0
+            }
         }
     },
     "skchr_flower_2": {
@@ -1784,16 +1460,10 @@
             },
             "prefabId": "skchr_flower_2",
             "duration": 30.0,
-            "blackboard": [
-                {
-                    "key": "atk",
-                    "value": 2.5
-                },
-                {
-                    "key": "attack_speed",
-                    "value": -50.0
-                }
-            ]
+            "blackboard": {
+                "atk": 2.5,
+                "attack_speed": -50.0
+            }
         }
     },
     "skchr_plosis_2": {
@@ -1815,12 +1485,9 @@
             },
             "prefabId": "skchr_plosis_2",
             "duration": 40.0,
-            "blackboard": [
-                {
-                    "key": "base_attack_time",
-                    "value": -2.1
-                }
-            ]
+            "blackboard": {
+                "base_attack_time": -2.1
+            }
         }
     },
     "skchr_headbr_2": {
@@ -1842,28 +1509,13 @@
             },
             "prefabId": "skchr_headbr_2",
             "duration": 10.0,
-            "blackboard": [
-                {
-                    "key": "value",
-                    "value": 12.0
-                },
-                {
-                    "key": "atk",
-                    "value": 0.6
-                },
-                {
-                    "key": "def",
-                    "value": 0.6
-                },
-                {
-                    "key": "interval",
-                    "value": 0.83
-                },
-                {
-                    "key": "cost",
-                    "value": 1.0
-                }
-            ]
+            "blackboard": {
+                "value": 12.0,
+                "atk": 0.6,
+                "def": 0.6,
+                "interval": 0.83,
+                "cost": 1.0
+            }
         }
     },
     "skchr_snakek_2": {
@@ -1885,20 +1537,11 @@
             },
             "prefabId": "skchr_snakek_2",
             "duration": 30.0,
-            "blackboard": [
-                {
-                    "key": "def",
-                    "value": 1.3
-                },
-                {
-                    "key": "block_cnt",
-                    "value": 1.0
-                },
-                {
-                    "key": "hp_recovery_per_sec_by_max_hp_ratio",
-                    "value": 0.03
-                }
-            ]
+            "blackboard": {
+                "def": 1.3,
+                "block_cnt": 1.0,
+                "hp_recovery_per_sec_by_max_hp_ratio": 0.03
+            }
         }
     },
     "skchr_yak_1": {
@@ -1920,16 +1563,10 @@
             },
             "prefabId": "skchr_yak_1",
             "duration": 30.0,
-            "blackboard": [
-                {
-                    "key": "max_hp",
-                    "value": 0.7
-                },
-                {
-                    "key": "hp_recovery_per_sec",
-                    "value": 40.0
-                }
-            ]
+            "blackboard": {
+                "max_hp": 0.7,
+                "hp_recovery_per_sec": 40.0
+            }
         }
     },
     "skchr_yak_2": {
@@ -1951,20 +1588,11 @@
             },
             "prefabId": "skchr_yak_2",
             "duration": 30.0,
-            "blackboard": [
-                {
-                    "key": "max_hp",
-                    "value": 0.5
-                },
-                {
-                    "key": "def",
-                    "value": 0.3
-                },
-                {
-                    "key": "magic_resistance",
-                    "value": 1.0
-                }
-            ]
+            "blackboard": {
+                "max_hp": 0.5,
+                "def": 0.3,
+                "magic_resistance": 1.0
+            }
         }
     },
     "skchr_sunbr_1": {
@@ -1986,16 +1614,10 @@
             },
             "prefabId": "skchr_sunbr_1",
             "duration": 0.0,
-            "blackboard": [
-                {
-                    "key": "heal_scale",
-                    "value": 1.6
-                },
-                {
-                    "key": "ct",
-                    "value": 3.0
-                }
-            ]
+            "blackboard": {
+                "heal_scale": 1.6,
+                "ct": 3.0
+            }
         }
     },
     "skchr_sunbr_2": {
@@ -2017,24 +1639,12 @@
             },
             "prefabId": "skchr_sunbr_2",
             "duration": 30.0,
-            "blackboard": [
-                {
-                    "key": "atk",
-                    "value": 0.8
-                },
-                {
-                    "key": "base_attack_time",
-                    "value": 1.3
-                },
-                {
-                    "key": "disarm",
-                    "value": 10.0
-                },
-                {
-                    "key": "def",
-                    "value": 0.8
-                }
-            ]
+            "blackboard": {
+                "atk": 0.8,
+                "base_attack_time": 1.3,
+                "disarm": 10.0,
+                "def": 0.8
+            }
         }
     },
     "skchr_texas_2": {
@@ -2056,24 +1666,12 @@
             },
             "prefabId": "skchr_texas_2",
             "duration": 0.0,
-            "blackboard": [
-                {
-                    "key": "cost",
-                    "value": 12.0
-                },
-                {
-                    "key": "atk_scale",
-                    "value": 1.7
-                },
-                {
-                    "key": "stun",
-                    "value": 3.0
-                },
-                {
-                    "key": "atk",
-                    "value": 0.95
-                }
-            ]
+            "blackboard": {
+                "cost": 12.0,
+                "atk_scale": 1.7,
+                "stun": 3.0,
+                "atk": 0.95
+            }
         }
     },
     "skchr_grani_2": {
@@ -2095,20 +1693,11 @@
             },
             "prefabId": "skchr_grani_2",
             "duration": 30.0,
-            "blackboard": [
-                {
-                    "key": "atk",
-                    "value": 0.8
-                },
-                {
-                    "key": "def",
-                    "value": 0.8
-                },
-                {
-                    "key": "block_cnt",
-                    "value": 1.0
-                }
-            ]
+            "blackboard": {
+                "atk": 0.8,
+                "def": 0.8,
+                "block_cnt": 1.0
+            }
         }
     },
     "skchr_swire_1": {
@@ -2130,20 +1719,11 @@
             },
             "prefabId": "skchr_swire_1",
             "duration": 35.0,
-            "blackboard": [
-                {
-                    "key": "talent_scale",
-                    "value": 2.0
-                },
-                {
-                    "key": "talent_range_flag",
-                    "value": 1.0
-                },
-                {
-                    "key": "atk",
-                    "value": 0.105
-                }
-            ]
+            "blackboard": {
+                "talent_scale": 2.0,
+                "talent_range_flag": 1.0,
+                "atk": 0.105
+            }
         }
     },
     "skchr_swire_2": {
@@ -2165,16 +1745,10 @@
             },
             "prefabId": "skchr_swire_2",
             "duration": 30.0,
-            "blackboard": [
-                {
-                    "key": "talent_scale",
-                    "value": 3.0
-                },
-                {
-                    "key": "atk",
-                    "value": 0.8
-                }
-            ]
+            "blackboard": {
+                "talent_scale": 3.0,
+                "atk": 0.8
+            }
         }
     },
     "skchr_franka_2": {
@@ -2196,16 +1770,10 @@
             },
             "prefabId": "skchr_franka_2",
             "duration": 30.0,
-            "blackboard": [
-                {
-                    "key": "atk",
-                    "value": 1.0
-                },
-                {
-                    "key": "talent_scale",
-                    "value": 2.5
-                }
-            ]
+            "blackboard": {
+                "atk": 1.0,
+                "talent_scale": 2.5
+            }
         }
     },
     "skchr_flameb_1": {
@@ -2227,16 +1795,10 @@
             },
             "prefabId": "skchr_flameb_1",
             "duration": 0.0,
-            "blackboard": [
-                {
-                    "key": "atk_scale",
-                    "value": 2.2
-                },
-                {
-                    "key": "hp_ratio",
-                    "value": 0.08
-                }
-            ]
+            "blackboard": {
+                "atk_scale": 2.2,
+                "hp_ratio": 0.08
+            }
         }
     },
     "skchr_flameb_2": {
@@ -2258,16 +1820,10 @@
             },
             "prefabId": "skchr_flameb_2",
             "duration": 0.0,
-            "blackboard": [
-                {
-                    "key": "atk",
-                    "value": 0.7
-                },
-                {
-                    "key": "attack_speed",
-                    "value": 45.0
-                }
-            ]
+            "blackboard": {
+                "atk": 0.7,
+                "attack_speed": 45.0
+            }
         }
     },
     "skchr_tiger_1": {
@@ -2289,16 +1845,10 @@
             },
             "prefabId": "skchr_tiger_1",
             "duration": 0.0,
-            "blackboard": [
-                {
-                    "key": "atk",
-                    "value": 1.4
-                },
-                {
-                    "key": "def_penetrate",
-                    "value": 0.6
-                }
-            ]
+            "blackboard": {
+                "atk": 1.4,
+                "def_penetrate": 0.6
+            }
         }
     },
     "skchr_tiger_2": {
@@ -2320,16 +1870,10 @@
             },
             "prefabId": "skchr_tiger_2",
             "duration": 25.0,
-            "blackboard": [
-                {
-                    "key": "atk",
-                    "value": 1.2
-                },
-                {
-                    "key": "heal_scale",
-                    "value": 0.25
-                }
-            ]
+            "blackboard": {
+                "atk": 1.2,
+                "heal_scale": 0.25
+            }
         }
     },
     "skchr_whitew_1": {
@@ -2351,16 +1895,10 @@
             },
             "prefabId": "skchr_whitew_1",
             "duration": -1.0,
-            "blackboard": [
-                {
-                    "key": "atk",
-                    "value": 0.7
-                },
-                {
-                    "key": "prob",
-                    "value": 0.4
-                }
-            ]
+            "blackboard": {
+                "atk": 0.7,
+                "prob": 0.4
+            }
         }
     },
     "skchr_whitew_2": {
@@ -2382,12 +1920,9 @@
             },
             "prefabId": "skchr_whitew_2",
             "duration": 20.0,
-            "blackboard": [
-                {
-                    "key": "atk",
-                    "value": 1.2
-                }
-            ]
+            "blackboard": {
+                "atk": 1.2
+            }
         }
     },
     "skchr_ghost_2": {
@@ -2409,16 +1944,10 @@
             },
             "prefabId": "skchr_ghost_2",
             "duration": 15.0,
-            "blackboard": [
-                {
-                    "key": "atk",
-                    "value": 1.6
-                },
-                {
-                    "key": "stun",
-                    "value": 10.0
-                }
-            ]
+            "blackboard": {
+                "atk": 1.6,
+                "stun": 10.0
+            }
         }
     },
     "skchr_savage_1": {
@@ -2440,12 +1969,9 @@
             },
             "prefabId": "skchr_savage_1",
             "duration": 0.0,
-            "blackboard": [
-                {
-                    "key": "atk_scale",
-                    "value": 2.3
-                }
-            ]
+            "blackboard": {
+                "atk_scale": 2.3
+            }
         }
     },
     "skchr_savage_2": {
@@ -2467,16 +1993,10 @@
             },
             "prefabId": "skchr_savage_2",
             "duration": 0.0,
-            "blackboard": [
-                {
-                    "key": "max_target",
-                    "value": 5.0
-                },
-                {
-                    "key": "atk_scale",
-                    "value": 4.0
-                }
-            ]
+            "blackboard": {
+                "max_target": 5.0,
+                "atk_scale": 4.0
+            }
         }
     },
     "skchr_bluep_1": {
@@ -2498,12 +2018,9 @@
             },
             "prefabId": "skchr_bluep_1",
             "duration": -1.0,
-            "blackboard": [
-                {
-                    "key": "atk_scale",
-                    "value": 2.0
-                }
-            ]
+            "blackboard": {
+                "atk_scale": 2.0
+            }
         }
     },
     "skchr_bluep_2": {
@@ -2525,16 +2042,10 @@
             },
             "prefabId": "skchr_bluep_2",
             "duration": 30.0,
-            "blackboard": [
-                {
-                    "key": "atk",
-                    "value": 0.5
-                },
-                {
-                    "key": "attack@times",
-                    "value": 2.0
-                }
-            ]
+            "blackboard": {
+                "atk": 0.5,
+                "attack@times": 2.0
+            }
         }
     },
     "skchr_platnm_2": {
@@ -2556,16 +2067,10 @@
             },
             "prefabId": "skchr_platnm_2",
             "duration": 0.0,
-            "blackboard": [
-                {
-                    "key": "attack_speed",
-                    "value": -20.0
-                },
-                {
-                    "key": "atk",
-                    "value": 1.0
-                }
-            ]
+            "blackboard": {
+                "attack_speed": -20.0,
+                "atk": 1.0
+            }
         }
     },
     "skchr_meteo_1": {
@@ -2587,12 +2092,9 @@
             },
             "prefabId": "skchr_meteo_1",
             "duration": 0.0,
-            "blackboard": [
-                {
-                    "key": "atk_scale",
-                    "value": 2.15
-                }
-            ]
+            "blackboard": {
+                "atk_scale": 2.15
+            }
         }
     },
     "skchr_meteo_2": {
@@ -2614,20 +2116,11 @@
             },
             "prefabId": "skchr_meteo_2",
             "duration": -1.0,
-            "blackboard": [
-                {
-                    "key": "atk_scale",
-                    "value": 3.0
-                },
-                {
-                    "key": "def",
-                    "value": -330.0
-                },
-                {
-                    "key": "duration",
-                    "value": 10.0
-                }
-            ]
+            "blackboard": {
+                "atk_scale": 3.0,
+                "def": -330.0,
+                "duration": 10.0
+            }
         }
     },
     "skchr_excu_1": {
@@ -2649,16 +2142,10 @@
             },
             "prefabId": "skchr_excu_1",
             "duration": 35.0,
-            "blackboard": [
-                {
-                    "key": "atk",
-                    "value": 0.7
-                },
-                {
-                    "key": "atk_scale",
-                    "value": 1.5
-                }
-            ]
+            "blackboard": {
+                "atk": 0.7,
+                "atk_scale": 1.5
+            }
         }
     },
     "skchr_excu_2": {
@@ -2680,12 +2167,9 @@
             },
             "prefabId": "skchr_excu_2",
             "duration": 20.0,
-            "blackboard": [
-                {
-                    "key": "base_attack_time",
-                    "value": -0.9
-                }
-            ]
+            "blackboard": {
+                "base_attack_time": -0.9
+            }
         }
     },
     "skchr_amiya_2": {
@@ -2707,20 +2191,11 @@
             },
             "prefabId": "skchr_amiya_2",
             "duration": 25.0,
-            "blackboard": [
-                {
-                    "key": "attack@atk_scale",
-                    "value": 0.6
-                },
-                {
-                    "key": "attack@times",
-                    "value": 8.0
-                },
-                {
-                    "key": "stun",
-                    "value": 10.0
-                }
-            ]
+            "blackboard": {
+                "attack@atk_scale": 0.6,
+                "attack@times": 8.0,
+                "stun": 10.0
+            }
         }
     },
     "skchr_amiya_3": {
@@ -2742,16 +2217,10 @@
             },
             "prefabId": "skchr_amiya_3",
             "duration": 30.0,
-            "blackboard": [
-                {
-                    "key": "atk",
-                    "value": 2.3
-                },
-                {
-                    "key": "max_hp",
-                    "value": 1.0
-                }
-            ]
+            "blackboard": {
+                "atk": 2.3,
+                "max_hp": 1.0
+            }
         }
     },
     "skchr_nightm_1": {
@@ -2773,16 +2242,10 @@
             },
             "prefabId": "skchr_nightm_1",
             "duration": 60.0,
-            "blackboard": [
-                {
-                    "key": "attack@heal_scale",
-                    "value": 1.0
-                },
-                {
-                    "key": "attack@max_target",
-                    "value": 2.0
-                }
-            ]
+            "blackboard": {
+                "attack@heal_scale": 1.0,
+                "attack@max_target": 2.0
+            }
         }
     },
     "skchr_nightm_2": {
@@ -2804,28 +2267,13 @@
             },
             "prefabId": "skchr_nightm_2",
             "duration": -1.0,
-            "blackboard": [
-                {
-                    "key": "move_speed",
-                    "value": -0.6
-                },
-                {
-                    "key": "max_target",
-                    "value": 5.0
-                },
-                {
-                    "key": "interval",
-                    "value": 0.33
-                },
-                {
-                    "key": "value",
-                    "value": 800.0
-                },
-                {
-                    "key": "duration",
-                    "value": 10.0
-                }
-            ]
+            "blackboard": {
+                "move_speed": -0.6,
+                "max_target": 5.0,
+                "interval": 0.33,
+                "value": 800.0,
+                "duration": 10.0
+            }
         }
     },
     "skchr_skfire_2": {
@@ -2847,20 +2295,11 @@
             },
             "prefabId": "skchr_skfire_2",
             "duration": 40.0,
-            "blackboard": [
-                {
-                    "key": "base_attack_time",
-                    "value": 0.7
-                },
-                {
-                    "key": "attack@atk_scale",
-                    "value": 2.4
-                },
-                {
-                    "key": "attack@stun",
-                    "value": 1.0
-                }
-            ]
+            "blackboard": {
+                "base_attack_time": 0.7,
+                "attack@atk_scale": 2.4,
+                "attack@stun": 1.0
+            }
         }
     },
     "skchr_otter_1": {
@@ -2882,12 +2321,9 @@
             },
             "prefabId": null,
             "duration": 0.0,
-            "blackboard": [
-                {
-                    "key": "prob",
-                    "value": 0.35
-                }
-            ]
+            "blackboard": {
+                "prob": 0.35
+            }
         }
     },
     "sktok_motter_1": {
@@ -2909,12 +2345,9 @@
             },
             "prefabId": "sktok_motter_1",
             "duration": 0.0,
-            "blackboard": [
-                {
-                    "key": "prob",
-                    "value": 0.35
-                }
-            ]
+            "blackboard": {
+                "prob": 0.35
+            }
         }
     },
     "skchr_otter_2": {
@@ -2936,16 +2369,10 @@
             },
             "prefabId": "skchr_otter_2",
             "duration": 0.0,
-            "blackboard": [
-                {
-                    "key": "atk_scale",
-                    "value": 6.0
-                },
-                {
-                    "key": "stun",
-                    "value": 2.0
-                }
-            ]
+            "blackboard": {
+                "atk_scale": 6.0,
+                "stun": 2.0
+            }
         }
     },
     "sktok_motter_2": {
@@ -2967,16 +2394,10 @@
             },
             "prefabId": "sktok_motter_2",
             "duration": 0.0,
-            "blackboard": [
-                {
-                    "key": "atk_scale",
-                    "value": 6.0
-                },
-                {
-                    "key": "stun",
-                    "value": 2.0
-                }
-            ]
+            "blackboard": {
+                "atk_scale": 6.0,
+                "stun": 2.0
+            }
         }
     },
     "skchr_silent_2": {
@@ -2998,12 +2419,9 @@
             },
             "prefabId": "skchr_silent_2",
             "duration": 0.0,
-            "blackboard": [
-                {
-                    "key": "cnt",
-                    "value": 1.0
-                }
-            ]
+            "blackboard": {
+                "cnt": 1.0
+            }
         }
     },
     "skchr_bldsk_1": {
@@ -3025,16 +2443,10 @@
             },
             "prefabId": "skchr_bldsk_1",
             "duration": 0.0,
-            "blackboard": [
-                {
-                    "key": "hp_ratio",
-                    "value": 0.25
-                },
-                {
-                    "key": "ct",
-                    "value": 4.0
-                }
-            ]
+            "blackboard": {
+                "hp_ratio": 0.25,
+                "ct": 4.0
+            }
         }
     },
     "skchr_bldsk_2": {
@@ -3056,24 +2468,12 @@
             },
             "prefabId": "skchr_bldsk_2",
             "duration": -1.0,
-            "blackboard": [
-                {
-                    "key": "atk",
-                    "value": 0.9
-                },
-                {
-                    "key": "hp_ratio",
-                    "value": 0.03
-                },
-                {
-                    "key": "interval",
-                    "value": 1.0
-                },
-                {
-                    "key": "duration",
-                    "value": 15.0
-                }
-            ]
+            "blackboard": {
+                "atk": 0.9,
+                "hp_ratio": 0.03,
+                "interval": 1.0,
+                "duration": 15.0
+            }
         }
     },
     "skchr_deepcl_1": {
@@ -3095,20 +2495,11 @@
             },
             "prefabId": "skchr_deepcl_1",
             "duration": 30.0,
-            "blackboard": [
-                {
-                    "key": "atk",
-                    "value": 0.6
-                },
-                {
-                    "key": "def",
-                    "value": 0.6
-                },
-                {
-                    "key": "hp_recovery_per_sec",
-                    "value": 70.0
-                }
-            ]
+            "blackboard": {
+                "atk": 0.6,
+                "def": 0.6,
+                "hp_recovery_per_sec": 70.0
+            }
         }
     },
     "skchr_deepcl_2": {
@@ -3130,12 +2521,9 @@
             },
             "prefabId": "skchr_deepcl_2",
             "duration": 55.0,
-            "blackboard": [
-                {
-                    "key": "prob",
-                    "value": 0.5
-                }
-            ]
+            "blackboard": {
+                "prob": 0.5
+            }
         }
     },
     "skchr_skgoat_2": {
@@ -3157,16 +2545,10 @@
             },
             "prefabId": "skchr_skgoat_2",
             "duration": 25.0,
-            "blackboard": [
-                {
-                    "key": "interval",
-                    "value": 1.4
-                },
-                {
-                    "key": "sluggish",
-                    "value": 0.8
-                }
-            ]
+            "blackboard": {
+                "interval": 1.4,
+                "sluggish": 0.8
+            }
         }
     },
     "skchr_sqrrel_1": {
@@ -3188,16 +2570,10 @@
             },
             "prefabId": "skchr_sqrrel_1",
             "duration": 0.0,
-            "blackboard": [
-                {
-                    "key": "atk_scale",
-                    "value": 1.5
-                },
-                {
-                    "key": "force",
-                    "value": 2.0
-                }
-            ]
+            "blackboard": {
+                "atk_scale": 1.5,
+                "force": 2.0
+            }
         }
     },
     "skchr_sqrrel_2": {
@@ -3219,16 +2595,10 @@
             },
             "prefabId": "skchr_sqrrel_2",
             "duration": 0.0,
-            "blackboard": [
-                {
-                    "key": "atk_scale",
-                    "value": 3.0
-                },
-                {
-                    "key": "force",
-                    "value": 2.0
-                }
-            ]
+            "blackboard": {
+                "atk_scale": 3.0,
+                "force": 2.0
+            }
         }
     },
     "skchr_nearl_1": {
@@ -3250,16 +2620,10 @@
             },
             "prefabId": "skchr_nearl_1",
             "duration": 0.0,
-            "blackboard": [
-                {
-                    "key": "heal_scale",
-                    "value": 1.8
-                },
-                {
-                    "key": "ct",
-                    "value": 3.0
-                }
-            ]
+            "blackboard": {
+                "heal_scale": 1.8,
+                "ct": 3.0
+            }
         }
     },
     "skchr_nearl_2": {
@@ -3281,16 +2645,10 @@
             },
             "prefabId": "skchr_nearl_2",
             "duration": 40.0,
-            "blackboard": [
-                {
-                    "key": "atk",
-                    "value": 0.8
-                },
-                {
-                    "key": "base_attack_time",
-                    "value": 1.3
-                }
-            ]
+            "blackboard": {
+                "atk": 0.8,
+                "base_attack_time": 1.3
+            }
         }
     },
     "skchr_red_1": {
@@ -3312,16 +2670,10 @@
             },
             "prefabId": "skchr_red_1",
             "duration": 10.0,
-            "blackboard": [
-                {
-                    "key": "atk",
-                    "value": 0.8
-                },
-                {
-                    "key": "prob",
-                    "value": 0.5
-                }
-            ]
+            "blackboard": {
+                "atk": 0.8,
+                "prob": 0.5
+            }
         }
     },
     "skchr_red_2": {
@@ -3343,16 +2695,10 @@
             },
             "prefabId": "skchr_red_2",
             "duration": 0.0,
-            "blackboard": [
-                {
-                    "key": "atk_scale",
-                    "value": 2.5
-                },
-                {
-                    "key": "stun",
-                    "value": 3.0
-                }
-            ]
+            "blackboard": {
+                "atk_scale": 2.5,
+                "stun": 3.0
+            }
         }
     },
     "skchr_liskam_1": {
@@ -3374,16 +2720,10 @@
             },
             "prefabId": "skchr_liskam_1",
             "duration": -1.0,
-            "blackboard": [
-                {
-                    "key": "def",
-                    "value": 1.0
-                },
-                {
-                    "key": "duration",
-                    "value": 8.0
-                }
-            ]
+            "blackboard": {
+                "def": 1.0,
+                "duration": 8.0
+            }
         }
     },
     "skchr_liskam_2": {
@@ -3405,32 +2745,14 @@
             },
             "prefabId": "skchr_liskam_2",
             "duration": 20.0,
-            "blackboard": [
-                {
-                    "key": "atk",
-                    "value": 2.0
-                },
-                {
-                    "key": "base_attack_time",
-                    "value": 0.7
-                },
-                {
-                    "key": "attack@buff_prob",
-                    "value": 0.25
-                },
-                {
-                    "key": "attack@stun",
-                    "value": 1.0
-                },
-                {
-                    "key": "stun",
-                    "value": 5.0
-                },
-                {
-                    "key": "attack@max_target",
-                    "value": 4.0
-                }
-            ]
+            "blackboard": {
+                "atk": 2.0,
+                "base_attack_time": 0.7,
+                "attack@buff_prob": 0.25,
+                "attack@stun": 1.0,
+                "stun": 5.0,
+                "attack@max_target": 4.0
+            }
         }
     },
     "skchr_moeshd_1": {
@@ -3452,16 +2774,10 @@
             },
             "prefabId": "skchr_moeshd_1",
             "duration": 30.0,
-            "blackboard": [
-                {
-                    "key": "def",
-                    "value": 0.7
-                },
-                {
-                    "key": "talent_scale",
-                    "value": 2.0
-                }
-            ]
+            "blackboard": {
+                "def": 0.7,
+                "talent_scale": 2.0
+            }
         }
     },
     "skchr_moeshd_2": {
@@ -3483,20 +2799,11 @@
             },
             "prefabId": "skchr_moeshd_2",
             "duration": 0.0,
-            "blackboard": [
-                {
-                    "key": "force",
-                    "value": 3.0
-                },
-                {
-                    "key": "atk_scale",
-                    "value": 4.8
-                },
-                {
-                    "key": "stun",
-                    "value": 4.0
-                }
-            ]
+            "blackboard": {
+                "force": 3.0,
+                "atk_scale": 4.8,
+                "stun": 4.0
+            }
         }
     },
     "skchr_hpsts_1": {
@@ -3518,20 +2825,11 @@
             },
             "prefabId": "skchr_hpsts_1",
             "duration": 30.0,
-            "blackboard": [
-                {
-                    "key": "def",
-                    "value": 1.2
-                },
-                {
-                    "key": "block_cnt",
-                    "value": 1.0
-                },
-                {
-                    "key": "hp_recovery_per_sec_by_max_hp_ratio",
-                    "value": 0.05
-                }
-            ]
+            "blackboard": {
+                "def": 1.2,
+                "block_cnt": 1.0,
+                "hp_recovery_per_sec_by_max_hp_ratio": 0.05
+            }
         }
     },
     "skchr_hpsts_2": {
@@ -3553,24 +2851,12 @@
             },
             "prefabId": "skchr_hpsts_2",
             "duration": 30.0,
-            "blackboard": [
-                {
-                    "key": "atk",
-                    "value": 1.5
-                },
-                {
-                    "key": "base_attack_time",
-                    "value": 0.4
-                },
-                {
-                    "key": "hp_ratio",
-                    "value": 0.1
-                },
-                {
-                    "key": "block_cnt",
-                    "value": -1.0
-                }
-            ]
+            "blackboard": {
+                "atk": 1.5,
+                "base_attack_time": 0.4,
+                "hp_ratio": 0.1,
+                "block_cnt": -1.0
+            }
         }
     },
     "skchr_prove_1": {
@@ -3592,16 +2878,10 @@
             },
             "prefabId": "skchr_prove_1",
             "duration": 0.0,
-            "blackboard": [
-                {
-                    "key": "hp_ratio_drop",
-                    "value": 0.2
-                },
-                {
-                    "key": "atk_scale_up",
-                    "value": 0.25
-                }
-            ]
+            "blackboard": {
+                "hp_ratio_drop": 0.2,
+                "atk_scale_up": 0.25
+            }
         }
     },
     "skchr_prove_2": {
@@ -3623,12 +2903,9 @@
             },
             "prefabId": "skchr_prove_2",
             "duration": 35.0,
-            "blackboard": [
-                {
-                    "key": "atk",
-                    "value": 2.2
-                }
-            ]
+            "blackboard": {
+                "atk": 2.2
+            }
         }
     },
     "skchr_milu_1": {
@@ -3650,12 +2927,9 @@
             },
             "prefabId": "skchr_milu_1",
             "duration": 50.0,
-            "blackboard": [
-                {
-                    "key": "atk",
-                    "value": 0.7
-                }
-            ]
+            "blackboard": {
+                "atk": 0.7
+            }
         }
     },
     "skchr_milu_2": {
@@ -3677,16 +2951,10 @@
             },
             "prefabId": "skchr_milu_2",
             "duration": 0.0,
-            "blackboard": [
-                {
-                    "key": "max_cnt",
-                    "value": 3.0
-                },
-                {
-                    "key": "atk_scale",
-                    "value": 3.0
-                }
-            ]
+            "blackboard": {
+                "max_cnt": 3.0,
+                "atk_scale": 3.0
+            }
         }
     },
     "skchr_slchan_1": {
@@ -3708,16 +2976,10 @@
             },
             "prefabId": "skchr_slchan_1",
             "duration": 0.0,
-            "blackboard": [
-                {
-                    "key": "atk_scale",
-                    "value": 1.8
-                },
-                {
-                    "key": "force",
-                    "value": 2.0
-                }
-            ]
+            "blackboard": {
+                "atk_scale": 1.8,
+                "force": 2.0
+            }
         }
     },
     "skchr_slchan_2": {
@@ -3739,24 +3001,12 @@
             },
             "prefabId": "skchr_slchan_2",
             "duration": 0.0,
-            "blackboard": [
-                {
-                    "key": "atk_scale",
-                    "value": 2.0
-                },
-                {
-                    "key": "stun",
-                    "value": 3.0
-                },
-                {
-                    "key": "max_target",
-                    "value": 3.0
-                },
-                {
-                    "key": "force",
-                    "value": 2.0
-                }
-            ]
+            "blackboard": {
+                "atk_scale": 2.0,
+                "stun": 3.0,
+                "max_target": 3.0,
+                "force": 2.0
+            }
         }
     },
     "skchr_slbell_1": {
@@ -3778,16 +3028,10 @@
             },
             "prefabId": "skchr_slbell_1",
             "duration": 20.0,
-            "blackboard": [
-                {
-                    "key": "attack_speed",
-                    "value": -60.0
-                },
-                {
-                    "key": "attack@max_target",
-                    "value": 2.0
-                }
-            ]
+            "blackboard": {
+                "attack_speed": -60.0,
+                "attack@max_target": 2.0
+            }
         }
     },
     "skchr_slbell_2": {
@@ -3809,16 +3053,10 @@
             },
             "prefabId": "skchr_slbell_2",
             "duration": 25.0,
-            "blackboard": [
-                {
-                    "key": "def",
-                    "value": -0.6
-                },
-                {
-                    "key": "magic_resistance",
-                    "value": -0.3
-                }
-            ]
+            "blackboard": {
+                "def": -0.6,
+                "magic_resistance": -0.3
+            }
         }
     },
     "skchr_glassb_1": {
@@ -3840,12 +3078,9 @@
             },
             "prefabId": "skchr_glassb_1",
             "duration": 30.0,
-            "blackboard": [
-                {
-                    "key": "base_attack_time",
-                    "value": -1.1
-                }
-            ]
+            "blackboard": {
+                "base_attack_time": -1.1
+            }
         }
     },
     "skchr_glassb_2": {
@@ -3867,16 +3102,10 @@
             },
             "prefabId": "skchr_glassb_2",
             "duration": 25.0,
-            "blackboard": [
-                {
-                    "key": "atk",
-                    "value": 0.75
-                },
-                {
-                    "key": "max_target",
-                    "value": 3.0
-                }
-            ]
+            "blackboard": {
+                "atk": 0.75,
+                "max_target": 3.0
+            }
         }
     },
     "skchr_sora_1": {
@@ -3898,12 +3127,9 @@
             },
             "prefabId": "skchr_sora_1",
             "duration": 7.0,
-            "blackboard": [
-                {
-                    "key": "attack@atk_to_hp_recovery_ratio",
-                    "value": 1.0
-                }
-            ]
+            "blackboard": {
+                "attack@atk_to_hp_recovery_ratio": 1.0
+            }
         }
     },
     "skchr_sora_2": {
@@ -3925,12 +3151,9 @@
             },
             "prefabId": "skchr_sora_2",
             "duration": 30.0,
-            "blackboard": [
-                {
-                    "key": "atk",
-                    "value": 1.0
-                }
-            ]
+            "blackboard": {
+                "atk": 1.0
+            }
         }
     },
     "skchr_mantic_1": {
@@ -3952,16 +3175,10 @@
             },
             "prefabId": "skchr_mantic_1",
             "duration": -1.0,
-            "blackboard": [
-                {
-                    "key": "move_speed",
-                    "value": -0.5
-                },
-                {
-                    "key": "duration",
-                    "value": 5.0
-                }
-            ]
+            "blackboard": {
+                "move_speed": -0.5,
+                "duration": 5.0
+            }
         }
     },
     "skchr_mantic_2": {
@@ -3983,20 +3200,11 @@
             },
             "prefabId": "skchr_mantic_2",
             "duration": 40.0,
-            "blackboard": [
-                {
-                    "key": "base_attack_time",
-                    "value": 1.7
-                },
-                {
-                    "key": "atk",
-                    "value": 0.9
-                },
-                {
-                    "key": "attack@stun",
-                    "value": 1.0
-                }
-            ]
+            "blackboard": {
+                "base_attack_time": 1.7,
+                "atk": 0.9,
+                "attack@stun": 1.0
+            }
         }
     },
     "skchr_panda_1": {
@@ -4018,20 +3226,11 @@
             },
             "prefabId": "skchr_panda_1",
             "duration": -1.0,
-            "blackboard": [
-                {
-                    "key": "duration",
-                    "value": 5.0
-                },
-                {
-                    "key": "move_speed",
-                    "value": -0.3
-                },
-                {
-                    "key": "force",
-                    "value": 2.0
-                }
-            ]
+            "blackboard": {
+                "duration": 5.0,
+                "move_speed": -0.3,
+                "force": 2.0
+            }
         }
     },
     "skchr_panda_2": {
@@ -4053,24 +3252,12 @@
             },
             "prefabId": "skchr_panda_2",
             "duration": -1.0,
-            "blackboard": [
-                {
-                    "key": "atk_scale",
-                    "value": 2.5
-                },
-                {
-                    "key": "move_speed",
-                    "value": -0.3
-                },
-                {
-                    "key": "force",
-                    "value": 3.0
-                },
-                {
-                    "key": "duration",
-                    "value": 5.0
-                }
-            ]
+            "blackboard": {
+                "atk_scale": 2.5,
+                "move_speed": -0.3,
+                "force": 3.0,
+                "duration": 5.0
+            }
         }
     },
     "skchr_angel_1": {
@@ -4092,16 +3279,10 @@
             },
             "prefabId": "skchr_angel_1",
             "duration": 0.0,
-            "blackboard": [
-                {
-                    "key": "atk_scale",
-                    "value": 1.45
-                },
-                {
-                    "key": "times",
-                    "value": 3.0
-                }
-            ]
+            "blackboard": {
+                "atk_scale": 1.45,
+                "times": 3.0
+            }
         }
     },
     "skchr_angel_2": {
@@ -4123,16 +3304,10 @@
             },
             "prefabId": "skchr_angel_2",
             "duration": 15.0,
-            "blackboard": [
-                {
-                    "key": "attack@atk_scale",
-                    "value": 1.25
-                },
-                {
-                    "key": "attack@times",
-                    "value": 4.0
-                }
-            ]
+            "blackboard": {
+                "attack@atk_scale": 1.25,
+                "attack@times": 4.0
+            }
         }
     },
     "skchr_angel_3": {
@@ -4154,20 +3329,11 @@
             },
             "prefabId": "skchr_angel_3",
             "duration": 15.0,
-            "blackboard": [
-                {
-                    "key": "attack@atk_scale",
-                    "value": 1.1
-                },
-                {
-                    "key": "attack@times",
-                    "value": 5.0
-                },
-                {
-                    "key": "base_attack_time",
-                    "value": -0.11
-                }
-            ]
+            "blackboard": {
+                "attack@atk_scale": 1.1,
+                "attack@times": 5.0,
+                "base_attack_time": -0.11
+            }
         }
     },
     "skchr_siege_2": {
@@ -4189,20 +3355,11 @@
             },
             "prefabId": "skchr_siege_2",
             "duration": 0.0,
-            "blackboard": [
-                {
-                    "key": "atk_scale",
-                    "value": 3.4
-                },
-                {
-                    "key": "cost",
-                    "value": 3.0
-                },
-                {
-                    "key": "ct",
-                    "value": 3.0
-                }
-            ]
+            "blackboard": {
+                "atk_scale": 3.4,
+                "cost": 3.0,
+                "ct": 3.0
+            }
         }
     },
     "skchr_siege_3": {
@@ -4224,24 +3381,12 @@
             },
             "prefabId": "skchr_siege_3",
             "duration": 25.0,
-            "blackboard": [
-                {
-                    "key": "attack@atk_scale",
-                    "value": 3.8
-                },
-                {
-                    "key": "attack@buff_prob",
-                    "value": 0.4
-                },
-                {
-                    "key": "attack@stun",
-                    "value": 1.5
-                },
-                {
-                    "key": "base_attack_time",
-                    "value": 1.0
-                }
-            ]
+            "blackboard": {
+                "attack@atk_scale": 3.8,
+                "attack@buff_prob": 0.4,
+                "attack@stun": 1.5,
+                "base_attack_time": 1.0
+            }
         }
     },
     "skchr_ifrit_1": {
@@ -4263,16 +3408,10 @@
             },
             "prefabId": "skchr_ifrit_1",
             "duration": 20.0,
-            "blackboard": [
-                {
-                    "key": "attack_speed",
-                    "value": 80.0
-                },
-                {
-                    "key": "atk",
-                    "value": 0.2
-                }
-            ]
+            "blackboard": {
+                "attack_speed": 80.0,
+                "atk": 0.2
+            }
         }
     },
     "skchr_ifrit_2": {
@@ -4294,28 +3433,13 @@
             },
             "prefabId": "skchr_ifrit_2",
             "duration": -1.0,
-            "blackboard": [
-                {
-                    "key": "atk_scale",
-                    "value": 2.5
-                },
-                {
-                    "key": "burn.atk_scale",
-                    "value": 0.33
-                },
-                {
-                    "key": "def",
-                    "value": -300.0
-                },
-                {
-                    "key": "duration",
-                    "value": 3.01
-                },
-                {
-                    "key": "ct",
-                    "value": 3.0
-                }
-            ]
+            "blackboard": {
+                "atk_scale": 2.5,
+                "burn.atk_scale": 0.33,
+                "def": -300.0,
+                "duration": 3.01,
+                "ct": 3.0
+            }
         }
     },
     "skchr_ifrit_3": {
@@ -4337,20 +3461,11 @@
             },
             "prefabId": "skchr_ifrit_3",
             "duration": 20.0,
-            "blackboard": [
-                {
-                    "key": "atk_scale",
-                    "value": 1.4
-                },
-                {
-                    "key": "hp_ratio",
-                    "value": 0.02
-                },
-                {
-                    "key": "magic_resistance",
-                    "value": -20.0
-                }
-            ]
+            "blackboard": {
+                "atk_scale": 1.4,
+                "hp_ratio": 0.02,
+                "magic_resistance": -20.0
+            }
         }
     },
     "skchr_amgoat_1": {
@@ -4372,20 +3487,11 @@
             },
             "prefabId": "skchr_amgoat_1",
             "duration": 25.0,
-            "blackboard": [
-                {
-                    "key": "amgoat_s_1[a].attack_speed",
-                    "value": 60.0
-                },
-                {
-                    "key": "amgoat_s_1[b].attack_speed",
-                    "value": 60.0
-                },
-                {
-                    "key": "amgoat_s_1[b].atk",
-                    "value": 0.6
-                }
-            ]
+            "blackboard": {
+                "amgoat_s_1[a].attack_speed": 60.0,
+                "amgoat_s_1[b].attack_speed": 60.0,
+                "amgoat_s_1[b].atk": 0.6
+            }
         }
     },
     "skchr_amgoat_2": {
@@ -4407,32 +3513,14 @@
             },
             "prefabId": "skchr_amgoat_2",
             "duration": -1.0,
-            "blackboard": [
-                {
-                    "key": "atk_scale",
-                    "value": 1.85
-                },
-                {
-                    "key": "atk_scale_2",
-                    "value": 1.85
-                },
-                {
-                    "key": "fk",
-                    "value": 3.7
-                },
-                {
-                    "key": "ct",
-                    "value": 3.0
-                },
-                {
-                    "key": "duration",
-                    "value": 6.0
-                },
-                {
-                    "key": "magic_resistance",
-                    "value": -0.25
-                }
-            ]
+            "blackboard": {
+                "atk_scale": 1.85,
+                "atk_scale_2": 1.85,
+                "fk": 3.7,
+                "ct": 3.0,
+                "duration": 6.0,
+                "magic_resistance": -0.25
+            }
         }
     },
     "skchr_amgoat_3": {
@@ -4454,20 +3542,11 @@
             },
             "prefabId": "skchr_amgoat_3",
             "duration": 15.0,
-            "blackboard": [
-                {
-                    "key": "atk",
-                    "value": 1.3
-                },
-                {
-                    "key": "base_attack_time",
-                    "value": -1.1
-                },
-                {
-                    "key": "attack@max_target",
-                    "value": 6.0
-                }
-            ]
+            "blackboard": {
+                "atk": 1.3,
+                "base_attack_time": -1.1,
+                "attack@max_target": 6.0
+            }
         }
     },
     "skchr_aglina_1": {
@@ -4489,12 +3568,9 @@
             },
             "prefabId": "skchr_aglina_1",
             "duration": 35.0,
-            "blackboard": [
-                {
-                    "key": "atk",
-                    "value": 1.1
-                }
-            ]
+            "blackboard": {
+                "atk": 1.1
+            }
         }
     },
     "skchr_aglina_2": {
@@ -4516,16 +3592,10 @@
             },
             "prefabId": "skchr_aglina_2",
             "duration": 30.0,
-            "blackboard": [
-                {
-                    "key": "base_attack_time",
-                    "value": 0.15
-                },
-                {
-                    "key": "damage_scale",
-                    "value": 0.45
-                }
-            ]
+            "blackboard": {
+                "base_attack_time": 0.15,
+                "damage_scale": 0.45
+            }
         }
     },
     "skchr_aglina_3": {
@@ -4547,20 +3617,11 @@
             },
             "prefabId": "skchr_aglina_3",
             "duration": 25.0,
-            "blackboard": [
-                {
-                    "key": "mass_level",
-                    "value": -1.0
-                },
-                {
-                    "key": "atk",
-                    "value": 1.5
-                },
-                {
-                    "key": "attack@max_target",
-                    "value": 5.0
-                }
-            ]
+            "blackboard": {
+                "mass_level": -1.0,
+                "atk": 1.5,
+                "attack@max_target": 5.0
+            }
         }
     },
     "skchr_mgllan_1": {
@@ -4582,20 +3643,11 @@
             },
             "prefabId": "skchr_mgllan_1",
             "duration": 15.0,
-            "blackboard": [
-                {
-                    "key": "attack@interval",
-                    "value": 3.0
-                },
-                {
-                    "key": "attack@frozen_duration",
-                    "value": 2.5
-                },
-                {
-                    "key": "attack@sluggish",
-                    "value": 1.0
-                }
-            ]
+            "blackboard": {
+                "attack@interval": 3.0,
+                "attack@frozen_duration": 2.5,
+                "attack@sluggish": 1.0
+            }
         }
     },
     "skchr_mgllan_2": {
@@ -4617,12 +3669,9 @@
             },
             "prefabId": "skchr_mgllan_2",
             "duration": 15.0,
-            "blackboard": [
-                {
-                    "key": "attack_speed",
-                    "value": 150.0
-                }
-            ]
+            "blackboard": {
+                "attack_speed": 150.0
+            }
         }
     },
     "skchr_mgllan_3": {
@@ -4644,12 +3693,9 @@
             },
             "prefabId": "skchr_mgllan_3",
             "duration": 15.0,
-            "blackboard": [
-                {
-                    "key": "atk",
-                    "value": 1.5
-                }
-            ]
+            "blackboard": {
+                "atk": 1.5
+            }
         }
     },
     "sktok_mgllan_drone1": {
@@ -4671,7 +3717,7 @@
             },
             "prefabId": "sktok_mgllan_drone1",
             "duration": 0.0,
-            "blackboard": []
+            "blackboard": {}
         }
     },
     "sktok_mgllan_drone2": {
@@ -4693,7 +3739,7 @@
             },
             "prefabId": "sktok_mgllan_drone2",
             "duration": 0.0,
-            "blackboard": []
+            "blackboard": {}
         }
     },
     "sktok_mgllan_drone3": {
@@ -4715,7 +3761,7 @@
             },
             "prefabId": "sktok_mgllan_drone3",
             "duration": 0.0,
-            "blackboard": []
+            "blackboard": {}
         }
     },
     "skchr_shining_1": {
@@ -4737,16 +3783,10 @@
             },
             "prefabId": "skchr_shining_1",
             "duration": 20.0,
-            "blackboard": [
-                {
-                    "key": "atk",
-                    "value": 0.8
-                },
-                {
-                    "key": "attack_speed",
-                    "value": 20.0
-                }
-            ]
+            "blackboard": {
+                "atk": 0.8,
+                "attack_speed": 20.0
+            }
         }
     },
     "skchr_shining_2": {
@@ -4768,24 +3808,12 @@
             },
             "prefabId": "skchr_shining_2",
             "duration": -1.0,
-            "blackboard": [
-                {
-                    "key": "def",
-                    "value": 0.5
-                },
-                {
-                    "key": "atk_scale",
-                    "value": 0.5
-                },
-                {
-                    "key": "duration",
-                    "value": 3.0
-                },
-                {
-                    "key": "ct",
-                    "value": 3.0
-                }
-            ]
+            "blackboard": {
+                "def": 0.5,
+                "atk_scale": 0.5,
+                "duration": 3.0,
+                "ct": 3.0
+            }
         }
     },
     "skchr_shining_3": {
@@ -4807,16 +3835,10 @@
             },
             "prefabId": "skchr_shining_3",
             "duration": 60.0,
-            "blackboard": [
-                {
-                    "key": "def",
-                    "value": 1.0
-                },
-                {
-                    "key": "atk",
-                    "value": 0.5
-                }
-            ]
+            "blackboard": {
+                "def": 1.0,
+                "atk": 0.5
+            }
         }
     },
     "skchr_cgbird_2": {
@@ -4838,24 +3860,12 @@
             },
             "prefabId": "skchr_cgbird_2",
             "duration": -1.0,
-            "blackboard": [
-                {
-                    "key": "atk_scale",
-                    "value": 0.9
-                },
-                {
-                    "key": "magic_resistance",
-                    "value": 20.0
-                },
-                {
-                    "key": "duration",
-                    "value": 5.0
-                },
-                {
-                    "key": "ct",
-                    "value": 3.0
-                }
-            ]
+            "blackboard": {
+                "atk_scale": 0.9,
+                "magic_resistance": 20.0,
+                "duration": 5.0,
+                "ct": 3.0
+            }
         }
     },
     "skchr_cgbird_3": {
@@ -4877,20 +3887,11 @@
             },
             "prefabId": "skchr_cgbird_3",
             "duration": 60.0,
-            "blackboard": [
-                {
-                    "key": "atk",
-                    "value": 0.8
-                },
-                {
-                    "key": "magic_resistance",
-                    "value": 1.5
-                },
-                {
-                    "key": "prob",
-                    "value": 0.25
-                }
-            ]
+            "blackboard": {
+                "atk": 0.8,
+                "magic_resistance": 1.5,
+                "prob": 0.25
+            }
         }
     },
     "skchr_hsguma_1": {
@@ -4912,16 +3913,10 @@
             },
             "prefabId": "skchr_hsguma_1",
             "duration": 30.0,
-            "blackboard": [
-                {
-                    "key": "atk",
-                    "value": 0.4
-                },
-                {
-                    "key": "def",
-                    "value": 0.8
-                }
-            ]
+            "blackboard": {
+                "atk": 0.4,
+                "def": 0.8
+            }
         }
     },
     "skchr_hsguma_2": {
@@ -4943,16 +3938,10 @@
             },
             "prefabId": "skchr_hsguma_2",
             "duration": 0.0,
-            "blackboard": [
-                {
-                    "key": "atk_scale",
-                    "value": 1.0
-                },
-                {
-                    "key": "def",
-                    "value": 0.3
-                }
-            ]
+            "blackboard": {
+                "atk_scale": 1.0,
+                "def": 0.3
+            }
         }
     },
     "skchr_hsguma_3": {
@@ -4974,16 +3963,10 @@
             },
             "prefabId": "skchr_hsguma_3",
             "duration": 25.0,
-            "blackboard": [
-                {
-                    "key": "atk",
-                    "value": 1.4
-                },
-                {
-                    "key": "def",
-                    "value": 0.9
-                }
-            ]
+            "blackboard": {
+                "atk": 1.4,
+                "def": 0.9
+            }
         }
     },
     "skchr_demkni_1": {
@@ -5005,16 +3988,10 @@
             },
             "prefabId": "skchr_demkni_1",
             "duration": 0.0,
-            "blackboard": [
-                {
-                    "key": "heal_scale",
-                    "value": 1.8
-                },
-                {
-                    "key": "ct",
-                    "value": 3.0
-                }
-            ]
+            "blackboard": {
+                "heal_scale": 1.8,
+                "ct": 3.0
+            }
         }
     },
     "skchr_demkni_2": {
@@ -5036,12 +4013,9 @@
             },
             "prefabId": "skchr_demkni_2",
             "duration": 0.0,
-            "blackboard": [
-                {
-                    "key": "heal_scale",
-                    "value": 1.4
-                }
-            ]
+            "blackboard": {
+                "heal_scale": 1.4
+            }
         }
     },
     "skchr_demkni_3": {
@@ -5063,24 +4037,12 @@
             },
             "prefabId": "skchr_demkni_3",
             "duration": 30.0,
-            "blackboard": [
-                {
-                    "key": "attack@heal_scale",
-                    "value": 0.35
-                },
-                {
-                    "key": "demkni_s_3.move_speed",
-                    "value": -0.6
-                },
-                {
-                    "key": "demkni_s_3.damage_scale",
-                    "value": 1.55
-                },
-                {
-                    "key": "fake.b",
-                    "value": 0.55
-                }
-            ]
+            "blackboard": {
+                "attack@heal_scale": 0.35,
+                "demkni_s_3.move_speed": -0.6,
+                "demkni_s_3.damage_scale": 1.55,
+                "fake.b": 0.55
+            }
         }
     },
     "skchr_skadi_2": {
@@ -5102,16 +4064,10 @@
             },
             "prefabId": "skchr_skadi_2",
             "duration": -1.0,
-            "blackboard": [
-                {
-                    "key": "atk",
-                    "value": 1.7
-                },
-                {
-                    "key": "duration",
-                    "value": 30.0
-                }
-            ]
+            "blackboard": {
+                "atk": 1.7,
+                "duration": 30.0
+            }
         }
     },
     "skchr_skadi_3": {
@@ -5133,20 +4089,11 @@
             },
             "prefabId": "skchr_skadi_3",
             "duration": 50.0,
-            "blackboard": [
-                {
-                    "key": "atk",
-                    "value": 1.3
-                },
-                {
-                    "key": "def",
-                    "value": 1.3
-                },
-                {
-                    "key": "max_hp",
-                    "value": 1.3
-                }
-            ]
+            "blackboard": {
+                "atk": 1.3,
+                "def": 1.3,
+                "max_hp": 1.3
+            }
         }
     },
     "skchr_svrash_1": {
@@ -5168,12 +4115,9 @@
             },
             "prefabId": "skchr_svrash_1",
             "duration": 0.0,
-            "blackboard": [
-                {
-                    "key": "atk_scale",
-                    "value": 2.9
-                }
-            ]
+            "blackboard": {
+                "atk_scale": 2.9
+            }
         }
     },
     "skchr_svrash_2": {
@@ -5195,16 +4139,10 @@
             },
             "prefabId": "skchr_svrash_2",
             "duration": 0.0,
-            "blackboard": [
-                {
-                    "key": "def",
-                    "value": 1.0
-                },
-                {
-                    "key": "hp_recovery_per_sec_by_max_hp_ratio",
-                    "value": 0.06
-                }
-            ]
+            "blackboard": {
+                "def": 1.0,
+                "hp_recovery_per_sec_by_max_hp_ratio": 0.06
+            }
         }
     },
     "skchr_svrash_3": {
@@ -5226,20 +4164,11 @@
             },
             "prefabId": "skchr_svrash_3",
             "duration": 30.0,
-            "blackboard": [
-                {
-                    "key": "def",
-                    "value": -0.7
-                },
-                {
-                    "key": "atk",
-                    "value": 2.0
-                },
-                {
-                    "key": "attack@max_target",
-                    "value": 6.0
-                }
-            ]
+            "blackboard": {
+                "def": -0.7,
+                "atk": 2.0,
+                "attack@max_target": 6.0
+            }
         }
     },
     "skchr_chen_1": {
@@ -5261,16 +4190,10 @@
             },
             "prefabId": "skchr_chen_1",
             "duration": 0.0,
-            "blackboard": [
-                {
-                    "key": "atk_scale",
-                    "value": 3.2
-                },
-                {
-                    "key": "stun",
-                    "value": 1.5
-                }
-            ]
+            "blackboard": {
+                "atk_scale": 3.2,
+                "stun": 1.5
+            }
         }
     },
     "skchr_chen_2": {
@@ -5292,16 +4215,10 @@
             },
             "prefabId": "skchr_chen_2",
             "duration": 0.0,
-            "blackboard": [
-                {
-                    "key": "atk_scale",
-                    "value": 5.0
-                },
-                {
-                    "key": "max_target",
-                    "value": 7.0
-                }
-            ]
+            "blackboard": {
+                "atk_scale": 5.0,
+                "max_target": 7.0
+            }
         }
     },
     "skchr_chen_3": {
@@ -5323,20 +4240,11 @@
             },
             "prefabId": "skchr_chen_3",
             "duration": 0.0,
-            "blackboard": [
-                {
-                    "key": "atk_scale",
-                    "value": 3.2
-                },
-                {
-                    "key": "times",
-                    "value": 10.0
-                },
-                {
-                    "key": "stun",
-                    "value": 4.0
-                }
-            ]
+            "blackboard": {
+                "atk_scale": 3.2,
+                "times": 10.0,
+                "stun": 4.0
+            }
         }
     },
     "skcom_withdraw": {
@@ -5358,7 +4266,7 @@
             },
             "prefabId": "skcom_withdraw",
             "duration": 10.0,
-            "blackboard": []
+            "blackboard": {}
         }
     },
     "sktok_crate": {
@@ -5380,7 +4288,7 @@
             },
             "prefabId": null,
             "duration": 0.0,
-            "blackboard": []
+            "blackboard": {}
         }
     },
     "sktok_emp": {
@@ -5402,16 +4310,10 @@
             },
             "prefabId": "sktok_emp",
             "duration": 0.0,
-            "blackboard": [
-                {
-                    "key": "stun",
-                    "value": 7.0
-                },
-                {
-                    "key": "cost",
-                    "value": 10.0
-                }
-            ]
+            "blackboard": {
+                "stun": 7.0,
+                "cost": 10.0
+            }
         }
     },
     "sktok_gate": {
@@ -5433,12 +4335,9 @@
             },
             "prefabId": "sktok_gate",
             "duration": 0.0,
-            "blackboard": [
-                {
-                    "key": "cost",
-                    "value": 10.0
-                }
-            ]
+            "blackboard": {
+                "cost": 10.0
+            }
         }
     },
     "sktok_sensor": {
@@ -5460,7 +4359,7 @@
             },
             "prefabId": "sktok_sensor",
             "duration": 20.0,
-            "blackboard": []
+            "blackboard": {}
         }
     },
     "sktok_antidr": {
@@ -5482,12 +4381,9 @@
             },
             "prefabId": "sktok_antidr",
             "duration": 0.0,
-            "blackboard": [
-                {
-                    "key": "move_speed",
-                    "value": 0.5
-                }
-            ]
+            "blackboard": {
+                "move_speed": 0.5
+            }
         }
     },
     "sktok_ballis": {
@@ -5509,12 +4405,9 @@
             },
             "prefabId": "sktok_ballis",
             "duration": 0.0,
-            "blackboard": [
-                {
-                    "key": "atk_scale",
-                    "value": 1.0
-                }
-            ]
+            "blackboard": {
+                "atk_scale": 1.0
+            }
         }
     }
 }
