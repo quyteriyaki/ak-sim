@@ -16,5 +16,10 @@ class Timeline:
     def __getattribute__(self,name):
         if name == "keys":
             return sorted(self._keys.items(), key=lambda item: item[0])
+        elif name == "head":
+            if len(self._keys) > 0:
+                return self.keys[0]
+            else:
+                return 0
         else:
             return super().__getattribute__(name)
