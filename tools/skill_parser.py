@@ -66,11 +66,24 @@ def Parse_Desc(Group):
             if neg: val *= -1
             val = str(int(val))
         desc = desc.replace(old_key, str(val))
-
+    
     # Reconfigure Blackboard to match dict
     Group['levels']['blackboard'] = bb
     # Return reference
     Group['levels']['description'] = desc
+    # try:
+    #     Group['levels']['description'] = desc.format(**bb)
+    # except KeyError as e:
+    #     if e.args[0][0] == '-':
+    #         # Repair Negatives
+    #         Group['levels']['description'] = -1 * e.args[0][1:]
+    #     elif e.args[0].isupper() == True:
+    #         # Repair Capitals
+    #         Group['levels']['description'] = e.args[0].lower()
+    #     elif '[' in e.args[0] or '.' in e.args[0]:
+    #         # Repair symbols
+    #     else:
+    #        print(e.args[0])
 
 for ID in skills:
     Low_Skill_Removal(skills[ID])
