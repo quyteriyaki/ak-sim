@@ -94,30 +94,29 @@ def Parse_Selective (ID, Group):
     # Remove Unnecessary Potential Information
     potential = Group['potentialRanks']
     if len(potential) > 0:
-        _p = []
+        _p = {}
         for p in potential:
-            buff = {
-                'description': p['description']
-            }
             if p['type'] == 0: # Switch between attributeTypes
                 a = p['buff']['attributes']['attributeModifiers'][0]
+                attri = ''
                 if a['attributeType'] == 0:
-                    buff['maxHp'] = a['value'] # Max HP
+                    attri = 'maxHp'             # Max HP
                 elif a['attributeType'] == 1:
-                    buff['atk'] = a['value']   # ATK
+                    attri = 'atk'               # ATK
                 elif a['attributeType'] == 2:
-                    buff['def'] = a['value']   # DEF
+                    attri = 'def'               # DEF
                 elif a['attributeType'] == 3:
-                    buff['res'] = a['value']   # Res
+                    attri = 'res'               # Res
                 elif a['attributeType'] == 4:
-                    buff['cost'] = a['value']  # DP Cost
+                    attri = 'cost'              # DP Cost
                 elif a['attributeType'] == 7:
-                    buff['attackSpeed'] = a['value']   # ASPD
+                    attri = 'attackSpeed'       # ASPD
                 elif a['attributeType'] == 21:
-                    buff['respawn'] = a['value']   # Redeployment Time
+                    attri = 'respawn'             # Redeployment Time
+                if attri in _p: _p[attri] += a['value']
+                else: _p[attri] = a['value']
             #elif p['type'] == 1:
             #     buff['']
-            _p.append(buff)
         object[ID]['potential'] = _p
 
     char_out[ID] = object[ID]
@@ -126,4 +125,4 @@ for op in char_in:
     Parse_Selective(op, char_in[op])
 
 with open('./parsed_src/character_table.json', "w") as file:
-    file.write(json.dumps(char_out))
+    file.write(json.dumps(char_out,indent=2))
