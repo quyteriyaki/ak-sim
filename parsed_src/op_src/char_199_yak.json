@@ -2,79 +2,54 @@
   "name": "Matterhorn",
   "rarity": 4,
   "profession": "Defender",
-  "potential": [
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    },
-    {
-      "description": "Redeployment Time -4 sec",
-      "respawn": -4.0
-    },
-    {
-      "description": "Max HP +250",
-      "maxHp": 250.0
-    },
-    {
-      "description": "Redeployment Time -6 sec",
-      "respawn": -6.0
-    },
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    }
-  ],
+  "potential": {
+    "cost": -2.0,
+    "respawn": -10.0,
+    "maxHp": 250.0
+  },
   "skills": [
     {
-      "skillId": "skchr_yak_1",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Stamina Enhancement",
-        "rangeId": null,
-        "description": "Max HP +70%; Restores HP by 40 per second",
-        "skillType": 1,
-        "spData": {
-          "spType": 1,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 35,
-          "initSp": 10,
-          "increment": 1.0
-        },
-        "prefabId": "skchr_yak_1",
-        "duration": 30.0,
-        "blackboard": {
-          "max_hp": 0.7,
-          "hp_recovery_per_sec": 40.0
-        }
-      }
+      "name": "Stamina Enhancement",
+      "rangeId": null,
+      "description": "Max HP +70%; Restores HP by 40 per second",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 35,
+        "initSp": 10,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_yak_1",
+      "duration": 30.0,
+      "blackboard": {
+        "max_hp": 0.7,
+        "hp_recovery_per_sec": 40.0
+      },
+      "skillId": "skchr_yak_1"
     },
     {
-      "skillId": "skchr_yak_2",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Cold Resistance",
-        "rangeId": null,
-        "description": "Max HP +50%; DEF +30%; RES +100%",
-        "skillType": 1,
-        "spData": {
-          "spType": 1,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 32,
-          "initSp": 10,
-          "increment": 1.0
-        },
-        "prefabId": "skchr_yak_2",
-        "duration": 30.0,
-        "blackboard": {
-          "max_hp": 0.5,
-          "def": 0.3,
-          "magic_resistance": 1.0
-        }
-      }
+      "name": "Cold Resistance",
+      "rangeId": null,
+      "description": "Max HP +50%; DEF +30%; RES +100%",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 32,
+        "initSp": 10,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_yak_2",
+      "duration": 30.0,
+      "blackboard": {
+        "max_hp": 0.5,
+        "def": 0.3,
+        "magic_resistance": 1.0
+      },
+      "skillId": "skchr_yak_2"
     }
   ],
   "stats": {

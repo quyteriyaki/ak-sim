@@ -2,78 +2,53 @@
   "name": "Franka",
   "rarity": 5,
   "profession": "Guard",
-  "potential": [
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    },
-    {
-      "description": "Redeployment Time -4 sec",
-      "respawn": -4.0
-    },
-    {
-      "description": "ATK +30",
-      "atk": 30.0
-    },
-    {
-      "description": "Redeployment Time -6 sec",
-      "respawn": -6.0
-    },
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    }
-  ],
+  "potential": {
+    "cost": -2.0,
+    "respawn": -10.0,
+    "atk": 30.0
+  },
   "skills": [
     {
-      "skillId": "skcom_quickattack[3]",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Swift Strike \u03b3",
-        "rangeId": null,
-        "description": "ATK +45%; ASPD +45",
-        "skillType": 1,
-        "spData": {
-          "spType": 1,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 35,
-          "initSp": 15,
-          "increment": 1.0
-        },
-        "prefabId": "skcom_quickattack",
-        "duration": 35.0,
-        "blackboard": {
-          "atk": 0.45,
-          "attack_speed": 45.0
-        }
-      }
+      "name": "Swift Strike \u03b3",
+      "rangeId": null,
+      "description": "ATK +45%; ASPD +45",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 35,
+        "initSp": 15,
+        "increment": 1.0
+      },
+      "prefabId": "skcom_quickattack",
+      "duration": 35.0,
+      "blackboard": {
+        "atk": 0.45,
+        "attack_speed": 45.0
+      },
+      "skillId": "skcom_quickattack[3]"
     },
     {
-      "skillId": "skchr_franka_2",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Vorpal Edge",
-        "rangeId": null,
-        "description": "DEF reduces to 0; ATK +100%; The chance of Talent ignoring the target's DEF is increased to 2 times",
-        "skillType": 1,
-        "spData": {
-          "spType": 1,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 20,
-          "initSp": 10,
-          "increment": 1.0
-        },
-        "prefabId": "skchr_franka_2",
-        "duration": 30.0,
-        "blackboard": {
-          "atk": 1.0,
-          "talent_scale": 2.5
-        }
-      }
+      "name": "Vorpal Edge",
+      "rangeId": null,
+      "description": "DEF reduces to 0; ATK +100%; The chance of Talent ignoring the target's DEF is increased to 2 times",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 20,
+        "initSp": 10,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_franka_2",
+      "duration": 30.0,
+      "blackboard": {
+        "atk": 1.0,
+        "talent_scale": 2.5
+      },
+      "skillId": "skchr_franka_2"
     }
   ],
   "stats": {

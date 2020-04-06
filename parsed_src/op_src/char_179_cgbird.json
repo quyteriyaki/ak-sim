@@ -2,104 +2,76 @@
   "name": "Nightingale",
   "rarity": 6,
   "profession": "Medic",
-  "potential": [
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    },
-    {
-      "description": "Redeployment Time -4 sec",
-      "respawn": -4.0
-    },
-    {
-      "description": "RES +10",
-      "res": 10.0
-    },
-    {
-      "description": "Improves First Talent"
-    },
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    }
-  ],
+  "potential": {
+    "cost": -2.0,
+    "respawn": -4.0,
+    "res": 10.0
+  },
   "skills": [
     {
-      "skillId": "skcom_heal_up[3]",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Healing Up \u03b3",
-        "rangeId": null,
-        "description": "ATK +90%",
-        "skillType": 1,
-        "spData": {
-          "spType": 1,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 30,
-          "initSp": 20,
-          "increment": 1.0
-        },
-        "prefabId": "skcom_heal_up",
-        "duration": 30.0,
-        "blackboard": {
-          "atk": 0.9
-        }
-      }
+      "name": "Healing Up \u03b3",
+      "rangeId": null,
+      "description": "ATK +90%",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 30,
+        "initSp": 20,
+        "increment": 1.0
+      },
+      "prefabId": "skcom_heal_up",
+      "duration": 30.0,
+      "blackboard": {
+        "atk": 0.9
+      },
+      "skillId": "skcom_heal_up[3]"
     },
     {
-      "skillId": "skchr_cgbird_2",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Arts Shield",
-        "rangeId": null,
-        "description": "The next heal generates a shield on all affected target for 5 seconds\nThe shields can absorb damage equal to 90% of Nightingale's ATK Arts damage and the targets' RES +20; Can store 3 charge(s)",
-        "skillType": 2,
-        "spData": {
-          "spType": 1,
-          "levelUpCost": null,
-          "maxChargeTime": 3,
-          "spCost": 8,
-          "initSp": 0,
-          "increment": 1.0
-        },
-        "prefabId": "skchr_cgbird_2",
-        "duration": -1.0,
-        "blackboard": {
-          "atk_scale": 0.9,
-          "magic_resistance": 20.0,
-          "duration": 5.0,
-          "ct": 3.0
-        }
-      }
+      "name": "Arts Shield",
+      "rangeId": null,
+      "description": "The next heal generates a shield on all affected target for 5 seconds\nThe shields can absorb damage equal to 90% of Nightingale's ATK Arts damage and the targets' RES +20; Can store 3 charge(s)",
+      "skillType": 2,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 3,
+        "spCost": 8,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_cgbird_2",
+      "duration": -1.0,
+      "blackboard": {
+        "atk_scale": 0.9,
+        "magic_resistance": 20.0,
+        "duration": 5.0,
+        "ct": 3.0
+      },
+      "skillId": "skchr_cgbird_2"
     },
     {
-      "skillId": "skchr_cgbird_3",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Sanctuary",
-        "rangeId": "y-4",
-        "description": "Range expands; ATK +80%; RES of allies within range +150% and grants them 25% Arts Dodge",
-        "skillType": 1,
-        "spData": {
-          "spType": 1,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 120,
-          "initSp": 115,
-          "increment": 1.0
-        },
-        "prefabId": "skchr_cgbird_3",
-        "duration": 60.0,
-        "blackboard": {
-          "atk": 0.8,
-          "magic_resistance": 1.5,
-          "prob": 0.25
-        }
-      }
+      "name": "Sanctuary",
+      "rangeId": "y-4",
+      "description": "Range expands; ATK +80%; RES of allies within range +150% and grants them 25% Arts Dodge",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 120,
+        "initSp": 115,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_cgbird_3",
+      "duration": 60.0,
+      "blackboard": {
+        "atk": 0.8,
+        "magic_resistance": 1.5,
+        "prob": 0.25
+      },
+      "skillId": "skchr_cgbird_3"
     }
   ],
   "stats": {

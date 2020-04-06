@@ -2,80 +2,56 @@
   "name": "Nightmare",
   "rarity": 5,
   "profession": "Caster",
-  "potential": [
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    },
-    {
-      "description": "Redeployment Time -4 sec",
-      "respawn": -4.0
-    },
-    {
-      "description": "ATK +26",
-      "atk": 26.0
-    },
-    {
-      "description": "Improves Talent"
-    },
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    }
-  ],
+  "potential": {
+    "cost": -2.0,
+    "respawn": -4.0,
+    "atk": 26.0
+  },
   "skills": [
     {
-      "skillId": "skchr_nightm_1",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Drain Soul",
-        "rangeId": null,
-        "description": "Each attack restores the HP of at most 2 allies by 100% of damage dealt to enemies",
-        "skillType": 1,
-        "spData": {
-          "spType": 1,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 80,
-          "initSp": 50,
-          "increment": 1.0
-        },
-        "prefabId": "skchr_nightm_1",
-        "duration": 60.0,
-        "blackboard": {
-          "attack@heal_scale": 1.0,
-          "attack@max_target": 2.0
-        }
-      }
+      "name": "Drain Soul",
+      "rangeId": null,
+      "description": "Each attack restores the HP of at most 2 allies by 100% of damage dealt to enemies",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 80,
+        "initSp": 50,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_nightm_1",
+      "duration": 60.0,
+      "blackboard": {
+        "attack@heal_scale": 1.0,
+        "attack@max_target": 2.0
+      },
+      "skillId": "skchr_nightm_1"
     },
     {
-      "skillId": "skchr_nightm_2",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Night Phantom",
-        "rangeId": null,
-        "description": "Inflict Nightmare on at most 5 enemies within range:\nTargets' Movement Speed -60%; Deals damage while ignoring targets' DEF and RES according to targets' movement distance for 10 seconds",
-        "skillType": 2,
-        "spData": {
-          "spType": 1,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 20,
-          "initSp": 0,
-          "increment": 1.0
-        },
-        "prefabId": "skchr_nightm_2",
-        "duration": -1.0,
-        "blackboard": {
-          "move_speed": -0.6,
-          "max_target": 5.0,
-          "interval": 0.33,
-          "value": 800.0,
-          "duration": 10.0
-        }
-      }
+      "name": "Night Phantom",
+      "rangeId": null,
+      "description": "Inflict Nightmare on at most 5 enemies within range:\nTargets' Movement Speed -60%; Deals damage while ignoring targets' DEF and RES according to targets' movement distance for 10 seconds",
+      "skillType": 2,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 20,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_nightm_2",
+      "duration": -1.0,
+      "blackboard": {
+        "move_speed": -0.6,
+        "max_target": 5.0,
+        "interval": 0.33,
+        "value": 800.0,
+        "duration": 10.0
+      },
+      "skillId": "skchr_nightm_2"
     }
   ],
   "stats": {

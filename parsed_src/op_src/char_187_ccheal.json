@@ -2,84 +2,60 @@
   "name": "Gavial",
   "rarity": 4,
   "profession": "Medic",
-  "potential": [
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    },
-    {
-      "description": "Redeployment Time -4 sec",
-      "respawn": -4.0
-    },
-    {
-      "description": "ATK +23",
-      "atk": 23.0
-    },
-    {
-      "description": "Improves Talent"
-    },
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    }
-  ],
+  "potential": {
+    "cost": -2.0,
+    "respawn": -4.0,
+    "atk": 23.0
+  },
   "skills": [
     {
-      "skillId": "skchr_ccheal_1",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Vitality Restoration",
-        "rangeId": null,
-        "description": "Buffs the target ally in the next healing, restoring HP by 35% of Gavial's ATK (by 70% of Gavial's ATK when the target's HP is lower than 50%) per second, lasting 5 seconds\nCan store 2 charge(s)",
-        "skillType": 2,
-        "spData": {
-          "spType": 1,
-          "levelUpCost": null,
-          "maxChargeTime": 3,
-          "spCost": 8,
-          "initSp": 0,
-          "increment": 1.0
-        },
-        "prefabId": "skchr_ccheal_1",
-        "duration": -1.0,
-        "blackboard": {
-          "heal_scale": 0.35,
-          "heal_scale_2": 0.7,
-          "hp_ratio": 0.5,
-          "interval": 1.0,
-          "duration": 5.0,
-          "ct": 2.0
-        }
-      }
+      "name": "Vitality Restoration",
+      "rangeId": null,
+      "description": "Buffs the target ally in the next healing, restoring HP by 35% of Gavial's ATK (by 70% of Gavial's ATK when the target's HP is lower than 50%) per second, lasting 5 seconds\nCan store 2 charge(s)",
+      "skillType": 2,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 3,
+        "spCost": 8,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_ccheal_1",
+      "duration": -1.0,
+      "blackboard": {
+        "heal_scale": 0.35,
+        "heal_scale_2": 0.7,
+        "hp_ratio": 0.5,
+        "interval": 1.0,
+        "duration": 5.0,
+        "ct": 2.0
+      },
+      "skillId": "skchr_ccheal_1"
     },
     {
-      "skillId": "skchr_ccheal_2",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Vitality Restoration - Wide Range",
-        "rangeId": null,
-        "description": "Buffs all allies within range immediately, restoring HP by 30% of Gavial's ATK (by 80% of Gavial's ATK when the target's HP is lower than 50%) per second, lasting 10 seconds",
-        "skillType": 1,
-        "spData": {
-          "spType": 1,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 60,
-          "initSp": 50,
-          "increment": 1.0
-        },
-        "prefabId": "skchr_ccheal_2",
-        "duration": -1.0,
-        "blackboard": {
-          "heal_scale": 0.3,
-          "heal_scale_2": 0.8,
-          "hp_ratio": 0.5,
-          "interval": 1.0,
-          "duration": 10.0
-        }
-      }
+      "name": "Vitality Restoration - Wide Range",
+      "rangeId": null,
+      "description": "Buffs all allies within range immediately, restoring HP by 30% of Gavial's ATK (by 80% of Gavial's ATK when the target's HP is lower than 50%) per second, lasting 10 seconds",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 60,
+        "initSp": 50,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_ccheal_2",
+      "duration": -1.0,
+      "blackboard": {
+        "heal_scale": 0.3,
+        "heal_scale_2": 0.8,
+        "hp_ratio": 0.5,
+        "interval": 1.0,
+        "duration": 10.0
+      },
+      "skillId": "skchr_ccheal_2"
     }
   ],
   "stats": {

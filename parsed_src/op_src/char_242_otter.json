@@ -2,77 +2,52 @@
   "name": "Mayer",
   "rarity": 5,
   "profession": "Supporter",
-  "potential": [
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    },
-    {
-      "description": "Redeployment Time -4 sec",
-      "respawn": -4.0
-    },
-    {
-      "description": "RES +8",
-      "res": 8.0
-    },
-    {
-      "description": "Redeployment Time -6 sec",
-      "respawn": -6.0
-    },
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    }
-  ],
+  "potential": {
+    "cost": -2.0,
+    "respawn": -10.0,
+    "res": 8.0
+  },
   "skills": [
     {
-      "skillId": "skchr_otter_1",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Bionic Device",
-        "rangeId": "x-5",
-        "description": "All Robotters gain 35% Physical and Arts Dodge\nAllies on Robotters' four adjacent tiles also gain the same buff",
-        "skillType": 0,
-        "spData": {
-          "spType": 8,
-          "levelUpCost": null,
-          "maxChargeTime": 0,
-          "spCost": 0,
-          "initSp": 0,
-          "increment": 0.0
-        },
-        "prefabId": null,
-        "duration": 0.0,
-        "blackboard": {
-          "prob": 0.35
-        }
-      }
+      "name": "Bionic Device",
+      "rangeId": "x-5",
+      "description": "All Robotters gain 35% Physical and Arts Dodge\nAllies on Robotters' four adjacent tiles also gain the same buff",
+      "skillType": 0,
+      "spData": {
+        "spType": 8,
+        "levelUpCost": null,
+        "maxChargeTime": 0,
+        "spCost": 0,
+        "initSp": 0,
+        "increment": 0.0
+      },
+      "prefabId": null,
+      "duration": 0.0,
+      "blackboard": {
+        "prob": 0.35
+      },
+      "skillId": "skchr_otter_1"
     },
     {
-      "skillId": "skchr_otter_2",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Detonate and Recycle",
-        "rangeId": "x-4",
-        "description": "Detonates all deployed Robotters immediately, dealing 600% of Mayer's ATK Arts damage to nearby enemies and Stunning all hit targets for 2 seconds\nThe exploded Robotters will be recycled",
-        "skillType": 1,
-        "spData": {
-          "spType": 1,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 30,
-          "initSp": 0,
-          "increment": 1.0
-        },
-        "prefabId": "skchr_otter_2",
-        "duration": 0.0,
-        "blackboard": {
-          "atk_scale": 6.0,
-          "stun": 2.0
-        }
-      }
+      "name": "Detonate and Recycle",
+      "rangeId": "x-4",
+      "description": "Detonates all deployed Robotters immediately, dealing 600% of Mayer's ATK Arts damage to nearby enemies and Stunning all hit targets for 2 seconds\nThe exploded Robotters will be recycled",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 30,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_otter_2",
+      "duration": 0.0,
+      "blackboard": {
+        "atk_scale": 6.0,
+        "stun": 2.0
+      },
+      "skillId": "skchr_otter_2"
     }
   ],
   "stats": {

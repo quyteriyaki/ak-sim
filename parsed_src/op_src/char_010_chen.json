@@ -2,103 +2,75 @@
   "name": "Ch'en",
   "rarity": 6,
   "profession": "Guard",
-  "potential": [
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    },
-    {
-      "description": "Redeployment Time -4 sec",
-      "respawn": -4.0
-    },
-    {
-      "description": "ATK +23",
-      "atk": 23.0
-    },
-    {
-      "description": "Improves Second Talent"
-    },
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    }
-  ],
+  "potential": {
+    "cost": -2.0,
+    "respawn": -4.0,
+    "atk": 23.0
+  },
   "skills": [
     {
-      "skillId": "skchr_chen_1",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Sheathed Strike",
-        "rangeId": null,
-        "description": "Throws the sheath to enemies in the next attack, dealing 320% of ATK Physical damage and Stuns the hit targets for 1 seconds",
-        "skillType": 2,
-        "spData": {
-          "spType": 2,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 4,
-          "initSp": 0,
-          "increment": 1.0
-        },
-        "prefabId": "skchr_chen_1",
-        "duration": 0.0,
-        "blackboard": {
-          "atk_scale": 3.2,
-          "stun": 1.5
-        }
-      }
+      "name": "Sheathed Strike",
+      "rangeId": null,
+      "description": "Throws the sheath to enemies in the next attack, dealing 320% of ATK Physical damage and Stuns the hit targets for 1 seconds",
+      "skillType": 2,
+      "spData": {
+        "spType": 2,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 4,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_chen_1",
+      "duration": 0.0,
+      "blackboard": {
+        "atk_scale": 3.2,
+        "stun": 1.5
+      },
+      "skillId": "skchr_chen_1"
     },
     {
-      "skillId": "skchr_chen_2",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Chi Xiao - Unsheath",
-        "rangeId": "3-12",
-        "description": "Deals 500% of ATK Physical damage and 500% of ATK Arts damage to at most 7 enemies in front of this unit",
-        "skillType": 1,
-        "spData": {
-          "spType": 2,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 20,
-          "initSp": 20,
-          "increment": 1.0
-        },
-        "prefabId": "skchr_chen_2",
-        "duration": 0.0,
-        "blackboard": {
-          "atk_scale": 5.0,
-          "max_target": 7.0
-        }
-      }
+      "name": "Chi Xiao - Unsheath",
+      "rangeId": "3-12",
+      "description": "Deals 500% of ATK Physical damage and 500% of ATK Arts damage to at most 7 enemies in front of this unit",
+      "skillType": 1,
+      "spData": {
+        "spType": 2,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 20,
+        "initSp": 20,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_chen_2",
+      "duration": 0.0,
+      "blackboard": {
+        "atk_scale": 5.0,
+        "max_target": 7.0
+      },
+      "skillId": "skchr_chen_2"
     },
     {
-      "skillId": "skchr_chen_3",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Chi Xiao - Shadowless",
-        "rangeId": "x-1",
-        "description": "Looks for the closest enemy around and launches strike 10 times in a row, dealing 320% of ATK Physical damage every time and Stunning the target for 4 seconds by the last strike",
-        "skillType": 1,
-        "spData": {
-          "spType": 2,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 30,
-          "initSp": 20,
-          "increment": 1.0
-        },
-        "prefabId": "skchr_chen_3",
-        "duration": 0.0,
-        "blackboard": {
-          "atk_scale": 3.2,
-          "times": 10.0,
-          "stun": 4.0
-        }
-      }
+      "name": "Chi Xiao - Shadowless",
+      "rangeId": "x-1",
+      "description": "Looks for the closest enemy around and launches strike 10 times in a row, dealing 320% of ATK Physical damage every time and Stunning the target for 4 seconds by the last strike",
+      "skillType": 1,
+      "spData": {
+        "spType": 2,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 30,
+        "initSp": 20,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_chen_3",
+      "duration": 0.0,
+      "blackboard": {
+        "atk_scale": 3.2,
+        "times": 10.0,
+        "stun": 4.0
+      },
+      "skillId": "skchr_chen_3"
     }
   ],
   "stats": {

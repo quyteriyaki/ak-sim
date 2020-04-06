@@ -2,75 +2,51 @@
   "name": "Beehunter",
   "rarity": 4,
   "profession": "Guard",
-  "potential": [
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    },
-    {
-      "description": "Redeployment Time -4 sec",
-      "respawn": -4.0
-    },
-    {
-      "description": "Max HP +180",
-      "maxHp": 180.0
-    },
-    {
-      "description": "Improves Talent"
-    },
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    }
-  ],
+  "potential": {
+    "cost": -2.0,
+    "respawn": -4.0,
+    "maxHp": 180.0
+  },
   "skills": [
     {
-      "skillId": "skchr_brownb_1",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Flexibility",
-        "rangeId": null,
-        "description": "60% chance to dodge Physical attacks",
-        "skillType": 0,
-        "spData": {
-          "spType": 8,
-          "levelUpCost": null,
-          "maxChargeTime": 0,
-          "spCost": 0,
-          "initSp": 0,
-          "increment": 0.0
-        },
-        "prefabId": "skchr_brownb_1",
-        "duration": 0.0,
-        "blackboard": {
-          "prob": 0.6
-        }
-      }
+      "name": "Flexibility",
+      "rangeId": null,
+      "description": "60% chance to dodge Physical attacks",
+      "skillType": 0,
+      "spData": {
+        "spType": 8,
+        "levelUpCost": null,
+        "maxChargeTime": 0,
+        "spCost": 0,
+        "initSp": 0,
+        "increment": 0.0
+      },
+      "prefabId": "skchr_brownb_1",
+      "duration": 0.0,
+      "blackboard": {
+        "prob": 0.6
+      },
+      "skillId": "skchr_brownb_1"
     },
     {
-      "skillId": "skchr_brownb_2",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Soaring Fists",
-        "rangeId": null,
-        "description": "Significant Attack Interval reduction",
-        "skillType": 1,
-        "spData": {
-          "spType": 1,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 20,
-          "initSp": 0,
-          "increment": 1.0
-        },
-        "prefabId": "skchr_brownb_2",
-        "duration": 10.0,
-        "blackboard": {
-          "base_attack_time": -0.6
-        }
-      }
+      "name": "Soaring Fists",
+      "rangeId": null,
+      "description": "Significant Attack Interval reduction",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 20,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_brownb_2",
+      "duration": 10.0,
+      "blackboard": {
+        "base_attack_time": -0.6
+      },
+      "skillId": "skchr_brownb_2"
     }
   ],
   "stats": {

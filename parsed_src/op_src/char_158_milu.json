@@ -2,76 +2,52 @@
   "name": "Firewatch",
   "rarity": 5,
   "profession": "Sniper",
-  "potential": [
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    },
-    {
-      "description": "Redeployment Time -4 sec",
-      "respawn": -4.0
-    },
-    {
-      "description": "ATK +35",
-      "atk": 35.0
-    },
-    {
-      "description": "Improves Talent"
-    },
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    }
-  ],
+  "potential": {
+    "cost": -2.0,
+    "respawn": -4.0,
+    "atk": 35.0
+  },
   "skills": [
     {
-      "skillId": "skchr_milu_1",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Camouflage",
-        "rangeId": null,
-        "description": "ATK +70%; Turns into Invisible state (Will not become the target of ranged enemies)",
-        "skillType": 1,
-        "spData": {
-          "spType": 1,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 20,
-          "initSp": 0,
-          "increment": 1.0
-        },
-        "prefabId": "skchr_milu_1",
-        "duration": 50.0,
-        "blackboard": {
-          "atk": 0.7
-        }
-      }
+      "name": "Camouflage",
+      "rangeId": null,
+      "description": "ATK +70%; Turns into Invisible state (Will not become the target of ranged enemies)",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 20,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_milu_1",
+      "duration": 50.0,
+      "blackboard": {
+        "atk": 0.7
+      },
+      "skillId": "skchr_milu_1"
     },
     {
-      "skillId": "skchr_milu_2",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Tactical Transceiver",
-        "rangeId": null,
-        "description": "Randomly drops 3 bombs within range (especially to enemy's position); Every bomb deals 300% of ATK Physical damage to all nearby enemies",
-        "skillType": 1,
-        "spData": {
-          "spType": 1,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 50,
-          "initSp": 30,
-          "increment": 1.0
-        },
-        "prefabId": "skchr_milu_2",
-        "duration": 0.0,
-        "blackboard": {
-          "max_cnt": 3.0,
-          "atk_scale": 3.0
-        }
-      }
+      "name": "Tactical Transceiver",
+      "rangeId": null,
+      "description": "Randomly drops 3 bombs within range (especially to enemy's position); Every bomb deals 300% of ATK Physical damage to all nearby enemies",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 50,
+        "initSp": 30,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_milu_2",
+      "duration": 0.0,
+      "blackboard": {
+        "max_cnt": 3.0,
+        "atk_scale": 3.0
+      },
+      "skillId": "skchr_milu_2"
     }
   ],
   "stats": {

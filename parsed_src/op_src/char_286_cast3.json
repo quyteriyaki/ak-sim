@@ -2,23 +2,7 @@
   "name": "Castle-3",
   "rarity": 1,
   "profession": "Guard",
-  "potential": [
-    {
-      "description": "Improves Talent"
-    },
-    {
-      "description": "Improves Talent"
-    },
-    {
-      "description": "Improves Talent"
-    },
-    {
-      "description": "Improves Talent"
-    },
-    {
-      "description": "Improves Talent"
-    }
-  ],
+  "potential": {},
   "stats": {
     "level": 30,
     "maxHp": 1106,

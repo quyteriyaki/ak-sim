@@ -2,81 +2,56 @@
   "name": "Frostleaf",
   "rarity": 4,
   "profession": "Guard",
-  "potential": [
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    },
-    {
-      "description": "Redeployment Time -4 sec",
-      "respawn": -4.0
-    },
-    {
-      "description": "ASPD +8",
-      "attackSpeed": 8.0
-    },
-    {
-      "description": "Redeployment Time -6 sec",
-      "respawn": -6.0
-    },
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    }
-  ],
+  "potential": {
+    "cost": -2.0,
+    "respawn": -10.0,
+    "attackSpeed": 8.0
+  },
   "skills": [
     {
-      "skillId": "skchr_frostl_1",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Frost Tomahawk",
-        "rangeId": null,
-        "description": "Deals 150% of ATK Physical damage in the next attack and the Movement Speed of targets -50% for 3 seconds",
-        "skillType": 2,
-        "spData": {
-          "spType": 1,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 3,
-          "initSp": 0,
-          "increment": 1.0
-        },
-        "prefabId": "skchr_frostl_1",
-        "duration": -1.0,
-        "blackboard": {
-          "move_speed": -0.5,
-          "duration": 3.0,
-          "atk_scale": 1.5
-        }
-      }
+      "name": "Frost Tomahawk",
+      "rangeId": null,
+      "description": "Deals 150% of ATK Physical damage in the next attack and the Movement Speed of targets -50% for 3 seconds",
+      "skillType": 2,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 3,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_frostl_1",
+      "duration": -1.0,
+      "blackboard": {
+        "move_speed": -0.5,
+        "duration": 3.0,
+        "atk_scale": 1.5
+      },
+      "skillId": "skchr_frostl_1"
     },
     {
-      "skillId": "skchr_frostl_2",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Ice Tomahawk",
-        "rangeId": null,
-        "description": "ASPD +50; The Movement Speed of targets -50% and has a 40% chance to freeze them for 2 seconds",
-        "skillType": 1,
-        "spData": {
-          "spType": 1,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 50,
-          "initSp": 0,
-          "increment": 1.0
-        },
-        "prefabId": "skchr_frostl_2",
-        "duration": 25.0,
-        "blackboard": {
-          "move_speed": -0.5,
-          "attack_speed": 50.0,
-          "prob": 0.4,
-          "debuff": 2.0
-        }
-      }
+      "name": "Ice Tomahawk",
+      "rangeId": null,
+      "description": "ASPD +50; The Movement Speed of targets -50% and has a 40% chance to freeze them for 2 seconds",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 50,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_frostl_2",
+      "duration": 25.0,
+      "blackboard": {
+        "move_speed": -0.5,
+        "attack_speed": 50.0,
+        "prob": 0.4,
+        "debuff": 2.0
+      },
+      "skillId": "skchr_frostl_2"
     }
   ],
   "stats": {

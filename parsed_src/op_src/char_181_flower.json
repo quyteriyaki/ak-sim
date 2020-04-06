@@ -2,76 +2,52 @@
   "name": "Perfumer",
   "rarity": 4,
   "profession": "Medic",
-  "potential": [
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    },
-    {
-      "description": "Redeployment Time -4 sec",
-      "respawn": -4.0
-    },
-    {
-      "description": "ATK +19",
-      "atk": 19.0
-    },
-    {
-      "description": "Improves Talent"
-    },
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    }
-  ],
+  "potential": {
+    "cost": -2.0,
+    "respawn": -4.0,
+    "atk": 19.0
+  },
   "skills": [
     {
-      "skillId": "skcom_heal_up[2]",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Healing Up \u03b2",
-        "rangeId": null,
-        "description": "ATK +70%",
-        "skillType": 1,
-        "spData": {
-          "spType": 1,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 30,
-          "initSp": 10,
-          "increment": 1.0
-        },
-        "prefabId": "skcom_heal_up",
-        "duration": 25.0,
-        "blackboard": {
-          "atk": 0.7
-        }
-      }
+      "name": "Healing Up \u03b2",
+      "rangeId": null,
+      "description": "ATK +70%",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 30,
+        "initSp": 10,
+        "increment": 1.0
+      },
+      "prefabId": "skcom_heal_up",
+      "duration": 25.0,
+      "blackboard": {
+        "atk": 0.7
+      },
+      "skillId": "skcom_heal_up[2]"
     },
     {
-      "skillId": "skchr_flower_2",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Fine Blending",
-        "rangeId": null,
-        "description": "ASPD -50; ATK +250%",
-        "skillType": 1,
-        "spData": {
-          "spType": 1,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 60,
-          "initSp": 20,
-          "increment": 1.0
-        },
-        "prefabId": "skchr_flower_2",
-        "duration": 30.0,
-        "blackboard": {
-          "atk": 2.5,
-          "attack_speed": -50.0
-        }
-      }
+      "name": "Fine Blending",
+      "rangeId": null,
+      "description": "ASPD -50; ATK +250%",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 60,
+        "initSp": 20,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_flower_2",
+      "duration": 30.0,
+      "blackboard": {
+        "atk": 2.5,
+        "attack_speed": -50.0
+      },
+      "skillId": "skchr_flower_2"
     }
   ],
   "stats": {

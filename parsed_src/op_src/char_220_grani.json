@@ -2,77 +2,52 @@
   "name": "Grani",
   "rarity": 5,
   "profession": "Vanguard",
-  "potential": [
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    },
-    {
-      "description": "Redeployment Time -10 sec",
-      "respawn": -10.0
-    },
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    },
-    {
-      "description": "Improves Talent"
-    },
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    }
-  ],
+  "potential": {
+    "cost": -3.0,
+    "respawn": -10.0
+  },
   "skills": [
     {
-      "skillId": "skcom_def_up[3]",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "DEF Up \u03b3",
-        "rangeId": null,
-        "description": "DEF +100%",
-        "skillType": 1,
-        "spData": {
-          "spType": 1,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 30,
-          "initSp": 15,
-          "increment": 1.0
-        },
-        "prefabId": "skcom_def_up",
-        "duration": 40.0,
-        "blackboard": {
-          "def": 1.0
-        }
-      }
+      "name": "DEF Up \u03b3",
+      "rangeId": null,
+      "description": "DEF +100%",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 30,
+        "initSp": 15,
+        "increment": 1.0
+      },
+      "prefabId": "skcom_def_up",
+      "duration": 40.0,
+      "blackboard": {
+        "def": 1.0
+      },
+      "skillId": "skcom_def_up[3]"
     },
     {
-      "skillId": "skchr_grani_2",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Press the Attack!",
-        "rangeId": "0-1",
-        "description": "Range shortens; ATK & DEF +80%; Block +1; Attacks all blocked targets",
-        "skillType": 1,
-        "spData": {
-          "spType": 1,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 70,
-          "initSp": 50,
-          "increment": 1.0
-        },
-        "prefabId": "skchr_grani_2",
-        "duration": 30.0,
-        "blackboard": {
-          "atk": 0.8,
-          "def": 0.8,
-          "block_cnt": 1.0
-        }
-      }
+      "name": "Press the Attack!",
+      "rangeId": "0-1",
+      "description": "Range shortens; ATK & DEF +80%; Block +1; Attacks all blocked targets",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 70,
+        "initSp": 50,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_grani_2",
+      "duration": 30.0,
+      "blackboard": {
+        "atk": 0.8,
+        "def": 0.8,
+        "block_cnt": 1.0
+      },
+      "skillId": "skchr_grani_2"
     }
   ],
   "stats": {

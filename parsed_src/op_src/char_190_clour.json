@@ -2,77 +2,52 @@
   "name": "Vermeil",
   "rarity": 4,
   "profession": "Sniper",
-  "potential": [
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    },
-    {
-      "description": "Redeployment Time -4 sec",
-      "respawn": -4.0
-    },
-    {
-      "description": "ATK +24",
-      "atk": 24.0
-    },
-    {
-      "description": "Redeployment Time -6 sec",
-      "respawn": -6.0
-    },
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    }
-  ],
+  "potential": {
+    "cost": -2.0,
+    "respawn": -10.0,
+    "atk": 24.0
+  },
   "skills": [
     {
-      "skillId": "skcom_atk_up[2]",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "ATK Up \u03b2",
-        "rangeId": null,
-        "description": "ATK +80%",
-        "skillType": 1,
-        "spData": {
-          "spType": 1,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 35,
-          "initSp": 10,
-          "increment": 1.0
-        },
-        "prefabId": "skcom_atk_up",
-        "duration": 25.0,
-        "blackboard": {
-          "atk": 0.8
-        }
-      }
+      "name": "ATK Up \u03b2",
+      "rangeId": null,
+      "description": "ATK +80%",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 35,
+        "initSp": 10,
+        "increment": 1.0
+      },
+      "prefabId": "skcom_atk_up",
+      "duration": 25.0,
+      "blackboard": {
+        "atk": 0.8
+      },
+      "skillId": "skcom_atk_up[2]"
     },
     {
-      "skillId": "skchr_clour_2",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Double Shot",
-        "rangeId": null,
-        "description": "ATK +45%, each attack hits 1 additional target.",
-        "skillType": 1,
-        "spData": {
-          "spType": 1,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 20,
-          "initSp": 10,
-          "increment": 1.0
-        },
-        "prefabId": "skchr_clour_2",
-        "duration": 20.0,
-        "blackboard": {
-          "atk": 0.45,
-          "attack@max_target": 2.0
-        }
-      }
+      "name": "Double Shot",
+      "rangeId": null,
+      "description": "ATK +45%, each attack hits 1 additional target.",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 20,
+        "initSp": 10,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_clour_2",
+      "duration": 20.0,
+      "blackboard": {
+        "atk": 0.45,
+        "attack@max_target": 2.0
+      },
+      "skillId": "skchr_clour_2"
     }
   ],
   "stats": {

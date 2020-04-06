@@ -2,76 +2,52 @@
   "name": "Estelle",
   "rarity": 4,
   "profession": "Guard",
-  "potential": [
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    },
-    {
-      "description": "Redeployment Time -4 sec",
-      "respawn": -4.0
-    },
-    {
-      "description": "Max HP +200",
-      "maxHp": 200.0
-    },
-    {
-      "description": "Improves Talent"
-    },
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    }
-  ],
+  "potential": {
+    "cost": -2.0,
+    "respawn": -4.0,
+    "maxHp": 200.0
+  },
   "skills": [
     {
-      "skillId": "skcom_atk_up[2]",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "ATK Up \u03b2",
-        "rangeId": null,
-        "description": "ATK +80%",
-        "skillType": 1,
-        "spData": {
-          "spType": 1,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 35,
-          "initSp": 10,
-          "increment": 1.0
-        },
-        "prefabId": "skcom_atk_up",
-        "duration": 25.0,
-        "blackboard": {
-          "atk": 0.8
-        }
-      }
+      "name": "ATK Up \u03b2",
+      "rangeId": null,
+      "description": "ATK +80%",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 35,
+        "initSp": 10,
+        "increment": 1.0
+      },
+      "prefabId": "skcom_atk_up",
+      "duration": 25.0,
+      "blackboard": {
+        "atk": 0.8
+      },
+      "skillId": "skcom_atk_up[2]"
     },
     {
-      "skillId": "skchr_estell_2",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Sacrificial Strike",
-        "rangeId": null,
-        "description": "ATK +150%; Cannot be healed by allies",
-        "skillType": 1,
-        "spData": {
-          "spType": 4,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 20,
-          "initSp": 10,
-          "increment": 1.0
-        },
-        "prefabId": "skchr_estell_2",
-        "duration": 15.0,
-        "blackboard": {
-          "atk": 1.5,
-          "block_cnt": 0.0
-        }
-      }
+      "name": "Sacrificial Strike",
+      "rangeId": null,
+      "description": "ATK +150%; Cannot be healed by allies",
+      "skillType": 1,
+      "spData": {
+        "spType": 4,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 20,
+        "initSp": 10,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_estell_2",
+      "duration": 15.0,
+      "blackboard": {
+        "atk": 1.5,
+        "block_cnt": 0.0
+      },
+      "skillId": "skchr_estell_2"
     }
   ],
   "stats": {

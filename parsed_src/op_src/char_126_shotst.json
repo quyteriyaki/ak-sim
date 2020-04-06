@@ -2,79 +2,55 @@
   "name": "Meteor",
   "rarity": 4,
   "profession": "Sniper",
-  "potential": [
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    },
-    {
-      "description": "Redeployment Time -4 sec",
-      "respawn": -4.0
-    },
-    {
-      "description": "ATK +23",
-      "atk": 23.0
-    },
-    {
-      "description": "Improves Talent"
-    },
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    }
-  ],
+  "potential": {
+    "cost": -2.0,
+    "respawn": -4.0,
+    "atk": 23.0
+  },
   "skills": [
     {
-      "skillId": "skchr_shotst_1",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Armor Breaker",
-        "rangeId": null,
-        "description": "The next attack deals 180% of ATK physical damage and the target's DEF -35% for 5 seconds",
-        "skillType": 2,
-        "spData": {
-          "spType": 2,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 4,
-          "initSp": 0,
-          "increment": 1.0
-        },
-        "prefabId": "skchr_shotst_1",
-        "duration": -1.0,
-        "blackboard": {
-          "atk_scale": 1.8,
-          "def": -0.35,
-          "duration": 5.0
-        }
-      }
+      "name": "Armor Breaker",
+      "rangeId": null,
+      "description": "The next attack deals 180% of ATK physical damage and the target's DEF -35% for 5 seconds",
+      "skillType": 2,
+      "spData": {
+        "spType": 2,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 4,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_shotst_1",
+      "duration": -1.0,
+      "blackboard": {
+        "atk_scale": 1.8,
+        "def": -0.35,
+        "duration": 5.0
+      },
+      "skillId": "skchr_shotst_1"
     },
     {
-      "skillId": "skchr_shotst_2",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Armor Breaker - Spread",
-        "rangeId": null,
-        "description": "The next attack deals 200% of ATK physical damage to at most 5 enemies within range and the DEF of targets hit -40% for 5 seconds",
-        "skillType": 1,
-        "spData": {
-          "spType": 2,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 15,
-          "initSp": 0,
-          "increment": 1.0
-        },
-        "prefabId": "skchr_shotst_2",
-        "duration": -1.0,
-        "blackboard": {
-          "atk_scale": 2.0,
-          "def": -0.4,
-          "duration": 5.0
-        }
-      }
+      "name": "Armor Breaker - Spread",
+      "rangeId": null,
+      "description": "The next attack deals 200% of ATK physical damage to at most 5 enemies within range and the DEF of targets hit -40% for 5 seconds",
+      "skillType": 1,
+      "spData": {
+        "spType": 2,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 15,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_shotst_2",
+      "duration": -1.0,
+      "blackboard": {
+        "atk_scale": 2.0,
+        "def": -0.4,
+        "duration": 5.0
+      },
+      "skillId": "skchr_shotst_2"
     }
   ],
   "stats": {

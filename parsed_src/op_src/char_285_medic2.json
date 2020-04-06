@@ -2,23 +2,7 @@
   "name": "Lancet-2",
   "rarity": 1,
   "profession": "Medic",
-  "potential": [
-    {
-      "description": "Improves Talent"
-    },
-    {
-      "description": "Improves Talent"
-    },
-    {
-      "description": "Improves Talent"
-    },
-    {
-      "description": "Improves Talent"
-    },
-    {
-      "description": "Improves Talent"
-    }
-  ],
+  "potential": {},
   "stats": {
     "level": 30,
     "maxHp": 435,

@@ -2,76 +2,52 @@
   "name": "Gitano",
   "rarity": 4,
   "profession": "Caster",
-  "potential": [
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    },
-    {
-      "description": "Redeployment Time -4 sec",
-      "respawn": -4.0
-    },
-    {
-      "description": "ATK +27",
-      "atk": 27.0
-    },
-    {
-      "description": "Improves Talent"
-    },
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    }
-  ],
+  "potential": {
+    "cost": -2.0,
+    "respawn": -4.0,
+    "atk": 27.0
+  },
   "skills": [
     {
-      "skillId": "skcom_magic_rage[2]",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Tactical Chant \u03b2",
-        "rangeId": null,
-        "description": "ASPD +75",
-        "skillType": 1,
-        "spData": {
-          "spType": 1,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 35,
-          "initSp": 10,
-          "increment": 1.0
-        },
-        "prefabId": "skcom_attack_speed_up",
-        "duration": 25.0,
-        "blackboard": {
-          "attack_speed": 75.0
-        }
-      }
+      "name": "Tactical Chant \u03b2",
+      "rangeId": null,
+      "description": "ASPD +75",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 35,
+        "initSp": 10,
+        "increment": 1.0
+      },
+      "prefabId": "skcom_attack_speed_up",
+      "duration": 25.0,
+      "blackboard": {
+        "attack_speed": 75.0
+      },
+      "skillId": "skcom_magic_rage[2]"
     },
     {
-      "skillId": "skchr_fmout_2",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Destiny",
-        "rangeId": "3-3",
-        "description": "ATK +100%; Range expands; Attacks all targets within range simultaneously\nGitano stops attacking for 10 seconds after using this skill",
-        "skillType": 1,
-        "spData": {
-          "spType": 1,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 85,
-          "initSp": 50,
-          "increment": 1.0
-        },
-        "prefabId": "skchr_fmout_2",
-        "duration": 30.0,
-        "blackboard": {
-          "atk": 1.0,
-          "time": 10.0
-        }
-      }
+      "name": "Destiny",
+      "rangeId": "3-3",
+      "description": "ATK +100%; Range expands; Attacks all targets within range simultaneously\nGitano stops attacking for 10 seconds after using this skill",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 85,
+        "initSp": 50,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_fmout_2",
+      "duration": 30.0,
+      "blackboard": {
+        "atk": 1.0,
+        "time": 10.0
+      },
+      "skillId": "skchr_fmout_2"
     }
   ],
   "stats": {

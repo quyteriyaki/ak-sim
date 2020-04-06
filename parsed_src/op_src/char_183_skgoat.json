@@ -2,76 +2,52 @@
   "name": "Earthspirit",
   "rarity": 4,
   "profession": "Supporter",
-  "potential": [
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    },
-    {
-      "description": "Redeployment Time -4 sec",
-      "respawn": -4.0
-    },
-    {
-      "description": "ATK +21",
-      "atk": 21.0
-    },
-    {
-      "description": "Improves Talent"
-    },
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    }
-  ],
+  "potential": {
+    "cost": -2.0,
+    "respawn": -4.0,
+    "atk": 21.0
+  },
   "skills": [
     {
-      "skillId": "skcom_atk_up[2]",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "ATK Up \u03b2",
-        "rangeId": null,
-        "description": "ATK +80%",
-        "skillType": 1,
-        "spData": {
-          "spType": 1,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 35,
-          "initSp": 10,
-          "increment": 1.0
-        },
-        "prefabId": "skcom_atk_up",
-        "duration": 25.0,
-        "blackboard": {
-          "atk": 0.8
-        }
-      }
+      "name": "ATK Up \u03b2",
+      "rangeId": null,
+      "description": "ATK +80%",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 35,
+        "initSp": 10,
+        "increment": 1.0
+      },
+      "prefabId": "skcom_atk_up",
+      "duration": 25.0,
+      "blackboard": {
+        "atk": 0.8
+      },
+      "skillId": "skcom_atk_up[2]"
     },
     {
-      "skillId": "skchr_skgoat_2",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Quicksand Conversion",
-        "rangeId": null,
-        "description": "Stops attacking; Enemies within range are Slowed every 1.4 seconds",
-        "skillType": 1,
-        "spData": {
-          "spType": 1,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 40,
-          "initSp": 15,
-          "increment": 1.0
-        },
-        "prefabId": "skchr_skgoat_2",
-        "duration": 25.0,
-        "blackboard": {
-          "interval": 1.4,
-          "sluggish": 0.8
-        }
-      }
+      "name": "Quicksand Conversion",
+      "rangeId": null,
+      "description": "Stops attacking; Enemies within range are Slowed every 1.4 seconds",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 40,
+        "initSp": 15,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_skgoat_2",
+      "duration": 25.0,
+      "blackboard": {
+        "interval": 1.4,
+        "sluggish": 0.8
+      },
+      "skillId": "skchr_skgoat_2"
     }
   ],
   "stats": {

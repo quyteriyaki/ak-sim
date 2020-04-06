@@ -2,76 +2,51 @@
   "name": "Ptilopsis",
   "rarity": 5,
   "profession": "Medic",
-  "potential": [
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    },
-    {
-      "description": "Redeployment Time -4 sec",
-      "respawn": -4.0
-    },
-    {
-      "description": "ATK +21",
-      "atk": 21.0
-    },
-    {
-      "description": "Redeployment Time -6 sec",
-      "respawn": -6.0
-    },
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    }
-  ],
+  "potential": {
+    "cost": -2.0,
+    "respawn": -10.0,
+    "atk": 21.0
+  },
   "skills": [
     {
-      "skillId": "skcom_heal_up[3]",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Healing Up \u03b3",
-        "rangeId": null,
-        "description": "ATK +90%",
-        "skillType": 1,
-        "spData": {
-          "spType": 1,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 30,
-          "initSp": 20,
-          "increment": 1.0
-        },
-        "prefabId": "skcom_heal_up",
-        "duration": 30.0,
-        "blackboard": {
-          "atk": 0.9
-        }
-      }
+      "name": "Healing Up \u03b3",
+      "rangeId": null,
+      "description": "ATK +90%",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 30,
+        "initSp": 20,
+        "increment": 1.0
+      },
+      "prefabId": "skcom_heal_up",
+      "duration": 30.0,
+      "blackboard": {
+        "atk": 0.9
+      },
+      "skillId": "skcom_heal_up[3]"
     },
     {
-      "skillId": "skchr_plosis_2",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Enkephalin",
-        "rangeId": "y-7",
-        "description": "Range expands; reduces Attack Interval greatly",
-        "skillType": 1,
-        "spData": {
-          "spType": 1,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 100,
-          "initSp": 85,
-          "increment": 1.0
-        },
-        "prefabId": "skchr_plosis_2",
-        "duration": 40.0,
-        "blackboard": {
-          "base_attack_time": -2.1
-        }
-      }
+      "name": "Enkephalin",
+      "rangeId": "y-7",
+      "description": "Range expands; reduces Attack Interval greatly",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 100,
+        "initSp": 85,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_plosis_2",
+      "duration": 40.0,
+      "blackboard": {
+        "base_attack_time": -2.1
+      },
+      "skillId": "skchr_plosis_2"
     }
   ],
   "stats": {

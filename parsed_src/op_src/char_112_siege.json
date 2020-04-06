@@ -2,104 +2,76 @@
   "name": "Siege",
   "rarity": 6,
   "profession": "Vanguard",
-  "potential": [
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    },
-    {
-      "description": "Redeployment Time -4 sec",
-      "respawn": -4.0
-    },
-    {
-      "description": "ATK +25",
-      "atk": 25.0
-    },
-    {
-      "description": "Improves First Talent"
-    },
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    }
-  ],
+  "potential": {
+    "cost": -2.0,
+    "respawn": -4.0,
+    "atk": 25.0
+  },
   "skills": [
     {
-      "skillId": "skcom_charge_cost[3]",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Charge \u03b3",
-        "rangeId": null,
-        "description": "Instantly gains 12 Deployment Points.",
-        "skillType": 2,
-        "spData": {
-          "spType": 1,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 35,
-          "initSp": 20,
-          "increment": 1.0
-        },
-        "prefabId": "skcom_charge_cost",
-        "duration": 0.0,
-        "blackboard": {
-          "cost": 12.0
-        }
-      }
+      "name": "Charge \u03b3",
+      "rangeId": null,
+      "description": "Instantly gains 12 Deployment Points.",
+      "skillType": 2,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 35,
+        "initSp": 20,
+        "increment": 1.0
+      },
+      "prefabId": "skcom_charge_cost",
+      "duration": 0.0,
+      "blackboard": {
+        "cost": 12.0
+      },
+      "skillId": "skcom_charge_cost[3]"
     },
     {
-      "skillId": "skchr_siege_2",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Aerial Hammer",
-        "rangeId": "x-5",
-        "description": "Deals 340% of ATK Physical damage to all nearby enemies in the next attack; Gains 3 DP\nCan store 3 charge(s)",
-        "skillType": 2,
-        "spData": {
-          "spType": 1,
-          "levelUpCost": null,
-          "maxChargeTime": 3,
-          "spCost": 10,
-          "initSp": 10,
-          "increment": 1.0
-        },
-        "prefabId": "skchr_siege_2",
-        "duration": 0.0,
-        "blackboard": {
-          "atk_scale": 3.4,
-          "cost": 3.0,
-          "ct": 3.0
-        }
-      }
+      "name": "Aerial Hammer",
+      "rangeId": "x-5",
+      "description": "Deals 340% of ATK Physical damage to all nearby enemies in the next attack; Gains 3 DP\nCan store 3 charge(s)",
+      "skillType": 2,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 3,
+        "spCost": 10,
+        "initSp": 10,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_siege_2",
+      "duration": 0.0,
+      "blackboard": {
+        "atk_scale": 3.4,
+        "cost": 3.0,
+        "ct": 3.0
+      },
+      "skillId": "skchr_siege_2"
     },
     {
-      "skillId": "skchr_siege_3",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Skull Breaker",
-        "rangeId": null,
-        "description": "Attack Interval increases; Increases ATK to 380% when attacking; Has a 40% chance to Stun the targets for 1.5 seconds",
-        "skillType": 1,
-        "spData": {
-          "spType": 1,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 30,
-          "initSp": 25,
-          "increment": 1.0
-        },
-        "prefabId": "skchr_siege_3",
-        "duration": 25.0,
-        "blackboard": {
-          "attack@atk_scale": 3.8,
-          "attack@buff_prob": 0.4,
-          "attack@stun": 1.5,
-          "base_attack_time": 1.0
-        }
-      }
+      "name": "Skull Breaker",
+      "rangeId": null,
+      "description": "Attack Interval increases; Increases ATK to 380% when attacking; Has a 40% chance to Stun the targets for 1.5 seconds",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 30,
+        "initSp": 25,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_siege_3",
+      "duration": 25.0,
+      "blackboard": {
+        "attack@atk_scale": 3.8,
+        "attack@buff_prob": 0.4,
+        "attack@stun": 1.5,
+        "base_attack_time": 1.0
+      },
+      "skillId": "skchr_siege_3"
     }
   ],
   "stats": {

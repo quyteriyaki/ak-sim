@@ -2,77 +2,52 @@
   "name": "Flamebringer",
   "rarity": 5,
   "profession": "Guard",
-  "potential": [
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    },
-    {
-      "description": "Redeployment Time -10 sec",
-      "respawn": -10.0
-    },
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    },
-    {
-      "description": "Improves Talent"
-    },
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    }
-  ],
+  "potential": {
+    "cost": -3.0,
+    "respawn": -10.0
+  },
   "skills": [
     {
-      "skillId": "skchr_flameb_1",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Blood Pact",
-        "rangeId": null,
-        "description": "The next attack's power is increased to220%, and restores HP by 8%",
-        "skillType": 2,
-        "spData": {
-          "spType": 2,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 3,
-          "initSp": 0,
-          "increment": 1.0
-        },
-        "prefabId": "skchr_flameb_1",
-        "duration": 0.0,
-        "blackboard": {
-          "atk_scale": 2.2,
-          "hp_ratio": 0.08
-        }
-      }
+      "name": "Blood Pact",
+      "rangeId": null,
+      "description": "The next attack's power is increased to220%, and restores HP by 8%",
+      "skillType": 2,
+      "spData": {
+        "spType": 2,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 3,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_flameb_1",
+      "duration": 0.0,
+      "blackboard": {
+        "atk_scale": 2.2,
+        "hp_ratio": 0.08
+      },
+      "skillId": "skchr_flameb_1"
     },
     {
-      "skillId": "skchr_flameb_2",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Blade Demon",
-        "rangeId": null,
-        "description": "ATK +70%, ASPD +45\nInfinite duration.",
-        "skillType": 2,
-        "spData": {
-          "spType": 2,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 40,
-          "initSp": 0,
-          "increment": 1.0
-        },
-        "prefabId": "skchr_flameb_2",
-        "duration": 0.0,
-        "blackboard": {
-          "atk": 0.7,
-          "attack_speed": 45.0
-        }
-      }
+      "name": "Blade Demon",
+      "rangeId": null,
+      "description": "ATK +70%, ASPD +45\nInfinite duration.",
+      "skillType": 2,
+      "spData": {
+        "spType": 2,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 40,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_flameb_2",
+      "duration": 0.0,
+      "blackboard": {
+        "atk": 0.7,
+        "attack_speed": 45.0
+      },
+      "skillId": "skchr_flameb_2"
     }
   ],
   "stats": {

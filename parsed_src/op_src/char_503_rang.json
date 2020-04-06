@@ -2,28 +2,11 @@
   "name": "Rangers",
   "rarity": 2,
   "profession": "Sniper",
-  "potential": [
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    },
-    {
-      "description": "ASPD +6",
-      "attackSpeed": 6.0
-    },
-    {
-      "description": "ASPD +6",
-      "attackSpeed": 6.0
-    },
-    {
-      "description": "Redeployment Time -5 sec",
-      "respawn": -5.0
-    },
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    }
-  ],
+  "potential": {
+    "cost": -2.0,
+    "attackSpeed": 12.0,
+    "respawn": -5.0
+  },
   "stats": {
     "level": 30,
     "maxHp": 780,

@@ -70,10 +70,14 @@ def Parse_Desc(Group):
             val = str(int(val))
         desc = desc.replace(old_key, str(val))
     
+    # Reconfigure skill
     # Reconfigure Blackboard to match dict
     Group['levels']['blackboard'] = bb
     # Return reference
     Group['levels']['description'] = desc
+    skillId = Group['skillId']
+    skills[skillId] = Group['levels']
+    skills[skillId]['skillId'] = Group['skillId']
     # try:
     #     Group['levels']['description'] = desc.format(**bb)
     # except KeyError as e:

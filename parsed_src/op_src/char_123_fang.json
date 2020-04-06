@@ -2,52 +2,31 @@
   "name": "Fang",
   "rarity": 3,
   "profession": "Vanguard",
-  "potential": [
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    },
-    {
-      "description": "Redeployment Time -4 sec",
-      "respawn": -4.0
-    },
-    {
-      "description": "DEF +20",
-      "def": 20.0
-    },
-    {
-      "description": "Redeployment Time -6 sec",
-      "respawn": -6.0
-    },
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    }
-  ],
+  "potential": {
+    "cost": -2.0,
+    "respawn": -10.0,
+    "def": 20.0
+  },
   "skills": [
     {
-      "skillId": "skcom_charge_cost[1]",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Charge \u03b1",
-        "rangeId": null,
-        "description": "Instantly gains 6 Deployment Points.",
-        "skillType": 2,
-        "spData": {
-          "spType": 1,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 25,
-          "initSp": 6,
-          "increment": 1.0
-        },
-        "prefabId": "skcom_charge_cost",
-        "duration": 0.0,
-        "blackboard": {
-          "cost": 6.0
-        }
-      }
+      "name": "Charge \u03b1",
+      "rangeId": null,
+      "description": "Instantly gains 6 Deployment Points.",
+      "skillType": 2,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 25,
+        "initSp": 6,
+        "increment": 1.0
+      },
+      "prefabId": "skcom_charge_cost",
+      "duration": 0.0,
+      "blackboard": {
+        "cost": 6.0
+      },
+      "skillId": "skcom_charge_cost[1]"
     }
   ],
   "stats": {

@@ -2,52 +2,31 @@
   "name": "Cardigan",
   "rarity": 3,
   "profession": "Defender",
-  "potential": [
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    },
-    {
-      "description": "Redeployment Time -4 sec",
-      "respawn": -4.0
-    },
-    {
-      "description": "Max HP +200",
-      "maxHp": 200.0
-    },
-    {
-      "description": "Redeployment Time -6 sec",
-      "respawn": -6.0
-    },
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    }
-  ],
+  "potential": {
+    "cost": -2.0,
+    "respawn": -10.0,
+    "maxHp": 200.0
+  },
   "skills": [
     {
-      "skillId": "skcom_heal_self[1]",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Regeneration \u03b1",
-        "rangeId": null,
-        "description": "Restores HP by 40% of Max HP",
-        "skillType": 1,
-        "spData": {
-          "spType": 1,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 20,
-          "initSp": 10,
-          "increment": 1.0
-        },
-        "prefabId": "skcom_heal_self",
-        "duration": 0.0,
-        "blackboard": {
-          "heal_scale": 0.4
-        }
-      }
+      "name": "Regeneration \u03b1",
+      "rangeId": null,
+      "description": "Restores HP by 40% of Max HP",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 20,
+        "initSp": 10,
+        "increment": 1.0
+      },
+      "prefabId": "skcom_heal_self",
+      "duration": 0.0,
+      "blackboard": {
+        "heal_scale": 0.4
+      },
+      "skillId": "skcom_heal_self[1]"
     }
   ],
   "stats": {

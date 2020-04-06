@@ -2,78 +2,53 @@
   "name": "Deepcolor",
   "rarity": 4,
   "profession": "Supporter",
-  "potential": [
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    },
-    {
-      "description": "Redeployment Time -4 sec",
-      "respawn": -4.0
-    },
-    {
-      "description": "ASPD +8",
-      "attackSpeed": 8.0
-    },
-    {
-      "description": "Redeployment Time -6 sec",
-      "respawn": -6.0
-    },
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    }
-  ],
+  "potential": {
+    "cost": -2.0,
+    "respawn": -10.0,
+    "attackSpeed": 8.0
+  },
   "skills": [
     {
-      "skillId": "skchr_deepcl_1",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Shadow Tentacle",
-        "rangeId": null,
-        "description": "All Tentacles' ATK and DEF +60%; Restores 70 HP per second",
-        "skillType": 1,
-        "spData": {
-          "spType": 1,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 30,
-          "initSp": 0,
-          "increment": 1.0
-        },
-        "prefabId": "skchr_deepcl_1",
-        "duration": 30.0,
-        "blackboard": {
-          "atk": 0.6,
-          "def": 0.6,
-          "hp_recovery_per_sec": 70.0
-        }
-      }
+      "name": "Shadow Tentacle",
+      "rangeId": null,
+      "description": "All Tentacles' ATK and DEF +60%; Restores 70 HP per second",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 30,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_deepcl_1",
+      "duration": 30.0,
+      "blackboard": {
+        "atk": 0.6,
+        "def": 0.6,
+        "hp_recovery_per_sec": 70.0
+      },
+      "skillId": "skchr_deepcl_1"
     },
     {
-      "skillId": "skchr_deepcl_2",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Visual Trap",
-        "rangeId": "3-4",
-        "description": "Range expands; Allies within range obtain 50% Physical Dodge",
-        "skillType": 1,
-        "spData": {
-          "spType": 1,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 80,
-          "initSp": 60,
-          "increment": 1.0
-        },
-        "prefabId": "skchr_deepcl_2",
-        "duration": 55.0,
-        "blackboard": {
-          "prob": 0.5
-        }
-      }
+      "name": "Visual Trap",
+      "rangeId": "3-4",
+      "description": "Range expands; Allies within range obtain 50% Physical Dodge",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 80,
+        "initSp": 60,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_deepcl_2",
+      "duration": 55.0,
+      "blackboard": {
+        "prob": 0.5
+      },
+      "skillId": "skchr_deepcl_2"
     }
   ],
   "stats": {

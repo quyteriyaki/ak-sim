@@ -5,70 +5,58 @@
   "potential": [],
   "skills": [
     {
-      "skillId": "sktok_mgllan_drone3",
-      "iconId": "sktok_mgllan_drone",
-      "hidden": false,
-      "levels": {
-        "name": "Recycle",
-        "rangeId": null,
-        "description": "This unit retreats after skill duration ends",
-        "skillType": 1,
-        "spData": {
-          "spType": 1,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 0,
-          "initSp": 0,
-          "increment": 1.0
-        },
-        "prefabId": "sktok_mgllan_drone3",
-        "duration": 0.0,
-        "blackboard": {}
-      }
+      "name": "Recycle",
+      "rangeId": null,
+      "description": "This unit retreats after skill duration ends",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 0,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "sktok_mgllan_drone3",
+      "duration": 0.0,
+      "blackboard": {},
+      "skillId": "sktok_mgllan_drone3"
     },
     {
-      "skillId": "sktok_mgllan_drone3",
-      "iconId": "sktok_mgllan_drone",
-      "hidden": false,
-      "levels": {
-        "name": "Recycle",
-        "rangeId": null,
-        "description": "This unit retreats after skill duration ends",
-        "skillType": 1,
-        "spData": {
-          "spType": 1,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 0,
-          "initSp": 0,
-          "increment": 1.0
-        },
-        "prefabId": "sktok_mgllan_drone3",
-        "duration": 0.0,
-        "blackboard": {}
-      }
+      "name": "Recycle",
+      "rangeId": null,
+      "description": "This unit retreats after skill duration ends",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 0,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "sktok_mgllan_drone3",
+      "duration": 0.0,
+      "blackboard": {},
+      "skillId": "sktok_mgllan_drone3"
     },
     {
-      "skillId": "sktok_mgllan_drone3",
-      "iconId": "sktok_mgllan_drone",
-      "hidden": false,
-      "levels": {
-        "name": "Recycle",
-        "rangeId": null,
-        "description": "This unit retreats after skill duration ends",
-        "skillType": 1,
-        "spData": {
-          "spType": 1,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 0,
-          "initSp": 0,
-          "increment": 1.0
-        },
-        "prefabId": "sktok_mgllan_drone3",
-        "duration": 0.0,
-        "blackboard": {}
-      }
+      "name": "Recycle",
+      "rangeId": null,
+      "description": "This unit retreats after skill duration ends",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 0,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "sktok_mgllan_drone3",
+      "duration": 0.0,
+      "blackboard": {},
+      "skillId": "sktok_mgllan_drone3"
     }
   ],
   "stats": {

@@ -2,77 +2,53 @@
   "name": "Gravel",
   "rarity": 4,
   "profession": "Specialist",
-  "potential": [
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    },
-    {
-      "description": "Max HP +160",
-      "maxHp": 160.0
-    },
-    {
-      "description": "Redeployment Time -2 sec",
-      "respawn": -2.0
-    },
-    {
-      "description": "Improves Talent"
-    },
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    }
-  ],
+  "potential": {
+    "cost": -2.0,
+    "maxHp": 160.0,
+    "respawn": -2.0
+  },
   "skills": [
     {
-      "skillId": "skchr_gravel_1",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Shadow Assault",
-        "rangeId": null,
-        "description": "DEF +400% after Gravel is deployed; her DEF continually decreases over 12 seconds",
-        "skillType": 0,
-        "spData": {
-          "spType": 8,
-          "levelUpCost": null,
-          "maxChargeTime": 0,
-          "spCost": 0,
-          "initSp": 0,
-          "increment": 0.0
-        },
-        "prefabId": "skchr_gravel_1",
-        "duration": -1.0,
-        "blackboard": {
-          "def": 4.0,
-          "duration": 12.0
-        }
-      }
+      "name": "Shadow Assault",
+      "rangeId": null,
+      "description": "DEF +400% after Gravel is deployed; her DEF continually decreases over 12 seconds",
+      "skillType": 0,
+      "spData": {
+        "spType": 8,
+        "levelUpCost": null,
+        "maxChargeTime": 0,
+        "spCost": 0,
+        "initSp": 0,
+        "increment": 0.0
+      },
+      "prefabId": "skchr_gravel_1",
+      "duration": -1.0,
+      "blackboard": {
+        "def": 4.0,
+        "duration": 12.0
+      },
+      "skillId": "skchr_gravel_1"
     },
     {
-      "skillId": "skchr_gravel_2",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Rat Swarm",
-        "rangeId": null,
-        "description": "When deployed, generates a shield with 250% of Max HP; The shield strength decays over 10 seconds",
-        "skillType": 0,
-        "spData": {
-          "spType": 8,
-          "levelUpCost": null,
-          "maxChargeTime": 0,
-          "spCost": 0,
-          "initSp": 0,
-          "increment": 0.0
-        },
-        "prefabId": "skchr_gravel_2",
-        "duration": -1.0,
-        "blackboard": {
-          "hp_ratio": 2.5,
-          "duration": 10.0
-        }
-      }
+      "name": "Rat Swarm",
+      "rangeId": null,
+      "description": "When deployed, generates a shield with 250% of Max HP; The shield strength decays over 10 seconds",
+      "skillType": 0,
+      "spData": {
+        "spType": 8,
+        "levelUpCost": null,
+        "maxChargeTime": 0,
+        "spCost": 0,
+        "initSp": 0,
+        "increment": 0.0
+      },
+      "prefabId": "skchr_gravel_2",
+      "duration": -1.0,
+      "blackboard": {
+        "hp_ratio": 2.5,
+        "duration": 10.0
+      },
+      "skillId": "skchr_gravel_2"
     }
   ],
   "stats": {

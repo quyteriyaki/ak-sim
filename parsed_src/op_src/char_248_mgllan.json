@@ -2,101 +2,73 @@
   "name": "Magallan",
   "rarity": 6,
   "profession": "Supporter",
-  "potential": [
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    },
-    {
-      "description": "Redeployment Time -4 sec",
-      "respawn": -4.0
-    },
-    {
-      "description": "ATK +23",
-      "atk": 23.0
-    },
-    {
-      "description": "Improves Second Talent"
-    },
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    }
-  ],
+  "potential": {
+    "cost": -2.0,
+    "respawn": -4.0,
+    "atk": 23.0
+  },
   "skills": [
     {
-      "skillId": "skchr_mgllan_1",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "High-Efficiency Freezing Module",
-        "rangeId": null,
-        "description": "Passive: Every 3 seconds, enemies in range of this unit and drones will be stopped for 1 second(s).\nActive: Instead binds enemies for 2 seconds, and retreats all drones when this effect ends.",
-        "skillType": 1,
-        "spData": {
-          "spType": 1,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 30,
-          "initSp": 20,
-          "increment": 1.0
-        },
-        "prefabId": "skchr_mgllan_1",
-        "duration": 15.0,
-        "blackboard": {
-          "attack@interval": 3.0,
-          "attack@frozen_duration": 2.5,
-          "attack@sluggish": 1.0
-        }
-      }
+      "name": "High-Efficiency Freezing Module",
+      "rangeId": null,
+      "description": "Passive: Every 3 seconds, enemies in range of this unit and drones will be stopped for 1 second(s).\nActive: Instead binds enemies for 2 seconds, and retreats all drones when this effect ends.",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 30,
+        "initSp": 20,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_mgllan_1",
+      "duration": 15.0,
+      "blackboard": {
+        "attack@interval": 3.0,
+        "attack@frozen_duration": 2.5,
+        "attack@sluggish": 1.0
+      },
+      "skillId": "skchr_mgllan_1"
     },
     {
-      "skillId": "skchr_mgllan_2",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Laser Mining Module",
-        "rangeId": null,
-        "description": "Passive: Drones may be deployed on melee tiles, dealing single-target Arts damage. \nActive: Magallan and her drones gain +150 ASPD, and drones gain AoE attacks. Retreats all drones after this effect ends.",
-        "skillType": 1,
-        "spData": {
-          "spType": 1,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 38,
-          "initSp": 25,
-          "increment": 1.0
-        },
-        "prefabId": "skchr_mgllan_2",
-        "duration": 15.0,
-        "blackboard": {
-          "attack_speed": 150.0
-        }
-      }
+      "name": "Laser Mining Module",
+      "rangeId": null,
+      "description": "Passive: Drones may be deployed on melee tiles, dealing single-target Arts damage. \nActive: Magallan and her drones gain +150 ASPD, and drones gain AoE attacks. Retreats all drones after this effect ends.",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 38,
+        "initSp": 25,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_mgllan_2",
+      "duration": 15.0,
+      "blackboard": {
+        "attack_speed": 150.0
+      },
+      "skillId": "skchr_mgllan_2"
     },
     {
-      "skillId": "skchr_mgllan_3",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Armed Combat Module",
-        "rangeId": null,
-        "description": "Passive: Drones may be deployed on ranged tiles, dealing AoE physical damage. \nActive: Magallan and her drones gain +150% ATK, and increases the AoE of drones' attacks. Retreats all drones after this effect ends.",
-        "skillType": 1,
-        "spData": {
-          "spType": 1,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 38,
-          "initSp": 25,
-          "increment": 1.0
-        },
-        "prefabId": "skchr_mgllan_3",
-        "duration": 15.0,
-        "blackboard": {
-          "atk": 1.5
-        }
-      }
+      "name": "Armed Combat Module",
+      "rangeId": null,
+      "description": "Passive: Drones may be deployed on ranged tiles, dealing AoE physical damage. \nActive: Magallan and her drones gain +150% ATK, and increases the AoE of drones' attacks. Retreats all drones after this effect ends.",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 38,
+        "initSp": 25,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_mgllan_3",
+      "duration": 15.0,
+      "blackboard": {
+        "atk": 1.5
+      },
+      "skillId": "skchr_mgllan_3"
     }
   ],
   "stats": {

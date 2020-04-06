@@ -2,76 +2,51 @@
   "name": "Sora",
   "rarity": 5,
   "profession": "Supporter",
-  "potential": [
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    },
-    {
-      "description": "Redeployment Time -4 sec",
-      "respawn": -4.0
-    },
-    {
-      "description": "Max HP +140",
-      "maxHp": 140.0
-    },
-    {
-      "description": "Redeployment Time -6 sec",
-      "respawn": -6.0
-    },
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    }
-  ],
+  "potential": {
+    "cost": -2.0,
+    "respawn": -10.0,
+    "maxHp": 140.0
+  },
   "skills": [
     {
-      "skillId": "skchr_sora_1",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Hymn of Respite",
-        "rangeId": "x-2",
-        "description": "Range expands; All enemies within range are put to Sleep  (Stun and Invincible) and the effect of Sora's Feature increases to 100%",
-        "skillType": 1,
-        "spData": {
-          "spType": 1,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 60,
-          "initSp": 45,
-          "increment": 1.0
-        },
-        "prefabId": "skchr_sora_1",
-        "duration": 7.0,
-        "blackboard": {
-          "attack@atk_to_hp_recovery_ratio": 1.0
-        }
-      }
+      "name": "Hymn of Respite",
+      "rangeId": "x-2",
+      "description": "Range expands; All enemies within range are put to Sleep  (Stun and Invincible) and the effect of Sora's Feature increases to 100%",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 60,
+        "initSp": 45,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_sora_1",
+      "duration": 7.0,
+      "blackboard": {
+        "attack@atk_to_hp_recovery_ratio": 1.0
+      },
+      "skillId": "skchr_sora_1"
     },
     {
-      "skillId": "skchr_sora_2",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Hymn of Battle",
-        "rangeId": null,
-        "description": "The ATK of all allies within range is increased by 100% of Sora's ATK",
-        "skillType": 1,
-        "spData": {
-          "spType": 1,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 45,
-          "initSp": 25,
-          "increment": 1.0
-        },
-        "prefabId": "skchr_sora_2",
-        "duration": 30.0,
-        "blackboard": {
-          "atk": 1.0
-        }
-      }
+      "name": "Hymn of Battle",
+      "rangeId": null,
+      "description": "The ATK of all allies within range is increased by 100% of Sora's ATK",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 45,
+        "initSp": 25,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_sora_2",
+      "duration": 30.0,
+      "blackboard": {
+        "atk": 1.0
+      },
+      "skillId": "skchr_sora_2"
     }
   ],
   "stats": {

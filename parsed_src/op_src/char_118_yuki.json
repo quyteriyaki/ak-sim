@@ -2,78 +2,53 @@
   "name": "Shirayuki",
   "rarity": 4,
   "profession": "Sniper",
-  "potential": [
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    },
-    {
-      "description": "Redeployment Time -4 sec",
-      "respawn": -4.0
-    },
-    {
-      "description": "ATK +30",
-      "atk": 30.0
-    },
-    {
-      "description": "Redeployment Time -6 sec",
-      "respawn": -6.0
-    },
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    }
-  ],
+  "potential": {
+    "cost": -2.0,
+    "respawn": -10.0,
+    "atk": 30.0
+  },
   "skills": [
     {
-      "skillId": "skchr_yuki_1",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Shuriken",
-        "rangeId": null,
-        "description": "Range +2 grids",
-        "skillType": 1,
-        "spData": {
-          "spType": 1,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 15,
-          "initSp": 10,
-          "increment": 1.0
-        },
-        "prefabId": "skchr_yuki_1",
-        "duration": 25.0,
-        "blackboard": {
-          "ability_range_forward_extend": 2.0
-        }
-      }
+      "name": "Shuriken",
+      "rangeId": null,
+      "description": "Range +2 grids",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 15,
+        "initSp": 10,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_yuki_1",
+      "duration": 25.0,
+      "blackboard": {
+        "ability_range_forward_extend": 2.0
+      },
+      "skillId": "skchr_yuki_1"
     },
     {
-      "skillId": "skchr_yuki_2",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Fatal Shuriken",
-        "rangeId": null,
-        "description": "Throws giant spinning shurikens, the target's Movement Speed 35% for a short time and dealing 80% of ATK Arts damage to the target per second",
-        "skillType": 1,
-        "spData": {
-          "spType": 1,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 25,
-          "initSp": 0,
-          "increment": 1.0
-        },
-        "prefabId": "skchr_yuki_2",
-        "duration": 25.0,
-        "blackboard": {
-          "attack@atk_scale": 0.8,
-          "attack@duration": 1.0,
-          "attack@move_speed": -0.35
-        }
-      }
+      "name": "Fatal Shuriken",
+      "rangeId": null,
+      "description": "Throws giant spinning shurikens, the target's Movement Speed 35% for a short time and dealing 80% of ATK Arts damage to the target per second",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 25,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_yuki_2",
+      "duration": 25.0,
+      "blackboard": {
+        "attack@atk_scale": 0.8,
+        "attack@duration": 1.0,
+        "attack@move_speed": -0.35
+      },
+      "skillId": "skchr_yuki_2"
     }
   ],
   "stats": {

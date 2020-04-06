@@ -2,78 +2,54 @@
   "name": "Croissant",
   "rarity": 5,
   "profession": "Defender",
-  "potential": [
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    },
-    {
-      "description": "Redeployment Time -4 sec",
-      "respawn": -4.0
-    },
-    {
-      "description": "DEF +26",
-      "def": 26.0
-    },
-    {
-      "description": "Improves Talent"
-    },
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    }
-  ],
+  "potential": {
+    "cost": -2.0,
+    "respawn": -4.0,
+    "def": 26.0
+  },
   "skills": [
     {
-      "skillId": "skchr_moeshd_1",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Auto Defense",
-        "rangeId": null,
-        "description": "DEF +70%; Talent effect increases to 200%\nAutomatically activated",
-        "skillType": 2,
-        "spData": {
-          "spType": 1,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 20,
-          "initSp": 12,
-          "increment": 1.0
-        },
-        "prefabId": "skchr_moeshd_1",
-        "duration": 30.0,
-        "blackboard": {
-          "def": 0.7,
-          "talent_scale": 2.0
-        }
-      }
+      "name": "Auto Defense",
+      "rangeId": null,
+      "description": "DEF +70%; Talent effect increases to 200%\nAutomatically activated",
+      "skillType": 2,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 20,
+        "initSp": 12,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_moeshd_1",
+      "duration": 30.0,
+      "blackboard": {
+        "def": 0.7,
+        "talent_scale": 2.0
+      },
+      "skillId": "skchr_moeshd_1"
     },
     {
-      "skillId": "skchr_moeshd_2",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Magnetic Hammer",
-        "rangeId": "x-5",
-        "description": "Bumps nearby enemies away greatly, Stunning them for 4 seconds and dealing 480% of ATK Physical damage to them",
-        "skillType": 1,
-        "spData": {
-          "spType": 4,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 17,
-          "initSp": 0,
-          "increment": 1.0
-        },
-        "prefabId": "skchr_moeshd_2",
-        "duration": 0.0,
-        "blackboard": {
-          "force": 3.0,
-          "atk_scale": 4.8,
-          "stun": 4.0
-        }
-      }
+      "name": "Magnetic Hammer",
+      "rangeId": "x-5",
+      "description": "Bumps nearby enemies away greatly, Stunning them for 4 seconds and dealing 480% of ATK Physical damage to them",
+      "skillType": 1,
+      "spData": {
+        "spType": 4,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 17,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_moeshd_2",
+      "duration": 0.0,
+      "blackboard": {
+        "force": 3.0,
+        "atk_scale": 4.8,
+        "stun": 4.0
+      },
+      "skillId": "skchr_moeshd_2"
     }
   ],
   "stats": {

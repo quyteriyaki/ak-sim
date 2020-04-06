@@ -2,52 +2,31 @@
   "name": "Beagle",
   "rarity": 3,
   "profession": "Defender",
-  "potential": [
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    },
-    {
-      "description": "Redeployment Time -4 sec",
-      "respawn": -4.0
-    },
-    {
-      "description": "DEF +28",
-      "def": 28.0
-    },
-    {
-      "description": "Redeployment Time -6 sec",
-      "respawn": -6.0
-    },
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    }
-  ],
+  "potential": {
+    "cost": -2.0,
+    "respawn": -10.0,
+    "def": 28.0
+  },
   "skills": [
     {
-      "skillId": "skcom_def_up[1]",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "DEF Up \u03b1",
-        "rangeId": null,
-        "description": "DEF +50%",
-        "skillType": 1,
-        "spData": {
-          "spType": 1,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 40,
-          "initSp": 0,
-          "increment": 1.0
-        },
-        "prefabId": "skcom_def_up",
-        "duration": 30.0,
-        "blackboard": {
-          "def": 0.5
-        }
-      }
+      "name": "DEF Up \u03b1",
+      "rangeId": null,
+      "description": "DEF +50%",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 40,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "skcom_def_up",
+      "duration": 30.0,
+      "blackboard": {
+        "def": 0.5
+      },
+      "skillId": "skcom_def_up[1]"
     }
   ],
   "stats": {

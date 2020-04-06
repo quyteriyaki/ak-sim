@@ -2,78 +2,54 @@
   "name": "Rope",
   "rarity": 4,
   "profession": "Specialist",
-  "potential": [
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    },
-    {
-      "description": "Redeployment Time -4 sec",
-      "respawn": -4.0
-    },
-    {
-      "description": "DEF +22",
-      "def": 22.0
-    },
-    {
-      "description": "Improves Talent"
-    },
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    }
-  ],
+  "potential": {
+    "cost": -2.0,
+    "respawn": -4.0,
+    "def": 22.0
+  },
   "skills": [
     {
-      "skillId": "skchr_rope_1",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Hook Shot",
-        "rangeId": null,
-        "description": "The next attack deals 190% of ATK Physical damage to its target and drags it towards this unit significantly",
-        "skillType": 2,
-        "spData": {
-          "spType": 1,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 5,
-          "initSp": 0,
-          "increment": 1.0
-        },
-        "prefabId": "skchr_rope_1",
-        "duration": 0.0,
-        "blackboard": {
-          "atk_scale": 1.9,
-          "force": 2.0
-        }
-      }
+      "name": "Hook Shot",
+      "rangeId": null,
+      "description": "The next attack deals 190% of ATK Physical damage to its target and drags it towards this unit significantly",
+      "skillType": 2,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 5,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_rope_1",
+      "duration": 0.0,
+      "blackboard": {
+        "atk_scale": 1.9,
+        "force": 2.0
+      },
+      "skillId": "skchr_rope_1"
     },
     {
-      "skillId": "skchr_rope_2",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Double Hook",
-        "rangeId": "4-1",
-        "description": "The next attack deals 225% of ATK Physical damage to up to 2 target and drags them towards this unit significantly",
-        "skillType": 1,
-        "spData": {
-          "spType": 1,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 15,
-          "initSp": 10,
-          "increment": 1.0
-        },
-        "prefabId": "skchr_rope_2",
-        "duration": 0.0,
-        "blackboard": {
-          "force": 2.0,
-          "atk_scale": 2.25,
-          "max_target": 2.0
-        }
-      }
+      "name": "Double Hook",
+      "rangeId": "4-1",
+      "description": "The next attack deals 225% of ATK Physical damage to up to 2 target and drags them towards this unit significantly",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 15,
+        "initSp": 10,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_rope_2",
+      "duration": 0.0,
+      "blackboard": {
+        "force": 2.0,
+        "atk_scale": 2.25,
+        "max_target": 2.0
+      },
+      "skillId": "skchr_rope_2"
     }
   ],
   "stats": {

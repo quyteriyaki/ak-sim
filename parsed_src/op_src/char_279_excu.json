@@ -2,76 +2,52 @@
   "name": "Executor",
   "rarity": 5,
   "profession": "Sniper",
-  "potential": [
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    },
-    {
-      "description": "Redeployment Time -4 sec",
-      "respawn": -4.0
-    },
-    {
-      "description": "ATK +29",
-      "atk": 29.0
-    },
-    {
-      "description": "Improves Talent"
-    },
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    }
-  ],
+  "potential": {
+    "cost": -2.0,
+    "respawn": -4.0,
+    "atk": 29.0
+  },
   "skills": [
     {
-      "skillId": "skchr_excu_1",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Muzzle\u00e2\u20ac\u2122s Elegy",
-        "rangeId": null,
-        "description": "ATK +70%, attacks apply this unit's Feature effect to all enemies within range.",
-        "skillType": 1,
-        "spData": {
-          "spType": 1,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 45,
-          "initSp": 25,
-          "increment": 1.0
-        },
-        "prefabId": "skchr_excu_1",
-        "duration": 35.0,
-        "blackboard": {
-          "atk": 0.7,
-          "atk_scale": 1.5
-        }
-      }
+      "name": "Muzzle\u2019s Elegy",
+      "rangeId": null,
+      "description": "ATK +70%, attacks apply this unit's Feature effect to all enemies within range.",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 45,
+        "initSp": 25,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_excu_1",
+      "duration": 35.0,
+      "blackboard": {
+        "atk": 0.7,
+        "atk_scale": 1.5
+      },
+      "skillId": "skchr_excu_1"
     },
     {
-      "skillId": "skchr_excu_2",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Final Journey",
-        "rangeId": null,
-        "description": "Normal attacks strike twice, and the attack interval  is significantly shortened",
-        "skillType": 1,
-        "spData": {
-          "spType": 1,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 70,
-          "initSp": 35,
-          "increment": 1.0
-        },
-        "prefabId": "skchr_excu_2",
-        "duration": 20.0,
-        "blackboard": {
-          "base_attack_time": -0.9
-        }
-      }
+      "name": "Final Journey",
+      "rangeId": null,
+      "description": "Normal attacks strike twice, and the attack interval  is significantly shortened",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 70,
+        "initSp": 35,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_excu_2",
+      "duration": 20.0,
+      "blackboard": {
+        "base_attack_time": -0.9
+      },
+      "skillId": "skchr_excu_2"
     }
   ],
   "stats": {

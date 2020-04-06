@@ -2,28 +2,11 @@
   "name": "12F",
   "rarity": 2,
   "profession": "Caster",
-  "potential": [
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    },
-    {
-      "description": "ATK +12",
-      "atk": 12.0
-    },
-    {
-      "description": "Redeployment Time -5 sec",
-      "respawn": -5.0
-    },
-    {
-      "description": "ATK +12",
-      "atk": 12.0
-    },
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    }
-  ],
+  "potential": {
+    "cost": -2.0,
+    "atk": 24.0,
+    "respawn": -5.0
+  },
   "stats": {
     "level": 30,
     "maxHp": 1378,

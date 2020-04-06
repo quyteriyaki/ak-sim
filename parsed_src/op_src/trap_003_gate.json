@@ -5,28 +5,24 @@
   "potential": [],
   "skills": [
     {
-      "skillId": "sktok_gate",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Gate Closing",
-        "rangeId": null,
-        "description": "Consumes 10 DP to close the gate",
-        "skillType": 1,
-        "spData": {
-          "spType": 1,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 5,
-          "initSp": 0,
-          "increment": 1.0
-        },
-        "prefabId": "sktok_gate",
-        "duration": 0.0,
-        "blackboard": {
-          "cost": 10.0
-        }
-      }
+      "name": "Gate Closing",
+      "rangeId": null,
+      "description": "Consumes 10 DP to close the gate",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 5,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "sktok_gate",
+      "duration": 0.0,
+      "blackboard": {
+        "cost": 10.0
+      },
+      "skillId": "sktok_gate"
     }
   ],
   "stats": {

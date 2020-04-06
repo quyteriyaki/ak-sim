@@ -2,79 +2,55 @@
   "name": "Gummy",
   "rarity": 4,
   "profession": "Defender",
-  "potential": [
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    },
-    {
-      "description": "Redeployment Time -4 sec",
-      "respawn": -4.0
-    },
-    {
-      "description": "ATK +21",
-      "atk": 21.0
-    },
-    {
-      "description": "Improves Talent"
-    },
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    }
-  ],
+  "potential": {
+    "cost": -2.0,
+    "respawn": -4.0,
+    "atk": 21.0
+  },
   "skills": [
     {
-      "skillId": "skchr_sunbr_1",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Provisions",
-        "rangeId": "x-4",
-        "description": "Restores the HP of a nearby ally by 160% of Gummy's ATK in the next attack\nCan store 3 charge(s)",
-        "skillType": 2,
-        "spData": {
-          "spType": 1,
-          "levelUpCost": null,
-          "maxChargeTime": 3,
-          "spCost": 4,
-          "initSp": 0,
-          "increment": 1.0
-        },
-        "prefabId": "skchr_sunbr_1",
-        "duration": 0.0,
-        "blackboard": {
-          "heal_scale": 1.6,
-          "ct": 3.0
-        }
-      }
+      "name": "Provisions",
+      "rangeId": "x-4",
+      "description": "Restores the HP of a nearby ally by 160% of Gummy's ATK in the next attack\nCan store 3 charge(s)",
+      "skillType": 2,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 3,
+        "spCost": 4,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_sunbr_1",
+      "duration": 0.0,
+      "blackboard": {
+        "heal_scale": 1.6,
+        "ct": 3.0
+      },
+      "skillId": "skchr_sunbr_1"
     },
     {
-      "skillId": "skchr_sunbr_2",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Cooking",
-        "rangeId": "x-4",
-        "description": "Starts cooking and stops attacking for 10 seconds; DEF +80%\nFocuses on healing nearby allies after finishing cooking; ATK +80%",
-        "skillType": 1,
-        "spData": {
-          "spType": 1,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 30,
-          "initSp": 20,
-          "increment": 1.0
-        },
-        "prefabId": "skchr_sunbr_2",
-        "duration": 30.0,
-        "blackboard": {
-          "atk": 0.8,
-          "base_attack_time": 1.3,
-          "disarm": 10.0,
-          "def": 0.8
-        }
-      }
+      "name": "Cooking",
+      "rangeId": "x-4",
+      "description": "Starts cooking and stops attacking for 10 seconds; DEF +80%\nFocuses on healing nearby allies after finishing cooking; ATK +80%",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 30,
+        "initSp": 20,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_sunbr_2",
+      "duration": 30.0,
+      "blackboard": {
+        "atk": 0.8,
+        "base_attack_time": 1.3,
+        "disarm": 10.0,
+        "def": 0.8
+      },
+      "skillId": "skchr_sunbr_2"
     }
   ],
   "stats": {

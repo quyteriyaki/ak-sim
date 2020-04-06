@@ -2,51 +2,31 @@
   "name": "Midnight",
   "rarity": 3,
   "profession": "Guard",
-  "potential": [
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    },
-    {
-      "description": "Redeployment Time -4 sec",
-      "respawn": -4.0
-    },
-    {
-      "description": "ATK +22",
-      "atk": 22.0
-    },
-    {
-      "description": "Improves Talent"
-    },
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    }
-  ],
+  "potential": {
+    "cost": -2.0,
+    "respawn": -4.0,
+    "atk": 22.0
+  },
   "skills": [
     {
-      "skillId": "skchr_midn_1",
-      "iconId": "skcom_enchant[1]",
-      "hidden": false,
-      "levels": {
-        "name": "Enchant Weapon \u03b1",
-        "rangeId": null,
-        "description": "ATK +35%; Damage dealt by Normal Attacks turn into Arts Damage",
-        "skillType": 1,
-        "spData": {
-          "spType": 1,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 70,
-          "initSp": 30,
-          "increment": 1.0
-        },
-        "prefabId": "skchr_midn_1",
-        "duration": 40.0,
-        "blackboard": {
-          "atk": 0.35
-        }
-      }
+      "name": "Enchant Weapon \u03b1",
+      "rangeId": null,
+      "description": "ATK +35%; Damage dealt by Normal Attacks turn into Arts Damage",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 70,
+        "initSp": 30,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_midn_1",
+      "duration": 40.0,
+      "blackboard": {
+        "atk": 0.35
+      },
+      "skillId": "skchr_midn_1"
     }
   ],
   "stats": {

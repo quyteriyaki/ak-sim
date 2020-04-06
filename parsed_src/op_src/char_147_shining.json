@@ -2,103 +2,75 @@
   "name": "Shining",
   "rarity": 6,
   "profession": "Medic",
-  "potential": [
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    },
-    {
-      "description": "Improves Second Talent"
-    },
-    {
-      "description": "DEF +25",
-      "def": 25.0
-    },
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    },
-    {
-      "description": "Improves First Talent"
-    }
-  ],
+  "potential": {
+    "cost": -2.0,
+    "def": 25.0
+  },
   "skills": [
     {
-      "skillId": "skchr_shining_1",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Creed",
-        "rangeId": null,
-        "description": "ATK +80%; ASPD +20",
-        "skillType": 1,
-        "spData": {
-          "spType": 1,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 40,
-          "initSp": 20,
-          "increment": 1.0
-        },
-        "prefabId": "skchr_shining_1",
-        "duration": 20.0,
-        "blackboard": {
-          "atk": 0.8,
-          "attack_speed": 20.0
-        }
-      }
+      "name": "Creed",
+      "rangeId": null,
+      "description": "ATK +80%; ASPD +20",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 40,
+        "initSp": 20,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_shining_1",
+      "duration": 20.0,
+      "blackboard": {
+        "atk": 0.8,
+        "attack_speed": 20.0
+      },
+      "skillId": "skchr_shining_1"
     },
     {
-      "skillId": "skchr_shining_2",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Auto Protect",
-        "rangeId": null,
-        "description": "The next heal generates a shield on its target for 3 seconds\nThe shield can absorb damage equal to 50% of Shining's ATK and the target's DEF +50%; Can store 3 charge(s)",
-        "skillType": 2,
-        "spData": {
-          "spType": 1,
-          "levelUpCost": null,
-          "maxChargeTime": 3,
-          "spCost": 5,
-          "initSp": 0,
-          "increment": 1.0
-        },
-        "prefabId": "skchr_shining_2",
-        "duration": -1.0,
-        "blackboard": {
-          "def": 0.5,
-          "atk_scale": 0.5,
-          "duration": 3.0,
-          "ct": 3.0
-        }
-      }
+      "name": "Auto Protect",
+      "rangeId": null,
+      "description": "The next heal generates a shield on its target for 3 seconds\nThe shield can absorb damage equal to 50% of Shining's ATK and the target's DEF +50%; Can store 3 charge(s)",
+      "skillType": 2,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 3,
+        "spCost": 5,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_shining_2",
+      "duration": -1.0,
+      "blackboard": {
+        "def": 0.5,
+        "atk_scale": 0.5,
+        "duration": 3.0,
+        "ct": 3.0
+      },
+      "skillId": "skchr_shining_2"
     },
     {
-      "skillId": "skchr_shining_3",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Creed Field",
-        "rangeId": null,
-        "description": "ATK +50%\nAll allies within range DEF +100%",
-        "skillType": 1,
-        "spData": {
-          "spType": 1,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 120,
-          "initSp": 115,
-          "increment": 1.0
-        },
-        "prefabId": "skchr_shining_3",
-        "duration": 60.0,
-        "blackboard": {
-          "def": 1.0,
-          "atk": 0.5
-        }
-      }
+      "name": "Creed Field",
+      "rangeId": null,
+      "description": "ATK +50%\nAll allies within range DEF +100%",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 120,
+        "initSp": 115,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_shining_3",
+      "duration": 60.0,
+      "blackboard": {
+        "def": 1.0,
+        "atk": 0.5
+      },
+      "skillId": "skchr_shining_3"
     }
   ],
   "stats": {

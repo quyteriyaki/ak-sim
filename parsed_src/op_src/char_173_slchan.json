@@ -2,79 +2,55 @@
   "name": "Cliffheart",
   "rarity": 5,
   "profession": "Specialist",
-  "potential": [
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    },
-    {
-      "description": "Redeployment Time -4 sec",
-      "respawn": -4.0
-    },
-    {
-      "description": "ASPD +8",
-      "attackSpeed": 8.0
-    },
-    {
-      "description": "Improves Talent"
-    },
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    }
-  ],
+  "potential": {
+    "cost": -2.0,
+    "respawn": -4.0,
+    "attackSpeed": 8.0
+  },
   "skills": [
     {
-      "skillId": "skchr_slchan_1",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Chain Hook",
-        "rangeId": null,
-        "description": "Drags the target to Cliffheart significantly in the next attack, dealing 180% of ATK Arts damage to it",
-        "skillType": 2,
-        "spData": {
-          "spType": 1,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 4,
-          "initSp": 0,
-          "increment": 1.0
-        },
-        "prefabId": "skchr_slchan_1",
-        "duration": 0.0,
-        "blackboard": {
-          "atk_scale": 1.8,
-          "force": 2.0
-        }
-      }
+      "name": "Chain Hook",
+      "rangeId": null,
+      "description": "Drags the target to Cliffheart significantly in the next attack, dealing 180% of ATK Arts damage to it",
+      "skillType": 2,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 4,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_slchan_1",
+      "duration": 0.0,
+      "blackboard": {
+        "atk_scale": 1.8,
+        "force": 2.0
+      },
+      "skillId": "skchr_slchan_1"
     },
     {
-      "skillId": "skchr_slchan_2",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Binding Chains",
-        "rangeId": "3-14",
-        "description": "Drags at most 3 targets in the frontal line to Cliffheart significantly, dealing 200% of ATK damage that ignores targets' DEF and RES to them and Stunning them for 3 seconds",
-        "skillType": 1,
-        "spData": {
-          "spType": 1,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 15,
-          "initSp": 10,
-          "increment": 1.0
-        },
-        "prefabId": "skchr_slchan_2",
-        "duration": 0.0,
-        "blackboard": {
-          "atk_scale": 2.0,
-          "stun": 3.0,
-          "max_target": 3.0,
-          "force": 2.0
-        }
-      }
+      "name": "Binding Chains",
+      "rangeId": "3-14",
+      "description": "Drags at most 3 targets in the frontal line to Cliffheart significantly, dealing 200% of ATK damage that ignores targets' DEF and RES to them and Stunning them for 3 seconds",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 15,
+        "initSp": 10,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_slchan_2",
+      "duration": 0.0,
+      "blackboard": {
+        "atk_scale": 2.0,
+        "stun": 3.0,
+        "max_target": 3.0,
+        "force": 2.0
+      },
+      "skillId": "skchr_slchan_2"
     }
   ],
   "stats": {

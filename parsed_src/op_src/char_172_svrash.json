@@ -2,102 +2,74 @@
   "name": "SilverAsh",
   "rarity": 6,
   "profession": "Guard",
-  "potential": [
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    },
-    {
-      "description": "Redeployment Time -4 sec",
-      "respawn": -4.0
-    },
-    {
-      "description": "ATK +26",
-      "atk": 26.0
-    },
-    {
-      "description": "Improves First Talent"
-    },
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    }
-  ],
+  "potential": {
+    "cost": -2.0,
+    "respawn": -4.0,
+    "atk": 26.0
+  },
   "skills": [
     {
-      "skillId": "skchr_svrash_1",
-      "iconId": "skcom_powerstrike[3]",
-      "hidden": false,
-      "levels": {
-        "name": "Power Strike \u03b3",
-        "rangeId": null,
-        "description": "Increases the ATK of next attack to 290%",
-        "skillType": 2,
-        "spData": {
-          "spType": 2,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 2,
-          "initSp": 0,
-          "increment": 1.0
-        },
-        "prefabId": "skchr_svrash_1",
-        "duration": 0.0,
-        "blackboard": {
-          "atk_scale": 2.9
-        }
-      }
+      "name": "Power Strike \u03b3",
+      "rangeId": null,
+      "description": "Increases the ATK of next attack to 290%",
+      "skillType": 2,
+      "spData": {
+        "spType": 2,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 2,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_svrash_1",
+      "duration": 0.0,
+      "blackboard": {
+        "atk_scale": 2.9
+      },
+      "skillId": "skchr_svrash_1"
     },
     {
-      "skillId": "skchr_svrash_2",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Rules of Survival",
-        "rangeId": "1-2",
-        "description": "Can switch between the original state and the following state:\nRange reduces; DEF +100%; Restores HP by 0.06% of Max HP per second",
-        "skillType": 1,
-        "spData": {
-          "spType": 1,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 5,
-          "initSp": 0,
-          "increment": 1.0
-        },
-        "prefabId": "skchr_svrash_2",
-        "duration": 0.0,
-        "blackboard": {
-          "def": 1.0,
-          "hp_recovery_per_sec_by_max_hp_ratio": 0.06
-        }
-      }
+      "name": "Rules of Survival",
+      "rangeId": "1-2",
+      "description": "Can switch between the original state and the following state:\nRange reduces; DEF +100%; Restores HP by 0.06% of Max HP per second",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 5,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_svrash_2",
+      "duration": 0.0,
+      "blackboard": {
+        "def": 1.0,
+        "hp_recovery_per_sec_by_max_hp_ratio": 0.06
+      },
+      "skillId": "skchr_svrash_2"
     },
     {
-      "skillId": "skchr_svrash_3",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Truesilver Slash",
-        "rangeId": "3-7",
-        "description": "DEF -70%; ATK +200%; Range expands; Attacks at most 6 targets simultaneously (regarded as Melee Attack)",
-        "skillType": 1,
-        "spData": {
-          "spType": 1,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 90,
-          "initSp": 75,
-          "increment": 1.0
-        },
-        "prefabId": "skchr_svrash_3",
-        "duration": 30.0,
-        "blackboard": {
-          "def": -0.7,
-          "atk": 2.0,
-          "attack@max_target": 6.0
-        }
-      }
+      "name": "Truesilver Slash",
+      "rangeId": "3-7",
+      "description": "DEF -70%; ATK +200%; Range expands; Attacks at most 6 targets simultaneously (regarded as Melee Attack)",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 90,
+        "initSp": 75,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_svrash_3",
+      "duration": 30.0,
+      "blackboard": {
+        "def": -0.7,
+        "atk": 2.0,
+        "attack@max_target": 6.0
+      },
+      "skillId": "skchr_svrash_3"
     }
   ],
   "stats": {

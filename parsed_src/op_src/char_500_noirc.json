@@ -2,28 +2,11 @@
   "name": "Noir Corne",
   "rarity": 2,
   "profession": "Defender",
-  "potential": [
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    },
-    {
-      "description": "Max HP +45",
-      "maxHp": 45.0
-    },
-    {
-      "description": "Redeployment Time -5 sec",
-      "respawn": -5.0
-    },
-    {
-      "description": "Max HP +45",
-      "maxHp": 45.0
-    },
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    }
-  ],
+  "potential": {
+    "cost": -2.0,
+    "maxHp": 90.0,
+    "respawn": -5.0
+  },
   "stats": {
     "level": 30,
     "maxHp": 1670,

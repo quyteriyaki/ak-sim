@@ -2,78 +2,53 @@
   "name": "Shaw",
   "rarity": 4,
   "profession": "Specialist",
-  "potential": [
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    },
-    {
-      "description": "Redeployment Time -4 sec",
-      "respawn": -4.0
-    },
-    {
-      "description": "Max HP +140",
-      "maxHp": 140.0
-    },
-    {
-      "description": "Redeployment Time -6 sec",
-      "respawn": -6.0
-    },
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    }
-  ],
+  "potential": {
+    "cost": -2.0,
+    "respawn": -10.0,
+    "maxHp": 140.0
+  },
   "skills": [
     {
-      "skillId": "skchr_sqrrel_1",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Steam Pump",
-        "rangeId": null,
-        "description": "Pushes the target towards the attack direction greatly in the next attack, dealing 150% of ATK Physical damage",
-        "skillType": 2,
-        "spData": {
-          "spType": 1,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 5,
-          "initSp": 0,
-          "increment": 1.0
-        },
-        "prefabId": "skchr_sqrrel_1",
-        "duration": 0.0,
-        "blackboard": {
-          "atk_scale": 1.5,
-          "force": 2.0
-        }
-      }
+      "name": "Steam Pump",
+      "rangeId": null,
+      "description": "Pushes the target towards the attack direction greatly in the next attack, dealing 150% of ATK Physical damage",
+      "skillType": 2,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 5,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_sqrrel_1",
+      "duration": 0.0,
+      "blackboard": {
+        "atk_scale": 1.5,
+        "force": 2.0
+      },
+      "skillId": "skchr_sqrrel_1"
     },
     {
-      "skillId": "skchr_sqrrel_2",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "High-Pressure Water Cannon",
-        "rangeId": "2-2",
-        "description": "Immediately pushes all enemies in the two frontal grids towards the attack direction significantly, dealing 300% of ATK Physical damage to them",
-        "skillType": 1,
-        "spData": {
-          "spType": 1,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 17,
-          "initSp": 0,
-          "increment": 1.0
-        },
-        "prefabId": "skchr_sqrrel_2",
-        "duration": 0.0,
-        "blackboard": {
-          "atk_scale": 3.0,
-          "force": 2.0
-        }
-      }
+      "name": "High-Pressure Water Cannon",
+      "rangeId": "2-2",
+      "description": "Immediately pushes all enemies in the two frontal grids towards the attack direction significantly, dealing 300% of ATK Physical damage to them",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 17,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_sqrrel_2",
+      "duration": 0.0,
+      "blackboard": {
+        "atk_scale": 3.0,
+        "force": 2.0
+      },
+      "skillId": "skchr_sqrrel_2"
     }
   ],
   "stats": {

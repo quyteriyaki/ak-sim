@@ -2,77 +2,53 @@
   "name": "Indra",
   "rarity": 5,
   "profession": "Guard",
-  "potential": [
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    },
-    {
-      "description": "Redeployment Time -4 sec",
-      "respawn": -4.0
-    },
-    {
-      "description": "ATK +23",
-      "atk": 23.0
-    },
-    {
-      "description": "Improves Talent"
-    },
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    }
-  ],
+  "potential": {
+    "cost": -2.0,
+    "respawn": -4.0,
+    "atk": 23.0
+  },
   "skills": [
     {
-      "skillId": "skchr_tiger_1",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Armorcrusher",
-        "rangeId": null,
-        "description": "The ATK of the next hit +140% and ignores 60% of the target's DEF",
-        "skillType": 2,
-        "spData": {
-          "spType": 2,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 4,
-          "initSp": 0,
-          "increment": 1.0
-        },
-        "prefabId": "skchr_tiger_1",
-        "duration": 0.0,
-        "blackboard": {
-          "atk": 1.4,
-          "def_penetrate": 0.6
-        }
-      }
+      "name": "Armorcrusher",
+      "rangeId": null,
+      "description": "The ATK of the next hit +140% and ignores 60% of the target's DEF",
+      "skillType": 2,
+      "spData": {
+        "spType": 2,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 4,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_tiger_1",
+      "duration": 0.0,
+      "blackboard": {
+        "atk": 1.4,
+        "def_penetrate": 0.6
+      },
+      "skillId": "skchr_tiger_1"
     },
     {
-      "skillId": "skchr_tiger_2",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Sundered Soul",
-        "rangeId": null,
-        "description": "ATK +120%; Damage dealt turns into Arts Damage; Restores HP by 25% of damage dealt when attacking",
-        "skillType": 1,
-        "spData": {
-          "spType": 1,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 50,
-          "initSp": 25,
-          "increment": 1.0
-        },
-        "prefabId": "skchr_tiger_2",
-        "duration": 25.0,
-        "blackboard": {
-          "atk": 1.2,
-          "heal_scale": 0.25
-        }
-      }
+      "name": "Sundered Soul",
+      "rangeId": null,
+      "description": "ATK +120%; Damage dealt turns into Arts Damage; Restores HP by 25% of damage dealt when attacking",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 50,
+        "initSp": 25,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_tiger_2",
+      "duration": 25.0,
+      "blackboard": {
+        "atk": 1.2,
+        "heal_scale": 0.25
+      },
+      "skillId": "skchr_tiger_2"
     }
   ],
   "stats": {

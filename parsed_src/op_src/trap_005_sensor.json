@@ -5,26 +5,22 @@
   "potential": [],
   "skills": [
     {
-      "skillId": "sktok_sensor",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Detection",
-        "rangeId": "x-3",
-        "description": "Nearby enemies' Invisibility is disabled when the skill is activated",
-        "skillType": 1,
-        "spData": {
-          "spType": 1,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 15,
-          "initSp": 0,
-          "increment": 1.0
-        },
-        "prefabId": "sktok_sensor",
-        "duration": 20.0,
-        "blackboard": {}
-      }
+      "name": "Detection",
+      "rangeId": "x-3",
+      "description": "Nearby enemies' Invisibility is disabled when the skill is activated",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 15,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "sktok_sensor",
+      "duration": 20.0,
+      "blackboard": {},
+      "skillId": "sktok_sensor"
     }
   ],
   "stats": {

@@ -2,78 +2,53 @@
   "name": "Meteorite",
   "rarity": 5,
   "profession": "Sniper",
-  "potential": [
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    },
-    {
-      "description": "Redeployment Time -4 sec",
-      "respawn": -4.0
-    },
-    {
-      "description": "ATK +35",
-      "atk": 35.0
-    },
-    {
-      "description": "Redeployment Time -6 sec",
-      "respawn": -6.0
-    },
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    }
-  ],
+  "potential": {
+    "cost": -2.0,
+    "respawn": -10.0,
+    "atk": 35.0
+  },
   "skills": [
     {
-      "skillId": "skchr_meteo_1",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Buckshot",
-        "rangeId": null,
-        "description": "Attack AoE expands for the next attack, dealing 215% of ATK Physical damage",
-        "skillType": 2,
-        "spData": {
-          "spType": 2,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 3,
-          "initSp": 0,
-          "increment": 1.0
-        },
-        "prefabId": "skchr_meteo_1",
-        "duration": 0.0,
-        "blackboard": {
-          "atk_scale": 2.15
-        }
-      }
+      "name": "Buckshot",
+      "rangeId": null,
+      "description": "Attack AoE expands for the next attack, dealing 215% of ATK Physical damage",
+      "skillType": 2,
+      "spData": {
+        "spType": 2,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 3,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_meteo_1",
+      "duration": 0.0,
+      "blackboard": {
+        "atk_scale": 2.15
+      },
+      "skillId": "skchr_meteo_1"
     },
     {
-      "skillId": "skchr_meteo_2",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "High-Explosive Shell",
-        "rangeId": null,
-        "description": "Immediately launches a firebomb, dealing 300% of ATK Physical damage to all hit targets within range and their DEF -330 for 10 seconds",
-        "skillType": 1,
-        "spData": {
-          "spType": 1,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 20,
-          "initSp": 0,
-          "increment": 1.0
-        },
-        "prefabId": "skchr_meteo_2",
-        "duration": -1.0,
-        "blackboard": {
-          "atk_scale": 3.0,
-          "def": -330.0,
-          "duration": 10.0
-        }
-      }
+      "name": "High-Explosive Shell",
+      "rangeId": null,
+      "description": "Immediately launches a firebomb, dealing 300% of ATK Physical damage to all hit targets within range and their DEF -330 for 10 seconds",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 20,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_meteo_2",
+      "duration": -1.0,
+      "blackboard": {
+        "atk_scale": 3.0,
+        "def": -330.0,
+        "duration": 10.0
+      },
+      "skillId": "skchr_meteo_2"
     }
   ],
   "stats": {

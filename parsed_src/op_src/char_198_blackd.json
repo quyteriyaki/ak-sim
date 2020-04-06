@@ -2,79 +2,55 @@
   "name": "Courier",
   "rarity": 4,
   "profession": "Vanguard",
-  "potential": [
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    },
-    {
-      "description": "Redeployment Time -4 sec",
-      "respawn": -4.0
-    },
-    {
-      "description": "DEF +23",
-      "def": 23.0
-    },
-    {
-      "description": "Improves Talent"
-    },
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    }
-  ],
+  "potential": {
+    "cost": -2.0,
+    "respawn": -4.0,
+    "def": 23.0
+  },
   "skills": [
     {
-      "skillId": "skcom_charge_cost[2]",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Charge \u03b2",
-        "rangeId": null,
-        "description": "Instantly gains 9 Deployment Points.",
-        "skillType": 2,
-        "spData": {
-          "spType": 1,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 30,
-          "initSp": 13,
-          "increment": 1.0
-        },
-        "prefabId": "skcom_charge_cost",
-        "duration": 0.0,
-        "blackboard": {
-          "cost": 9.0
-        }
-      }
+      "name": "Charge \u03b2",
+      "rangeId": null,
+      "description": "Instantly gains 9 Deployment Points.",
+      "skillType": 2,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 30,
+        "initSp": 13,
+        "increment": 1.0
+      },
+      "prefabId": "skcom_charge_cost",
+      "duration": 0.0,
+      "blackboard": {
+        "cost": 9.0
+      },
+      "skillId": "skcom_charge_cost[2]"
     },
     {
-      "skillId": "skchr_blackd_2",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Command - Defense",
-        "rangeId": null,
-        "description": "Immediately gains 3 Deployment Points\nGradually obtains 8 DP during the skill duration; DEF +80%",
-        "skillType": 1,
-        "spData": {
-          "spType": 1,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 30,
-          "initSp": 17,
-          "increment": 1.0
-        },
-        "prefabId": "skchr_blackd_2",
-        "duration": 15.0,
-        "blackboard": {
-          "blackd_s_2[period].def": 0.8,
-          "blackd_s_2[period].cost": 1.0,
-          "blackd_s_2[period].interval": 1.87,
-          "blackd_s_2[period].trig_cnt": 8.0,
-          "blackd_s_2[once].cost": 3.0
-        }
-      }
+      "name": "Command - Defense",
+      "rangeId": null,
+      "description": "Immediately gains 3 Deployment Points\nGradually obtains 8 DP during the skill duration; DEF +80%",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 30,
+        "initSp": 17,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_blackd_2",
+      "duration": 15.0,
+      "blackboard": {
+        "blackd_s_2[period].def": 0.8,
+        "blackd_s_2[period].cost": 1.0,
+        "blackd_s_2[period].interval": 1.87,
+        "blackd_s_2[period].trig_cnt": 8.0,
+        "blackd_s_2[once].cost": 3.0
+      },
+      "skillId": "skchr_blackd_2"
     }
   ],
   "stats": {

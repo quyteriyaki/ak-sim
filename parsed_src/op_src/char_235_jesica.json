@@ -2,77 +2,52 @@
   "name": "Jessica",
   "rarity": 4,
   "profession": "Sniper",
-  "potential": [
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    },
-    {
-      "description": "Redeployment Time -4 sec",
-      "respawn": -4.0
-    },
-    {
-      "description": "ATK +23",
-      "atk": 23.0
-    },
-    {
-      "description": "Redeployment Time -6 sec",
-      "respawn": -6.0
-    },
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    }
-  ],
+  "potential": {
+    "cost": -2.0,
+    "respawn": -10.0,
+    "atk": 23.0
+  },
   "skills": [
     {
-      "skillId": "skchr_jesica_1",
-      "iconId": "skcom_powerstrike[2]",
-      "hidden": false,
-      "levels": {
-        "name": "Power Strike \u03b2",
-        "rangeId": null,
-        "description": "Increases the ATK of next attack to 230%",
-        "skillType": 2,
-        "spData": {
-          "spType": 2,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 3,
-          "initSp": 0,
-          "increment": 1.0
-        },
-        "prefabId": "skchr_jesica_1",
-        "duration": 0.0,
-        "blackboard": {
-          "atk_scale": 2.3
-        }
-      }
+      "name": "Power Strike \u03b2",
+      "rangeId": null,
+      "description": "Increases the ATK of next attack to 230%",
+      "skillType": 2,
+      "spData": {
+        "spType": 2,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 3,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_jesica_1",
+      "duration": 0.0,
+      "blackboard": {
+        "atk_scale": 2.3
+      },
+      "skillId": "skchr_jesica_1"
     },
     {
-      "skillId": "skchr_jesica_2",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Smokescreen",
-        "rangeId": null,
-        "description": "ATK +80%; 75% chance to dodge Physical and Arts attacks",
-        "skillType": 1,
-        "spData": {
-          "spType": 1,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 40,
-          "initSp": 20,
-          "increment": 1.0
-        },
-        "prefabId": "skchr_jesica_2",
-        "duration": 25.0,
-        "blackboard": {
-          "atk": 0.8,
-          "prob": 0.75
-        }
-      }
+      "name": "Smokescreen",
+      "rangeId": null,
+      "description": "ATK +80%; 75% chance to dodge Physical and Arts attacks",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 40,
+        "initSp": 20,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_jesica_2",
+      "duration": 25.0,
+      "blackboard": {
+        "atk": 0.8,
+        "prob": 0.75
+      },
+      "skillId": "skchr_jesica_2"
     }
   ],
   "stats": {

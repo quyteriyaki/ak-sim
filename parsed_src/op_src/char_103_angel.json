@@ -2,102 +2,74 @@
   "name": "Exusiai",
   "rarity": 6,
   "profession": "Sniper",
-  "potential": [
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    },
-    {
-      "description": "Improves First Talent"
-    },
-    {
-      "description": "ATK +27",
-      "atk": 27.0
-    },
-    {
-      "description": "DP Cost -1",
-      "cost": -1.0
-    },
-    {
-      "description": "Improves Second Talent"
-    }
-  ],
+  "potential": {
+    "cost": -2.0,
+    "atk": 27.0
+  },
   "skills": [
     {
-      "skillId": "skchr_angel_1",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Charging Mode",
-        "rangeId": null,
-        "description": "Shoots 3 times in a row in the next attack, dealing 145% of ATK damage with every shot",
-        "skillType": 2,
-        "spData": {
-          "spType": 2,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 4,
-          "initSp": 0,
-          "increment": 1.0
-        },
-        "prefabId": "skchr_angel_1",
-        "duration": 0.0,
-        "blackboard": {
-          "atk_scale": 1.45,
-          "times": 3.0
-        }
-      }
+      "name": "Charging Mode",
+      "rangeId": null,
+      "description": "Shoots 3 times in a row in the next attack, dealing 145% of ATK damage with every shot",
+      "skillType": 2,
+      "spData": {
+        "spType": 2,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 4,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_angel_1",
+      "duration": 0.0,
+      "blackboard": {
+        "atk_scale": 1.45,
+        "times": 3.0
+      },
+      "skillId": "skchr_angel_1"
     },
     {
-      "skillId": "skchr_angel_2",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Shooting Mode",
-        "rangeId": null,
-        "description": "Shoots 4 times in a row, dealing 125% of ATK damage with every shot",
-        "skillType": 1,
-        "spData": {
-          "spType": 1,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 35,
-          "initSp": 25,
-          "increment": 1.0
-        },
-        "prefabId": "skchr_angel_2",
-        "duration": 15.0,
-        "blackboard": {
-          "attack@atk_scale": 1.25,
-          "attack@times": 4.0
-        }
-      }
+      "name": "Shooting Mode",
+      "rangeId": null,
+      "description": "Shoots 4 times in a row, dealing 125% of ATK damage with every shot",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 35,
+        "initSp": 25,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_angel_2",
+      "duration": 15.0,
+      "blackboard": {
+        "attack@atk_scale": 1.25,
+        "attack@times": 4.0
+      },
+      "skillId": "skchr_angel_2"
     },
     {
-      "skillId": "skchr_angel_3",
-      "iconId": null,
-      "hidden": false,
-      "levels": {
-        "name": "Overloading Mode",
-        "rangeId": null,
-        "description": "Shoots 5 times in a row; Slight Attack Interval reduction; ATK increases to 110%\nAutomatically activated",
-        "skillType": 2,
-        "spData": {
-          "spType": 1,
-          "levelUpCost": null,
-          "maxChargeTime": 1,
-          "spCost": 30,
-          "initSp": 20,
-          "increment": 1.0
-        },
-        "prefabId": "skchr_angel_3",
-        "duration": 15.0,
-        "blackboard": {
-          "attack@atk_scale": 1.1,
-          "attack@times": 5.0,
-          "base_attack_time": -0.11
-        }
-      }
+      "name": "Overloading Mode",
+      "rangeId": null,
+      "description": "Shoots 5 times in a row; Slight Attack Interval reduction; ATK increases to 110%\nAutomatically activated",
+      "skillType": 2,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 30,
+        "initSp": 20,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_angel_3",
+      "duration": 15.0,
+      "blackboard": {
+        "attack@atk_scale": 1.1,
+        "attack@times": 5.0,
+        "base_attack_time": -0.11
+      },
+      "skillId": "skchr_angel_3"
     }
   ],
   "stats": {
