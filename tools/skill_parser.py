@@ -31,7 +31,10 @@ def Parse_Desc(Group):
     
     # Translational issues due to special keys
     if "ï¼Œ" in desc: desc = desc.replace("ï¼Œ",", ")
+    if "，" in desc: desc = desc.replace("，", ", ")
     if "â€™" in desc: desc = desc.replace("â€™","'")
+    if "\u00e2\u20ac\u2122" in desc: desc = desc.replace("\u00e2\u20ac\u2122", "'")
+    if "\u2019" in desc: desc = desc.replace("\u2019", "'")
 
     # Substitute Values
     sub_instances_pat = "{(.*?)}"
