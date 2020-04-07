@@ -23,3 +23,13 @@ class Timeline:
                 return 0
         else:
             return super().__getattribute__(name)
+    
+    def getNext(self, time, step = 1):
+        e = (time, self._keys[time])
+        i = self.keys.index(e) + step
+        return self.keys[i][0]
+    
+    def getPrev(self, time, step = 1):
+        e = (time, self._keys[time])
+        i = self.keys.index(e) - step
+        return self.keys[i][0]
