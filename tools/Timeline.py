@@ -2,12 +2,14 @@ class Timeline:
     def __init__ (self):
         self._keys = {}
     
-    def add(self, time, cmd):
+    def add(self, time, *cmds):
         if time in self._keys:
-            self._keys[time].append(cmd)
+            for cmd in cmds:
+                if cmd not in self._keys[time]: self._keys[time].append(cmd)
         else:
             self._keys[time] = []
-            self._keys[time].append(cmd)
+            for cmd in cmds:
+                self._keys[time].append(cmd)
     
     def remove(self, time):
         if time in self._keys:
