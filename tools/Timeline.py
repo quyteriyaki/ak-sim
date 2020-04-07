@@ -33,3 +33,17 @@ class Timeline:
         e = (time, self._keys[time])
         i = self.keys.index(e) - step
         return self.keys[i][0]
+    
+    def pushKey(self, time, step):
+        if time in self._keys:
+            v = self._keys[time]
+            for x in v:
+                self.add(time + step, x)
+        del self._keys[time]
+    
+    def moveKey(self, time, nTime):
+        if time in self._keys:
+            v = self._keys[time]
+            for x in v:
+                self.add(nTime, x)
+        del self._keys[time]
