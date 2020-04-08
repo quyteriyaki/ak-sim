@@ -27,14 +27,12 @@ enemy_def = 50
 period = 60
 
 # Mark milestone
-t.add(0, "Init")
+t.addKey(0, "Init")
 skill = op['skills'][1]
 currentSp = skill['spData']['initSp']
-# 10, ["S2_On"],
-# 25, ["S2_Off"]
 
 state = "normal"
-ref = t.getLatest()
+ref = t.latest
 duration = 0
 
 def killAtk(old_time, diff):
@@ -46,7 +44,6 @@ def killAtk(old_time, diff):
 while ref[0] < period:
     current_time = ref[0]
     cmd = []
-
     # Every SP tick
     if "SP" in ref[1] or "Init" in ref[1]:
         currentSp += 1
@@ -55,14 +52,14 @@ while ref[0] < period:
             killAtk(current_time, op['stats']['spRec'])
             
             # Force timing for attack at SP regen
-            t.add(current_time + op['stats']['spRec'], "Skill", "Attack")
+            t.addKey(current_time + op['stats']['spRec'], "Skill", "Attack")
 
             # Force parameters
             duration = skill['duration']
             state = "Skill"
         else:
             # Tick SP as normal
-            t.add(current_time + op['stats']['spRec'], "SP")
+            t.addKey(current_time + op['stats']['spRec'], "SP")
     
     # Skill = duration ticker
     if "Skill" in ref[1]:
@@ -71,22 +68,22 @@ while ref[0] < period:
             # Kill the next attack if it's after the trigger
             killAtk(current_time, 1)
             # Force timing for attack after 1 second
-            t.add(current_time + 1, "SP", "Attack")
+            t.addKey(current_time + 1, "SP", "Attack")
             
             # Force parameters
             currentSp = 0
             state == "Normal"
         else:
-            t.add(current_time + 1, "Skill")
+            t.addKey(current_time + 1, "Skill")
 
     if "Attack" in ref[1] or "Init" in ref[1]:
         if t.getNextCmd(current_time, "Attack") != 0:
             i = t.getNextCmd(current_time, "Attack")
             if i != ref:
                 if i[0] > current_time + op['stats']['atkTime']:
-                    t.add(current_time + op['stats']['atkTime'], "Attack")
+                    t.addKey(current_time + op['stats']['atkTime'], "Attack")
         else:
-            t.add(current_time + op['stats']['atkTime'], "Attack")
+            t.addKey(current_time + op['stats']['atkTime'], "Attack")
     ref = t.getNext(current_time)
 
 for keys in t.keys:
