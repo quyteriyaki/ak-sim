@@ -7,7 +7,7 @@ op = operator("parsed_src/op_src/char_103_angel.json", 3)
 
 def killAtk(old_time, diff):
     i = t.getNextCmd(old_time, "Attack")
-    if i != t.latest:
+    if i != t.latest and i != 0:
         if i[0] > old_time + diff:
             t.rmCmd(i[0], "Attack")
 
@@ -43,6 +43,9 @@ def main():
                 # Force parameters
                 duration = op.skill['duration']
                 state = "Skill"
+            
+                # Force buffs
+                op.applyBuff('atkTime', 0.22)
             else:
                 # Tick SP as normal
                 t.addKey(current_time + op.stats['spRec'], "SP")
@@ -59,6 +62,9 @@ def main():
                 # Force parameters
                 currentSp = 0
                 state == "Normal"
+
+                # Force revert buffs
+                op.applyBuff('atkTime', -0.22)
             else:
                 t.addKey(current_time + 1, "Skill")
 
@@ -71,6 +77,7 @@ def main():
             else:
                 t.addKey(current_time + op.stats['atkTime'], "Attack")
         ref = t.getNext(current_time)
+
 
     for keys in t.keys:
         if "Attack" in keys[1]:

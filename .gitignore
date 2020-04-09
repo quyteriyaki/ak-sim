@@ -1,4 +1,4 @@
 test.py
-tools/__pycache__
+*/__pycache__
 *.xlsx
 .vscode
