@@ -3,13 +3,14 @@ class Timeline:
         self._keys = {}
     
     def addKey(self, time, *cmds):
-        if time in self._keys:
+        _time = round(time, 2)
+        if _time in self._keys:
             for cmd in cmds:
-                if cmd not in self._keys[time]: self._keys[time].append(cmd)
+                if cmd not in self._keys[_time]: self._keys[_time].append(cmd)
         else:
-            self._keys[time] = []
+            self._keys[_time] = []
             for cmd in cmds:
-                self._keys[time].append(cmd)
+                self._keys[_time].append(cmd)
     
     def rmKey(self, time):
         if time in self._keys:
