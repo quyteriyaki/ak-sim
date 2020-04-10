@@ -1,8 +1,6 @@
 from ak_base.operator import operator
-from tools.Timeline import Timeline
+from ak_base.simulate import simulate
 import json
-
-t = Timeline()
 op = operator("parsed_src/op_src/char_103_angel.json", 1)
 
 def main():
@@ -10,31 +8,27 @@ def main():
     op.applyBuff('atk', 1.08)
     op.applyBuff('atkSpd', 15)
 
+    # Skill
+    def Skill_On():
+        return
+    
+    def Skill_Off():
+        return
     # Configuration Conditions
     # enemy_def = 50
-    period = 60
+    conf = {
+        'period': 60,
+        'enemy_def': 50,
+        'trigger_type': "Next",
+        'skill_on': Skill_On,
+        'skill_off': Skill_Off
+    }
 
-    # Mark milestone
-    t.addKey(0, "Init")
-    currentSp = op.skill['spData']['initSp']
-    ref = t.latest
+    sim = simulate(op, conf)
+    results = sim.run()
+    for keys in results:
+        if "Attack" in keys[1]:
+            print("{:.2f}".format(keys[0]), keys[1])
 
-    while ref[0] < period:
-        current_time = ref[0]
-
-        if "Attack" in ref[1] or "Init" in ref[1]:
-            currentSp += 1
-            if "SkillPrep" in ref[1]:
-                currentSp = 0
-                t.addKey(current_time + op.stats['atkTime'], "Skill")
-            elif currentSp == op.skill['spData']['spCost']:
-                t.addKey(current_time + op.stats['atkTime'], "SkillPrep")
-            t.addKey(current_time + op.stats['atkTime'], "Attack")
-
-        ref = t.getNext(current_time)
-
-    for keys in t.keys:
-        print("{:.2f}".format(keys[0]), keys[1])
-
-if __name__ =='__main__':
+if __name__ == '__main__':
     main()
