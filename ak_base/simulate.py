@@ -42,22 +42,22 @@ class simulate ():
             if "SkillPrep" in ref[1]:
                 currentSp = 0
                 self.t.addKey(ref[0] + self.op.stats['atkTime'], "Skill")
-                # Activate skill here
-                self.conf['skill_on']()
+                # Activate skill here ------------------------------------------------------
+                skill['skill_on']()
 
             if "Skill" in ref[1]:
                 if self.conf['trigger_type'] == "Next":
                     self.t.addKey(ref[0] + self.op.stats['atkTime'], "SP")
-                    # Deactivate skill here
-                    self.conf['skill_off']()
+                    # Deactivate skill here ------------------------------------------------
+                    skill['skill_off']()
                 elif self.conf['trigger_type'] == "Instant":
                     duration -= 1
                     if duration == 0:
                         self.killAttack(ref[0], 1)
                         self.t.addKey(ref[0] + 1, "SP", "Attack")
                         currentSp = 0
-                        # Deactivate skill here
-                        self.conf['skill_off']()
+                        # Deactivate skill here --------------------------------------------
+                        skill['skill_off']()
                     else:
                         self.t.addKey(ref[0] + 1, "Skill")
             # SP updates
@@ -76,8 +76,8 @@ class simulate ():
                             self.killAttack(ref[0], self.op.stats['spRec'])
                             self.t.addKey(ref[0] + self.op.stats['spRec'], "Skill", "Attack")
                             duration = skill['duration']
-                            # Activate skill here
-                            self.conf['skill_on']
+                            # Activate skill here------------------------------------------
+                            skill['skill_on']()
                         else:
                             self.t.addKey(ref[0] + self.op.stats['spRec'], "SP")
                 # If Offensive recovery, use atk speed
@@ -85,10 +85,7 @@ class simulate ():
                     # For next attack trigger
                     currentSp += 1
                     if self.conf['trigger_type'] == "Next":
-                        if "SkillPrep" in ref[1]:
-                            currentSp = 0
-                            self.t.addKey(ref[0] + self.op.stats['atkTime'], "Skill")
-                        elif currentSp == skill['spData']['spCost']:
+                        if currentSp == skill['spData']['spCost']:
                             self.t.addKey(ref[0] + self.op.stats['atkTime'], "SkillPrep")
                         else:
                             self.t.addKey(ref[0] + self.op.stats['atkTime'], "SP")
@@ -97,7 +94,8 @@ class simulate ():
                             self.killAttack(ref[0], self.op.stats['spRec'])
                             self.t.addKey(ref[0] + self.op.stats['spRec'], "Skill", "Attack")
                             duration = skill['duration']
-                            state = "Skill"
+                            # Activate skill here ------------------------------------------
+                            skill['skill_on']()
                         else:
                             self.t.addKey(ref[0] + 1, "SP")
                 # If Defensive recovery, use enemy atk speed
