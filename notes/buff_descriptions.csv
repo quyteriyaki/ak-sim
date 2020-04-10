@@ -1,0 +1,62 @@
+ability_range_forward_extend, shirayuki
+heal_scale,
+atk_scale, same thing as atk
+times, "hits twice"
+base_attack_time, attack interval
+attack@range_scale, catapult s1
+time, gitano s2
+talent_scale, dobermann etc.
+prob, probability, e.g. frostleaf s2
+duration, debuff duration
+attack@max_target, nightmare's s1, amount of allied targets
+attack@atk_scale, atk_scale         these 3 are shirayuki's
+attack@duration, debuff duration
+attack@move_speed, enemy debuff movementspeed
+blackd_s_2[period].def, courier def boost
+blackd_s_2[period].cost, courier dp gain / trigger
+blackd_s_2[period].interval, interval between dp gain
+blackd_s_2[period].trig_cnt, amount of triggers
+blackd_s_2[period].cost, immediate dp
+move_speed, frostleaf s1
+debuff, frostleaf s2 debuff duration
+block_cnt, block count
+frncat_s1_[debuff].atk, debuff atk down on enemy
+frncat_s1_[debuff].duration, debuff duration
+hp_ratio, gravel s2 HP shield scale
+force, p U S H
+max_target, rope s2, amount of enemy targets
+ct, charges
+heal_scale_2, gavial's special s1 heal
+interval, effect per second
+value, zima dp gain total
+hp_recovery_per_sec_by_max_hp_ration, SA s2
+hp_recovery_per_sec, fixed HP amount, matterhorn
+magic_resistance, res boost
+diarm, gummy s2
+stun, enemy stun haha texas
+talent_range_flag, swire's talent boost
+def_penetrate, ignores defense
+attack@times, bp s2
+attack@heal_scale, saria s3
+attack@stun, liskarm enemy stun duration
+cnt, silence s2 drone amount
+sluggish, slow % earthspirit s2
+attack@buff_prob, liskarm stun chance
+hp_ratio_drop, providence s2
+atk_scale_up, providence s2
+max_cnt, max enemy count firewatch s2
+attack@atk_to_hp_recovery_ratio, sora trait
+burn.atk_scale, ifrit s2
+amgoat_s_1[a].attack_speed, eyja s1 state 1
+amgoat_s_1[b].attack_speed, eyja s1 state 2
+amgoat_s_1[b].atk, s1 state 2 
+atk_scale_2, probably divided by 2 for splash
+fk, eyja s2 arts damage
+damage_scale, angelina s2
+mass_level, angelina s3 enemy weight
+attack@interval, mallagan s1
+attack@frozenduration, the enemy stopped duration
+attack@sluggish, drones stopped duration
+demkni_s_3.move_speed, enemy move speed
+demkni_s3.damage_scale, increased damage taken
+fake.b, tbf i have no idea actually

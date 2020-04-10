@@ -1,0 +1,20 @@
+Skill:
+    On operator hit:
+        - Defensive recovery
+    On operator attack:
+        - Offensive recovery
+    On second tick:
+        - Auto recovery
+    On SP full:
+        - Charge + 1
+        - Skill Prepped = active
+        - Trigger Skill
+    On charge full:
+        - SP gen stop
+    On skill active:
+        - SP gen stop
+        - Duration start
+        - Buffs On
+    On duration = 0:
+        - Buffs Off
+        - SP gen start

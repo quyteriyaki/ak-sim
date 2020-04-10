@@ -1,0 +1,68 @@
+Buff name, Additive / Multiplicative , Description,,,,,,,,,,
+cost,Additive , ,,,,,,,,,,
+atk,Multiplicative , ,,,,OTHER,,ATK/HEAL,ATKSPD/INTERVAL,DEF,DEBUFF,USELESS/?
+def,Multiplicative , ,,,,ct,,atk,amgoat_s_1[a].attack_speed,def,attack@duration,ability_range_forward_extend
+attack_speed,Multiplicative , ,,,,talent_range_flag,,atk_scale,amgoat_s_1[b].attack_speed,blackd_s_2[period].def,attack@frozen_duration,fake.b
+ability_range_forward_extend, , shirayuki,,,,talent_scale,,atk_scale_2,attack_speed,magic_resistance,attack@stun,attack@range_scale
+heal_scale,Multiplicative ,,,,,def_penetrate,,atk_scale_up,base_attack_time,,attack@sluggish,cnt
+atk_scale,Multiplicative , same thing as atk,,,,max_target,,attack@atk_scale,attack@interval,,stun,attack@max_target
+times,Additive ," ""hits twice""",,,,mass_level,,amgoat_s_1[b].atk,interval,,attack@move_speed,blackd_s_2[once].cost
+base_attack_time,Additive , attack interval,,,,force,,burn.atk_scale,,,debuff,blackd_s_2[period].cost
+attack@range_scale, , catapult s1,,,,attack@times,,damage_scale,,,frncat_s_1[debuff].duration,blackd_s_2[period].interval
+max_hp,Multiplicative ,,,,,time,,attack@heal_scale,,,attack@buff_prob,blackd_s_2[period].trig_cnt
+time,Additive , gitano s2,,,,prob,,attack@atk_to_hp_recovery_ratio,,,demkni_s_3.move_speed,block_cnt
+talent_scale,Multiplicative , dobermann etc.,,,,times,,demkni_s_3.damage_scale,,,disarm,cost
+prob,Multiplicative , probability,,,,,,heal_scale,,,sluggish,value
+duration,Additive , debuff duration,,,,,,heal_scale_2,,,move_speed,max_cnt
+attack@max_target,Additive , nightmare's s1,,,,,,frncat_s_1[debuff].atk,,,duration,
+attack@atk_scale,Multiplicative , atk_scale         these 3 are shirayuki's,,,,,,hp_ratio,,,,
+attack@duration,Additive , debuff duration,,,,,,hp_ratio_drop,,,,
+attack@move_speed,?, enemy debuff movementspeed,,,,,,hp_recovery_per_sec,,,,
+blackd_s_2[period].def,Multiplicative , courier def boost,,,,,,hp_recovery_per_sec_by_max_hp_ratio,,,,
+blackd_s_2[period].cost,Additive , courier dp gain / trigger,,,,,,max_hp,,,,
+blackd_s_2[period].interval,Additive , interval between dp gain,,,,,,fk,,,,
+blackd_s_2[period].trig_cnt,Additive , amount of triggers,,,,,,,,,,
+blackd_s_2[once].cost,Additive , immediate dp,,,,,,,,,,
+move_speed,Additive , frostleaf s1,,,,,,,,,,
+debuff,Additive , frostleaf s2 debuff duration,,,,,,,,,,
+block_cnt,Additive , block count,,,,,,,,,,
+frncat_s_1[debuff].atk,Multiplicative , debuff atk down on enemy,,,,,,,,,,
+frncat_s_1[debuff].duration,Additive , debuff duration,,,,,,,,,,
+hp_ratio,Multiplicative , gravel s2 HP shield scale,,,,,,,,,,
+force,Additive , p U S H,,,,,,,,,,
+max_target,Additive , rope s2,,,,,,,,,,
+ct,Additive , charges,,,,,,,,,,
+heal_scale_2,Multiplicative , gavial's special s1 heal,,,,,,,,,,
+interval,?, effect per second,,,,,,,,,,
+value,Additive , zima dp gain total,,,,,,,,,,
+hp_recovery_per_sec_by_max_hp_ratio,Multiplicative , SA s2,,,,,,,,,,
+hp_recovery_per_sec,Additive , fixed HP amount,,,,,,,,,,
+magic_resistance,Multiplicative , res boost,,,,,,,,,,
+disarm,Additive , gummy s2,,,,,,,,,,
+stun,Additive , enemy stun haha texas,,,,,,,,,,
+talent_range_flag, , swire's talent boost,,,,,,,,,,
+def_penetrate,Multiplicative , ignores defense,,,,,,,,,,
+attack@times,Additive , bp s2,,,,,,,,,,
+attack@heal_scale,Multiplicative , saria s3,,,,,,,,,,
+attack@stun,Additive , liskarm enemy stun duration,,,,,,,,,,
+cnt,Additive , silence s2 drone amount,,,,,,,,,,
+sluggish,Multiplicative , slow % earthspirit s2,,,,,,,,,,
+attack@buff_prob,Multiplicative , liskarm stun chance,,,,,,,,,,
+hp_ratio_drop,Multiplicative , provence s2,,,,,,,,,,
+atk_scale_up,Multiplicative , provence s2,,,,,,,,,,
+max_cnt,Additive , max enemy count firewatch s2,,,,,,,,,,
+attack@atk_to_hp_recovery_ratio,Multiplicative , sora trait,,,,,,,,,,
+burn.atk_scale,Multiplicative , ifrit s2,,,,,,,,,,
+amgoat_s_1[a].attack_speed,Multiplicative , eyja s1 state 1,,,,,,,,,,
+amgoat_s_1[b].attack_speed,Multiplicative , eyja s1 state 2,,,,,,,,,,
+amgoat_s_1[b].atk,Multiplicative , s1 state 2 ,,,,,,,,,,
+atk_scale_2,Multiplicative , probably divided by 2 for splash,,,,,,,,,,
+fk,Multiplicative , eyja s2 arts damage,,,,,,,,,,
+damage_scale,Multiplicative , angelina s2,,,,,,,,,,
+mass_level,Additive , angelina s3 enemy weight,,,,,,,,,,
+attack@interval,Additive , mallagan s1,,,,,,,,,,
+attack@frozen_duration,Additive , the enemy stopped duration,,,,,,,,,,
+attack@sluggish,Additive , drones stopped duration,,,,,,,,,,
+demkni_s_3.move_speed,Multiplicative , enemy move speed,,,,,,,,,,
+demkni_s_3.damage_scale,Multiplicative , increased damage taken,,,,,,,,,,
+fake.b,?, tbf i have no idea actually,,,,,,,,,,

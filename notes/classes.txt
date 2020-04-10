@@ -1,0 +1,35 @@
+skill
+    - Recovery
+    - Activation
+    - Duration
+    - Effect (gah)
+
+recovery (+ other factors / batteries) [done when skill not active]
+    - OffensiveRec
+        - On attack, SP gain (based on atkspd)
+    - DefensiveRec
+        - On hit, SP gain (based on enemy atk)
+    - AutoRec
+        - On second, SP gain (based on clock / frame)
+    - Passive
+        - Always active / no SP gain
+
+activation [when SP is full]
+    - On next attack
+        - If SP bar full, stop SP gain, next attack = expend and reset
+    - Instant
+        - If SP bar full, expend and duration
+    - Charge
+        - If SP bar full, gain 1 charge
+        - If charge count = max, stop SP gain
+
+duration [when skill is active]
+    - 0 duration
+        - On next attack, expend and activate
+    - 0 duration (charge)
+        - On next (possible) attack, expend and activate
+        - For simulation purposes, charge will be immediately used if possible
+    - fixed duration
+        - On full, tick down and activate
+    - infinite duration
+        - On full, complete
