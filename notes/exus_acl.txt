@@ -19,7 +19,7 @@ S1: spCost: 4, initSp: 0, spType: offensiveRec, atk_scale: 1.45, times: 3
     Activations: spCost + 1 = 5                     3. Determine hits / skill activation
     Duration: 69 / Activations = 14                 4. Determine activation / total hits
     Base: 55 S1: 14 * 3 (14)                        5. Indicate hit distribution           
-    Atk: 709 * 1.45 = 815                           6. Calculate S1 mods
+    Atk: 709 * 1.45 = 978                          6. Calculate S1 mods
     Total: (659 * 55) + (978 * 42) = 77 321
 
 S2: spCost: 35, initSp: 25, spType: AutoRec, atk_scale: 1.25, times: 4, duration: 15

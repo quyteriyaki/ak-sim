@@ -1,5 +1,5 @@
 from ak_base.operator import operator
-from ak_base.simulate import simulate
+from ak_base.simulate import simulation
 import json
 
 
@@ -11,27 +11,29 @@ def main(skillNumber):
 
     # Skill
     def S1_On():
-        op.applyBuff('atk_scale', 1.45)
+        op.applyAttack('atk_scale', 1.45)
+        op.applyAttack('times', 3)
     
     def S1_Off():
-        op.removeBuff('atk_scale', 1.45)
+        op.resetAttack('atk_scale')
+        op.resetAttack('times')
     
     def S2_On():
-        op.applyAttack('attack@atk_scale', 1.25)
-        op.applyAttack('attack@times', 4)
+        op.applyAttack('atk_scale', 1.25)
+        op.applyAttack('times', 4)
     
     def S2_Off():
-        op.resetAttack('attack@atk_scale')
-        op.resetAttack('attack@times')
+        op.resetAttack('atk_scale')
+        op.resetAttack('times')
     
     def S3_On():
-        op.applyAttack('attack@atk_scale', 1.45)
-        op.applyAttack('attack@times', 5)
+        op.applyAttack('atk_scale', 1.45)
+        op.applyAttack('times', 5)
         op.applyBuff('atkTime', -0.22)
     
     def S3_Off():
-        op.resetAttack('attack@atk_scale')
-        op.resetAttack('attack@times')
+        op.resetAttack('atk_scale')
+        op.resetAttack('times')
         op.removeBuff('atkTime', -0.22)
 
     # Configuration Conditions
@@ -39,7 +41,8 @@ def main(skillNumber):
     conf = {
         'period': 60,
         'enemy_def': 50,
-        'trigger_type': "Instant"
+        'trigger_type': "Instant",
+        "atk_type": "Physical"
     }
 
     if skillNumber == 1:
@@ -53,8 +56,15 @@ def main(skillNumber):
         op.skill['skill_on'] = S3_On
         op.skill['skill_off'] = S3_Off
     
-    sim = simulate(op, conf)
+    sim = simulation(op, conf)
     results = sim.run()
-    for keys in results:
+    total = 0
+    for keys in results.keys:
         if "Attack" in keys[1]:
-            print("{:.2f}".format(keys[0]), keys[1])
+            print("{:.2f}".format(keys[0]), keys[1], results.data[keys[0]])
+            if results.data[keys[0]] != []:
+                total += results.data[keys[0]][1]
+    print(round(total, 2))
+
+if __name__ == "__main__":
+    main(1) 
