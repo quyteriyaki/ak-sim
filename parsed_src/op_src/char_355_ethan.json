@@ -1,0 +1,86 @@
+{
+  "name": "Ethan",
+  "rarity": 4,
+  "profession": "Specialist",
+  "potential": {
+    "cost": -2.0,
+    "respawn": -10.0,
+    "maxHp": 150.0
+  },
+  "skills": [
+    {
+      "name": "Fancy Maneuvers",
+      "rangeId": null,
+      "description": "Hitting the target with normal attack deals extra 100 Arts Damage for 4 seconds",
+      "skillType": 0,
+      "spData": {
+        "spType": 8,
+        "levelUpCost": null,
+        "maxChargeTime": 0,
+        "spCost": 0,
+        "initSp": 0,
+        "increment": 0.0
+      },
+      "prefabId": "skchr_ethan_1",
+      "duration": 0.0,
+      "blackboard": {
+        "attack@poison_damage": 100.0,
+        "attack@duration": 4.0
+      },
+      "skillId": "skchr_ethan_1"
+    },
+    {
+      "name": "Suspended Cross",
+      "rangeId": null,
+      "description": "ATK +70%, increasing the chance to trigger Talent to 3.0 times",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 25,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_ethan_2",
+      "duration": 30.0,
+      "blackboard": {
+        "atk": 0.7,
+        "talent_scale": 3.0
+      },
+      "skillId": "skchr_ethan_2"
+    }
+  ],
+  "stats": {
+    "level": 70,
+    "maxHp": 1530,
+    "atk": 742,
+    "def": 337,
+    "res": 30.0,
+    "cost": 19,
+    "block": 0,
+    "atkSpd": 100.0,
+    "atkTime": 3.5,
+    "hpRec": 0.0,
+    "spRec": 1.0,
+    "respawn": 70
+  },
+  "talents": [
+    {
+      "name": "Entwined",
+      "description": "25% chance to Freeze an enemy for 3 seconds upon attack.",
+      "blackboard": {
+        "prob": 0.25,
+        "frozen_duration": 3.0
+      }
+    }
+  ],
+  "trait": [
+    {
+      "prob": 0.5
+    }
+  ],
+  "trust": {
+    "maxHp": 450
+  }
+}

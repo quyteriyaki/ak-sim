@@ -1,0 +1,80 @@
+{
+  "name": "Breeze",
+  "rarity": 5,
+  "profession": "Medic",
+  "potential": {
+    "cost": -2.0,
+    "respawn": -10.0,
+    "atk": 20.0
+  },
+  "skills": [
+    {
+      "name": "Cluster Therapy",
+      "rangeId": null,
+      "description": "ATK +140%, targets healed -1",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 30,
+        "initSp": 20,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_breeze_1",
+      "duration": 35.0,
+      "blackboard": {
+        "atk": 1.4
+      },
+      "skillId": "skchr_breeze_1"
+    },
+    {
+      "name": "Widespread Therapy",
+      "rangeId": null,
+      "description": "ATK +250%, switch attack mode to firing a healing round to a friendly unit in range, healing the target and friendly units on the surrounding 8 tiles (healing amount is halved to surrounding units)",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 80,
+        "initSp": 60,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_breeze_2",
+      "duration": 45.0,
+      "blackboard": {
+        "atk": 2.5,
+        "attack@scale": 0.5
+      },
+      "skillId": "skchr_breeze_2"
+    }
+  ],
+  "stats": {
+    "level": 80,
+    "maxHp": 1595,
+    "atk": 343,
+    "def": 153,
+    "res": 0.0,
+    "cost": 17,
+    "block": 1,
+    "atkSpd": 100.0,
+    "atkTime": 2.85,
+    "hpRec": 0.0,
+    "spRec": 1.0,
+    "respawn": 70
+  },
+  "talents": [
+    {
+      "name": "Medic Squad Protection",
+      "description": "Grants [Resistance] to all [Medic] and [Supporter] Operators when the skill is activated. (Reduces duration of some negative effects by 50%, currently including stunning)",
+      "blackboard": {
+        "one_minus_status_resistance": -0.5
+      }
+    }
+  ],
+  "trust": {
+    "maxHp": 200,
+    "atk": 30
+  }
+}

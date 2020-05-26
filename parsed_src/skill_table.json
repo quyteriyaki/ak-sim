@@ -59,6 +59,28 @@
     },
     "skillId": "skcom_charge_cost[3]"
   },
+  "skcom_assist_cost[2]": {
+    "name": "Support \u03b2",
+    "rangeId": null,
+    "description": "Stops attacking and recovers 14 DP over the skill duration",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 22,
+      "initSp": 13,
+      "increment": 1.0
+    },
+    "prefabId": null,
+    "duration": 8.0,
+    "blackboard": {
+      "value": 14.0,
+      "interval": 0.57,
+      "cost": 1.0
+    },
+    "skillId": "skcom_assist_cost[2]"
+  },
   "skcom_atk_up[1]": {
     "name": "ATK Up \u03b1",
     "rangeId": null,
@@ -823,6 +845,29 @@
     },
     "skillId": "skchr_vigna_2"
   },
+  "skchr_myrtle_2": {
+    "name": "Healing Wings",
+    "rangeId": "x-4",
+    "description": "Stops attacking and recovers 16 DP over the skill duration, healing a nearby friendly unit's HP equal to 50% of Myrtle's ATK",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 24,
+      "initSp": 10,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_myrtle_2",
+    "duration": 16.0,
+    "blackboard": {
+      "attack@heal_scale": 0.5,
+      "interval": 1.0,
+      "value": 16.0,
+      "cost": 1.0
+    },
+    "skillId": "skchr_myrtle_2"
+  },
   "skchr_doberm_1": {
     "name": "Power Strike \u03b2",
     "rangeId": null,
@@ -1209,6 +1254,28 @@
     },
     "skillId": "skchr_ccheal_2"
   },
+  "skchr_susuro_2": {
+    "name": "Deep Healing",
+    "rangeId": null,
+    "description": "ATK +100%, ASPD +100\nCan be used up to twice in one battle",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 15,
+      "initSp": 0,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_susuro_2",
+    "duration": 30.0,
+    "blackboard": {
+      "atk": 1.0,
+      "attack_speed": 100.0,
+      "skill_max_trigger_time": 2.0
+    },
+    "skillId": "skchr_susuro_2"
+  },
   "skchr_flower_2": {
     "name": "Fine Blending",
     "rangeId": null,
@@ -1249,6 +1316,47 @@
       "base_attack_time": -2.1
     },
     "skillId": "skchr_plosis_2"
+  },
+  "skchr_breeze_1": {
+    "name": "Cluster Therapy",
+    "rangeId": null,
+    "description": "ATK +140%, targets healed -1",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 30,
+      "initSp": 20,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_breeze_1",
+    "duration": 35.0,
+    "blackboard": {
+      "atk": 1.4
+    },
+    "skillId": "skchr_breeze_1"
+  },
+  "skchr_breeze_2": {
+    "name": "Widespread Therapy",
+    "rangeId": null,
+    "description": "ATK +250%, switch attack mode to firing a healing round to a friendly unit in range, healing the target and friendly units on the surrounding 8 tiles (healing amount is halved to surrounding units)",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 80,
+      "initSp": 60,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_breeze_2",
+    "duration": 45.0,
+    "blackboard": {
+      "atk": 2.5,
+      "attack@scale": 0.5
+    },
+    "skillId": "skchr_breeze_2"
   },
   "skchr_headbr_2": {
     "name": "Ursus's Roar",
@@ -1382,6 +1490,26 @@
       "def": 0.8
     },
     "skillId": "skchr_sunbr_2"
+  },
+  "skchr_durnar_2": {
+    "name": "Shielded Counterattack",
+    "rangeId": null,
+    "description": "ATK +80%, attacks all blocked enemies",
+    "skillType": 1,
+    "spData": {
+      "spType": 4,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 25,
+      "initSp": 12,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_durnar_2",
+    "duration": 30.0,
+    "blackboard": {
+      "atk": 0.8
+    },
+    "skillId": "skchr_durnar_2"
   },
   "skchr_texas_2": {
     "name": "Sword Rain",
@@ -1679,6 +1807,49 @@
     },
     "skillId": "skchr_savage_2"
   },
+  "skchr_astesi_1": {
+    "name": "Astral Protection",
+    "rangeId": null,
+    "description": "ATK+50%, DEF+80%",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 30,
+      "initSp": 10,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_astesi_1",
+    "duration": 30.0,
+    "blackboard": {
+      "atk": 0.5,
+      "def": 0.8
+    },
+    "skillId": "skchr_astesi_1"
+  },
+  "skchr_astesi_2": {
+    "name": "Astral Sword",
+    "rangeId": null,
+    "description": "ATK +80%, DEF +80%, Blocked enemies +1, attack all blocked enemies",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 20,
+      "initSp": 10,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_astesi_2",
+    "duration": 15.0,
+    "blackboard": {
+      "atk": 0.8,
+      "def": 0.8,
+      "block_cnt": 1.0
+    },
+    "skillId": "skchr_astesi_2"
+  },
   "skchr_bluep_1": {
     "name": "Twinshot - Auto",
     "rangeId": null,
@@ -1784,7 +1955,7 @@
     "skillId": "skchr_meteo_2"
   },
   "skchr_excu_1": {
-    "name": "Muzzle\u2019s Elegy",
+    "name": "Muzzle\u00e2\u20ac\u2122s Elegy",
     "rangeId": null,
     "description": "ATK +70%, attacks apply this unit's Feature effect to all enemies within range.",
     "skillType": 1,
@@ -2080,6 +2251,49 @@
     },
     "skillId": "skchr_bldsk_2"
   },
+  "skchr_ceylon_1": {
+    "name": "Concentrated Hydrotherapy",
+    "rangeId": null,
+    "description": "Increases next healing's amount to 200% of ATK. The amount will not be reduced by trait effects\nCan charge for 3 times",
+    "skillType": 2,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 3,
+      "spCost": 8,
+      "initSp": 0,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_ceylon_1",
+    "duration": 0.0,
+    "blackboard": {
+      "heal_scale": 2.0,
+      "cnt": 3.0
+    },
+    "skillId": "skchr_ceylon_1"
+  },
+  "skchr_ceylon_2": {
+    "name": "Water Blessing",
+    "rangeId": null,
+    "description": "ATK +60%, healing target number +1, granting [Resistance] to friendly units in range in duration (Reduces duration of some negative effects by 50%, currently including stunning)",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 80,
+      "initSp": 40,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_ceylon_2",
+    "duration": 40.0,
+    "blackboard": {
+      "attack@max_target": 2.0,
+      "atk": 0.6,
+      "one_minus_status_resistance": -0.5
+    },
+    "skillId": "skchr_ceylon_2"
+  },
   "skchr_deepcl_1": {
     "name": "Shadow Tentacle",
     "rangeId": null,
@@ -2142,6 +2356,48 @@
       "sluggish": 0.8
     },
     "skillId": "skchr_skgoat_2"
+  },
+  "skchr_ethan_1": {
+    "name": "Fancy Maneuvers",
+    "rangeId": null,
+    "description": "Hitting the target with normal attack deals extra 100 Arts Damage for 4 seconds",
+    "skillType": 0,
+    "spData": {
+      "spType": 8,
+      "levelUpCost": null,
+      "maxChargeTime": 0,
+      "spCost": 0,
+      "initSp": 0,
+      "increment": 0.0
+    },
+    "prefabId": "skchr_ethan_1",
+    "duration": 0.0,
+    "blackboard": {
+      "attack@poison_damage": 100.0,
+      "attack@duration": 4.0
+    },
+    "skillId": "skchr_ethan_1"
+  },
+  "skchr_ethan_2": {
+    "name": "Suspended Cross",
+    "rangeId": null,
+    "description": "ATK +70%, increasing the chance to trigger Talent to 3.0 times",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 25,
+      "initSp": 0,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_ethan_2",
+    "duration": 30.0,
+    "blackboard": {
+      "atk": 0.7,
+      "talent_scale": 3.0
+    },
+    "skillId": "skchr_ethan_2"
   },
   "skchr_sqrrel_1": {
     "name": "Steam Pump",
@@ -2532,7 +2788,7 @@
   "skchr_slbell_1": {
     "name": "Echolocation",
     "rangeId": null,
-    "description": "Simultaneously attacks 2 targets; ASPD of all enemies in range 60",
+    "description": "Simultaneously attacks 2 targets; ASPD of all enemies in range -60",
     "skillType": 1,
     "spData": {
       "spType": 1,
@@ -2611,6 +2867,50 @@
       "max_target": 3.0
     },
     "skillId": "skchr_glassb_2"
+  },
+  "skchr_glacus_1": {
+    "name": "Binary Reload",
+    "rangeId": null,
+    "description": "ATK +50%, each attack hits  extra target",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 35,
+      "initSp": 20,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_glacus_1",
+    "duration": 25.0,
+    "blackboard": {
+      "atk": 0.5,
+      "attack@max_target": 2.0
+    },
+    "skillId": "skchr_glacus_1"
+  },
+  "skchr_glacus_2": {
+    "name": "Counter EMP",
+    "rangeId": "x-3",
+    "description": "Releases a shockwave in an area around this unit. All hit enemies receives Arts Damage equal to ATK 400% and are Restrained for 6 seconds. If the target is a Drone, it will receive double damage and be Stunned",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 30,
+      "initSp": 20,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_glacus_2",
+    "duration": 0.0,
+    "blackboard": {
+      "atk_scale[drone]": 8.0,
+      "atk_scale[normal]": 4.0,
+      "frozen": 6.0,
+      "stun": 6.0
+    },
+    "skillId": "skchr_glacus_2"
   },
   "skchr_sora_1": {
     "name": "Hymn of Respite",
@@ -2803,6 +3103,70 @@
       "base_attack_time": -0.11
     },
     "skillId": "skchr_angel_3"
+  },
+  "skchr_shwaz_1": {
+    "name": "Charged Shot",
+    "rangeId": null,
+    "description": "The next attack deals 220% damage, and increases the chance of triggering this unit's Talent to 80%",
+    "skillType": 2,
+    "spData": {
+      "spType": 2,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 3,
+      "initSp": 0,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_shwaz_1",
+    "duration": 0.0,
+    "blackboard": {
+      "atk_scale": 2.2,
+      "talent@prob": 0.8
+    },
+    "skillId": "skchr_shwaz_1"
+  },
+  "skchr_shwaz_2": {
+    "name": "Sharp Eye",
+    "rangeId": null,
+    "description": "ATK +130%, and increases the chance to activate the Talent to 50%",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 30,
+      "initSp": 20,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_shwaz_2",
+    "duration": 40.0,
+    "blackboard": {
+      "atk": 1.3,
+      "talent@prob": 0.5
+    },
+    "skillId": "skchr_shwaz_2"
+  },
+  "skchr_shwaz_3": {
+    "name": "Final Tactics",
+    "rangeId": "4-1",
+    "description": "Changes attack range to frontal 4 tiles, Attack Interval increases a bit, ATK +180%, increasing Talent triggering chance to 100%",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 25,
+      "initSp": 12,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_shwaz_3",
+    "duration": 25.0,
+    "blackboard": {
+      "atk": 1.8,
+      "base_attack_time": 0.4,
+      "talent@prob": 1.0
+    },
+    "skillId": "skchr_shwaz_3"
   },
   "skchr_siege_2": {
     "name": "Aerial Hammer",
@@ -3570,6 +3934,69 @@
       "stun": 4.0
     },
     "skillId": "skchr_chen_3"
+  },
+  "skchr_helage_1": {
+    "name": "Crescent Moon",
+    "rangeId": null,
+    "description": "The ATK of next attack increases to 175%, attacking twice consecutively",
+    "skillType": 2,
+    "spData": {
+      "spType": 2,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 2,
+      "initSp": 0,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_helage_1",
+    "duration": 0.0,
+    "blackboard": {
+      "atk_scale": 1.75
+    },
+    "skillId": "skchr_helage_1"
+  },
+  "skchr_helage_2": {
+    "name": "Half Moon",
+    "rangeId": null,
+    "description": "ATK +80%, changes attack to twice attack, obtaining 75% Physical Dodge",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 25,
+      "initSp": 15,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_helage_2",
+    "duration": 13.0,
+    "blackboard": {
+      "atk": 0.8,
+      "prob": 0.75
+    },
+    "skillId": "skchr_helage_2"
+  },
+  "skchr_helage_3": {
+    "name": "Full Moon",
+    "rangeId": null,
+    "description": "ATK +100%, attack range +2 tiles, can attack up to 3 targets simultaneously",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 35,
+      "initSp": 15,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_helage_3",
+    "duration": 15.0,
+    "blackboard": {
+      "atk": 1.0,
+      "ability_range_forward_extend": 2.0,
+      "attack@max_target": 3.0
+    },
+    "skillId": "skchr_helage_3"
   },
   "skcom_withdraw": {
     "name": "Self-Destruct",

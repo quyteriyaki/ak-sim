@@ -1,0 +1,88 @@
+{
+  "name": "Glaucus",
+  "rarity": 5,
+  "profession": "Supporter",
+  "potential": {
+    "cost": -2.0,
+    "respawn": -4.0,
+    "atk": 23.0
+  },
+  "skills": [
+    {
+      "name": "Binary Reload",
+      "rangeId": null,
+      "description": "ATK +50%, each attack hits  extra target",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 35,
+        "initSp": 20,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_glacus_1",
+      "duration": 25.0,
+      "blackboard": {
+        "atk": 0.5,
+        "attack@max_target": 2.0
+      },
+      "skillId": "skchr_glacus_1"
+    },
+    {
+      "name": "Counter EMP",
+      "rangeId": "x-3",
+      "description": "Releases a shockwave in an area around this unit. All hit enemies receives Arts Damage equal to ATK 400% and are Restrained for 6 seconds. If the target is a Drone, it will receive double damage and be Stunned",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 30,
+        "initSp": 20,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_glacus_2",
+      "duration": 0.0,
+      "blackboard": {
+        "atk_scale[drone]": 8.0,
+        "atk_scale[normal]": 4.0,
+        "frozen": 6.0,
+        "stun": 6.0
+      },
+      "skillId": "skchr_glacus_2"
+    }
+  ],
+  "stats": {
+    "level": 80,
+    "maxHp": 1267,
+    "atk": 505,
+    "def": 100,
+    "res": 20.0,
+    "cost": 15,
+    "block": 1,
+    "atkSpd": 100.0,
+    "atkTime": 1.9,
+    "hpRec": 0.0,
+    "spRec": 1.0,
+    "respawn": 70
+  },
+  "talents": [
+    {
+      "name": "Countermeasure Device",
+      "description": "Attacks [Drone] units first, and ATK +55%<@ba.talpu> (+5%)</> when attacking [Drone] units",
+      "blackboard": {
+        "atk_scale": 1.55
+      }
+    }
+  ],
+  "trait": [
+    {
+      "sluggish": 0.8
+    }
+  ],
+  "trust": {
+    "maxHp": 300,
+    "atk": 35
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "name": "Astesia",
+  "rarity": 5,
+  "profession": "Guard",
+  "potential": {
+    "cost": -2.0,
+    "respawn": -10.0,
+    "def": 23.0
+  },
+  "skills": [
+    {
+      "name": "Astral Protection",
+      "rangeId": null,
+      "description": "ATK+50%, DEF+80%",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 30,
+        "initSp": 10,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_astesi_1",
+      "duration": 30.0,
+      "blackboard": {
+        "atk": 0.5,
+        "def": 0.8
+      },
+      "skillId": "skchr_astesi_1"
+    },
+    {
+      "name": "Astral Sword",
+      "rangeId": null,
+      "description": "ATK +80%, DEF +80%, Blocked enemies +1, attack all blocked enemies",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 20,
+        "initSp": 10,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_astesi_2",
+      "duration": 15.0,
+      "blackboard": {
+        "atk": 0.8,
+        "def": 0.8,
+        "block_cnt": 1.0
+      },
+      "skillId": "skchr_astesi_2"
+    }
+  ],
+  "stats": {
+    "level": 80,
+    "maxHp": 2523,
+    "atk": 660,
+    "def": 393,
+    "res": 15.0,
+    "cost": 21,
+    "block": 1,
+    "atkSpd": 100.0,
+    "atkTime": 1.25,
+    "hpRec": 0.0,
+    "spRec": 1.0,
+    "respawn": 70
+  },
+  "talents": [
+    {
+      "name": "Celestial Globe",
+      "description": "For every 20 seconds Astesia stays on the battlefield, ASPD +5, stacking up to 5 times",
+      "blackboard": {
+        "max_stack_cnt": 5.0,
+        "interval": 20.0,
+        "attack_speed": 5.0
+      }
+    }
+  ],
+  "trust": {
+    "atk": 30,
+    "def": 55
+  }
+}

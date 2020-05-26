@@ -1,11 +1,12 @@
 {
-  "name": "Vermeil",
+  "name": "Dur-nar",
   "rarity": 4,
-  "profession": "Sniper",
+  "profession": "Defender",
   "potential": {
     "cost": -2.0,
-    "respawn": -10.0,
-    "atk": 24.0
+    "respawn": -4.0,
+    "atk": 23.0,
+    "def": 20.0
   },
   "skills": [
     {
@@ -29,47 +30,47 @@
       "skillId": "skcom_atk_up[2]"
     },
     {
-      "name": "Double Shot",
+      "name": "Shielded Counterattack",
       "rangeId": null,
-      "description": "ATK +45%, each attack hits 1 additional target.",
+      "description": "ATK +80%, attacks all blocked enemies",
       "skillType": 1,
       "spData": {
-        "spType": 1,
+        "spType": 4,
         "levelUpCost": null,
         "maxChargeTime": 1,
-        "spCost": 20,
-        "initSp": 10,
+        "spCost": 25,
+        "initSp": 12,
         "increment": 1.0
       },
-      "prefabId": "skchr_clour_2",
-      "duration": 20.0,
+      "prefabId": "skchr_durnar_2",
+      "duration": 30.0,
       "blackboard": {
-        "atk": 0.45,
-        "attack@max_target": 2.0
+        "atk": 0.8
       },
-      "skillId": "skchr_clour_2"
+      "skillId": "skchr_durnar_2"
     }
   ],
   "stats": {
     "level": 70,
-    "maxHp": 1230,
-    "atk": 485,
-    "def": 162,
-    "res": 0.0,
-    "cost": 12,
-    "block": 1,
+    "maxHp": 3007,
+    "atk": 583,
+    "def": 548,
+    "res": 15.0,
+    "cost": 24,
+    "block": 3,
     "atkSpd": 100.0,
-    "atkTime": 1.0,
+    "atkTime": 1.6,
     "hpRec": 0.0,
     "spRec": 1.0,
     "respawn": 70
   },
   "talents": [
     {
-      "name": "Hunter's Wisdom",
-      "description": "Increases this unit\u2019s SP recovery by 0.3/sec",
+      "name": "Sword and Shield",
+      "description": "ATK +7%, DEF +7%",
       "blackboard": {
-        "sp_recovery_per_sec": 0.3
+        "atk": 0.07,
+        "def": 0.07
       }
     }
   ],

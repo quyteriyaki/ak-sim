@@ -1,0 +1,87 @@
+{
+  "name": "Ceylon",
+  "rarity": 5,
+  "profession": "Medic",
+  "potential": {
+    "cost": -3.0,
+    "respawn": -10.0
+  },
+  "skills": [
+    {
+      "name": "Concentrated Hydrotherapy",
+      "rangeId": null,
+      "description": "Increases next healing's amount to 200% of ATK. The amount will not be reduced by trait effects\nCan charge for 3 times",
+      "skillType": 2,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 3,
+        "spCost": 8,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_ceylon_1",
+      "duration": 0.0,
+      "blackboard": {
+        "heal_scale": 2.0,
+        "cnt": 3.0
+      },
+      "skillId": "skchr_ceylon_1"
+    },
+    {
+      "name": "Water Blessing",
+      "rangeId": null,
+      "description": "ATK +60%, healing target number +1, granting [Resistance] to friendly units in range in duration (Reduces duration of some negative effects by 50%, currently including stunning)",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 80,
+        "initSp": 40,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_ceylon_2",
+      "duration": 40.0,
+      "blackboard": {
+        "attack@max_target": 2.0,
+        "atk": 0.6,
+        "one_minus_status_resistance": -0.5
+      },
+      "skillId": "skchr_ceylon_2"
+    }
+  ],
+  "stats": {
+    "level": 80,
+    "maxHp": 1455,
+    "atk": 442,
+    "def": 126,
+    "res": 5.0,
+    "cost": 22,
+    "block": 1,
+    "atkSpd": 100.0,
+    "atkTime": 2.85,
+    "hpRec": 0.0,
+    "spRec": 1.0,
+    "respawn": 80
+  },
+  "talents": [
+    {
+      "name": "Lake Walker",
+      "description": "ATK +6%<@ba.talpu> (+1%)</>, when there is water terrain on the battlefield, the effect becomes ATK +24%<@ba.talpu> (+6%)</>",
+      "blackboard": {
+        "ceylon_t_1[common].atk": 0.06,
+        "celyon_t_1[map].atk": 0.18
+      }
+    }
+  ],
+  "trait": [
+    {
+      "heal_scale": 0.7
+    }
+  ],
+  "trust": {
+    "maxHp": 200,
+    "atk": 40
+  }
+}

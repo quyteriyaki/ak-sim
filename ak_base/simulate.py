@@ -102,7 +102,7 @@ class simulation ():
                 if i != 0 and i != ref:
                     # If it's scheduled ahead of time
                     if i[0] > ref[0] + self.op.stats['atkTime']:
-                        self.t.movekey(i[0], ref[0])
+                        self.t.moveKey(i[0], ref[0])
                 else:
                     # If there's no other scheduled attack, make one
                     self.t.addKey(ref[0] + self.op.stats['atkTime'], "Attack")

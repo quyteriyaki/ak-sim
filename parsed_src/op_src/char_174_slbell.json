@@ -11,7 +11,7 @@
     {
       "name": "Echolocation",
       "rangeId": null,
-      "description": "Simultaneously attacks 2 targets; ASPD of all enemies in range 60",
+      "description": "Simultaneously attacks 2 targets; ASPD of all enemies in range -60",
       "skillType": 1,
       "spData": {
         "spType": 1,
