@@ -1,0 +1,79 @@
+{
+  "name": "Bison",
+  "rarity": 5,
+  "profession": "Defender",
+  "potential": {
+    "cost": -3.0,
+    "respawn": -10.0
+  },
+  "skills": [
+    {
+      "name": "DEF Up \u03b3",
+      "rangeId": null,
+      "description": "DEF +100%",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 30,
+        "initSp": 15,
+        "increment": 1.0
+      },
+      "prefabId": "skcom_def_up",
+      "duration": 40.0,
+      "blackboard": {
+        "def": 1.0
+      },
+      "skillId": "skcom_def_up[3]"
+    },
+    {
+      "name": "Intensified Defense",
+      "rangeId": "x-5",
+      "description": "Stops attacking; DEF +120%, increases the DEF of allies in the adjacent 4 tiles by +30%, and increases the likelihood of being targeted by enemy attacks",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 50,
+        "initSp": 20,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_bison_2",
+      "duration": 40.0,
+      "blackboard": {
+        "bison_s_2[self].def": 1.2,
+        "bison_s_2[ally].def": 0.3,
+        "bison_s_2[self].taunt_level": 1.0
+      },
+      "skillId": "skchr_bison_2"
+    }
+  ],
+  "stats": {
+    "level": 80,
+    "maxHp": 3456,
+    "atk": 375,
+    "def": 701,
+    "res": 0.0,
+    "cost": 24,
+    "block": 3,
+    "atkSpd": 100.0,
+    "atkTime": 1.2,
+    "hpRec": 0.0,
+    "spRec": 1.0,
+    "respawn": 80
+  },
+  "talents": [
+    {
+      "name": "Interlocked Shield",
+      "description": "DEF +70 <@ba.talpu>(+20)</>; If a Vanguard or Guard is deployed behind Bison, that Vanguard or Guard gains the same effect.",
+      "blackboard": {
+        "def": 70.0
+      }
+    }
+  ],
+  "trust": {
+    "def": 80
+  }
+}

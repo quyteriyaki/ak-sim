@@ -67,7 +67,7 @@
   "talents": [
     {
       "name": "Medic Squad Protection",
-      "description": "Grants [Resistance] to all [Medic] and [Supporter] Operators when the skill is activated. (Reduces duration of some negative effects by 50%, currently including stunning)",
+      "description": "When this unit's skill is active, all Medic and Supporter Operators gain status resistance (reduces the duration of stun, cold, and freeze effects by 50%)",
       "blackboard": {
         "one_minus_status_resistance": -0.5
       }

@@ -1,0 +1,30 @@
+{
+  "name": "Portable Supply Station",
+  "rarity": 1,
+  "profession": "TRAP",
+  "potential": [],
+  "stats": {
+    "level": 30,
+    "maxHp": 10,
+    "atk": 0,
+    "def": 0,
+    "res": 0.0,
+    "cost": 10,
+    "block": 0,
+    "atkSpd": 100.0,
+    "atkTime": 1.0,
+    "hpRec": 0.0,
+    "spRec": 1.0,
+    "respawn": 5
+  },
+  "talents": [
+    {
+      "name": null,
+      "description": "Every 4 seconds, restores 3 skill points to an allied unit",
+      "blackboard": {
+        "interval": 4.0,
+        "sp": 3.0
+      }
+    }
+  ]
+}

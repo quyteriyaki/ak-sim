@@ -11,7 +11,7 @@
     {
       "name": "Execution Mode",
       "rangeId": null,
-      "description": "ATK +80% after Projekt Red is deployed; Obtains 50% Physical Dodge and Arts Dodge",
+      "description": "After deployment, ATK +80%, and gain 50% Physical and Arts Dodge",
       "skillType": 0,
       "spData": {
         "spType": 8,

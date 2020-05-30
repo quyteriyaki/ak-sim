@@ -68,7 +68,7 @@
   "talents": [
     {
       "name": "Entwined",
-      "description": "25% chance to Freeze an enemy for 3 seconds upon attack.",
+      "description": "When attacking, has a 25% chance to bind the target for 3 seconds",
       "blackboard": {
         "prob": 0.25,
         "frozen_duration": 3.0

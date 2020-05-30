@@ -67,7 +67,7 @@
   "talents": [
     {
       "name": "Hunter's Wisdom",
-      "description": "Increases this unit\u2019s SP recovery by 0.3/sec",
+      "description": "Improves own Skill Point recovery rate by +0.3/second",
       "blackboard": {
         "sp_recovery_per_sec": 0.3
       }

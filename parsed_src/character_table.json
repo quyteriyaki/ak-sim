@@ -1080,9 +1080,50 @@
     "talents": [
       {
         "name": "Hunter's Wisdom",
-        "description": "Increases this unit\u2019s SP recovery by 0.3/sec",
+        "description": "Improves own Skill Point recovery rate by +0.3/second",
         "blackboard": {
           "sp_recovery_per_sec": 0.3
+        }
+      }
+    ],
+    "trust": {
+      "atk": 65
+    }
+  },
+  "char_133_mm": {
+    "name": "May",
+    "rarity": 4,
+    "profession": "Sniper",
+    "potential": {
+      "cost": -2.0,
+      "respawn": -4.0,
+      "atk": 23.0
+    },
+    "skills": [
+      "skchr_mm_1",
+      "skchr_mm_2"
+    ],
+    "stats": {
+      "level": 70,
+      "maxHp": 1632,
+      "atk": 478,
+      "def": 105,
+      "res": 0.0,
+      "cost": 12,
+      "block": 1,
+      "atkSpd": 100.0,
+      "atkTime": 1.0,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 70
+    },
+    "talents": [
+      {
+        "name": "Victorian Agent",
+        "description": "ATK +8% <@ba.talpu>(+1%)</>, ASPD +8 <@ba.talpu>(+1)</>",
+        "blackboard": {
+          "attack_speed": 8.0,
+          "atk": 0.08
         }
       }
     ],
@@ -2034,7 +2075,7 @@
     "talents": [
       {
         "name": "Entwined",
-        "description": "25% chance to Freeze an enemy for 3 seconds upon attack.",
+        "description": "When attacking, has a 25% chance to bind the target for 3 seconds",
         "blackboard": {
           "prob": 0.25,
           "frozen_duration": 3.0
@@ -2161,7 +2202,7 @@
     "talents": [
       {
         "name": "Medic Squad Protection",
-        "description": "Grants [Resistance] to all [Medic] and [Supporter] Operators when the skill is activated. (Reduces duration of some negative effects by 50%, currently including stunning)",
+        "description": "When this unit's skill is active, all Medic and Supporter Operators gain status resistance (reduces the duration of stun, cold, and freeze effects by 50%)",
         "blackboard": {
           "one_minus_status_resistance": -0.5
         }
@@ -2602,7 +2643,7 @@
     "stats": {
       "level": 80,
       "maxHp": 1550,
-      "atk": 495,
+      "atk": 505,
       "def": 165,
       "res": 0.0,
       "cost": 13,
@@ -3047,6 +3088,49 @@
       "atk": 75
     }
   },
+  "char_243_waaifu": {
+    "name": "Waai Fu",
+    "rarity": 5,
+    "profession": "Specialist",
+    "potential": {
+      "cost": -2.0,
+      "def": 19.0,
+      "respawn": -2.0
+    },
+    "skills": [
+      "skchr_waaifu_1",
+      "skchr_waaifu_2"
+    ],
+    "stats": {
+      "level": 80,
+      "maxHp": 1455,
+      "atk": 536,
+      "def": 304,
+      "res": 0.0,
+      "cost": 9,
+      "block": 1,
+      "atkSpd": 100.0,
+      "atkTime": 0.93,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 18
+    },
+    "talents": [
+      {
+        "name": "Red Browed Wing Chun",
+        "description": "When attacking, has a 20% chance to increase ATK to 160% <@ba.talpu>(+10%)</> and slightly knock the target back",
+        "blackboard": {
+          "prob": 0.2,
+          "atk_scale": 1.6,
+          "force": -1.0
+        }
+      }
+    ],
+    "trust": {
+      "atk": 50,
+      "def": 30
+    }
+  },
   "char_107_liskam": {
     "name": "Liskarm",
     "rarity": 5,
@@ -3135,6 +3219,45 @@
     "trust": {
       "maxHp": 150,
       "def": 60
+    }
+  },
+  "char_325_bison": {
+    "name": "Bison",
+    "rarity": 5,
+    "profession": "Defender",
+    "potential": {
+      "cost": -3.0,
+      "respawn": -10.0
+    },
+    "skills": [
+      "skcom_def_up[3]",
+      "skchr_bison_2"
+    ],
+    "stats": {
+      "level": 80,
+      "maxHp": 3456,
+      "atk": 375,
+      "def": 701,
+      "res": 0.0,
+      "cost": 24,
+      "block": 3,
+      "atkSpd": 100.0,
+      "atkTime": 1.2,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 80
+    },
+    "talents": [
+      {
+        "name": "Interlocked Shield",
+        "description": "DEF +70 <@ba.talpu>(+20)</>; If a Vanguard or Guard is deployed behind Bison, that Vanguard or Guard gains the same effect.",
+        "blackboard": {
+          "def": 70.0
+        }
+      }
+    ],
+    "trust": {
+      "def": 80
     }
   },
   "char_163_hpsts": {
@@ -3767,6 +3890,54 @@
     ],
     "trust": {
       "atk": 110
+    }
+  },
+  "char_213_mostma": {
+    "name": "Mostima",
+    "rarity": 6,
+    "profession": "Caster",
+    "potential": {
+      "cost": -2.0,
+      "respawn": -4.0,
+      "atk": 34.0
+    },
+    "skills": [
+      "skcom_atk_up[3]",
+      "skchr_mostma_2",
+      "skchr_mostma_3"
+    ],
+    "stats": {
+      "level": 90,
+      "maxHp": 1731,
+      "atk": 750,
+      "def": 132,
+      "res": 20.0,
+      "cost": 34,
+      "block": 1,
+      "atkSpd": 100.0,
+      "atkTime": 2.9,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 70
+    },
+    "talents": [
+      {
+        "name": "Skill Aura - Caster",
+        "description": "When deployed, increases the SP recovery rate of all Casters by +0.4/second (only the highest effect of this type takes place)",
+        "blackboard": {
+          "sp_recovery_per_sec": 0.4
+        }
+      },
+      {
+        "name": "Subjective Time Dilation",
+        "description": "Slows the movement speed of enemies within this unit's attack range by 18%<@ba.talpu>(+3%)</>",
+        "blackboard": {
+          "move_speed": -0.18
+        }
+      }
+    ],
+    "trust": {
+      "atk": 105
     }
   },
   "char_180_amgoat": {
@@ -4664,6 +4835,68 @@
       "spRec": 1.0,
       "respawn": 5
     }
+  },
+  "trap_008_farm": {
+    "name": "Command Terminal",
+    "rarity": 1,
+    "profession": "TRAP",
+    "potential": [],
+    "skills": [
+      "sktok_farm"
+    ],
+    "stats": {
+      "level": 30,
+      "maxHp": 5000,
+      "atk": 0,
+      "def": 100,
+      "res": 10.0,
+      "cost": 5,
+      "block": 0,
+      "atkSpd": 100.0,
+      "atkTime": 1.0,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 5
+    },
+    "talents": [
+      {
+        "name": null,
+        "description": "Depletes 1 Map HP Seal when destroyed",
+        "blackboard": {
+          "value": -1.0
+        }
+      }
+    ]
+  },
+  "trap_009_battery": {
+    "name": "Portable Supply Station",
+    "rarity": 1,
+    "profession": "TRAP",
+    "potential": [],
+    "stats": {
+      "level": 30,
+      "maxHp": 10,
+      "atk": 0,
+      "def": 0,
+      "res": 0.0,
+      "cost": 10,
+      "block": 0,
+      "atkSpd": 100.0,
+      "atkTime": 1.0,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 5
+    },
+    "talents": [
+      {
+        "name": null,
+        "description": "Every 4 seconds, restores 3 skill points to an allied unit",
+        "blackboard": {
+          "interval": 4.0,
+          "sp": 3.0
+        }
+      }
+    ]
   },
   "char_230_savage": {
     "name": "Savage",

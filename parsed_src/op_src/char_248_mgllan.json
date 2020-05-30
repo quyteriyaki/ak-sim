@@ -11,7 +11,7 @@
     {
       "name": "High-Efficiency Freezing Module",
       "rangeId": null,
-      "description": "Passive: Every 3 seconds, enemies in range of this unit and drones will be stopped for 1 second(s).\nActive: Instead binds enemies for 2 seconds, and retreats all drones when this effect ends.",
+      "description": "Passive: Slows enemies near self and drones every 3 for 1 seconds; Active: Instead of slowing, instead binds targets for 2 seconds and retreats all deployed drones after this effect ends",
       "skillType": 1,
       "spData": {
         "spType": 1,

@@ -31,7 +31,7 @@
     {
       "name": "Water Blessing",
       "rangeId": null,
-      "description": "ATK +60%, healing target number +1, granting [Resistance] to friendly units in range in duration (Reduces duration of some negative effects by 50%, currently including stunning)",
+      "description": "ATK +60%, each attack heals 1 additional target, and while this effect is active, increases the status resistance of allies within range. (The duration of stun, snare, and freeze effects are reduced by 50%)",
       "skillType": 1,
       "spData": {
         "spType": 1,

@@ -1,0 +1,55 @@
+{
+  "name": "Command Terminal",
+  "rarity": 1,
+  "profession": "TRAP",
+  "potential": [],
+  "skills": [
+    {
+      "name": "Startup!",
+      "rangeId": null,
+      "description": "Consume 20 DP to activate: DEF +200%, RES +20, restores 10 HP per second, and increases Operator Deployment Limit by +1",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 120,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "sktok_farm",
+      "duration": 0.0,
+      "blackboard": {
+        "value": 1.0,
+        "def": 2.0,
+        "magic_resistance": 20.0,
+        "hp_recovery_per_sec": 10.0,
+        "cost": 20.0
+      },
+      "skillId": "sktok_farm"
+    }
+  ],
+  "stats": {
+    "level": 30,
+    "maxHp": 5000,
+    "atk": 0,
+    "def": 100,
+    "res": 10.0,
+    "cost": 5,
+    "block": 0,
+    "atkSpd": 100.0,
+    "atkTime": 1.0,
+    "hpRec": 0.0,
+    "spRec": 1.0,
+    "respawn": 5
+  },
+  "talents": [
+    {
+      "name": null,
+      "description": "Depletes 1 Map HP Seal when destroyed",
+      "blackboard": {
+        "value": -1.0
+      }
+    }
+  ]
+}

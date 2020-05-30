@@ -33,7 +33,7 @@
     {
       "name": "Ice Tomahawk",
       "rangeId": null,
-      "description": "ASPD +50; The Movement Speed of targets -50% and has a 40% chance to freeze them for 2 seconds",
+      "description": "ASPD +50; each attack slows the movement speed of the enemy by -50%, with a 40% chance to bind it (preventing movement) for 2 seconds",
       "skillType": 1,
       "spData": {
         "spType": 1,

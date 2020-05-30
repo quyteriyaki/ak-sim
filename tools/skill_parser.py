@@ -64,6 +64,9 @@ def Parse_Desc(Group):
             val = round(bb[key.lower()] * 100)
             if neg: val *= -1
             val = str(val) + '%'
+        elif ':0' in key:
+            key = key[:-2]
+            val = bb[key.lower()]
         else:
             val = bb[key.lower()]
             if neg: val *= -1
