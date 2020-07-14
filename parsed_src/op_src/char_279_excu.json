@@ -11,7 +11,7 @@
     {
       "name": "Muzzle\u00e2\u20ac\u2122s Elegy",
       "rangeId": null,
-      "description": "ATK +70%, attacks apply this unit's Feature effect to all enemies within range.",
+      "description": "ATK +70%, attacks apply this unit's Trait effect to all enemies within range.",
       "skillType": 1,
       "spData": {
         "spType": 1,

@@ -1,0 +1,81 @@
+{
+  "name": "Ambriel",
+  "rarity": 4,
+  "profession": "Sniper",
+  "potential": {
+    "cost": -2.0,
+    "respawn": -4.0,
+    "attackSpeed": 6.0
+  },
+  "skills": [
+    {
+      "name": "Snaring Shell",
+      "rangeId": null,
+      "description": "Attack range increases +1 tiles,  and attacks slow targets for 1 seconds",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 25,
+        "initSp": 10,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_glaze_1",
+      "duration": 36.0,
+      "blackboard": {
+        "ability_range_forward_extend": 1.0,
+        "attack@sluggish": 1.2
+      },
+      "skillId": "skchr_glaze_1"
+    },
+    {
+      "name": "Radar Sweep",
+      "rangeId": null,
+      "description": "ATK +100%, Attack Range becomes global, but Attack Interval increases a bit, and attack wind-up takes longer when attacking an enemy outside of this unit's original range.",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 25,
+        "initSp": 10,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_glaze_2",
+      "duration": 40.0,
+      "blackboard": {
+        "atk": 1.0,
+        "base_attack_time": 0.9
+      },
+      "skillId": "skchr_glaze_2"
+    }
+  ],
+  "stats": {
+    "level": 70,
+    "maxHp": 1595,
+    "atk": 977,
+    "def": 122,
+    "res": 0.0,
+    "cost": 20,
+    "block": 1,
+    "atkSpd": 100.0,
+    "atkTime": 2.7,
+    "hpRec": 0.0,
+    "spRec": 1.0,
+    "respawn": 70
+  },
+  "talents": [
+    {
+      "name": "Precise Strike",
+      "description": "When attack an enemy outside this unit's normal attack range, there is a 28% <@ba.talpu>(+3%)</> chance to stun it for 2 seconds",
+      "blackboard": {
+        "buff_prob": 0.28,
+        "stun": 2.0
+      }
+    }
+  ],
+  "trust": {
+    "atk": 75
+  }
+}

@@ -1172,6 +1172,47 @@
       "atk": 70
     }
   },
+  "char_302_glaze": {
+    "name": "Ambriel",
+    "rarity": 4,
+    "profession": "Sniper",
+    "potential": {
+      "cost": -2.0,
+      "respawn": -4.0,
+      "attackSpeed": 6.0
+    },
+    "skills": [
+      "skchr_glaze_1",
+      "skchr_glaze_2"
+    ],
+    "stats": {
+      "level": 70,
+      "maxHp": 1595,
+      "atk": 977,
+      "def": 122,
+      "res": 0.0,
+      "cost": 20,
+      "block": 1,
+      "atkSpd": 100.0,
+      "atkTime": 2.7,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 70
+    },
+    "talents": [
+      {
+        "name": "Precise Strike",
+        "description": "When attack an enemy outside this unit's normal attack range, there is a 28% <@ba.talpu>(+3%)</> chance to stun it for 2 seconds",
+        "blackboard": {
+          "buff_prob": 0.28,
+          "stun": 2.0
+        }
+      }
+    ],
+    "trust": {
+      "atk": 75
+    }
+  },
   "char_198_blackd": {
     "name": "Courier",
     "rarity": 4,
@@ -2670,6 +2711,48 @@
       "atk": 75
     }
   },
+  "char_367_swllow": {
+    "name": "GreyThroat",
+    "rarity": 5,
+    "profession": "Sniper",
+    "potential": {
+      "cost": -2.0,
+      "respawn": -10.0,
+      "atk": 23.0
+    },
+    "skills": [
+      "skchr_swllow_1",
+      "skchr_swllow_2"
+    ],
+    "stats": {
+      "level": 80,
+      "maxHp": 1493,
+      "atk": 513,
+      "def": 152,
+      "res": 0.0,
+      "cost": 13,
+      "block": 1,
+      "atkSpd": 100.0,
+      "atkTime": 1.0,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 70
+    },
+    "talents": [
+      {
+        "name": "Tailwind",
+        "description": "ASPD +6, 15% chance to increase ATK to 150% when attacking",
+        "blackboard": {
+          "attack_speed": 6.0,
+          "prob": 0.15,
+          "atk_scale": 1.5
+        }
+      }
+    ],
+    "trust": {
+      "atk": 75
+    }
+  },
   "char_219_meteo": {
     "name": "Meteorite",
     "rarity": 5,
@@ -3637,7 +3720,7 @@
     "talents": [
       {
         "name": "Hidden Killer - Elite",
-        "description": "Stays [Invisible] normally (cannot be targeted by ranged units); The first attack made from the Invisible state gains +54% <@ba.talpu>(+4%) </>ATK and removes Invisible. Regains Invisible state after not attacking for 6 seconds.",
+        "description": "Stays [Invisible] normally (cannot be targeted by ranged units); The first attack made from the Invisible state gains +54% <@ba.talpu>(+4%) </>ATK and removes Invisible. Regains Invisible state after not attacking for 5 seconds.",
         "blackboard": {
           "delay": 5.0,
           "atk": 0.54
@@ -4388,6 +4471,58 @@
       "def": 50
     }
   },
+  "char_017_huang": {
+    "name": "Blaze",
+    "rarity": 6,
+    "profession": "Guard",
+    "potential": {
+      "cost": -2.0,
+      "atk": 28.0
+    },
+    "skills": [
+      "skchr_huang_1",
+      "skchr_huang_2",
+      "skchr_huang_3"
+    ],
+    "stats": {
+      "level": 90,
+      "maxHp": 2821,
+      "atk": 765,
+      "def": 370,
+      "res": 0.0,
+      "cost": 24,
+      "block": 3,
+      "atkSpd": 100.0,
+      "atkTime": 1.2,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 70
+    },
+    "talents": [
+      {
+        "name": "Emergency Defibrillation",
+        "description": "When this unit's HP falls beneath 25%, restores 50% HP (one time only) and prevents HP from falling under 50% for 7<@ba.talpu>(+1)</> seconds",
+        "blackboard": {
+          "hp_ratio": 0.25,
+          "huang_t_1[heal].hp_ratio": 0.5,
+          "huang_t_1[lock].min_hp_ratio": 0.5,
+          "huang_t_1[lock].duration": 7.0
+        }
+      },
+      {
+        "name": "Harsh Training",
+        "description": "Gains status resistance after being deployed for 12<@ba.talpu>(-3)</> seconds (reduces the duration of stun, cold, and freeze effects by 50%)",
+        "blackboard": {
+          "one_minus_status_resistance": -0.5,
+          "interval": 12.0
+        }
+      }
+    ],
+    "trust": {
+      "atk": 60,
+      "def": 45
+    }
+  },
   "char_188_helage": {
     "name": "Hellagur",
     "rarity": 6,
@@ -4897,6 +5032,29 @@
         }
       }
     ]
+  },
+  "trap_010_frosts": {
+    "name": "Originium Ice Crystal",
+    "rarity": 1,
+    "profession": "TRAP",
+    "potential": [],
+    "skills": [
+      "sktok_frosts"
+    ],
+    "stats": {
+      "level": 30,
+      "maxHp": 100,
+      "atk": 0,
+      "def": 0,
+      "res": 0.0,
+      "cost": 5,
+      "block": 0,
+      "atkSpd": 100.0,
+      "atkTime": 1.0,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 5
+    }
   },
   "char_230_savage": {
     "name": "Savage",

@@ -785,7 +785,7 @@
   "skchr_yuki_2": {
     "name": "Fatal Shuriken",
     "rangeId": null,
-    "description": "Throws giant spinning shurikens, the target's Movement Speed 35% for a short time and dealing 80% of ATK Arts damage to the target per second",
+    "description": "Throws giant spinning shurikens, the target's Movement Speed reduces by 35% for a short time and dealing 80% of ATK Arts damage to the target per second",
     "skillType": 1,
     "spData": {
       "spType": 1,
@@ -803,6 +803,48 @@
       "attack@move_speed": -0.35
     },
     "skillId": "skchr_yuki_2"
+  },
+  "skchr_glaze_1": {
+    "name": "Snaring Shell",
+    "rangeId": null,
+    "description": "Attack range increases +1 tiles,  and attacks slow targets for 1 seconds",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 25,
+      "initSp": 10,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_glaze_1",
+    "duration": 36.0,
+    "blackboard": {
+      "ability_range_forward_extend": 1.0,
+      "attack@sluggish": 1.2
+    },
+    "skillId": "skchr_glaze_1"
+  },
+  "skchr_glaze_2": {
+    "name": "Radar Sweep",
+    "rangeId": null,
+    "description": "ATK +100%, Attack Range becomes global, but Attack Interval increases a bit, and attack wind-up takes longer when attacking an enemy outside of this unit's original range.",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 25,
+      "initSp": 10,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_glaze_2",
+    "duration": 40.0,
+    "blackboard": {
+      "atk": 1.0,
+      "base_attack_time": 0.9
+    },
+    "skillId": "skchr_glaze_2"
   },
   "skchr_blackd_2": {
     "name": "Command - Defense",
@@ -1668,7 +1710,7 @@
   "skchr_flameb_1": {
     "name": "Blood Pact",
     "rangeId": null,
-    "description": "The next attack's power is increased to220%, and restores HP by 8%",
+    "description": "The next attack's power is increased to 220%, and restores HP by 8%  ",
     "skillType": 2,
     "spData": {
       "spType": 2,
@@ -1957,6 +1999,47 @@
     },
     "skillId": "skchr_platnm_2"
   },
+  "skchr_swllow_1": {
+    "name": "Flying Feathers",
+    "rangeId": null,
+    "description": "The next attack shoots 2 times, each shot dealing 140% ATK as physical damage\nCan store up to 3 charges",
+    "skillType": 2,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 3,
+      "spCost": 4,
+      "initSp": 0,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_swllow_1",
+    "duration": 0.0,
+    "blackboard": {
+      "atk_scale": 1.4,
+      "cnt": 3.0
+    },
+    "skillId": "skchr_swllow_1"
+  },
+  "skchr_swllow_2": {
+    "name": "Counterflow",
+    "rangeId": null,
+    "description": "ATK +40%, attacks 3 times consecutively",
+    "skillType": 1,
+    "spData": {
+      "spType": 2,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 30,
+      "initSp": 15,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_swllow_2",
+    "duration": 20.0,
+    "blackboard": {
+      "atk": 0.4
+    },
+    "skillId": "skchr_swllow_2"
+  },
   "skchr_meteo_1": {
     "name": "Buckshot",
     "rangeId": null,
@@ -2002,7 +2085,7 @@
   "skchr_excu_1": {
     "name": "Muzzle\u00e2\u20ac\u2122s Elegy",
     "rangeId": null,
-    "description": "ATK +70%, attacks apply this unit's Feature effect to all enemies within range.",
+    "description": "ATK +70%, attacks apply this unit's Trait effect to all enemies within range.  ",
     "skillType": 1,
     "spData": {
       "spType": 1,
@@ -3568,7 +3651,7 @@
   "skchr_mgllan_1": {
     "name": "High-Efficiency Freezing Module",
     "rangeId": null,
-    "description": "Passive: Slows enemies near self and drones every 3 for 1 seconds; Active: Instead of slowing, instead binds targets for 2 seconds and retreats all deployed drones after this effect ends",
+    "description": "Passive: Slows enemies within the attack range of this unit and drones every 3 seconds for 1 seconds; \nActive: Instead of slowing, binds targets for 2 seconds and retreats all deployed drones after this effect ends",
     "skillType": 1,
     "spData": {
       "spType": 1,
@@ -4088,6 +4171,70 @@
     },
     "skillId": "skchr_chen_3"
   },
+  "skchr_huang_1": {
+    "name": "Power Strike \u03b3",
+    "rangeId": null,
+    "description": "Increases the ATK of next attack to 290%",
+    "skillType": 2,
+    "spData": {
+      "spType": 2,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 2,
+      "initSp": 0,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_huang_1",
+    "duration": 0.0,
+    "blackboard": {
+      "atk_scale": 2.9
+    },
+    "skillId": "skchr_huang_1"
+  },
+  "skchr_huang_2": {
+    "name": "Chainsaw Extension Module",
+    "rangeId": "2-2",
+    "description": "ATK +100%, DEF +35%, and Attack Range increases\nUnlimited duration",
+    "skillType": 2,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 70,
+      "initSp": 0,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_huang_2",
+    "duration": -1.0,
+    "blackboard": {
+      "atk": 1.0,
+      "def": 0.35
+    },
+    "skillId": "skchr_huang_2"
+  },
+  "skchr_huang_3": {
+    "name": "Boiling Burst",
+    "rangeId": null,
+    "description": "Upon skill activation, ATK and DEF gradually increase to +80%, and attacks slice enemies in front of this unit. When this skill ends, this unit loses 25% HP and deals 400% ATK as Physical damage to surrounding enemies",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 35,
+      "initSp": 25,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_huang_3",
+    "duration": 10.0,
+    "blackboard": {
+      "atk": 0.8,
+      "def": 0.8,
+      "hp_ratio": 0.25,
+      "damage_by_atk_scale": 4.0
+    },
+    "skillId": "skchr_huang_3"
+  },
   "skchr_helage_1": {
     "name": "Crescent Moon",
     "rangeId": null,
@@ -4309,5 +4456,25 @@
       "cost": 20.0
     },
     "skillId": "sktok_farm"
+  },
+  "sktok_frosts": {
+    "name": "Frigid Tide",
+    "rangeId": "x-1",
+    "description": "Launches a frigid shockwave, inflicting the Cold status upon targets hit for 10 seconds",
+    "skillType": 2,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 15,
+      "initSp": 0,
+      "increment": 1.0
+    },
+    "prefabId": "sktok_frosts",
+    "duration": 0.0,
+    "blackboard": {
+      "freeze": 10.0
+    },
+    "skillId": "sktok_frosts"
   }
 }

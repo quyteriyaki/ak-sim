@@ -31,7 +31,7 @@
     {
       "name": "Fatal Shuriken",
       "rangeId": null,
-      "description": "Throws giant spinning shurikens, the target's Movement Speed 35% for a short time and dealing 80% of ATK Arts damage to the target per second",
+      "description": "Throws giant spinning shurikens, the target's Movement Speed reduces by 35% for a short time and dealing 80% of ATK Arts damage to the target per second",
       "skillType": 1,
       "spData": {
         "spType": 1,
