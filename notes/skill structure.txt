@@ -6,7 +6,7 @@ skill
 
 recovery (+ other factors / batteries) [done when skill not active]
     - OffensiveRec
-        - On attack, SP gain (based on atkspd)
+        - On attac-k, SP gain (based on atkspd)
     - DefensiveRec
         - On hit, SP gain (based on enemy atk)
     - AutoRec
@@ -14,14 +14,15 @@ recovery (+ other factors / batteries) [done when skill not active]
     - Passive
         - Always active / no SP gain
 
-activation [when SP is full]
-    - On next attack
+Activation [when SP is full]
+    - On next attack <- Does this actually exist?
         - If SP bar full, stop SP gain, next attack = expend and reset
     - Instant
         - If SP bar full, expend and duration
     - Charge
         - If SP bar full, gain 1 charge
         - If charge count = max, stop SP gain
+        - Performs when possible (generally instant)
 
 duration [when skill is active]
     - 0 duration

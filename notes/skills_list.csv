@@ -2,6 +2,8 @@ Skill, Type, Activation Type, Regen Type, Duration
 Charge α, ,Auto, Auto Recovery, 0.0
 Charge β, ,Auto, Auto Recovery, 0.0
 Charge γ, ,Auto, Auto Recovery, 0.0
+Support β, ,Manual, Auto Recovery, 8.0
+Support γ, ,Manual, Auto Recovery, 8.0
 ATK Up α, ,Manual, Auto Recovery, 20.0
 ATK Up β, ,Manual, Auto Recovery, 25.0
 ATK Up γ, ,Manual, Auto Recovery, 30.0
@@ -19,6 +21,7 @@ Healing Up γ, ,Manual, Auto Recovery, 30.0
 Healing Range Up, ,Manual, Auto Recovery, 25.0
 Regeneration α, ,Manual, Auto Recovery, 0.0
 Regeneration β, ,Manual, Auto Recovery, 0.0
+Regeneration γ, ,Manual, Auto Recovery, 0.0
 Enchant Weapon α, ,Manual, Auto Recovery, 40.0
 Command - Reinforcement, ,Manual, Auto Recovery, 10.0
 Double Tap - Auto, ,Auto, Offensive Recovery, 0.0
@@ -27,121 +30,253 @@ Blast Range Up α, ,Manual, Auto Recovery, 30.0
 Crimson Eyes, ,Manual, Auto Recovery, 25.0
 Destiny, ,Manual, Auto Recovery, 30.0
 Electrostatic Discharge, ,Manual, Auto Recovery, 30.0
+Synchronized Attack, ,Manual, Auto Recovery, 30.0
 Power Strike α, ,Auto, Offensive Recovery, 0.0
 Power Strike β, ,Auto, Offensive Recovery, 0.0
 Smokescreen, ,Manual, Auto Recovery, 25.0
 Armor Breaker, ,Auto, Offensive Recovery, -1.0
 Armor Breaker - Spread, ,Manual, Offensive Recovery, -1.0
 Double Shot, ,Manual, Auto Recovery, 20.0
+Paralyzing Shell, ,Auto, Offensive Recovery, 0.0
+Binding Shock, ,Manual, Auto Recovery, 30.0
 Shuriken, ,Manual, Auto Recovery, 25.0
 Fatal Shuriken, ,Manual, Auto Recovery, 25.0
+RMA Spikes, ,Manual, Auto Recovery, 0.0
+Electrical Overcharge, ,Auto, Auto Recovery, 20.0
+Snaring Shell, ,Manual, Auto Recovery, 36.0
+Radar Sweep, ,Manual, Auto Recovery, 40.0
+Fancy Shot, ,Manual, Auto Recovery, 20.0
+Trigger Time, ,Manual, Auto Recovery, 25.0
 Command - Defense, ,Manual, Auto Recovery, 15.0
 Command - Attack, ,Manual, Auto Recovery, 15.0
 Hammer-On, ,Manual, Auto Recovery, 30.0
+Healing Wings, ,Manual, Auto Recovery, 16.0
 Spur, ,Manual, Auto Recovery, 25.0
 Demonic Power, ,Manual, Auto Recovery, 15.0
+Judgment, ,Auto, Auto Recovery, 0.0
+Genesis, ,Manual, Auto Recovery, 0.0
 Frost Tomahawk, ,Auto, Auto Recovery, -1.0
 Ice Tomahawk, ,Manual, Auto Recovery, 25.0
+Just Kidding, ,Manual, Auto Recovery, 15.0
+Deadly Prank, ,Manual, Auto Recovery, 20.0
 Sacrificial Strike, ,Manual, Defensive Recovery, 15.0
 Scratch, ,Auto, Offensive Recovery, 0.0
 Fury, ,Manual, Auto Recovery, 40.0
 Flexibility, ,Passive, None, 0.0
 Soaring Fists, ,Manual, Auto Recovery, 10.0
+Grit Those Teeth!, ,Auto, Offensive Recovery, 0.0
+Pay Close Attention!, ,Manual, Auto Recovery, 18.0
+Redshift, ,Manual, Offensive Recovery, 0.0
+Crimson Crescent, ,Manual, Offensive Recovery, 0.0
+Space Out, ,Manual, Auto Recovery, 8.0
+Descending Strike - Earth Splitter, ,Passive, None, -1.0
 Shadow Assault, ,Passive, None, -1.0
 Rat Swarm, ,Passive, None, -1.0
+Shell Splitter, ,Auto, Auto Recovery, -1.0
+Sashimi Platter, ,Auto, Auto Recovery, -1.0
 Hook Shot, ,Auto, Auto Recovery, 0.0
 Double Hook, ,Manual, Auto Recovery, 0.0
 Dual Healing, ,Auto, Auto Recovery, 0.0
 Medic Field, ,Manual, Auto Recovery, 25.0
 Vitality Restoration, ,Auto, Auto Recovery, -1.0
 Vitality Restoration - Wide Range, ,Manual, Auto Recovery, -1.0
+Deep Healing, ,Manual, Auto Recovery, 30.0
 Fine Blending, ,Manual, Auto Recovery, 30.0
+Healing Waves, ,Manual, Auto Recovery, 0.0
+Lifespring, ,Manual, Auto Recovery, 25.0
 Enkephalin, ,Manual, Auto Recovery, 40.0
+Cluster Therapy, ,Manual, Auto Recovery, 35.0
+Widespread Therapy, ,Manual, Auto Recovery, 45.0
 Ursus's Roar, ,Manual, Auto Recovery, 10.0
 Shell Defense, ,Manual, Auto Recovery, 30.0
+"Beaten Up", ,Manual, Auto Recovery, 25.0
 Stamina Enhancement, ,Manual, Auto Recovery, 30.0
 Cold Resistance, ,Manual, Auto Recovery, 30.0
 Provisions, ,Auto, Auto Recovery, 0.0
 Cooking, ,Manual, Auto Recovery, 30.0
+Shielded Counterattack, ,Manual, Defensive Recovery, 30.0
 Sword Rain, ,Manual, Auto Recovery, 0.0
+Blazing Wire Stripper, ,Manual, Auto Recovery, -1.0
 Press the Attack!, ,Manual, Auto Recovery, 30.0
+Soul Spark, ,Manual, Auto Recovery, 30.0
+Monitor, ,Manual, Auto Recovery, 15.0
 Command and Dispatch, ,Manual, Auto Recovery, 35.0
 Cooperative Combat, ,Manual, Offensive Recovery, 30.0
+Motivational Skills, ,Manual, Auto Recovery, 20.0
+Whip Sword, ,Manual, Auto Recovery, 25.0
 Vorpal Edge, ,Manual, Auto Recovery, 30.0
 Blood Pact, ,Auto, Offensive Recovery, 0.0
 Blade Demon, ,Auto, Offensive Recovery, 0.0
+Drawing Sword, ,Manual, Auto Recovery, 30.0
 Armorcrusher, ,Auto, Offensive Recovery, 0.0
 Sundered Soul, ,Manual, Auto Recovery, 25.0
+Relentless, ,Auto, Offensive Recovery, 0.0
+Display of Might, ,Manual, Auto Recovery, 20.0
 Sundial, ,Auto, Offensive Recovery, -1.0
 Wolf Spirit, ,Auto, Offensive Recovery, 20.0
+Shrapnel Burst, ,Auto, Offensive Recovery, 0.0
+Activate Phase Blades, ,Manual, Auto Recovery, 25.0
+Plumage Pins, ,Auto, Offensive Recovery, 0.0
+Blade Swap, ,Manual, Offensive Recovery, 0.0
 Bone Fracture, ,Manual, Auto Recovery, 15.0
+Galvanize, ,Manual, Auto Recovery, 30.0
+High-Voltage Current, ,Manual, Auto Recovery, 25.0
 Precise Blast, ,Manual, Offensive Recovery, 0.0
+Astral Protection, ,Manual, Auto Recovery, 30.0
+Astral Sword, ,Manual, Auto Recovery, 15.0
+Restorative Surge, ,Manual, Auto Recovery, 30.0
+Ying Xiao - Fleeting Night, ,Manual, Auto Recovery, 30.0
+Ying Xiao - Shadowless, ,Manual, Auto Recovery, 35.0
 Twinshot - Auto, ,Auto, Offensive Recovery, -1.0
 Venom Spray, ,Manual, Auto Recovery, 30.0
 Pegasian Sight, ,Auto, Auto Recovery, 0.0
+Flying Feathers, ,Auto, Auto Recovery, 0.0
+Counterflow, ,Manual, Offensive Recovery, 20.0
+Spiral Arm, ,Manual, Auto Recovery, 30.0
+Precise Shooting, ,Auto, Offensive Recovery, 0.0
+Flexible Camouflage, ,Passive, None, 26.0
 Buckshot, ,Auto, Offensive Recovery, 0.0
 High-Explosive Shell, ,Manual, Auto Recovery, -1.0
+Delayed Concussive Parts, ,Manual, Auto Recovery, 30.0
 Muzzle’s Elegy, ,Manual, Auto Recovery, 35.0
 Final Journey, ,Manual, Auto Recovery, 20.0
+Shadow Nails, ,Manual, Auto Recovery, 25.0
 Spirit Burst, ,Auto, Auto Recovery, 25.0
 Chimera, ,Manual, Auto Recovery, 30.0
 Drain Soul, ,Manual, Auto Recovery, 60.0
 Night Phantom, ,Auto, Auto Recovery, -1.0
+Enforcement Mode, ,Auto, Auto Recovery, 0.0
+Ultimatum, ,Manual, Auto Recovery, 30.0
+Tribal Techniques, ,Manual, Auto Recovery, 30.0
+Gavial's Protection Plan, ,Manual, Auto Recovery, 30.0
 Fire of Heaven, ,Manual, Auto Recovery, 40.0
+"All For Me", ,Manual, Auto Recovery, 30.0
+Thunderclap, ,Manual, Auto Recovery, 35.0
+Growing Sandstorm, ,Manual, Auto Recovery, 20.0
+Guardian Obelisk, ,Manual, Auto Recovery, 20.0
+Summon Sand Obelisk, ,Auto, Auto Recovery, 0.0
+Wind Whispers, ,Manual, Auto Recovery, 20.0
+Swirling Vortex, ,Manual, Auto Recovery, 20.0
+Deconstruct and Detonate, ,Manual, Auto Recovery, -1.0
 Bionic Device, ,Passive, None, 0.0
 Detonate and Recycle, ,Manual, Auto Recovery, 0.0
+Protective Camouflage, ,Auto, Auto Recovery, -1.0
+Panoramic Overload, ,Manual, Auto Recovery, 20.0
 Medical Drone, ,Auto, Auto Recovery, 0.0
 Emergency Triage, ,Auto, Offensive Recovery, 0.0
 Unstable Plasma, ,Manual, Auto Recovery, -1.0
+Max-Dosage Infusion, ,Manual, Auto Recovery, 40.0
+Compound Drug Shell, ,Manual, Auto Recovery, 30.0
+Apocalyptic Scene, ,Manual, Auto Recovery, 30.0
+Concentrated Hydrotherapy, ,Auto, Auto Recovery, 0.0
+Water Blessing, ,Manual, Auto Recovery, 40.0
+Oriented Diagnosis, ,Auto, Offensive Recovery, 0.0
+Pain Suppression, ,Auto, Auto Recovery, -1.0
 Shadow Tentacle, ,Manual, Auto Recovery, 30.0
 Visual Trap, ,Manual, Auto Recovery, 55.0
 Quicksand Conversion, ,Manual, Auto Recovery, 25.0
+Aromatherapy, ,Manual, Auto Recovery, 25.0
+Spread Spores, ,Manual, Auto Recovery, 0.0
+Fancy Maneuvers, ,Passive, None, 0.0
+Suspended Cross, ,Manual, Auto Recovery, 30.0
 Steam Pump, ,Auto, Auto Recovery, 0.0
 High-Pressure Water Cannon, ,Manual, Auto Recovery, 0.0
 First Aid, ,Auto, Auto Recovery, 0.0
 First Aid Mode, ,Manual, Auto Recovery, 40.0
+Treatment Countermeasure, ,Auto, Defensive Recovery, 0.0
+Medical Mode Countermeasure, ,Manual, Defensive Recovery, 30.0
 Execution Mode, ,Passive, None, 10.0
 Wolfpack, ,Passive, None, 0.0
+One-inch Punch, ,Passive, None, 10.0
+Seven-styles Kick, ,Passive, None, 0.0
+Cube of Absurdism, ,Passive, None, -1.0
+Shears of Surrealism, ,Passive, None, -1.0
 Charged Defense, ,Auto, Defensive Recovery, -1.0
 Counter Arc, ,Manual, Defensive Recovery, 20.0
 Auto Defense, ,Auto, Auto Recovery, 30.0
 Magnetic Hammer, ,Manual, Defensive Recovery, 0.0
+Intensified Defense, ,Manual, Auto Recovery, 40.0
 Guardian Mode, ,Manual, Auto Recovery, 30.0
 Combat Mode, ,Manual, Auto Recovery, 30.0
+Resilient Mode, ,Manual, Auto Recovery, 20.0
+Thermal Power Mode, ,Manual, Auto Recovery, 50.0
 Wolf's Eye, ,Passive, None, 0.0
 Prey Seeker, ,Manual, Auto Recovery, 35.0
 Camouflage, ,Manual, Auto Recovery, 50.0
 Tactical Transceiver, ,Manual, Auto Recovery, 0.0
+Interdictive Sniping Tactics, ,Manual, Auto Recovery, 30.0
 Chain Hook, ,Auto, Auto Recovery, 0.0
 Binding Chains, ,Manual, Auto Recovery, 0.0
+Barbed Clawhook, ,Auto, Auto Recovery, 0.0
+Telescoping Electric Net, ,Manual, Auto Recovery, 0.0
 Echolocation, ,Manual, Auto Recovery, 20.0
 Natural Deterrent, ,Manual, Auto Recovery, 25.0
+Malediction, ,Auto, Auto Recovery, -1.0
+Cursed Doll, ,Auto, Auto Recovery, -1.0
 Concentration, ,Manual, Auto Recovery, 30.0
 Literature Storm, ,Manual, Auto Recovery, 25.0
+Binary Reload, ,Manual, Auto Recovery, 25.0
+Counter EMP, ,Manual, Auto Recovery, 0.0
 Hymn of Respite, ,Manual, Auto Recovery, 7.0
 Hymn of Battle, ,Manual, Auto Recovery, 30.0
+Without a Trace, ,Manual, Auto Recovery, 35.0
+Forest's Embrace, ,Manual, Auto Recovery, 20.0
 Scorpion Venom, ,Passive, None, -1.0
 Toxic Overload, ,Manual, Auto Recovery, 40.0
 Raging Iron Fist, ,Auto, Auto Recovery, -1.0
 Destructive Fist, ,Manual, Auto Recovery, -1.0
+Binding “Clip”, ,Auto, Auto Recovery, 0.0
+Launching “Clip”, ,Auto, Auto Recovery, 0.0
 Charging Mode, ,Auto, Offensive Recovery, 0.0
 Shooting Mode, ,Manual, Auto Recovery, 15.0
 Overloading Mode, ,Auto, Auto Recovery, 15.0
+Charged Shot, ,Auto, Offensive Recovery, 0.0
+Sharp Eye, ,Manual, Auto Recovery, 40.0
+Final Tactics, ,Manual, Auto Recovery, 25.0
+King of Hearts, ,Manual, Auto Recovery, -1.0
+Jack in the Box, ,Auto, Auto Recovery, 0.0
+Victim Seeker, ,Auto, None, 0.0
+D12, ,Manual, Auto Recovery, 0.0
+Split Shot, ,Manual, Auto Recovery, 60.0
+Avalanche Breaker, ,Manual, Auto Recovery, 8.0
+Expanded Cognition, ,Auto, Offensive Recovery, 0.0
+Nociceptor Inhibition, ,Manual, Auto Recovery, 40.0
+“As You Wish”, ,Manual, Auto Recovery, 30.0
+Call Tactical Equipment, ,Auto, Auto Recovery, 0.0
 Aerial Hammer, ,Auto, Auto Recovery, 0.0
 Skull Breaker, ,Manual, Auto Recovery, 25.0
+High-Impact Assault, ,Auto, Auto Recovery, 0.0
+Locked Breech Burst, ,Manual, Auto Recovery, 20.0
 Fanaticism, ,Manual, Auto Recovery, 20.0
 Pyroclasm, ,Auto, Auto Recovery, -1.0
 Scorched Earth, ,Manual, Auto Recovery, 20.0
+Lock of Shattered Time, ,Manual, Auto Recovery, 7.0
+Key of Chronology, ,Manual, Auto Recovery, 27.0
 Duetto, ,Manual, Auto Recovery, 25.0
 Ignition, ,Auto, Auto Recovery, -1.0
 Volcano, ,Manual, Auto Recovery, 15.0
+"Really Cold Axe", ,Auto, Auto Recovery, -1.0
+"Really Hot Knives", ,Manual, Auto Recovery, 40.0
+"Really Heavy Spear", ,Manual, Auto Recovery, 60.0
 Arcane Staff - Quick Charge Mode, ,Auto, Offensive Recovery, 35.0
 Arcane Staff - Particle Mode, ,Manual, Auto Recovery, 30.0
 Arcane Staff - Anti-Gravity Mode, ,Manual, Auto Recovery, 25.0
+I'll Do My Best, ,Auto, Auto Recovery, 30.0
+Childhood Frolic, ,Auto, Auto Recovery, -1.0
+Foxfire Haze, ,Manual, Auto Recovery, 35.0
 High-Efficiency Freezing Module, ,Manual, Auto Recovery, 15.0
 Laser Mining Module, ,Manual, Auto Recovery, 15.0
 Armed Combat Module, ,Manual, Auto Recovery, 15.0
 Recycle, ,Manual, Auto Recovery, 0.0
+Phantom of the Night, ,Passive, None, -1.0
+Bloody Opus, ,Passive, None, -1.0
+Night Raid, ,Passive, None, -1.0
+Barrel Burst, ,Auto, Auto Recovery, 0.0
+Hydraulics Mode, ,Auto, Auto Recovery, 0.0
+Liquid Nitrogen Cannon, ,Manual, Auto Recovery, -1.0
+Rapid Fire, ,Manual, Auto Recovery, 30.0
+Type-γ Stimpack, ,Manual, Auto Recovery, 30.0
+Durian-Flavored Stimpack, ,Manual, Auto Recovery, 20.0
 Creed, ,Manual, Auto Recovery, 20.0
 Auto Protect, ,Auto, Auto Recovery, -1.0
 Creed Field, ,Manual, Auto Recovery, 60.0
@@ -152,14 +287,38 @@ Thorns, ,Passive, None, 0.0
 Saw of Strength, ,Manual, Auto Recovery, 25.0
 Medicine Dispensing, ,Auto, Auto Recovery, 0.0
 Calcification, ,Manual, Auto Recovery, 30.0
+Surging Brilliance, ,Auto, Auto Recovery, 0.0
+Deterring Radiance, ,Manual, Defensive Recovery, 10.0
+Divine Avatar, ,Manual, Defensive Recovery, 30.0
+Tin Burning, ,Manual, Auto Recovery, 30.0
+Copper Seal, ,Manual, Auto Recovery, 35.0
+Iron Defense, ,Manual, Auto Recovery, 45.0
+Crag Splitter, ,Auto, Defensive Recovery, 0.0
+Bloodline of Desecrated Earth, ,Manual, Auto Recovery, 30.0
+Tomahawk, ,Passive, None, 0.0
+Menacing Slash, ,Manual, Auto Recovery, 18.0
+Iron Will, ,Manual, Auto Recovery, 35.0
 Wave Strike, ,Passive, None, -1.0
 Tidal Elegy, ,Manual, Auto Recovery, 50.0
+Left Hook, ,Auto, Offensive Recovery, 0.0
+Sweeping Stance, ,Manual, Auto Recovery, 0.0
+Earth-Shattering Smash, ,Manual, Auto Recovery, 30.0
 Power Strike γ, ,Auto, Offensive Recovery, 0.0
 Rules of Survival, ,Manual, Auto Recovery, 0.0
 Truesilver Slash, ,Manual, Auto Recovery, 30.0
+Protective Spikes, ,Manual, Auto Recovery, 40.0
+Destreza, ,Manual, Offensive Recovery, 30.0
 Sheathed Strike, ,Auto, Offensive Recovery, 0.0
 Chi Xiao - Unsheath, ,Manual, Offensive Recovery, 0.0
 Chi Xiao - Shadowless, ,Manual, Offensive Recovery, 0.0
+Chainsaw Extension Module, ,Auto, Auto Recovery, -1.0
+Boiling Burst, ,Manual, Auto Recovery, 10.0
+Laevatain, ,Auto, Offensive Recovery, 0.0
+Molten Giant, ,Manual, Auto Recovery, 18.0
+Twilight, ,Manual, Auto Recovery, -1.0
+Crescent Moon, ,Auto, Offensive Recovery, 0.0
+Half Moon, ,Manual, Auto Recovery, 13.0
+Full Moon, ,Manual, Auto Recovery, 15.0
 Self-Destruct, ,Passive, None, 10.0
 Obstruct, ,Passive, None, 0.0
 EMP Blast, ,Manual, Auto Recovery, 0.0
@@ -167,3 +326,16 @@ Gate Closing, ,Manual, Auto Recovery, 0.0
 Detection, ,Manual, Auto Recovery, 20.0
 Drone Interference, ,Passive, None, 0.0
 Bolt Launching, ,Auto, Auto Recovery, 0.0
+Startup!, ,Manual, Auto Recovery, 0.0
+Frigid Tide, ,Auto, Auto Recovery, 0.0
+Pulse Wave, ,Auto, Auto Recovery, 0.0
+Detonate, ,Auto, Auto Recovery, -1.0
+Airflow, ,Passive, None, 0.0
+Arts Transfer Protocol, ,Manual, Auto Recovery, 0.0
+Natural Camouflage, ,Passive, None, 0.0
+Ill Temper, ,Passive, None, -1.0
+Energized!, ,Passive, None, -1.0
+Obstruction, ,Passive, None, -1.0
+Energy Crystallization, ,Auto, Auto Recovery, 0.0
+Form Up!, ,Passive, None, -1.0
+Lock ‘em Up!, ,Manual, Auto Recovery, 0.0

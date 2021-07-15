@@ -1,0 +1,23 @@
+sim structure
+
+tasks to be done:
+- tick buffs
+- tick status
+- tick SP
+- enable skill
+- disable skill
+- do attack
+
+current time:
+- things we need to do we do now:
+    - attacks
+
+next time:
+- tick buffs
+- tick status
+- tick following
+    - if SP
+        - tick SP
+        - if full turn skill on
+    - if skill on
+        - tick duration
