@@ -1,121 +1,83 @@
-class Timeline:
-    def __init__ (self):
-        self._keys = {}
-        self.keys = []
-        self._output = {} # Data will be in tuples
-        self.data = {}
+from collections import defaultdict
+
+class Timeline(defaultdict):
+    def __init__(self, *args, **kwargs):
+        if args: super().__init__(*args, **kwargs)
+        else: super().__init__(lambda: defaultdict(lambda: 0))
+
+    @property
+    def keys(self):
+        return sorted([i for i in self])
+
+    @property
+    def tail(self):
+        return self.keys[-1], self[self.keys[-1]]
     
-    # Operators
     def addKey(self, time, *cmds):
-        _time = round(time, 2)
-        if _time in self._keys:
-            for cmd in cmds:
-                if cmd not in self._keys[_time]: self._keys[_time].append(cmd)
-        else:
-            self._keys[_time] = []
-            for cmd in cmds:
-                self._keys[_time].append(cmd)
-        self.addData(_time, [])
+        time = round(time,2)
+        for cmd in cmds:
+            self[time][cmd]
     
-    def addData(self, time, data):
-        if time in self._keys:
-            if time not in self._output:
-                self._output[time] = data
-            else:
-                self._output[time] += data
-
     def moveKey(self, time, nTime):
-        if time in self._keys:
-            v = self._keys[time]
-            for x in v:
-                self.addKey(nTime, x)
-        del self._keys[time]
+        for cmd in self[time]:
+            self.addKey(nTime, cmd)
+        self.removeKey(time)
 
-    def rmKey(self, time):
-        if time in self._keys:
-            del self._keys[time]
-            if time in self._output:
-                del self._output[time]
-
-    def rmLastCmd(self, cmd):
-        c = len(self._keys) - 1
-        while c >= 0:
-            if cmd in self.keys[c][1]:
-                self._keys[self.keys[c][0]].remove(cmd)
-                return 1
-            c -= 1
-        return 0
-
-    def rmCmd(self, time, cmd):
-        if time in self._keys:
-            self._keys[time].remove(cmd)
-            if self._keys[time] == []:
-                self.remove(time)
-
-    # Retrievers
-    def __getattribute__(self,name):
-        if name == "keys":
-            return sorted(self._keys.items(), key=lambda item: item[0])
-        elif name == "data":
-            return self._output
-        elif name == "latest":
-            return self.keys[-1]
-        return super().__getattribute__(name)
+    def removeKey(self, time): del self[time]
     
-    def getNext(self, time, step = 1):
-        if time in self._keys:
-            e = (time, self._keys[time])
-            return self.keys[self.keys.index(e) + step]
-        else:
-            # Needs to be adjusted
-            e = (0,self._keys[0])
+    def removeCmd(self, time, cmd):
+        del self[time][cmd]
+        if not self[time]: self.removeKey(time)
+
+    def removeLastCmd(self, cmd):
+        for time in reversed(self.keys):
+            if cmd in self[time]:
+                self.removeCmd(time, cmd)
+                return
+        return
+
+    def getNextKey(self, time, step = 1):
+        if time not in self.keys:
             for i in self.keys:
-                if e[0] - time < i[0] - time: e = i
-                if e[0] - time > 0: break
-            i = self.keys.index(e) + step - 1
-            if i > len(self.keys) - 1:
-                return self.keys[i - 1]
-            return self.keys[i]
-    
-    def getPrev(self, time, step = 1):
-        if time in self._keys:
-            e = (time, self._keys[time])
-            return self.keys[self.keys.index(e) - step]
-        else:
-            # Needs to be adjusted
-            e = (0,self._keys[0])
-            for i in self.keys:
-                if time - e[0] < 0: break
-                if time - e[0] > time - i[0] : e = i
-            i = self.keys.index(e) - step
-            if i > 0:
-                return self.keys[0]
-            return self.keys[i]
+                if time < i:
+                    time = i
+                    break
+
+        e = self.keys.index(time) + step
+        if e >= len(self.keys): e -= 1
+        time = self.keys[e]
+        #! Indicator for last element
+        return time, self[time]
+
+    def getPrevKey(self, time, step = 1):
+        if time not in self.keys:
+            for i in reversed(self.keys):
+                if time > i:
+                    time = i
+                    break
+
+        e = self.keys.index(time) - step
+        if e < 0: e += 1
+        time = self.keys[e]
+        #! Indicator for first element
+        return time, self[time]
     
     def getNextCmd(self, time, cmd):
-        if time in self._keys:
-            v = self.keys.index((time,self._keys[time])) + 1
-            while v < len(self._keys):
-                if cmd in self.keys[v][1]:
-                    return self.keys[v]
-                v += 1
-        return 0
+        e = self.keys.index(time) + 1
+        for n_time in self.keys[e:]:
+            if cmd in self[n_time]: return n_time, self[n_time]
+        return 0,0
     
     def getPrevCmd(self, time, cmd):
-        if time in self._keys:
-            v = self.keys.index((time,self._keys[time])) - 1
-            while  v > 0:
-                if cmd in self.keys[v][1]:
-                    return self.keys[v]
-                v -= 1
-        return 0
+        e = self.keys.index(time)
+        for n_time in reversed(self.keys[:e]):
+            if cmd in self[n_time]: return n_time, self[n_time]
+        return 0,0
 
-    # KillCmd should be used if a command is scheduled AFTER skill activation.
-    # This will remove the last scheduled command.
-    # Commonly used in: Auto Attack, batteries.
-    def killCmd(self, cmd, old_key, kill_range):
-        i = self.getNextCmd(old_key, cmd)
-        # If next isn't self and exists
-        if i != self.latest and i != 0:
-            if i[0] > old_key + kill_range:
-                self.rmCmd(i[0], cmd)
+class Event(object):
+    def __init__(self, name, callback):
+        self.name = name
+        self.callback = callback
+
+    def __call__(self):
+        self.callback()

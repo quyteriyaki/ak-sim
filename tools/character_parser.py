@@ -124,5 +124,5 @@ def Parse_Selective (ID, Group):
 for op in char_in:
     Parse_Selective(op, char_in[op])
 
-with open('./parsed_src/character_table.json', "w") as file:
-    file.write(json.dumps(char_out,indent=2))
+with open('./parsed_src/character_table.json', "w", encoding="utf8") as file:
+    file.write(json.dumps(char_out,indent=2, ensure_ascii=False))

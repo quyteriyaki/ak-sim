@@ -4,8 +4,9 @@ def PhysicalAttack(operator, enemy):
     # hitNumber (atk - def) >= atk * 0.05
     # (atk - (def + flat_def_down) * (1 - scale_def_down)) * damage_amp
     val = round(
-        (operator.stats['atk'] * operator.attack['atk_scale'] - 50) * operator.attack['times'], 2)
-    return ("Attack", val)
+        (operator.stats['atk'] - 50)
+    )
+    return (val)
 
 def ArtsAttack(operator, enemy):
     # Arts Damage
@@ -15,4 +16,4 @@ def ArtsAttack(operator, enemy):
     val = round(
         (operator.stats['atk'] * (10 / 100)) * operator.attack['times']
     )
-    return("Attack", val)
+    return(val)

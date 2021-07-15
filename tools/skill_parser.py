@@ -3,7 +3,7 @@ import re
 import bb_Repair
 
 skills = {}
-with open('./src/skill_table.json', 'r') as file:
+with open('./src/skill_table.json', 'r', encoding="utf8") as file:
     skills = json.load(file)
 
 def Low_Skill_Removal(Group):
@@ -30,11 +30,7 @@ def Parse_Desc(Group):
     for term in format_instances: desc = desc.replace(term,"")
     
     # Translational issues due to special keys
-    if "ï¼Œ" in desc: desc = desc.replace("ï¼Œ",", ")
     if "，" in desc: desc = desc.replace("，", ", ")
-    if "â€™" in desc: desc = desc.replace("â€™","'")
-    if "\u00e2\u20ac\u2122" in desc: desc = desc.replace("\u00e2\u20ac\u2122", "'")
-    if "\u2019" in desc: desc = desc.replace("\u2019", "'")
 
     # Substitute Values
     sub_instances_pat = "{(.*?)}"
@@ -100,8 +96,8 @@ for ID in skills:
     Name_Repair(skills[ID])
     Parse_Desc(skills[ID])
 
-with open('parsed_src/skill_table.json', 'w') as file:
-    out = json.dumps(skills, indent=2)
+with open('parsed_src/skill_table.json', 'w', encoding="utf8") as file:
+    out = json.dumps(skills, indent=2, ensure_ascii=False)
     # Remove Blackboards
     # bb_pat = r'\, \"blackboard\": \[.*?\]'
     # bb_instance = re.findall(bb_pat, out)

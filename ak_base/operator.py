@@ -1,88 +1,57 @@
 import json
-flat = ['cost','sora_total', 'atk', 'def', 'maxHp', 'res', 'block', 'atkSpd', 'atkTime', 'hpRec', 'spRec', 'times']
+from ak_base.modifiers import *
+from ak_base.attack import Attack
+from ak_base.calculation import *
 
-class operator ():
-    def __init__ (self, src, skill_number):
+class Operator (object):
+    def __init__(self, src, skill_number):
         with open(src, encoding="utf8") as file:
-            self._op = json.load(file)
-            self.stats = self._op['stats'].copy()
-            self.skill = self._op['skills'][skill_number - 1]
-            self.mods = {
-                # Percentage Values
-                'atk_%': 1,
-                'def_%': 1,
-                'maxHp_%': 1,
-                'res_%': 1,
-            }
-            self.attack = {
-                'atk_scale': 1, # Percentage
-                'atk_to_hp_recovery_ratio': 0, # Sora S1 Specific, Float
-                'buff_prob': 0, # Chance, Percentage
-                'duration': 0, # Shirayuki Slow, Integer
-                'frozen_duration': 0, # Frostleaf Slow, Integer
-                'heal_scale': 1, # Saria + Nightmare heal, Percentage
-                'interval': 0, # Magallan, Integer
-                'max_target': 1, # Multi Target skill, Integer
-                'move_speed': 0, # Shirayuki slow, Percentage
-                'range_scale': 1, # Catapult nuke size, Percentage
-                'sluggish': 0, # Magallan stop, Integer
-                'times': 1 # Exu / BP Hits per attack, Integer
-            }
-            for buff in flat: self.mods[buff] = 0
+            self._base = json.load(file)
+        self.stats = self._base['stats'].copy()
+        self.skill = self._base['skills'][skill_number - 1]
+        self.skill['spData']['currentSp'] = self.skill['spData']['initSp']
+        self.skill['active'] = False
+        self.skill['delta'] = 0
 
-            self._doPotential()
-            self._doTrust()
+        # ! Condense
+        self.mods = mod_dict
+        self.buffs = buff_list
+        self.attack_mod = Attack()
+        self.DoAttack = lambda enemy: PhysicalAttack(self, enemy)
 
-    def applyBuff(self, name, val):
-        if name not in self.mods:
-            self.mods[name] = 1
-        self._editBuff(name, val)
+    def AddBuff(self, *buffs):
+        for buff in buffs:
+            if buff not in self.buffs:self.buffs.append(buff)
+            buff.on()
 
-    def _editBuff(self, name, val):
-        # Flat change
-        if name in flat: self.mods[name] += val
-        # probably will be Multiplicative
-        else: self.mods[name] *= (val + 1)
-        self._calculate()
-    
-    def removeBuff(self, name, val):
-        if name in self.mods:
-            self._editBuff(name, -val)
+    def RemoveBuff (self, buff):
+        if buff in self.buffs: self.buffs.remove(buff)
+        buff.off()
 
-    def applyAttack(self, name, val):
-        if name in self.attack:
-            self.attack[name] = val
+    def AddAttack(self, bb):
+        self.attack_mod.AddBlackboard(bb)
 
-    def resetAttack(self, name):
-        if name in self.attack:
-            defaults = ['atk_scale', 'heal_scale', 'max_target', 'range_scale', 'times']
-            if name in defaults:
-                self.attack[name] = 1
-            else: self.attack[name] = 0
-                
+    def ResetAttack(self):
+        self.attack_mod.Reset()
+
+    def SetAttackFormula(self, formula):
+        self.DoAttack = formula
+
     def _doPotential(self):
-        for buff in self._op['potential']:
-            self.applyBuff(buff, self._op['potential'][buff])
+        for buff in self._base['potential']:
+            self.AddBuff(Buff(f"Potential: {buff}", -1, buff, "add", self._base['potential'][buff]))
     
     def _doTrust(self):
-        for buff in self._op['trust']:
-            self.applyBuff(buff, self._op['trust'][buff])
+        for buff in self._base['trust']:
+            self.AddBuff(Buff(f"Trust: {buff}", -1, buff, "add", self._base['trust'][buff]))
 
-    def _calculate (self):
-        # Attack buffs 
-        self.stats['atk'] = (self._op['stats']['atk'] + self.mods['atk']) * self.mods['atk_%']
-        # Defense buffs
-        self.stats['def'] = (self._op['stats']['def'] + self.mods['def']) * self.mods['def_%']
-        # Max HP buffs
-        self.stats['maxHp'] = (self._op['stats']['maxHp'] + self.mods['maxHp']) * self.mods['maxHp_%']
-        # Res buffs
-        self.stats['res'] = (self._op['stats']['res'] + self.mods['res']) * self.mods['res_%']
-        # Attack speed buffs
-        self.stats['atkSpd'] = self._op['stats']['atkSpd'] + self.mods['atkSpd']
-        self.stats['atkTime'] = self._op['stats']['atkTime'] + self.mods['atkTime']
-        # Attack speed application
-        self.stats['atk/s'] = round((self.stats['atkSpd'] / self.stats['atkTime']) / 100, 2)
-        self.stats['atkTime'] = round(1 / self.stats['atk/s'], 2)
-        # HP / SP regen
-        self.stats['hpRec'] = self._op['stats']['hpRec'] + self.mods['hpRec']
-        self.stats['spRec'] = self._op['stats']['spRec'] + self.mods['spRec']
+if __name__ == "__main__":
+    test = Operator("./parsed_src/op_src/char_103_angel.json", 1)
+    a = Buff("buffA", 0, "atk", "mult", 5) # Test solo
+    b = Buff("buffB", 0, "atk", "mult", 10) # Test stack
+    c = Buff("buffC", 0, "atk", "add", 10) # Test order
+    d = Buff("buffD", 0, "def", "add", 10) # Test type
+    test.AddBuff(a,b,c,d)
+    print(test.mods.getModifiers())
+    # print([str(i) for i in test.mods["atk"]['add']])
+    # print([i for i in test.buffs])

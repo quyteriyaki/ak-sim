@@ -3,7 +3,7 @@ import json
 skills = {}
 passed = []
 
-with open('./parsed_src/skill_table.json') as file:
+with open('./parsed_src/skill_table.json', encoding="utf8") as file:
     skills = json.load(file)
 
 def printSkillTypes():  
