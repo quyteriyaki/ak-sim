@@ -1,0 +1,83 @@
+{
+  "name": "Leonhardt",
+  "rarity": 5,
+  "profession": "Caster",
+  "potential": {
+    "cost": -2.0,
+    "respawn": -4.0,
+    "atk": 32.0
+  },
+  "skills": [
+    {
+      "name": "ATK Up γ",
+      "rangeId": null,
+      "description": "ATK +100%",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 30,
+        "initSp": 15,
+        "increment": 1.0
+      },
+      "prefabId": "skcom_atk_up",
+      "duration": 30.0,
+      "blackboard": {
+        "atk": 1.0
+      },
+      "skillId": "skcom_atk_up[3]"
+    },
+    {
+      "name": "Deconstruct and Detonate",
+      "rangeId": "3-3",
+      "description": "Range expands, immediately deals 230% Arts Damage to all enemies within range and reduces their RES by -15% for 6 seconds\nCan store up to 3 charges",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 3,
+        "spCost": 10,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_lionhd_2",
+      "duration": -1.0,
+      "blackboard": {
+        "atk_scale": 2.3,
+        "magic_resistance": -0.15,
+        "duration": 6.0,
+        "ct": 3.0,
+        "talent_range_flag": 1.0
+      },
+      "skillId": "skchr_lionhd_2"
+    }
+  ],
+  "stats": {
+    "level": 80,
+    "maxHp": 1550,
+    "atk": 707,
+    "def": 120,
+    "res": 20.0,
+    "cost": 33,
+    "block": 1,
+    "atkSpd": 100.0,
+    "atkTime": 2.9,
+    "hpRec": 0.0,
+    "spRec": 1.0,
+    "respawn": 70
+  },
+  "talents": [
+    {
+      "name": "Lethal Fragmentation",
+      "description": "This unit gains +4% ATK for every enemy in range (stacks up to 6 <@ba.talpu>(+1)</> times)",
+      "blackboard": {
+        "atk": 0.04,
+        "max_valid_stack_cnt": 6.0
+      }
+    }
+  ],
+  "trust": {
+    "atk": 90
+  }
+}

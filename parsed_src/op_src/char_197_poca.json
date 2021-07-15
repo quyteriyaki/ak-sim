@@ -1,0 +1,110 @@
+{
+  "name": "Rosa",
+  "rarity": 6,
+  "profession": "Sniper",
+  "potential": {
+    "cost": -2.0,
+    "respawn": -4.0,
+    "atk": 34.0
+  },
+  "skills": [
+    {
+      "name": "ATK Up γ",
+      "rangeId": null,
+      "description": "ATK +100%",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 30,
+        "initSp": 15,
+        "increment": 1.0
+      },
+      "prefabId": "skcom_atk_up",
+      "duration": 30.0,
+      "blackboard": {
+        "atk": 1.0
+      },
+      "skillId": "skcom_atk_up[3]"
+    },
+    {
+      "name": "Split Shot",
+      "rangeId": null,
+      "description": "ATK +90%, and attacks hit one additional enemy",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 65,
+        "initSp": 45,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_poca_2",
+      "duration": 60.0,
+      "blackboard": {
+        "atk": 0.9,
+        "attack@max_target": 2.0
+      },
+      "skillId": "skchr_poca_2"
+    },
+    {
+      "name": "Avalanche Breaker",
+      "rangeId": null,
+      "description": "ATK +25%; Immediately fires harpoons at the 4 heaviest enemies in range, Binding them and attacking them once each second during the duration of this skill",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 30,
+        "initSp": 15,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_poca_3",
+      "duration": 8.0,
+      "blackboard": {
+        "max_target": 4.0,
+        "hit_interval": 1.0,
+        "atk": 0.25,
+        "hit_duration": 8.0
+      },
+      "skillId": "skchr_poca_3"
+    }
+  ],
+  "stats": {
+    "level": 90,
+    "maxHp": 1755,
+    "atk": 1032,
+    "def": 122,
+    "res": 0.0,
+    "cost": 24,
+    "block": 1,
+    "atkSpd": 100.0,
+    "atkTime": 2.4,
+    "hpRec": 0.0,
+    "spRec": 1.0,
+    "respawn": 70
+  },
+  "talents": [
+    {
+      "name": "Bone Piercer",
+      "description": "When attacking a heavy enemy, ignores 60% of its DEF (enemies with 3 weight or higher count for this effect)",
+      "blackboard": {
+        "value": 3.0,
+        "def_penetrate": 0.6
+      }
+    },
+    {
+      "name": "Ideal Student",
+      "description": "When this unit is in the squad, all [Ursus Student Self-Government Group] Operators gain +10% ATK <@ba.talpu>(+2%)</>",
+      "blackboard": {
+        "atk": 0.1
+      }
+    }
+  ],
+  "trust": {
+    "atk": 110
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "name": "Shamare",
+  "rarity": 5,
+  "profession": "Supporter",
+  "potential": {
+    "cost": -2.0,
+    "respawn": -4.0,
+    "res": 8.0
+  },
+  "skills": [
+    {
+      "name": "Malediction",
+      "rangeId": null,
+      "description": "ATK +60%, increases the damage amplification effect of this unit's Talent to 1.8 times\nUnlimited duration",
+      "skillType": 2,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 70,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_vodfox_1",
+      "duration": -1.0,
+      "blackboard": {
+        "scale_delta_to_one": 1.8,
+        "atk": 0.6
+      },
+      "skillId": "skchr_vodfox_1"
+    },
+    {
+      "name": "Cursed Doll",
+      "rangeId": null,
+      "description": "Obtains 1 Curse Doll (can store up to 1)\nReduces the ATK and DEF of enemies around the Curse Doll by -50%, lasts for a maximum of 15 seconds",
+      "skillType": 2,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 30,
+        "initSp": 10,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_vodfox_2",
+      "duration": -1.0,
+      "blackboard": {
+        "atk": -0.5,
+        "def": -0.5
+      },
+      "skillId": "skchr_vodfox_2"
+    }
+  ],
+  "stats": {
+    "level": 80,
+    "maxHp": 1728,
+    "atk": 408,
+    "def": 105,
+    "res": 25.0,
+    "cost": 12,
+    "block": 1,
+    "atkSpd": 100.0,
+    "atkTime": 1.6,
+    "hpRec": 0.0,
+    "spRec": 1.0,
+    "respawn": 70
+  },
+  "talents": [
+    {
+      "name": "Omen of Defeat",
+      "description": "Enemies in range with less than 40% HP are inflicted with [Fragile] (affected units take 33% <@ba.talpu>(+3%)</> more damage, only the highest effect of this type is applied)",
+      "blackboard": {
+        "hp_ratio": 0.4,
+        "damage_scale": 1.33
+      }
+    }
+  ],
+  "trust": {
+    "atk": 65
+  }
+}

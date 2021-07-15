@@ -1,0 +1,80 @@
+{
+  "name": "Sideroca",
+  "rarity": 5,
+  "profession": "Guard",
+  "potential": {
+    "cost": -3.0,
+    "respawn": -10.0
+  },
+  "skills": [
+    {
+      "name": "Regeneration γ",
+      "rangeId": null,
+      "description": "Restores HP by 70% of Max HP",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 20,
+        "initSp": 12,
+        "increment": 1.0
+      },
+      "prefabId": "skcom_heal_self",
+      "duration": 0.0,
+      "blackboard": {
+        "heal_scale": 0.7
+      },
+      "skillId": "skcom_heal_self[3]"
+    },
+    {
+      "name": "Restorative Surge",
+      "rangeId": "0-1",
+      "description": "Attack Range decreases, ATK +110%, restores 8% Max HP each second",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 30,
+        "initSp": 10,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_sidero_2",
+      "duration": 30.0,
+      "blackboard": {
+        "atk": 1.1,
+        "hp_recovery_per_sec_by_max_hp_ratio": 0.08
+      },
+      "skillId": "skchr_sidero_2"
+    }
+  ],
+  "stats": {
+    "level": 80,
+    "maxHp": 2845,
+    "atk": 620,
+    "def": 369,
+    "res": 15.0,
+    "cost": 23,
+    "block": 1,
+    "atkSpd": 100.0,
+    "atkTime": 1.25,
+    "hpRec": 0.0,
+    "spRec": 1.0,
+    "respawn": 80
+  },
+  "talents": [
+    {
+      "name": "Mercenary's Tenacity",
+      "description": "After defeating 5 <@ba.talpu>(-2)</>enemies, this unit gains +15 ASPD and status resistance (reduces the duration of stun, cold, and freeze effects by 50%)",
+      "blackboard": {
+        "times": 5.0,
+        "attack_speed": 15.0,
+        "one_minus_status_resistance": -0.5
+      }
+    }
+  ],
+  "trust": {
+    "maxHp": 500
+  }
+}

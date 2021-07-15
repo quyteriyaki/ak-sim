@@ -1,0 +1,86 @@
+{
+  "name": "Beeswax",
+  "rarity": 5,
+  "profession": "Caster",
+  "potential": {
+    "cost": -2.0,
+    "respawn": -10.0,
+    "atk": 30.0
+  },
+  "skills": [
+    {
+      "name": "Growing Sandstorm",
+      "rangeId": "x-2",
+      "description": "Range expands, ATK +60%",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 18,
+        "initSp": 8,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_beewax_1",
+      "duration": 20.0,
+      "blackboard": {
+        "atk": 0.6
+      },
+      "skillId": "skchr_beewax_1"
+    },
+    {
+      "name": "Guardian Obelisk",
+      "rangeId": null,
+      "description": "Summons an Obelisk upon a melee tile within this unit's attack range; When the Obelisk appears, it deals 300% Arts Damage to nearby enemies and stuns them for 3 second(s)",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 20,
+        "initSp": 10,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_beewax_2",
+      "duration": 20.0,
+      "blackboard": {
+        "atk_scale": 3.0,
+        "stun": 3.0
+      },
+      "skillId": "skchr_beewax_2"
+    }
+  ],
+  "stats": {
+    "level": 80,
+    "maxHp": 2005,
+    "atk": 735,
+    "def": 205,
+    "res": 15.0,
+    "cost": 23,
+    "block": 1,
+    "atkSpd": 100.0,
+    "atkTime": 2.0,
+    "hpRec": 0.0,
+    "spRec": 1.0,
+    "respawn": 70
+  },
+  "talents": [
+    {
+      "name": "Shambhala's Sanctuary",
+      "description": "When this unit's skill is not active, restores 4% Max HP per second",
+      "blackboard": {
+        "hp_recovery_per_sec_by_max_hp_ratio": 0.04
+      }
+    }
+  ],
+  "trait": [
+    {
+      "def": 2.0,
+      "magic_resistance": 20.0
+    }
+  ],
+  "trust": {
+    "atk": 70,
+    "def": 20
+  }
+}

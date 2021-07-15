@@ -1,0 +1,111 @@
+{
+  "name": "Phantom",
+  "rarity": 6,
+  "profession": "Specialist",
+  "potential": {
+    "cost": -2.0,
+    "atk": 22.0,
+    "respawn": -2.0,
+    "maxHp": 130.0
+  },
+  "skills": [
+    {
+      "name": "Phantom of the Night",
+      "rangeId": null,
+      "description": "Upon deployment, gains 50% Physical Dodge and a shield that can absorb Physical Damage equal to 80% Max HP for 10 seconds",
+      "skillType": 0,
+      "spData": {
+        "spType": 8,
+        "levelUpCost": null,
+        "maxChargeTime": 0,
+        "spCost": 0,
+        "initSp": 0,
+        "increment": 0.0
+      },
+      "prefabId": "skchr_phatom_1",
+      "duration": -1.0,
+      "blackboard": {
+        "prob": 0.5,
+        "hp_ratio": 0.8,
+        "duration": 10.0
+      },
+      "skillId": "skchr_phatom_1"
+    },
+    {
+      "name": "Bloody Opus",
+      "rangeId": null,
+      "description": "Upon deployment, immediately gains 10 charges of a stacking +20% ATK buff (each attack consumes one charge)",
+      "skillType": 0,
+      "spData": {
+        "spType": 8,
+        "levelUpCost": null,
+        "maxChargeTime": 0,
+        "spCost": 0,
+        "initSp": 0,
+        "increment": 0.0
+      },
+      "prefabId": "skchr_phatom_2",
+      "duration": -1.0,
+      "blackboard": {
+        "times": 10.0,
+        "atk": 0.2
+      },
+      "skillId": "skchr_phatom_2"
+    },
+    {
+      "name": "Night Raid",
+      "rangeId": "x-4",
+      "description": "Upon deployment, immediately deals 300% ATK as Physical damage to all nearby enemies, pushes them back slightly, and randomly inflicts one of the following statuses to all targets hit (slow, bind, or stun) for 4 seconds",
+      "skillType": 0,
+      "spData": {
+        "spType": 8,
+        "levelUpCost": null,
+        "maxChargeTime": 0,
+        "spCost": 0,
+        "initSp": 0,
+        "increment": 0.0
+      },
+      "prefabId": "skchr_phatom_3",
+      "duration": -1.0,
+      "blackboard": {
+        "atk_scale": 3.0,
+        "force": 0.0,
+        "sluggish": 4.5,
+        "root": 4.5,
+        "stun": 4.5
+      },
+      "skillId": "skchr_phatom_3"
+    }
+  ],
+  "stats": {
+    "level": 90,
+    "maxHp": 1645,
+    "atk": 558,
+    "def": 322,
+    "res": 0.0,
+    "cost": 10,
+    "block": 1,
+    "atkSpd": 100.0,
+    "atkTime": 0.93,
+    "hpRec": 0.0,
+    "spRec": 1.0,
+    "respawn": 18
+  },
+  "talents": [
+    {
+      "name": "Phantom in the Mirror",
+      "description": "Can summon a stronger clone with the same abilities as Phantom, but has its own redeployment time",
+      "blackboard": {
+        "cnt": 1.0
+      }
+    },
+    {
+      "name": "Phantom Mastery",
+      "description": "Redeployment time of clone is reduced by 10 seconds",
+      "blackboard": {}
+    }
+  ],
+  "trust": {
+    "atk": 90
+  }
+}

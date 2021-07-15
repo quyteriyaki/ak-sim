@@ -1,0 +1,89 @@
+{
+  "name": "Whisperain",
+  "rarity": 5,
+  "profession": "Medic",
+  "potential": {
+    "cost": -2.0,
+    "respawn": -4.0,
+    "atk": 23.0
+  },
+  "skills": [
+    {
+      "name": "Oriented Diagnosis",
+      "rangeId": null,
+      "description": "The next heal is increased to 130% of ATK, and an additional target will be healed (prioritizes debuffed units) and granted status resistance (reduces the duration of stun, cold, and freeze effects by 50%), lasting for 5 second(s)",
+      "skillType": 2,
+      "spData": {
+        "spType": 2,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 2,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_whispr_1",
+      "duration": 0.0,
+      "blackboard": {
+        "heal_scale": 1.3,
+        "status_resistance[limit]": 5.0,
+        "one_minus_status_resistance": -0.5
+      },
+      "skillId": "skchr_whispr_1"
+    },
+    {
+      "name": "Pain Suppression",
+      "rangeId": null,
+      "description": "Attack interval reduced, the healing effect of this unit's Talent is increased to 200%, and each target healed by this unit is granted status resistance for 4 second(s) (reduces the duration of stun, cold, and freeze effects by 50%)\nUnlimited duration",
+      "skillType": 2,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 55,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_whispr_2",
+      "duration": -1.0,
+      "blackboard": {
+        "base_attack_time": -0.2,
+        "attack@status_resistance[limit]": 4.0,
+        "attack@one_minus_status_resistance": -0.5,
+        "talent_scale": 2.0
+      },
+      "skillId": "skchr_whispr_2"
+    }
+  ],
+  "stats": {
+    "level": 80,
+    "maxHp": 1432,
+    "atk": 467,
+    "def": 119,
+    "res": 5.0,
+    "cost": 20,
+    "block": 1,
+    "atkSpd": 100.0,
+    "atkTime": 2.85,
+    "hpRec": 0.0,
+    "spRec": 1.0,
+    "respawn": 70
+  },
+  "talents": [
+    {
+      "name": "Tower of Life",
+      "description": "Friendly units with status resistance within this unit’s attack range will restore HP per second equal to 7% <@ba.talpu>(+1%)</> of Whisperain’s ATK (Unaffected by this unit's Trait)",
+      "blackboard": {
+        "atk_to_hp_recovery_ratio": 0.07
+      }
+    }
+  ],
+  "trait": [
+    {
+      "heal_scale": 0.7
+    }
+  ],
+  "trust": {
+    "maxHp": 200,
+    "atk": 40
+  }
+}

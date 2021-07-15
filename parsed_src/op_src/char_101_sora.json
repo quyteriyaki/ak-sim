@@ -11,7 +11,7 @@
     {
       "name": "Hymn of Respite",
       "rangeId": "x-2",
-      "description": "Range expands; All enemies within range are put to Sleep  (Stun and Invincible) and the effect of Sora's Feature increases to 100%",
+      "description": "Attack Range expands, all enemies within range are put to Sleep(affected enemies are Stunned and Invulnerable), and the healing effect of this unit's Trait is increased to 100%",
       "skillType": 1,
       "spData": {
         "spType": 1,

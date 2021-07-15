@@ -1,0 +1,82 @@
+{
+  "name": "Bibeak",
+  "rarity": 5,
+  "profession": "Guard",
+  "potential": {
+    "cost": -2.0,
+    "respawn": -4.0,
+    "atk": 22.0
+  },
+  "skills": [
+    {
+      "name": "Plumage Pins",
+      "rangeId": null,
+      "description": "The next attack deals 180% damage, and deals 180% Arts damage to an additional target within range.",
+      "skillType": 2,
+      "spData": {
+        "spType": 2,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 2,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_bibeak_1",
+      "duration": 0.0,
+      "blackboard": {
+        "atk_scale": 1.8,
+        "ranged@atk_scale": 1.8
+      },
+      "skillId": "skchr_bibeak_1"
+    },
+    {
+      "name": "Blade Swap",
+      "rangeId": "3-12",
+      "description": "Deals 200% ATK as Arts damage to up to 6 targets within range, and stuns them for 1.8 seconds\nCan store up to 3 charges",
+      "skillType": 1,
+      "spData": {
+        "spType": 2,
+        "levelUpCost": null,
+        "maxChargeTime": 3,
+        "spCost": 7,
+        "initSp": 5,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_bibeak_2",
+      "duration": 0.0,
+      "blackboard": {
+        "max_target": 6.0,
+        "stun": 1.8,
+        "atk_scale": 2.0
+      },
+      "skillId": "skchr_bibeak_2"
+    }
+  ],
+  "stats": {
+    "level": 80,
+    "maxHp": 2550,
+    "atk": 602,
+    "def": 332,
+    "res": 0.0,
+    "cost": 22,
+    "block": 2,
+    "atkSpd": 100.0,
+    "atkTime": 1.3,
+    "hpRec": 0.0,
+    "spRec": 1.0,
+    "respawn": 70
+  },
+  "talents": [
+    {
+      "name": "Soul Drinker",
+      "description": "ASPD +6 after defeating an enemy (stacks up to 6 <@ba.talpu>(+1)</> times)",
+      "blackboard": {
+        "attack_speed": 6.0,
+        "max_stack_cnt": 6.0
+      }
+    }
+  ],
+  "trust": {
+    "atk": 80
+  }
+}

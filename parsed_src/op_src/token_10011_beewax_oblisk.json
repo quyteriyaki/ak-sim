@@ -1,0 +1,53 @@
+{
+  "name": "Sand Obelisk",
+  "rarity": 5,
+  "profession": "TOKEN",
+  "potential": [],
+  "skills": [
+    {
+      "name": "Summon Sand Obelisk",
+      "rangeId": "x-4",
+      "description": "When deployed, deals 300% Arts Damage to nearby enemies and stuns them for 3 seconds",
+      "skillType": 2,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 0,
+        "spCost": 25,
+        "initSp": 10,
+        "increment": 1.0
+      },
+      "prefabId": "sktok_beewax",
+      "duration": 0.0,
+      "blackboard": {
+        "atk_scale": 3.0,
+        "stun": 3.0
+      },
+      "skillId": "sktok_beewax"
+    }
+  ],
+  "stats": {
+    "level": 80,
+    "maxHp": 5000,
+    "atk": 100,
+    "def": 560,
+    "res": 10.0,
+    "cost": 0,
+    "block": 3,
+    "atkSpd": 100.0,
+    "atkTime": 1.0,
+    "hpRec": 0.0,
+    "spRec": 1.0,
+    "respawn": 0
+  },
+  "talents": [
+    {
+      "name": null,
+      "description": "-",
+      "blackboard": {
+        "duration": 20.0
+      }
+    }
+  ],
+  "trust": {}
+}

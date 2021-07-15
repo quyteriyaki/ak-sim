@@ -10,7 +10,7 @@
     {
       "name": "Blood Pact",
       "rangeId": null,
-      "description": "The next attack's power is increased to 220%, and restores HP by 8%",
+      "description": "The next attack's power is increased to 220%, and restores HP by 8%  ",
       "skillType": 2,
       "spData": {
         "spType": 2,
@@ -31,7 +31,7 @@
     {
       "name": "Blade Demon",
       "rangeId": null,
-      "description": "ATK +70%, ASPD +45\nInfinite duration.",
+      "description": "ATK +70%, ASPD +45\nUnlimited duration",
       "skillType": 2,
       "spData": {
         "spType": 2,

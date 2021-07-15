@@ -68,7 +68,7 @@
   "talents": [
     {
       "name": "Weakening",
-      "description": "Enemies in range are affected by [Fragile], making them take 133% <@ba.talpu>(+3%) </>damage when their HP is under 40%.",
+      "description": "Enemies in range with less than 40% HP are inflicted with [Fragile] (affected units take 33% <@ba.talpu>(+3%)</> more damage, only the highest effect of this type is applied)",
       "blackboard": {
         "hp_ratio": 0.4,
         "damage_scale": 1.33

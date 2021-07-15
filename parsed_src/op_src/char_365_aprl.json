@@ -1,0 +1,79 @@
+{
+  "name": "April",
+  "rarity": 5,
+  "profession": "Sniper",
+  "potential": {
+    "cost": -2.0,
+    "respawn": -10.0,
+    "atk": 23.0
+  },
+  "skills": [
+    {
+      "name": "Precise Shooting",
+      "rangeId": null,
+      "description": "Increases the ATK of next attack to 230%",
+      "skillType": 2,
+      "spData": {
+        "spType": 2,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 3,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_aprl_1",
+      "duration": 0.0,
+      "blackboard": {
+        "atk_scale": 2.3
+      },
+      "skillId": "skchr_aprl_1"
+    },
+    {
+      "name": "Flexible Camouflage",
+      "rangeId": null,
+      "description": "After deployment, ATK +100% and gain Camouflage (will not be targeted by enemy ranged attacks when not blocking, but can still take Splash damage)",
+      "skillType": 0,
+      "spData": {
+        "spType": 8,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 0,
+        "initSp": 0,
+        "increment": 0.0
+      },
+      "prefabId": "skchr_aprl_2",
+      "duration": 26.0,
+      "blackboard": {
+        "atk": 1.0
+      },
+      "skillId": "skchr_aprl_2"
+    }
+  ],
+  "stats": {
+    "level": 80,
+    "maxHp": 1280,
+    "atk": 528,
+    "def": 160,
+    "res": 0.0,
+    "cost": 13,
+    "block": 1,
+    "atkSpd": 100.0,
+    "atkTime": 1.0,
+    "hpRec": 0.0,
+    "spRec": 1.0,
+    "respawn": 70
+  },
+  "talents": [
+    {
+      "name": "Experienced Hunter",
+      "description": "Redeployment Time -20 seconds, DP Cost -1",
+      "blackboard": {
+        "respawn_time": -20.0,
+        "cost": -1.0
+      }
+    }
+  ],
+  "trust": {
+    "atk": 75
+  }
+}

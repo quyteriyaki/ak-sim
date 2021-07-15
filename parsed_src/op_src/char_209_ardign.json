@@ -9,7 +9,7 @@
   },
   "skills": [
     {
-      "name": "Regeneration \u03b1",
+      "name": "Regeneration α",
       "rangeId": null,
       "description": "Restores HP by 40% of Max HP",
       "skillType": 1,

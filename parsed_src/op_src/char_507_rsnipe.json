@@ -1,0 +1,21 @@
+{
+  "name": "Reserve Operator - Sniper",
+  "rarity": 3,
+  "profession": "Sniper",
+  "potential": [],
+  "stats": {
+    "level": 55,
+    "maxHp": 980,
+    "atk": 401,
+    "def": 115,
+    "res": 0.0,
+    "cost": 10,
+    "block": 1,
+    "atkSpd": 100.0,
+    "atkTime": 1.0,
+    "hpRec": 0.0,
+    "spRec": 1.0,
+    "respawn": 70
+  },
+  "trust": {}
+}

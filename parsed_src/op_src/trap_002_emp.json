@@ -7,7 +7,7 @@
     {
       "name": "EMP Blast",
       "rangeId": "x-4",
-      "description": "Consumes 10 DP to immediately deal damage to all nearby enemies and Stun the targets hit for 7 seconds",
+      "description": "Consumes 10 DP to immediately deal damage to all nearby enemies and Stun the targets hit for 15 seconds",
       "skillType": 1,
       "spData": {
         "spType": 1,
@@ -20,7 +20,7 @@
       "prefabId": "sktok_emp",
       "duration": 0.0,
       "blackboard": {
-        "stun": 7.0,
+        "stun": 15.0,
         "cost": 10.0
       },
       "skillId": "sktok_emp"

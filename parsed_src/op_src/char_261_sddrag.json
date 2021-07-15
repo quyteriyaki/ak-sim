@@ -1,0 +1,86 @@
+{
+  "name": "Reed",
+  "rarity": 5,
+  "profession": "Vanguard",
+  "potential": {
+    "cost": -2.0,
+    "respawn": -10.0,
+    "atk": 25.0
+  },
+  "skills": [
+    {
+      "name": "Swift Strike γ",
+      "rangeId": null,
+      "description": "ATK +45%; ASPD +45",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 35,
+        "initSp": 15,
+        "increment": 1.0
+      },
+      "prefabId": "skcom_quickattack",
+      "duration": 35.0,
+      "blackboard": {
+        "atk": 0.45,
+        "attack_speed": 45.0
+      },
+      "skillId": "skcom_quickattack[3]"
+    },
+    {
+      "name": "Soul Spark",
+      "rangeId": null,
+      "description": "ATK +80%, each attack deals an additional 35% ATK as Arts damage, and restores +1 DP when defeating an enemy.",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 35,
+        "initSp": 20,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_sddrag_2",
+      "duration": 30.0,
+      "blackboard": {
+        "atk": 0.8,
+        "attack@skill.atk_scale": 0.35,
+        "def": 0.0
+      },
+      "skillId": "skchr_sddrag_2"
+    }
+  ],
+  "stats": {
+    "level": 80,
+    "maxHp": 2215,
+    "atk": 562,
+    "def": 364,
+    "res": 0.0,
+    "cost": 12,
+    "block": 1,
+    "atkSpd": 100.0,
+    "atkTime": 1.0,
+    "hpRec": 0.0,
+    "spRec": 1.0,
+    "respawn": 70
+  },
+  "talents": [
+    {
+      "name": "Blighted Blood",
+      "description": "RES +20",
+      "blackboard": {
+        "magic_resistance": 20.0
+      }
+    }
+  ],
+  "trait": [
+    {
+      "cost": 1.0
+    }
+  ],
+  "trust": {
+    "atk": 70
+  }
+}

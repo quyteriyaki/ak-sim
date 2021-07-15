@@ -1,0 +1,116 @@
+{
+  "name": "Weedy",
+  "rarity": 6,
+  "profession": "Specialist",
+  "potential": {
+    "cost": -2.0,
+    "respawn": -4.0,
+    "attackSpeed": 8.0,
+    "maxHp": 140.0
+  },
+  "skills": [
+    {
+      "name": "Barrel Burst",
+      "rangeId": null,
+      "description": "The next attack pushes the target towards the attack direction significantly, dealing 150% Physical Damage and stunning for 1 seconds",
+      "skillType": 2,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 5,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_weedy_1",
+      "duration": 0.0,
+      "blackboard": {
+        "atk_scale": 1.5,
+        "force": 2.0,
+        "stun": 1.2
+      },
+      "skillId": "skchr_weedy_1"
+    },
+    {
+      "name": "Hydraulics Mode",
+      "rangeId": null,
+      "description": "Attack Interval increases,  ATK +200%, Attack Range extends by +2 and becomes a long-range AoE attack, attacks now push enemies away moderately\nUnlimited duration",
+      "skillType": 2,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 70,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_weedy_2",
+      "duration": 0.0,
+      "blackboard": {
+        "atk": 2.0,
+        "ability_range_forward_extend": 2.0,
+        "base_attack_time": 2.2,
+        "base_force_level": 1.0
+      },
+      "skillId": "skchr_weedy_2"
+    },
+    {
+      "name": "Liquid Nitrogen Cannon",
+      "rangeId": "4-1",
+      "description": "Immediately fires a compressed liquid nitrogen cannon, dealing 350% Arts Damage in an area and pushing enemies away greatly; For 8 seconds, enemies hit by this ability take True Damage proportional to distance travelled; If the Reserve Water Cannon is located within 4 tiles, it will also activate this ability",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 33,
+        "initSp": 20,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_weedy_3",
+      "duration": -1.0,
+      "blackboard": {
+        "force": 3.0,
+        "stun": 0.0,
+        "atk_scale": 3.5,
+        "duration": 8.0,
+        "dist": 1.0,
+        "value": 1200.0,
+        "interval": 0.066
+      },
+      "skillId": "skchr_weedy_3"
+    }
+  ],
+  "stats": {
+    "level": 90,
+    "maxHp": 2133,
+    "atk": 677,
+    "def": 394,
+    "res": 0.0,
+    "cost": 21,
+    "block": 2,
+    "atkSpd": 100.0,
+    "atkTime": 1.2,
+    "hpRec": 0.0,
+    "spRec": 1.0,
+    "respawn": 70
+  },
+  "talents": [
+    {
+      "name": "Industrial Water Cannon",
+      "description": "Can deploy a Reserve Water Cannon that lasts for 20s; the Water Cannon can attack 1 target and push it away slightly",
+      "blackboard": {
+        "cnt": 1.0
+      }
+    },
+    {
+      "name": "Upgraded Water Cannon",
+      "description": "Increases the shift level of the Water Cannon's normal attacks and skills by 1, and Weedy will restore 1 SP per 3 seconds if the Water Cannon is located within 4 tiles of her",
+      "blackboard": {}
+    }
+  ],
+  "trust": {
+    "atk": 45,
+    "def": 45
+  }
+}

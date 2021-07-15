@@ -1,0 +1,84 @@
+{
+  "name": "Leizi",
+  "rarity": 5,
+  "profession": "Caster",
+  "potential": {
+    "cost": -2.0,
+    "respawn": -4.0,
+    "atk": 28.0
+  },
+  "skills": [
+    {
+      "name": "ATK Up γ",
+      "rangeId": null,
+      "description": "ATK +100%",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 30,
+        "initSp": 15,
+        "increment": 1.0
+      },
+      "prefabId": "skcom_atk_up",
+      "duration": 30.0,
+      "blackboard": {
+        "atk": 1.0
+      },
+      "skillId": "skcom_atk_up[3]"
+    },
+    {
+      "name": "Thunderclap",
+      "rangeId": null,
+      "description": "ATK +150%, and attacks no longer deal reduced damage on subsequent targets",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 80,
+        "initSp": 50,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_leizi_2",
+      "duration": 35.0,
+      "blackboard": {
+        "atk": 1.5
+      },
+      "skillId": "skchr_leizi_2"
+    }
+  ],
+  "stats": {
+    "level": 80,
+    "maxHp": 1443,
+    "atk": 573,
+    "def": 119,
+    "res": 20.0,
+    "cost": 32,
+    "block": 1,
+    "atkSpd": 100.0,
+    "atkTime": 2.3,
+    "hpRec": 0.0,
+    "spRec": 1.0,
+    "respawn": 70
+  },
+  "talents": [
+    {
+      "name": "Unobstructed Flow",
+      "description": "Increases ATK by 23% <@ba.talpu>(+3%)</> when attacking unblocked enemies",
+      "blackboard": {
+        "atk_scale": 1.23
+      }
+    }
+  ],
+  "trait": [
+    {
+      "attack@max_target": 3.0,
+      "attack@sluggish": 0.2
+    }
+  ],
+  "trust": {
+    "atk": 75
+  }
+}

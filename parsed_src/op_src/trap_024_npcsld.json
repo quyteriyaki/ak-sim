@@ -1,0 +1,42 @@
+{
+  "name": "Shieldguard",
+  "rarity": 1,
+  "profession": "TRAP",
+  "potential": [],
+  "skills": [
+    {
+      "name": "Form Up!",
+      "rangeId": null,
+      "description": "More likely to be attacked by enemies",
+      "skillType": 0,
+      "spData": {
+        "spType": 8,
+        "levelUpCost": null,
+        "maxChargeTime": 0,
+        "spCost": 0,
+        "initSp": 0,
+        "increment": 0.0
+      },
+      "prefabId": "sktok_npcsld",
+      "duration": -1.0,
+      "blackboard": {
+        "taunt_level": 1.0
+      },
+      "skillId": "sktok_npcsld"
+    }
+  ],
+  "stats": {
+    "level": 30,
+    "maxHp": 20000,
+    "atk": 700,
+    "def": 1000,
+    "res": 60.0,
+    "cost": 5,
+    "block": 3,
+    "atkSpd": 100.0,
+    "atkTime": 4.0,
+    "hpRec": 0.0,
+    "spRec": 1.0,
+    "respawn": 5
+  }
+}

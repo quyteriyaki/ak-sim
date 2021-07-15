@@ -1,0 +1,88 @@
+{
+  "name": "Aosta",
+  "rarity": 5,
+  "profession": "Sniper",
+  "potential": {
+    "cost": -2.0,
+    "respawn": -4.0,
+    "atk": 26.0
+  },
+  "skills": [
+    {
+      "name": "Swift Strike γ",
+      "rangeId": null,
+      "description": "ATK +45%; ASPD +45",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 35,
+        "initSp": 15,
+        "increment": 1.0
+      },
+      "prefabId": "skcom_quickattack",
+      "duration": 35.0,
+      "blackboard": {
+        "atk": 0.45,
+        "attack_speed": 45.0
+      },
+      "skillId": "skcom_quickattack[3]"
+    },
+    {
+      "name": "Shadow Nails",
+      "rangeId": null,
+      "description": "Attack Interval increases, ATK +70% and every attack Binds the targets for 1 seconds; The damage multiplier of Aosta's Talent is doubled",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 50,
+        "initSp": 25,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_aosta_2",
+      "duration": 25.0,
+      "blackboard": {
+        "base_attack_time": 0.5,
+        "atk": 0.7,
+        "attack@frozen_duration": 1.5,
+        "talent_scale": 2.0
+      },
+      "skillId": "skchr_aosta_2"
+    }
+  ],
+  "stats": {
+    "level": 80,
+    "maxHp": 2376,
+    "atk": 691,
+    "def": 192,
+    "res": 0.0,
+    "cost": 31,
+    "block": 1,
+    "atkSpd": 100.0,
+    "atkTime": 2.3,
+    "hpRec": 0.0,
+    "spRec": 1.0,
+    "respawn": 70
+  },
+  "talents": [
+    {
+      "name": "Sharp Nails",
+      "description": "Attacks inflict Bleed to unblocked enemies, dealing 20% <@ba.talpu>(+2%)</> ATK as Arts damage (unaffected by trait) every second for 3 seconds",
+      "blackboard": {
+        "atk_scale": 0.2,
+        "duration": 3.0
+      }
+    }
+  ],
+  "trait": [
+    {
+      "atk_scale": 1.5
+    }
+  ],
+  "trust": {
+    "atk": 65
+  }
+}

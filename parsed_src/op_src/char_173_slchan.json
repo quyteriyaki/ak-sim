@@ -32,7 +32,7 @@
     {
       "name": "Binding Chains",
       "rangeId": "3-14",
-      "description": "Drags at most 3 targets in the frontal line to Cliffheart significantly, dealing 200% of ATK damage that ignores targets' DEF and RES to them and Stunning them for 3 seconds",
+      "description": "Immediately drags up to 3 targets in a large frontal area towards this unit significantly, dealing 200% True Damage and stunning for 3 seconds",
       "skillType": 1,
       "spData": {
         "spType": 1,

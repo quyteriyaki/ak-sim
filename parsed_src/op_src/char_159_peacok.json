@@ -1,0 +1,84 @@
+{
+  "name": "Conviction",
+  "rarity": 4,
+  "profession": "Guard",
+  "potential": [],
+  "skills": [
+    {
+      "name": "Judgment",
+      "rangeId": null,
+      "description": "Increases the ATK of the next attack to 200%(Has a 5% chance to instead become 800%)\nCan store 3 charges",
+      "skillType": 2,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 3,
+        "spCost": 4,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_peacok_1",
+      "duration": 0.0,
+      "blackboard": {
+        "atk_scale": 2.0,
+        "peacok_s_1[crit].prob": 0.05,
+        "peacok_s_1[crit].atk_scale": 4.0,
+        "atk_scale_fake": 8.0
+      },
+      "skillId": "skchr_peacok_1"
+    },
+    {
+      "name": "Genesis",
+      "rangeId": "x-1",
+      "description": "Immediately deals 350% ATK to all enemies in range as arts damage and silences their special abilities for 5 seconds.\nHas a 50% chance to fail, instead stunning all allied units within range for 5 seconds",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 12,
+        "initSp": 5,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_peacok_2",
+      "duration": 0.0,
+      "blackboard": {
+        "prob": 0.5,
+        "success.atk_scale": 3.5,
+        "success.silence": 5.0,
+        "failure.stun": 5.0
+      },
+      "skillId": "skchr_peacok_2"
+    }
+  ],
+  "stats": {
+    "level": 70,
+    "maxHp": 3333,
+    "atk": 866,
+    "def": 166,
+    "res": 0.0,
+    "cost": 16,
+    "block": 1,
+    "atkSpd": 100.0,
+    "atkTime": 1.5,
+    "hpRec": 0.0,
+    "spRec": 1.0,
+    "respawn": 70
+  },
+  "talents": [
+    {
+      "name": "Safe Landing",
+      "description": "DP Cost -4, Redeployment Time -15 seconds. This unit is stunned for 10 seconds upon deployment.",
+      "blackboard": {
+        "cost": -4.0,
+        "respawn_time": -15.0,
+        "stun": 10.0
+      }
+    }
+  ],
+  "trust": {
+    "maxHp": 222,
+    "atk": 22,
+    "def": 22
+  }
+}

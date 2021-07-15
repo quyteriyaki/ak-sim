@@ -1,0 +1,52 @@
+{
+  "name": "Front Toward Enemy",
+  "rarity": 6,
+  "profession": "TOKEN",
+  "potential": [],
+  "skills": [
+    {
+      "name": "Victim Seeker",
+      "rangeId": null,
+      "description": "Explodes when an enemy passes by, dealing Physical Damage to all nearby enemies and stunning them.",
+      "skillType": 2,
+      "spData": {
+        "spType": 8,
+        "levelUpCost": null,
+        "maxChargeTime": 0,
+        "spCost": 0,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "sktok_cqbw_token",
+      "duration": 0.0,
+      "blackboard": {
+        "atk_scale": 2.8,
+        "stun": 2.2
+      },
+      "skillId": "sktok_cqbw_token"
+    }
+  ],
+  "stats": {
+    "level": 90,
+    "maxHp": 1000,
+    "atk": 100,
+    "def": 0,
+    "res": 0.0,
+    "cost": 0,
+    "block": 0,
+    "atkSpd": 100.0,
+    "atkTime": 1.0,
+    "hpRec": 0.0,
+    "spRec": 1.0,
+    "respawn": 0
+  },
+  "talents": [
+    {
+      "name": null,
+      "description": "-",
+      "blackboard": {
+        "duration": 120.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "name": "Purestream",
+  "rarity": 4,
+  "profession": "Medic",
+  "potential": {
+    "cost": -2.0,
+    "respawn": -10.0,
+    "atk": 23.0
+  },
+  "skills": [
+    {
+      "name": "Healing Waves",
+      "rangeId": null,
+      "description": "Immediately restores the HP of all allies within range by 350% of ATK.",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 20,
+        "initSp": 10,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_finlpp_1",
+      "duration": 0.0,
+      "blackboard": {
+        "heal_scale": 3.5
+      },
+      "skillId": "skchr_finlpp_1"
+    },
+    {
+      "name": "Lifespring",
+      "rangeId": null,
+      "description": "Attack Interval is greatly reduced, and each attack restores the HP of an injured allied unit within range by 50% of ATK.",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 60,
+        "initSp": 30,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_finlpp_2",
+      "duration": 25.0,
+      "blackboard": {
+        "attack@heal_scale": 0.5,
+        "base_attack_time": 0.12
+      },
+      "skillId": "skchr_finlpp_2"
+    }
+  ],
+  "stats": {
+    "level": 70,
+    "maxHp": 1365,
+    "atk": 430,
+    "def": 118,
+    "res": 5.0,
+    "cost": 19,
+    "block": 1,
+    "atkSpd": 100.0,
+    "atkTime": 2.85,
+    "hpRec": 0.0,
+    "spRec": 1.0,
+    "respawn": 80
+  },
+  "talents": [
+    {
+      "name": "Rapid Restoration",
+      "description": "Targets healed by this unit gain status resistance for 4 seconds (reduces the duration of stun, cold, and freeze effects by 50%)",
+      "blackboard": {
+        "status_resistance[limit]": 4.0,
+        "one_minus_status_resistance": -0.5
+      }
+    }
+  ],
+  "trait": [
+    {
+      "heal_scale": 0.7
+    }
+  ],
+  "trust": {
+    "maxHp": 150,
+    "atk": 35
+  }
+}

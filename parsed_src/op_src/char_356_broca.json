@@ -1,0 +1,83 @@
+{
+  "name": "Broca",
+  "rarity": 5,
+  "profession": "Guard",
+  "potential": {
+    "cost": -2.0,
+    "respawn": -4.0,
+    "atk": 28.0
+  },
+  "skills": [
+    {
+      "name": "Galvanize",
+      "rangeId": null,
+      "description": "ATK +80%, normal attacks deal Arts damage",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 50,
+        "initSp": 20,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_broca_1",
+      "duration": 30.0,
+      "blackboard": {
+        "atk": 0.8
+      },
+      "skillId": "skchr_broca_1"
+    },
+    {
+      "name": "High-Voltage Current",
+      "rangeId": "3-2",
+      "description": "Attack Interval increases, Attack Range increases, ATK +190%, normal attacks deal Arts damage and slow targets for 1.0 seconds\nThis unit is stunned for 5 seconds after this skill ends",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 35,
+        "initSp": 20,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_broca_2",
+      "duration": 25.0,
+      "blackboard": {
+        "atk": 1.9,
+        "attack@sluggish": 1.0,
+        "base_attack_time": 0.65,
+        "stun": 5.0
+      },
+      "skillId": "skchr_broca_2"
+    }
+  ],
+  "stats": {
+    "level": 80,
+    "maxHp": 2335,
+    "atk": 762,
+    "def": 366,
+    "res": 0.0,
+    "cost": 23,
+    "block": 3,
+    "atkSpd": 100.0,
+    "atkTime": 1.2,
+    "hpRec": 0.0,
+    "spRec": 1.0,
+    "respawn": 70
+  },
+  "talents": [
+    {
+      "name": "Drill Strengthening",
+      "description": "Increases ATK and DEF by 14% <@ba.talpu>(+2%)</> when blocking 2 or more enemies",
+      "blackboard": {
+        "atk": 0.14,
+        "def": 0.14,
+        "cnt": 2.0
+      }
+    }
+  ],
+  "trust": {
+    "atk": 80
+  }
+}

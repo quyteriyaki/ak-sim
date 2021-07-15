@@ -1,0 +1,83 @@
+{
+  "name": "Chiave",
+  "rarity": 5,
+  "profession": "Vanguard",
+  "potential": {
+    "cost": -2.0,
+    "respawn": -4.0,
+    "atk": 24.0
+  },
+  "skills": [
+    {
+      "name": "Charge γ",
+      "rangeId": null,
+      "description": "Instantly gains 12 Deployment Points.",
+      "skillType": 2,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 35,
+        "initSp": 20,
+        "increment": 1.0
+      },
+      "prefabId": "skcom_charge_cost",
+      "duration": 0.0,
+      "blackboard": {
+        "cost": 12.0
+      },
+      "skillId": "skcom_charge_cost[3]"
+    },
+    {
+      "name": "Blazing Wire Stripper",
+      "rangeId": "x-1",
+      "description": "Immediately gains 13 DP; Deals 350% Arts damage to all nearby enemies, and reduces the RES of enemies hit by -20% for 8 seconds",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 45,
+        "initSp": 35,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_chiave_2",
+      "duration": -1.0,
+      "blackboard": {
+        "cost": 13.0,
+        "atk_scale": 3.5,
+        "magic_resistance": -0.2,
+        "duration": 8.0
+      },
+      "skillId": "skchr_chiave_2"
+    }
+  ],
+  "stats": {
+    "level": 80,
+    "maxHp": 1824,
+    "atk": 522,
+    "def": 342,
+    "res": 0.0,
+    "cost": 13,
+    "block": 2,
+    "atkSpd": 100.0,
+    "atkTime": 1.05,
+    "hpRec": 0.0,
+    "spRec": 1.0,
+    "respawn": 70
+  },
+  "talents": [
+    {
+      "name": "Technical Expertise",
+      "description": "When deployed, all 1-star Operators have -75% Redeployment Time; For every 1-star Operator currently deployed, this unit gains +13% <@ba.talpu>(+2%)</> ATK and DEF",
+      "blackboard": {
+        "respawn_time": 0.25,
+        "atk": 0.13,
+        "def": 0.13
+      }
+    }
+  ],
+  "trust": {
+    "atk": 70
+  }
+}

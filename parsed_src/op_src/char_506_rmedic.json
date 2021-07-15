@@ -1,0 +1,21 @@
+{
+  "name": "Reserve Operator - Logistics",
+  "rarity": 3,
+  "profession": "Medic",
+  "potential": [],
+  "stats": {
+    "level": 55,
+    "maxHp": 1080,
+    "atk": 338,
+    "def": 102,
+    "res": 0.0,
+    "cost": 16,
+    "block": 1,
+    "atkSpd": 100.0,
+    "atkTime": 2.85,
+    "hpRec": 0.0,
+    "spRec": 1.0,
+    "respawn": 70
+  },
+  "trust": {}
+}

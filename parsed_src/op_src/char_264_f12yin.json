@@ -1,0 +1,118 @@
+{
+  "name": "Mountain",
+  "rarity": 6,
+  "profession": "Guard",
+  "potential": {
+    "cost": -2.0,
+    "respawn": -4.0,
+    "atk": 24.0
+  },
+  "skills": [
+    {
+      "name": "Left Hook",
+      "rangeId": null,
+      "description": "The next attack deals 230% ATK damage and hits 1 additional target",
+      "skillType": 2,
+      "spData": {
+        "spType": 2,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 3,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_f12yin_1",
+      "duration": 0.0,
+      "blackboard": {
+        "atk_scale": 2.3,
+        "max_target": 2.0
+      },
+      "skillId": "skchr_f12yin_1"
+    },
+    {
+      "name": "Sweeping Stance",
+      "rangeId": "0-1",
+      "description": "Can switch between the original state and the following state:\nDEF -20%, Attack Range reduces, ATK +80%, Block +1, attacks all blocked enemies, and restores 0.07% Max HP per second",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 5,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_f12yin_2",
+      "duration": 0.0,
+      "blackboard": {
+        "atk": 0.8,
+        "def": -0.2,
+        "hp_recovery_per_sec_by_max_hp_ratio": 0.07,
+        "block_cnt": 1.0
+      },
+      "skillId": "skchr_f12yin_2"
+    },
+    {
+      "name": "Earth-Shattering Smash",
+      "rangeId": "x-5",
+      "description": "Attack interval increases, ATK +100%, attacks hit 2 times, increases the activation rate of the first Talent to 75%, and each attack pushes up to 4 surrounding targets away moderately",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 40,
+        "initSp": 25,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_f12yin_3",
+      "duration": 30.0,
+      "blackboard": {
+        "base_attack_time": 0.7,
+        "atk": 1.0,
+        "talent@prob": 0.75,
+        "attack@force": 1.0,
+        "attack@max_target": 4.0
+      },
+      "skillId": "skchr_f12yin_3"
+    }
+  ],
+  "stats": {
+    "level": 90,
+    "maxHp": 2745,
+    "atk": 587,
+    "def": 357,
+    "res": 0.0,
+    "cost": 11,
+    "block": 1,
+    "atkSpd": 100.0,
+    "atkTime": 0.78,
+    "hpRec": 0.0,
+    "spRec": 1.0,
+    "respawn": 70
+  },
+  "talents": [
+    {
+      "name": "Forceful Fist",
+      "description": "20% chance for attacks to deal 165% <@ba.talpu>(+5%)</> damage and reduce the target’s ATK by 15% for 3 seconds (Does not stack)",
+      "blackboard": {
+        "atk_scale": 1.65,
+        "prob": 0.2,
+        "atk": -0.15,
+        "duration": 3.0
+      }
+    },
+    {
+      "name": "Sturdy Constitution",
+      "description": "DEF +10%; Physical Dodge +15%",
+      "blackboard": {
+        "def": 0.1,
+        "prob": 0.15
+      }
+    }
+  ],
+  "trust": {
+    "atk": 45,
+    "def": 45
+  }
+}

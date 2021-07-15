@@ -9,7 +9,7 @@
   },
   "skills": [
     {
-      "name": "ATK Up \u03b1",
+      "name": "ATK Up α",
       "rangeId": null,
       "description": "ATK +50%",
       "skillType": 1,
@@ -48,7 +48,7 @@
       "name": "Shortcoming Breakthrough",
       "description": "ASPD +8; Attacks ranged enemies first",
       "blackboard": {
-        "attack_speed": 0.08
+        "attack_speed": 8.0
       }
     }
   ],

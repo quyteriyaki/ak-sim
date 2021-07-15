@@ -9,7 +9,7 @@
   },
   "skills": [
     {
-      "name": "Tactical Chant \u03b3",
+      "name": "Tactical Chant γ",
       "rangeId": null,
       "description": "ASPD +90",
       "skillType": 1,
@@ -53,7 +53,7 @@
     {
       "name": "Chimera",
       "rangeId": "3-4",
-      "description": "ATK +230%; Max HP +100%; Range expands; Deals damage while ignoring targets' DEF and RES.\nAmiya will be forced to retreat after using this skill",
+      "description": "ATK +230%, Max HP +100%, Range expands, damage type changes to Pure; After the skill ends, Amiya will automatically be retreated",
       "skillType": 1,
       "spData": {
         "spType": 1,

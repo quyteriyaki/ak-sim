@@ -1,0 +1,80 @@
+{
+  "name": "Kafka",
+  "rarity": 5,
+  "profession": "Specialist",
+  "potential": {
+    "cost": -2.0,
+    "maxHp": 150.0,
+    "respawn": -2.0
+  },
+  "skills": [
+    {
+      "name": "Cube of Absurdism",
+      "rangeId": "x-5",
+      "description": "After deployment, stops attacking for 5 seconds, and at the same time puts all surrounding ground enemies to sleep (affected enemies are invulnerable and unable to act); When the skill ends, deals 450% ATK as Arts damage to all surrounding ground enemies",
+      "skillType": 0,
+      "spData": {
+        "spType": 8,
+        "levelUpCost": null,
+        "maxChargeTime": 0,
+        "spCost": 0,
+        "initSp": 0,
+        "increment": 0.0
+      },
+      "prefabId": "skchr_kafka_1",
+      "duration": -1.0,
+      "blackboard": {
+        "atk_scale": 4.5,
+        "duration": 5.0
+      },
+      "skillId": "skchr_kafka_1"
+    },
+    {
+      "name": "Shears of Surrealism",
+      "rangeId": "3-16",
+      "description": "After deployment, immediately deals 400% ATK as Arts damage to all enemies within the frontal target tile; For the next 15 seconds, continuously attacks ground units in that target tile with Arts damage",
+      "skillType": 0,
+      "spData": {
+        "spType": 8,
+        "levelUpCost": null,
+        "maxChargeTime": 0,
+        "spCost": 0,
+        "initSp": 0,
+        "increment": 0.0
+      },
+      "prefabId": "skchr_kafka_2",
+      "duration": -1.0,
+      "blackboard": {
+        "atk_scale": 4.0,
+        "duration": 15.0
+      },
+      "skillId": "skchr_kafka_2"
+    }
+  ],
+  "stats": {
+    "level": 80,
+    "maxHp": 1675,
+    "atk": 525,
+    "def": 311,
+    "res": 0.0,
+    "cost": 9,
+    "block": 1,
+    "atkSpd": 100.0,
+    "atkTime": 0.93,
+    "hpRec": 0.0,
+    "spRec": 1.0,
+    "respawn": 18
+  },
+  "talents": [
+    {
+      "name": "Misdirection",
+      "description": "When skill is active, ATK +18% <@ba.talpu>(+3%)</>, Block becomes 0 and gain Camouflage",
+      "blackboard": {
+        "atk": 0.18
+      }
+    }
+  ],
+  "trust": {
+    "maxHp": 350
+  }
+}

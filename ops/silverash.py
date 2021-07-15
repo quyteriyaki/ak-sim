@@ -1,6 +1,7 @@
 from ak_base.operator import operator
 from ak_base.simulate import simulation
 import json
+import sys
 
 def main(skillNumber):
     op = operator("parsed_src/op_src/char_172_svrash.json", skillNumber)
@@ -8,18 +9,18 @@ def main(skillNumber):
     # force SA base
     op._op['stats']['atk'] *= 0.8
 
-    op.applyBuff('atk_%', 0.12)
+    op.addBuff('atk_%', 0.12)
     # op.applyBuff('redeploy', -0.12)
     
     def S1_On():
-        op.applyAttack('atk_scale', 2.9)
+        op.addAttack('atk_scale', 2.9)
     
     def S1_Off():
         op.resetAttack('atk_scale')
     
     def S3_On():
-        op.applyBuff('atk_%', 2)
-        op.applyBuff('def_%', -0.7)
+        op.addBuff('atk_%', 2)
+        op.addBuff('def_%', -0.7)
     
     def S3_Off():
         op.removeBuff('atk_%', 2)
@@ -33,19 +34,22 @@ def main(skillNumber):
     }
 
     if skillNumber == 1:
-        op.skill['skill_on'] = S1_On
-        op.skill['skill_off'] = S1_Off
+        op.skill['on'] = S1_On
+        op.skill['off'] = S1_Off
         conf['trigger_type'] = "Next"
     elif skillNumber == 3:
-        op.skill['skill_on'] = S3_On
-        op.skill['skill_off'] = S3_Off
+        op.skill['on'] = S3_On
+        op.skill['off'] = S3_Off
     
     sim = simulation(op, conf)
     results = sim.run()
     total = 0
-    for keys in results.keys:
-        if "Attack" in keys[1]:
-            print("{:.2f}".format(keys[0]), keys[1], results.data[keys[0]])
-            if results.data[keys[0]] != []:
-                total += results.data[keys[0]][1]
+    for key in results.keys:
+        if "Attack" in results[key]:
+            print("{:.2f}".format(key), [i for i in results[key]], results[key]["Attack"])
+            if results[key]["Attack"] != None:
+                total += results[key]["Attack"]
     print(round(total, 2))
+
+if __name__ == "__main__":
+    main(int(sys.argv[1])) 

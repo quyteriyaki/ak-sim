@@ -1,0 +1,81 @@
+{
+  "name": "Andreana",
+  "rarity": 5,
+  "profession": "Sniper",
+  "potential": {
+    "cost": -2.0,
+    "respawn": -4.0,
+    "atk": 35.0
+  },
+  "skills": [
+    {
+      "name": "ATK Up γ",
+      "rangeId": null,
+      "description": "ATK +100%",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 30,
+        "initSp": 15,
+        "increment": 1.0
+      },
+      "prefabId": "skcom_atk_up",
+      "duration": 30.0,
+      "blackboard": {
+        "atk": 1.0
+      },
+      "skillId": "skcom_atk_up[3]"
+    },
+    {
+      "name": "Interdictive Sniping Tactics",
+      "rangeId": null,
+      "description": "ATK +240%, but normal attacks no longer attack enemies below 50% HP; Attacks slow enemies hit by -40% for 6 seconds",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 30,
+        "initSp": 15,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_cuttle_2",
+      "duration": 30.0,
+      "blackboard": {
+        "atk": 2.4,
+        "attack@move_speed": -0.4,
+        "attack@duration": 6.0
+      },
+      "skillId": "skchr_cuttle_2"
+    }
+  ],
+  "stats": {
+    "level": 80,
+    "maxHp": 1498,
+    "atk": 1070,
+    "def": 128,
+    "res": 0.0,
+    "cost": 21,
+    "block": 1,
+    "atkSpd": 100.0,
+    "atkTime": 2.7,
+    "hpRec": 0.0,
+    "spRec": 1.0,
+    "respawn": 70
+  },
+  "talents": [
+    {
+      "name": "Abyssal Intuition",
+      "description": "When this unit is in the squad, all [Abyssal Hunters] Operators gain +14 <@ba.talpu>(+2)</> ASPD",
+      "blackboard": {
+        "attack_speed": 14.0
+      }
+    }
+  ],
+  "trust": {
+    "maxHp": 300,
+    "atk": 40
+  }
+}

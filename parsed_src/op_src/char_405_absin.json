@@ -1,0 +1,79 @@
+{
+  "name": "Absinthe",
+  "rarity": 5,
+  "profession": "Caster",
+  "potential": {
+    "cost": -3.0,
+    "respawn": -10.0
+  },
+  "skills": [
+    {
+      "name": "Enforcement Mode",
+      "rangeId": null,
+      "description": "ATK +90%, and attacks now prioritize enemies with the lowest percentage of remaining HP\nUnlimited duration",
+      "skillType": 2,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 70,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_absin_1",
+      "duration": 0.0,
+      "blackboard": {
+        "atk": 0.9
+      },
+      "skillId": "skchr_absin_1"
+    },
+    {
+      "name": "Ultimatum",
+      "rangeId": null,
+      "description": "Each attack turns into bursts of 4 attacks that each deal 90% damage, but no longer attack enemies above 50% HP",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 50,
+        "initSp": 28,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_absin_2",
+      "duration": 30.0,
+      "blackboard": {
+        "attack@times": 4.0,
+        "attack@atk_scale": 0.9
+      },
+      "skillId": "skchr_absin_2"
+    }
+  ],
+  "stats": {
+    "level": 80,
+    "maxHp": 1420,
+    "atk": 633,
+    "def": 124,
+    "res": 20.0,
+    "cost": 22,
+    "block": 1,
+    "atkSpd": 100.0,
+    "atkTime": 1.6,
+    "hpRec": 0.0,
+    "spRec": 1.0,
+    "respawn": 80
+  },
+  "talents": [
+    {
+      "name": "Enforcer",
+      "description": "Increases damage dealt to enemies below 40% HP by 30% <@ba.talpu>(+6%)</>",
+      "blackboard": {
+        "hp_ratio": 0.4,
+        "damage_scale": 1.3
+      }
+    }
+  ],
+  "trust": {
+    "atk": 70
+  }
+}

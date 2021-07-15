@@ -1,0 +1,53 @@
+{
+  "name": "Pith",
+  "rarity": 5,
+  "profession": "Caster",
+  "potential": [],
+  "skills": [
+    {
+      "name": "\"All For Me\"",
+      "rangeId": null,
+      "description": "ASPD +70, the ATK of all Casters +40%",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 40,
+        "initSp": 20,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_acast_1",
+      "duration": 30.0,
+      "blackboard": {
+        "atk": 0.4,
+        "attack_speed": 70.0
+      },
+      "skillId": "skchr_acast_1"
+    }
+  ],
+  "stats": {
+    "level": 80,
+    "maxHp": 1655,
+    "atk": 821,
+    "def": 128,
+    "res": 20.0,
+    "cost": 32,
+    "block": 1,
+    "atkSpd": 100.0,
+    "atkTime": 2.9,
+    "hpRec": 0.0,
+    "spRec": 1.0,
+    "respawn": 60
+  },
+  "talents": [
+    {
+      "name": "\"All That I See\"",
+      "description": "Attacks ignore 20 RES",
+      "blackboard": {
+        "magic_resist_penetrate_fixed": 20.0
+      }
+    }
+  ],
+  "trust": {}
+}

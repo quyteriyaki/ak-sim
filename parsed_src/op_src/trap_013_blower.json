@@ -1,0 +1,46 @@
+{
+  "name": "Originium Flow Generator",
+  "rarity": 1,
+  "profession": "TRAP",
+  "potential": [],
+  "skills": [
+    {
+      "name": "Airflow",
+      "rangeId": null,
+      "description": "Blows out an airflow towards the 3 frontal tiles; Operators deployed downstream/upstream from the airflow have increased/decreased ATK; Enemies moving downstream/upstream from the airflow have increased/decreased Movement Speed",
+      "skillType": 0,
+      "spData": {
+        "spType": 8,
+        "levelUpCost": null,
+        "maxChargeTime": 0,
+        "spCost": 0,
+        "initSp": 0,
+        "increment": 0.0
+      },
+      "prefabId": "sktok_blower",
+      "duration": 0.0,
+      "blackboard": {
+        "blower_s_character[equal].atk": 0.3,
+        "blower_s_character[vertical].atk": 0.0,
+        "blower_s_character[opposite].atk": -0.3,
+        "blower_s_enemy[equal].move_speed": 0.8,
+        "blower_s_enemy[opposite].move_speed": -0.5
+      },
+      "skillId": "sktok_blower"
+    }
+  ],
+  "stats": {
+    "level": 30,
+    "maxHp": 100,
+    "atk": 0,
+    "def": 0,
+    "res": 0.0,
+    "cost": 5,
+    "block": 0,
+    "atkSpd": 100.0,
+    "atkTime": 1.0,
+    "hpRec": 0.0,
+    "spRec": 1.0,
+    "respawn": 7
+  }
+}

@@ -1,6 +1,6 @@
 {
   "skcom_charge_cost[1]": {
-    "name": "Charge \u03b1",
+    "name": "Charge α",
     "rangeId": null,
     "description": "Instantly gains 6 Deployment Points.",
     "skillType": 2,
@@ -20,7 +20,7 @@
     "skillId": "skcom_charge_cost[1]"
   },
   "skcom_charge_cost[2]": {
-    "name": "Charge \u03b2",
+    "name": "Charge β",
     "rangeId": null,
     "description": "Instantly gains 9 Deployment Points.",
     "skillType": 2,
@@ -40,7 +40,7 @@
     "skillId": "skcom_charge_cost[2]"
   },
   "skcom_charge_cost[3]": {
-    "name": "Charge \u03b3",
+    "name": "Charge γ",
     "rangeId": null,
     "description": "Instantly gains 12 Deployment Points.",
     "skillType": 2,
@@ -60,7 +60,7 @@
     "skillId": "skcom_charge_cost[3]"
   },
   "skcom_assist_cost[2]": {
-    "name": "Support \u03b2",
+    "name": "Support β",
     "rangeId": null,
     "description": "Stops attacking and recovers 14 DP over the skill duration",
     "skillType": 1,
@@ -81,8 +81,30 @@
     },
     "skillId": "skcom_assist_cost[2]"
   },
+  "skcom_assist_cost[3]": {
+    "name": "Support γ",
+    "rangeId": null,
+    "description": "Stops attacking and recovers 18 DP over the skill duration",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 26,
+      "initSp": 15,
+      "increment": 1.0
+    },
+    "prefabId": null,
+    "duration": 8.0,
+    "blackboard": {
+      "value": 18.0,
+      "interval": 0.44,
+      "cost": 1.0
+    },
+    "skillId": "skcom_assist_cost[3]"
+  },
   "skcom_atk_up[1]": {
-    "name": "ATK Up \u03b1",
+    "name": "ATK Up α",
     "rangeId": null,
     "description": "ATK +50%",
     "skillType": 1,
@@ -102,7 +124,7 @@
     "skillId": "skcom_atk_up[1]"
   },
   "skcom_atk_up[2]": {
-    "name": "ATK Up \u03b2",
+    "name": "ATK Up β",
     "rangeId": null,
     "description": "ATK +80%",
     "skillType": 1,
@@ -122,7 +144,7 @@
     "skillId": "skcom_atk_up[2]"
   },
   "skcom_atk_up[3]": {
-    "name": "ATK Up \u03b3",
+    "name": "ATK Up γ",
     "rangeId": null,
     "description": "ATK +100%",
     "skillType": 1,
@@ -142,7 +164,7 @@
     "skillId": "skcom_atk_up[3]"
   },
   "skcom_def_up[1]": {
-    "name": "DEF Up \u03b1",
+    "name": "DEF Up α",
     "rangeId": null,
     "description": "DEF +50%",
     "skillType": 1,
@@ -162,7 +184,7 @@
     "skillId": "skcom_def_up[1]"
   },
   "skcom_def_up[2]": {
-    "name": "DEF Up \u03b2",
+    "name": "DEF Up β",
     "rangeId": null,
     "description": "DEF +80%",
     "skillType": 1,
@@ -182,7 +204,7 @@
     "skillId": "skcom_def_up[2]"
   },
   "skcom_def_up[3]": {
-    "name": "DEF Up \u03b3",
+    "name": "DEF Up γ",
     "rangeId": null,
     "description": "DEF +100%",
     "skillType": 1,
@@ -202,7 +224,7 @@
     "skillId": "skcom_def_up[3]"
   },
   "skcom_magic_rage[1]": {
-    "name": "Tactical Chant \u03b1",
+    "name": "Tactical Chant α",
     "rangeId": null,
     "description": "ASPD +50",
     "skillType": 1,
@@ -222,7 +244,7 @@
     "skillId": "skcom_magic_rage[1]"
   },
   "skcom_magic_rage[2]": {
-    "name": "Tactical Chant \u03b2",
+    "name": "Tactical Chant β",
     "rangeId": null,
     "description": "ASPD +75",
     "skillType": 1,
@@ -242,7 +264,7 @@
     "skillId": "skcom_magic_rage[2]"
   },
   "skcom_magic_rage[3]": {
-    "name": "Tactical Chant \u03b3",
+    "name": "Tactical Chant γ",
     "rangeId": null,
     "description": "ASPD +90",
     "skillType": 1,
@@ -262,7 +284,7 @@
     "skillId": "skcom_magic_rage[3]"
   },
   "skcom_quickattack[1]": {
-    "name": "Swift Strike \u03b1",
+    "name": "Swift Strike α",
     "rangeId": null,
     "description": "ATK +25%; ASPD +25",
     "skillType": 1,
@@ -283,7 +305,7 @@
     "skillId": "skcom_quickattack[1]"
   },
   "skcom_quickattack[3]": {
-    "name": "Swift Strike \u03b3",
+    "name": "Swift Strike γ",
     "rangeId": null,
     "description": "ATK +45%; ASPD +45",
     "skillType": 1,
@@ -304,7 +326,7 @@
     "skillId": "skcom_quickattack[3]"
   },
   "skcom_heal_up[1]": {
-    "name": "Healing Up \u03b1",
+    "name": "Healing Up α",
     "rangeId": null,
     "description": "ATK +50%",
     "skillType": 1,
@@ -324,7 +346,7 @@
     "skillId": "skcom_heal_up[1]"
   },
   "skcom_heal_up[2]": {
-    "name": "Healing Up \u03b2",
+    "name": "Healing Up β",
     "rangeId": null,
     "description": "ATK +70%",
     "skillType": 1,
@@ -344,7 +366,7 @@
     "skillId": "skcom_heal_up[2]"
   },
   "skcom_heal_up[3]": {
-    "name": "Healing Up \u03b3",
+    "name": "Healing Up γ",
     "rangeId": null,
     "description": "ATK +90%",
     "skillType": 1,
@@ -385,7 +407,7 @@
     "skillId": "skcom_range_extend"
   },
   "skcom_heal_self[1]": {
-    "name": "Regeneration \u03b1",
+    "name": "Regeneration α",
     "rangeId": null,
     "description": "Restores HP by 40% of Max HP",
     "skillType": 1,
@@ -405,7 +427,7 @@
     "skillId": "skcom_heal_self[1]"
   },
   "skcom_heal_self[2]": {
-    "name": "Regeneration \u03b2",
+    "name": "Regeneration β",
     "rangeId": null,
     "description": "Restores HP by 50% of Max HP",
     "skillType": 1,
@@ -424,8 +446,28 @@
     },
     "skillId": "skcom_heal_self[2]"
   },
+  "skcom_heal_self[3]": {
+    "name": "Regeneration γ",
+    "rangeId": null,
+    "description": "Restores HP by 70% of Max HP",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 20,
+      "initSp": 12,
+      "increment": 1.0
+    },
+    "prefabId": "skcom_heal_self",
+    "duration": 0.0,
+    "blackboard": {
+      "heal_scale": 0.7
+    },
+    "skillId": "skcom_heal_self[3]"
+  },
   "skchr_midn_1": {
-    "name": "Enchant Weapon \u03b1",
+    "name": "Enchant Weapon α",
     "rangeId": null,
     "description": "ATK +35%; Damage dealt by Normal Attacks turn into Arts Damage",
     "skillType": 1,
@@ -508,7 +550,7 @@
     "skillId": "skchr_spot_1"
   },
   "skchr_catap_1": {
-    "name": "Blast Range Up \u03b1",
+    "name": "Blast Range Up α",
     "rangeId": null,
     "description": "Increases AOE of Normal Attacks to 200%",
     "skillType": 1,
@@ -591,8 +633,30 @@
     },
     "skillId": "skchr_greyy_2"
   },
+  "skchr_cammou_2": {
+    "name": "Synchronized Attack",
+    "rangeId": "3-3",
+    "description": "Range expands, ATK +70%; releases Drone to attack enemies, and grants self and Drone a 27% chance to stun enemies for 1.0 seconds\nThe Drone locks onto an enemy until the enemy is defeated or until the skill is over, then returns to the Operator",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 45,
+      "initSp": 20,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_cammou_2",
+    "duration": 30.0,
+    "blackboard": {
+      "atk": 0.7,
+      "attack@prob": 0.27,
+      "attack@stun": 1.0
+    },
+    "skillId": "skchr_cammou_2"
+  },
   "skchr_stward_1": {
-    "name": "Power Strike \u03b1",
+    "name": "Power Strike α",
     "rangeId": null,
     "description": "Increases the ATK of next attack to 190%",
     "skillType": 2,
@@ -612,7 +676,7 @@
     "skillId": "skchr_stward_1"
   },
   "skchr_jesica_1": {
-    "name": "Power Strike \u03b2",
+    "name": "Power Strike β",
     "rangeId": null,
     "description": "Increases the ATK of next attack to 230%",
     "skillType": 2,
@@ -804,6 +868,51 @@
     },
     "skillId": "skchr_yuki_2"
   },
+  "skchr_pinecn_1": {
+    "name": "RMA Spikes",
+    "rangeId": null,
+    "description": "Immediately launches an attack that deals 200% damage, ignoring 250 of the target’s DEF\nCan store 3 charges",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 3,
+      "spCost": 9,
+      "initSp": 0,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_pinecn_1",
+    "duration": 0.0,
+    "blackboard": {
+      "atk_scale": 2.0,
+      "def_penetrate_fixed": 250.0,
+      "cnt": 3.0
+    },
+    "skillId": "skchr_pinecn_1"
+  },
+  "skchr_pinecn_2": {
+    "name": "Electrical Overcharge",
+    "rangeId": "1-3",
+    "description": "ATK +60%, Attack range decreases; Gains an additional +20% ATK each time this skill is used (Up to a max of 60%)",
+    "skillType": 2,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 30,
+      "initSp": 0,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_pinecn_2",
+    "duration": 20.0,
+    "blackboard": {
+      "pinecn_s_2[a].atk": 0.6,
+      "pinecn_s_2[b].atk": 0.8,
+      "pinecn_s_2[c].atk": 1.0,
+      "pinecn_s_2[d].atk": 1.2
+    },
+    "skillId": "skchr_pinecn_2"
+  },
   "skchr_glaze_1": {
     "name": "Snaring Shell",
     "rangeId": null,
@@ -845,6 +954,46 @@
       "base_attack_time": 0.9
     },
     "skillId": "skchr_glaze_2"
+  },
+  "skchr_acdrop_1": {
+    "name": "Fancy Shot",
+    "rangeId": null,
+    "description": "ASPD +70",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 35,
+      "initSp": 20,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_acdrop_1",
+    "duration": 20.0,
+    "blackboard": {
+      "attack_speed": 70.0
+    },
+    "skillId": "skchr_acdrop_1"
+  },
+  "skchr_acdrop_2": {
+    "name": "Trigger Time",
+    "rangeId": null,
+    "description": "ATK +40%, attacks 2 times consecutively",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 50,
+      "initSp": 35,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_acdrop_2",
+    "duration": 25.0,
+    "blackboard": {
+      "atk": 0.4
+    },
+    "skillId": "skchr_acdrop_2"
   },
   "skchr_blackd_2": {
     "name": "Command - Defense",
@@ -892,7 +1041,7 @@
     "skillId": "skchr_scave_2"
   },
   "skchr_vigna_1": {
-    "name": "ATK Up \u03b2",
+    "name": "ATK Up β",
     "rangeId": null,
     "description": "ATK +80%",
     "skillType": 1,
@@ -956,7 +1105,7 @@
     "skillId": "skchr_myrtle_2"
   },
   "skchr_doberm_1": {
-    "name": "Power Strike \u03b2",
+    "name": "Power Strike β",
     "rangeId": null,
     "description": "Increases the ATK of next attack to 230%",
     "skillType": 2,
@@ -1016,6 +1165,52 @@
     },
     "skillId": "skchr_gyuki_2"
   },
+  "skchr_peacok_1": {
+    "name": "Judgment",
+    "rangeId": null,
+    "description": "Increases the ATK of the next attack to 200%(Has a 5% chance to instead become 800%)\nCan store 3 charges",
+    "skillType": 2,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 3,
+      "spCost": 4,
+      "initSp": 0,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_peacok_1",
+    "duration": 0.0,
+    "blackboard": {
+      "atk_scale": 2.0,
+      "peacok_s_1[crit].prob": 0.05,
+      "peacok_s_1[crit].atk_scale": 4.0,
+      "atk_scale_fake": 8.0
+    },
+    "skillId": "skchr_peacok_1"
+  },
+  "skchr_peacok_2": {
+    "name": "Genesis",
+    "rangeId": "x-1",
+    "description": "Immediately deals 350% ATK to all enemies in range as arts damage and silences their special abilities for 5 seconds.\nHas a 50% chance to fail, instead stunning all allied units within range for 5 seconds",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 12,
+      "initSp": 5,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_peacok_2",
+    "duration": 0.0,
+    "blackboard": {
+      "prob": 0.5,
+      "success.atk_scale": 3.5,
+      "success.silence": 5.0,
+      "failure.stun": 5.0
+    },
+    "skillId": "skchr_peacok_2"
+  },
   "skchr_frostl_1": {
     "name": "Frost Tomahawk",
     "rangeId": null,
@@ -1060,6 +1255,47 @@
       "debuff": 2.0
     },
     "skillId": "skchr_frostl_2"
+  },
+  "skchr_spikes_1": {
+    "name": "Just Kidding",
+    "rangeId": null,
+    "description": "Cannot block enemies. Attacks strike twice and deal 150% ATK as physical damage each",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 25,
+      "initSp": 15,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_spikes_1",
+    "duration": 15.0,
+    "blackboard": {
+      "attack@atk_scale": 1.5
+    },
+    "skillId": "skchr_spikes_1"
+  },
+  "skchr_spikes_2": {
+    "name": "Deadly Prank",
+    "rangeId": "3-1",
+    "description": "Range expands and ranged attacks no longer deal reduced damage. Attacks deal 160% ATK as Arts damage and target an additional enemy",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 30,
+      "initSp": 15,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_spikes_2",
+    "duration": 20.0,
+    "blackboard": {
+      "attack@atk_scale": 1.6,
+      "attack@max_target": 2.0
+    },
+    "skillId": "skchr_spikes_2"
   },
   "skchr_estell_2": {
     "name": "Sacrificial Strike",
@@ -1165,6 +1401,135 @@
     },
     "skillId": "skchr_brownb_2"
   },
+  "skchr_jaksel_1": {
+    "name": "Grit Those Teeth!",
+    "rangeId": null,
+    "description": "Increases the ATK of next attack to 250%",
+    "skillType": 2,
+    "spData": {
+      "spType": 2,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 3,
+      "initSp": 0,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_jaksel_1",
+    "duration": 0.0,
+    "blackboard": {
+      "atk_scale": 2.5
+    },
+    "skillId": "skchr_jaksel_1"
+  },
+  "skchr_jaksel_2": {
+    "name": "Pay Close Attention!",
+    "rangeId": null,
+    "description": "Stops attacking and gains 70% Physical dodge; After a successful dodge, counterattacks the enemy for 160% ATK as Physical damage (Counterattack frequency cannot be faster than 50% of the attack interval)",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 30,
+      "initSp": 15,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_jaksel_2",
+    "duration": 18.0,
+    "blackboard": {
+      "jaksel_skill_2[evade].prob": 0.7,
+      "attack@atk_scale": 1.6,
+      "base_attack_time": 0.5
+    },
+    "skillId": "skchr_jaksel_2"
+  },
+  "skchr_cutter_1": {
+    "name": "Redshift",
+    "rangeId": "3-12",
+    "description": "Immediately attacks random enemies within range 4 times with throwing knives, each knife dealing 340% of ATK as physical damage.",
+    "skillType": 1,
+    "spData": {
+      "spType": 2,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 11,
+      "initSp": 5,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_cutter_1",
+    "duration": 0.0,
+    "blackboard": {
+      "atk_scale": 3.4,
+      "times": 4.0
+    },
+    "skillId": "skchr_cutter_1"
+  },
+  "skchr_cutter_2": {
+    "name": "Crimson Crescent",
+    "rangeId": "x-1",
+    "description": "Deals 450% Physical damage to up to 6 nearby enemies\nDamage is doubled against aerial enemies",
+    "skillType": 1,
+    "spData": {
+      "spType": 2,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 12,
+      "initSp": 5,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_cutter_2",
+    "duration": 0.0,
+    "blackboard": {
+      "max_target": 6.0,
+      "atk_scale": 4.5,
+      "cutter_s_2[drone].atk_scale": 2.0
+    },
+    "skillId": "skchr_cutter_2"
+  },
+  "skchr_utage_1": {
+    "name": "Space Out",
+    "rangeId": null,
+    "description": "Stops attacking, Block becomes 0, DEF +200%, and restores 10% Max HP every second.",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 15,
+      "initSp": 10,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_utage_1",
+    "duration": 8.0,
+    "blackboard": {
+      "def": 2.0,
+      "hp_recovery_per_sec_by_max_hp_ratio": 0.1
+    },
+    "skillId": "skchr_utage_1"
+  },
+  "skchr_utage_2": {
+    "name": "Descending Strike - Earth Splitter",
+    "rangeId": null,
+    "description": "Loses 50% current HP immediately when deployed, and for 16 seconds after deployment: ATK +110%, and attacks instead deal Arts damage",
+    "skillType": 0,
+    "spData": {
+      "spType": 8,
+      "levelUpCost": null,
+      "maxChargeTime": 0,
+      "spCost": 0,
+      "initSp": 0,
+      "increment": 0.0
+    },
+    "prefabId": "skchr_utage_2",
+    "duration": -1.0,
+    "blackboard": {
+      "atk": 1.1,
+      "duration": 16.0,
+      "hp_ratio": 0.5,
+      "respawn_time": 1.0
+    },
+    "skillId": "skchr_utage_2"
+  },
   "skchr_gravel_1": {
     "name": "Shadow Assault",
     "rangeId": null,
@@ -1206,6 +1571,48 @@
       "duration": 10.0
     },
     "skillId": "skchr_gravel_2"
+  },
+  "skchr_strong_1": {
+    "name": "Shell Splitter",
+    "rangeId": null,
+    "description": "ATK +70%, attacks Silence the target for 2 second(s)\nUnlimited duration",
+    "skillType": 2,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 4,
+      "initSp": 0,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_strong_1",
+    "duration": -1.0,
+    "blackboard": {
+      "atk": 0.7,
+      "attack@silence": 2.0
+    },
+    "skillId": "skchr_strong_1"
+  },
+  "skchr_strong_2": {
+    "name": "Sashimi Platter",
+    "rangeId": "x-4",
+    "description": "ATK +60%, each attack heals a nearby friendly unit's HP equal to 50% of the damage dealt\nUnlimited duration",
+    "skillType": 2,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 8,
+      "initSp": 0,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_strong_2",
+    "duration": -1.0,
+    "blackboard": {
+      "atk": 0.6,
+      "scale": 0.5
+    },
+    "skillId": "skchr_strong_2"
   },
   "skchr_rope_1": {
     "name": "Hook Shot",
@@ -1295,7 +1702,7 @@
   "skchr_ccheal_1": {
     "name": "Vitality Restoration",
     "rangeId": null,
-    "description": "Buffs the target ally in the next healing, restoring HP by 35% of Gavial's ATK (by 70% of Gavial's ATK when the target's HP is lower than 50%) per second, lasting 5 seconds\nCan store 2 charge(s)",
+    "description": "Buffs the target ally in the next healing, restoring HP by 35% of Gavial's ATK (by 70% of Gavial's ATK when the target's HP is lower than 50%) per second, lasting 5 seconds\nCan store 3 charge(s)",
     "skillType": 2,
     "spData": {
       "spType": 1,
@@ -1313,7 +1720,7 @@
       "hp_ratio": 0.5,
       "interval": 1.0,
       "duration": 5.0,
-      "ct": 2.0
+      "ct": 3.0
     },
     "skillId": "skchr_ccheal_1"
   },
@@ -1383,6 +1790,47 @@
       "attack_speed": -50.0
     },
     "skillId": "skchr_flower_2"
+  },
+  "skchr_finlpp_1": {
+    "name": "Healing Waves",
+    "rangeId": null,
+    "description": "Immediately restores the HP of all allies within range by 350% of ATK.",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 20,
+      "initSp": 10,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_finlpp_1",
+    "duration": 0.0,
+    "blackboard": {
+      "heal_scale": 3.5
+    },
+    "skillId": "skchr_finlpp_1"
+  },
+  "skchr_finlpp_2": {
+    "name": "Lifespring",
+    "rangeId": null,
+    "description": "Attack Interval is greatly reduced, and each attack restores the HP of an injured allied unit within range by 50% of ATK.",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 60,
+      "initSp": 30,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_finlpp_2",
+    "duration": 25.0,
+    "blackboard": {
+      "attack@heal_scale": 0.5,
+      "base_attack_time": 0.12
+    },
+    "skillId": "skchr_finlpp_2"
   },
   "skchr_plosis_2": {
     "name": "Enkephalin",
@@ -1490,6 +1938,28 @@
       "hp_recovery_per_sec_by_max_hp_ratio": 0.03
     },
     "skillId": "skchr_snakek_2"
+  },
+  "skchr_bubble_2": {
+    "name": "\"Beaten Up\"",
+    "rangeId": null,
+    "description": "Stops attacking; DEF +120% and increase the likelihood of being targeted by enemy attacks. When attacked, deal 50% DEF as physical damage to the target",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 45,
+      "initSp": 0,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_bubble_2",
+    "duration": 25.0,
+    "blackboard": {
+      "def": 1.2,
+      "taunt_level": 1.0,
+      "atk_scale": 0.5
+    },
+    "skillId": "skchr_bubble_2"
   },
   "skchr_yak_1": {
     "name": "Stamina Enhancement",
@@ -1616,10 +2086,32 @@
     "blackboard": {
       "cost": 12.0,
       "atk_scale": 1.7,
-      "stun": 3.0,
-      "atk": 0.95
+      "stun": 3.0
     },
     "skillId": "skchr_texas_2"
+  },
+  "skchr_chiave_2": {
+    "name": "Blazing Wire Stripper",
+    "rangeId": "x-1",
+    "description": "Immediately gains 13 DP; Deals 350% Arts damage to all nearby enemies, and reduces the RES of enemies hit by -20% for 8 seconds",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 45,
+      "initSp": 35,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_chiave_2",
+    "duration": -1.0,
+    "blackboard": {
+      "cost": 13.0,
+      "atk_scale": 3.5,
+      "magic_resistance": -0.2,
+      "duration": 8.0
+    },
+    "skillId": "skchr_chiave_2"
   },
   "skchr_grani_2": {
     "name": "Press the Attack!",
@@ -1643,6 +2135,53 @@
     },
     "skillId": "skchr_grani_2"
   },
+  "skchr_sddrag_2": {
+    "name": "Soul Spark",
+    "rangeId": null,
+    "description": "ATK +80%, each attack deals an additional 35% ATK as Arts damage, and restores +1 DP when defeating an enemy.",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 35,
+      "initSp": 20,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_sddrag_2",
+    "duration": 30.0,
+    "blackboard": {
+      "atk": 0.8,
+      "attack@skill.atk_scale": 0.35,
+      "def": 0.0
+    },
+    "skillId": "skchr_sddrag_2"
+  },
+  "skchr_elysm_2": {
+    "name": "Monitor",
+    "rangeId": "x-2",
+    "description": "Stops attacking and recovers 20 DP over the skill duration; While this skill is active, Locks up to 4 nearby enemies.\nLocked enemies have -60% Movement Speed, -35% DEF, and lose Invisibility",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 30,
+      "initSp": 16,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_elysm_2",
+    "duration": 15.0,
+    "blackboard": {
+      "max_target": 4.0,
+      "move_speed": -0.6,
+      "def": -0.35,
+      "value": 20.0,
+      "interval": 0.75,
+      "cost": 1.0
+    },
+    "skillId": "skchr_elysm_2"
+  },
   "skchr_swire_1": {
     "name": "Command and Dispatch",
     "rangeId": "x-2",
@@ -1660,8 +2199,7 @@
     "duration": 35.0,
     "blackboard": {
       "talent_scale": 2.0,
-      "talent_range_flag": 1.0,
-      "atk": 0.105
+      "talent_range_flag": 1.0
     },
     "skillId": "skchr_swire_1"
   },
@@ -1685,6 +2223,49 @@
       "atk": 0.8
     },
     "skillId": "skchr_swire_2"
+  },
+  "skchr_sophia_1": {
+    "name": "Motivational Skills",
+    "rangeId": null,
+    "description": "Talent effect increases to 3 and Melee Operators with less than 3 Block gain half the effect",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 30,
+      "initSp": 0,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_sophia_1",
+    "duration": 20.0,
+    "blackboard": {
+      "talent_scale": 3.0
+    },
+    "skillId": "skchr_sophia_1"
+  },
+  "skchr_sophia_2": {
+    "name": "Whip Sword",
+    "rangeId": null,
+    "description": "Talent effect increases to 2, ATK +60%, attack range +1, Block +1 and attack all blocked targets",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 60,
+      "initSp": 20,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_sophia_2",
+    "duration": 25.0,
+    "blackboard": {
+      "talent_scale": 2.0,
+      "atk": 0.6,
+      "ability_range_forward_extend": 1.0,
+      "block_cnt": 1.0
+    },
+    "skillId": "skchr_sophia_2"
   },
   "skchr_franka_2": {
     "name": "Vorpal Edge",
@@ -1710,7 +2291,7 @@
   "skchr_flameb_1": {
     "name": "Blood Pact",
     "rangeId": null,
-    "description": "The next attack's power is increased to 220%, and restores HP by 8%  ",
+    "description": "The next attack’s power is increased to 220%, and restores HP by 8%  ",
     "skillType": 2,
     "spData": {
       "spType": 2,
@@ -1731,7 +2312,7 @@
   "skchr_flameb_2": {
     "name": "Blade Demon",
     "rangeId": null,
-    "description": "ATK +70%, ASPD +45\nInfinite duration.",
+    "description": "ATK +70%, ASPD +45\nUnlimited duration",
     "skillType": 2,
     "spData": {
       "spType": 2,
@@ -1748,6 +2329,27 @@
       "attack_speed": 45.0
     },
     "skillId": "skchr_flameb_2"
+  },
+  "skchr_aguard_1": {
+    "name": "Drawing Sword",
+    "rangeId": null,
+    "description": "DEF reduces to 0, Max HP +50%, each Attack's ATK increases to 300%",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 30,
+      "initSp": 10,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_aguard_1",
+    "duration": 30.0,
+    "blackboard": {
+      "max_hp": 0.5,
+      "attack@atk_scale": 3.0
+    },
+    "skillId": "skchr_aguard_1"
   },
   "skchr_tiger_1": {
     "name": "Armorcrusher",
@@ -1791,6 +2393,50 @@
     },
     "skillId": "skchr_tiger_2"
   },
+  "skchr_flint_1": {
+    "name": "Relentless",
+    "rangeId": null,
+    "description": "Increases the ATK of next attack to 230%, pushes the target towards the attack direction slightly and slows the target for 1 second",
+    "skillType": 2,
+    "spData": {
+      "spType": 2,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 4,
+      "initSp": 0,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_flint_1",
+    "duration": 0.0,
+    "blackboard": {
+      "atk_scale": 2.3,
+      "force": 0.0,
+      "sluggish": 1.0
+    },
+    "skillId": "skchr_flint_1"
+  },
+  "skchr_flint_2": {
+    "name": "Display of Might",
+    "rangeId": null,
+    "description": "Cannot block enemies, ATK +55%, ASPD +55. Each attack slows the target for 0.3 seconds",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 35,
+      "initSp": 25,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_flint_2",
+    "duration": 20.0,
+    "blackboard": {
+      "atk": 0.55,
+      "attack_speed": 55.0,
+      "attack@sluggish": 0.3
+    },
+    "skillId": "skchr_flint_2"
+  },
   "skchr_whitew_1": {
     "name": "Sundial",
     "rangeId": null,
@@ -1832,6 +2478,92 @@
     },
     "skillId": "skchr_whitew_2"
   },
+  "skchr_ayer_1": {
+    "name": "Shrapnel Burst",
+    "rangeId": null,
+    "description": "The next attack deals 160% Arts Damage to up to 3 enemies within range and Slows them for 1.0 second(s)",
+    "skillType": 2,
+    "spData": {
+      "spType": 2,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 3,
+      "initSp": 0,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_ayer_1",
+    "duration": 0.0,
+    "blackboard": {
+      "atk_scale": 1.6,
+      "sluggish": 1.0,
+      "max_target": 3.0
+    },
+    "skillId": "skchr_ayer_1"
+  },
+  "skchr_ayer_2": {
+    "name": "Activate Phase Blades",
+    "rangeId": "3-1",
+    "description": "Range expands, and damage type changes to Arts Damage; Each attack deals an additional 170% Arts damage to all enemies blocked by friendly Operators in the surrounding 8 tiles (this damage is treated as a melee attack)",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 50,
+      "initSp": 25,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_ayer_2",
+    "duration": 25.0,
+    "blackboard": {
+      "attack@atk_scale": 1.0,
+      "atk_scale": 1.7
+    },
+    "skillId": "skchr_ayer_2"
+  },
+  "skchr_bibeak_1": {
+    "name": "Plumage Pins",
+    "rangeId": null,
+    "description": "The next attack deals 180% damage, and deals 180% Arts damage to an additional target within range.",
+    "skillType": 2,
+    "spData": {
+      "spType": 2,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 2,
+      "initSp": 0,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_bibeak_1",
+    "duration": 0.0,
+    "blackboard": {
+      "atk_scale": 1.8,
+      "ranged@atk_scale": 1.8
+    },
+    "skillId": "skchr_bibeak_1"
+  },
+  "skchr_bibeak_2": {
+    "name": "Blade Swap",
+    "rangeId": "3-12",
+    "description": "Deals 200% ATK as Arts damage to up to 6 targets within range, and stuns them for 1.8 seconds\nCan store up to 3 charges",
+    "skillType": 1,
+    "spData": {
+      "spType": 2,
+      "levelUpCost": null,
+      "maxChargeTime": 3,
+      "spCost": 7,
+      "initSp": 5,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_bibeak_2",
+    "duration": 0.0,
+    "blackboard": {
+      "max_target": 6.0,
+      "stun": 1.8,
+      "atk_scale": 2.0
+    },
+    "skillId": "skchr_bibeak_2"
+  },
   "skchr_ghost_2": {
     "name": "Bone Fracture",
     "rangeId": null,
@@ -1853,8 +2585,51 @@
     },
     "skillId": "skchr_ghost_2"
   },
+  "skchr_broca_1": {
+    "name": "Galvanize",
+    "rangeId": null,
+    "description": "ATK +80%, normal attacks deal Arts damage",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 50,
+      "initSp": 20,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_broca_1",
+    "duration": 30.0,
+    "blackboard": {
+      "atk": 0.8
+    },
+    "skillId": "skchr_broca_1"
+  },
+  "skchr_broca_2": {
+    "name": "High-Voltage Current",
+    "rangeId": "3-2",
+    "description": "Attack Interval increases, Attack Range increases, ATK +190%, normal attacks deal Arts damage and slow targets for 1.0 seconds\nThis unit is stunned for 5 seconds after this skill ends",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 35,
+      "initSp": 20,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_broca_2",
+    "duration": 25.0,
+    "blackboard": {
+      "atk": 1.9,
+      "attack@sluggish": 1.0,
+      "base_attack_time": 0.65,
+      "stun": 5.0
+    },
+    "skillId": "skchr_broca_2"
+  },
   "skchr_savage_1": {
-    "name": "Power Strike \u03b2",
+    "name": "Power Strike β",
     "rangeId": null,
     "description": "Increases the ATK of next attack to 230%",
     "skillType": 2,
@@ -1936,6 +2711,75 @@
       "block_cnt": 1.0
     },
     "skillId": "skchr_astesi_2"
+  },
+  "skchr_sidero_2": {
+    "name": "Restorative Surge",
+    "rangeId": "0-1",
+    "description": "Attack Range decreases, ATK +110%, restores 8% Max HP each second",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 30,
+      "initSp": 10,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_sidero_2",
+    "duration": 30.0,
+    "blackboard": {
+      "atk": 1.1,
+      "hp_recovery_per_sec_by_max_hp_ratio": 0.08
+    },
+    "skillId": "skchr_sidero_2"
+  },
+  "skchr_amiya2_1": {
+    "name": "Ying Xiao - Fleeting Night",
+    "rangeId": null,
+    "description": "ATK +80%, 60% Arts Dodge, and attacks turn into double strikes",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 35,
+      "initSp": 10,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_amiya2_1",
+    "duration": 30.0,
+    "blackboard": {
+      "atk": 0.8,
+      "prob": 0.6,
+      "talent_scale": 2.0
+    },
+    "skillId": "skchr_amiya2_1"
+  },
+  "skchr_amiya2_2": {
+    "name": "Ying Xiao - Shadowless",
+    "rangeId": "x-2",
+    "description": "Immediately searches for the lowest HP target in front of this unit and attacks 10 times for 220% ATK as Arts damage (The last hit deals double damage as True damage); Each enemy defeated during these slashes will increase Amiya’s ATK by +40% and RES by +20, stacking up to 3 times; Afterwards, Amiya will deal True damage; This skill can only be used once per battle",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 20,
+      "initSp": 0,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_amiya2_2",
+    "duration": 35.0,
+    "blackboard": {
+      "times": 10.0,
+      "atk_scale": 2.2,
+      "atk_scale_2": 4.4,
+      "amiya2_s_2[kill].atk": 0.4,
+      "amiya2_s_2[kill].magic_resistance": 20.0,
+      "amiya2_s_2[kill].max_stack_cnt": 3.0,
+      "talent_scale": 2.0
+    },
+    "skillId": "skchr_amiya2_2"
   },
   "skchr_bluep_1": {
     "name": "Twinshot - Auto",
@@ -2040,6 +2884,67 @@
     },
     "skillId": "skchr_swllow_2"
   },
+  "skchr_asnipe_1": {
+    "name": "Spiral Arm",
+    "rangeId": null,
+    "description": "Attacks 2 targets simultaneously for 2 times each",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 30,
+      "initSp": 10,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_asnipe_1",
+    "duration": 30.0,
+    "blackboard": {
+      "attack@max_target": 2.0,
+      "attack@times": 2.0
+    },
+    "skillId": "skchr_asnipe_1"
+  },
+  "skchr_aprl_1": {
+    "name": "Precise Shooting",
+    "rangeId": null,
+    "description": "Increases the ATK of next attack to 230%",
+    "skillType": 2,
+    "spData": {
+      "spType": 2,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 3,
+      "initSp": 0,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_aprl_1",
+    "duration": 0.0,
+    "blackboard": {
+      "atk_scale": 2.3
+    },
+    "skillId": "skchr_aprl_1"
+  },
+  "skchr_aprl_2": {
+    "name": "Flexible Camouflage",
+    "rangeId": null,
+    "description": "After deployment, ATK +100% and gain Camouflage (will not be targeted by enemy ranged attacks when not blocking, but can still take Splash damage)",
+    "skillType": 0,
+    "spData": {
+      "spType": 8,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 0,
+      "initSp": 0,
+      "increment": 0.0
+    },
+    "prefabId": "skchr_aprl_2",
+    "duration": 26.0,
+    "blackboard": {
+      "atk": 1.0
+    },
+    "skillId": "skchr_aprl_2"
+  },
   "skchr_meteo_1": {
     "name": "Buckshot",
     "rangeId": null,
@@ -2082,8 +2987,30 @@
     },
     "skillId": "skchr_meteo_2"
   },
+  "skchr_sesa_2": {
+    "name": "Delayed Concussive Parts",
+    "rangeId": null,
+    "description": "Attacks turn into delayed detonation grenades that deal 240% Physical damage, and decrease the ASPD of enemies hit by -20 for 3 seconds",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 40,
+      "initSp": 20,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_sesa_2",
+    "duration": 30.0,
+    "blackboard": {
+      "attack@atk_scale": 2.4,
+      "attack@attack_speed": -20.0,
+      "attack@duration": 3.0
+    },
+    "skillId": "skchr_sesa_2"
+  },
   "skchr_excu_1": {
-    "name": "Muzzle\u00e2\u20ac\u2122s Elegy",
+    "name": "Muzzle’s Elegy",
     "rangeId": null,
     "description": "ATK +70%, attacks apply this unit's Trait effect to all enemies within range.  ",
     "skillType": 1,
@@ -2123,6 +3050,29 @@
     },
     "skillId": "skchr_excu_2"
   },
+  "skchr_aosta_2": {
+    "name": "Shadow Nails",
+    "rangeId": null,
+    "description": "Attack Interval increases, ATK +70% and every attack Binds the targets for 1 seconds; The damage multiplier of Aosta's Talent is doubled",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 50,
+      "initSp": 25,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_aosta_2",
+    "duration": 25.0,
+    "blackboard": {
+      "base_attack_time": 0.5,
+      "atk": 0.7,
+      "attack@frozen_duration": 1.5,
+      "talent_scale": 2.0
+    },
+    "skillId": "skchr_aosta_2"
+  },
   "skchr_amiya_2": {
     "name": "Spirit Burst",
     "rangeId": null,
@@ -2148,7 +3098,7 @@
   "skchr_amiya_3": {
     "name": "Chimera",
     "rangeId": "3-4",
-    "description": "ATK +230%; Max HP +100%; Range expands; Deals damage while ignoring targets' DEF and RES.\nAmiya will be forced to retreat after using this skill",
+    "description": "ATK +230%, Max HP +100%, Range expands, damage type changes to Pure; After the skill ends, Amiya will automatically be retreated",
     "skillType": 1,
     "spData": {
       "spType": 1,
@@ -2190,7 +3140,7 @@
   "skchr_nightm_2": {
     "name": "Night Phantom",
     "rangeId": null,
-    "description": "Inflict Nightmare on at most 5 enemies within range:\nTargets' Movement Speed -60%; Deals damage while ignoring targets' DEF and RES according to targets' movement distance for 10 seconds",
+    "description": "Applies the Nightmare effect to up to 5 enemies within range:\nDecreases the Movement Speed of affected enemies by -60% for 10 seconds, and makes them suffer Pure damage proportional to the distance they move during this effect",
     "skillType": 2,
     "spData": {
       "spType": 1,
@@ -2205,11 +3155,96 @@
     "blackboard": {
       "move_speed": -0.6,
       "max_target": 5.0,
-      "interval": 0.33,
-      "value": 800.0,
+      "interval": 0.066,
+      "value": 1200.0,
       "duration": 10.0
     },
     "skillId": "skchr_nightm_2"
+  },
+  "skchr_absin_1": {
+    "name": "Enforcement Mode",
+    "rangeId": null,
+    "description": "ATK +90%, and attacks now prioritize enemies with the lowest percentage of remaining HP\nUnlimited duration",
+    "skillType": 2,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 70,
+      "initSp": 0,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_absin_1",
+    "duration": 0.0,
+    "blackboard": {
+      "atk": 0.9
+    },
+    "skillId": "skchr_absin_1"
+  },
+  "skchr_absin_2": {
+    "name": "Ultimatum",
+    "rangeId": null,
+    "description": "Each attack turns into bursts of 4 attacks that each deal 90% damage, but no longer attack enemies above 50% HP",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 50,
+      "initSp": 28,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_absin_2",
+    "duration": 30.0,
+    "blackboard": {
+      "attack@times": 4.0,
+      "attack@atk_scale": 0.9
+    },
+    "skillId": "skchr_absin_2"
+  },
+  "skchr_tomimi_1": {
+    "name": "Tribal Techniques",
+    "rangeId": "1-2",
+    "description": "ASPD +90",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 30,
+      "initSp": 15,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_tomimi_1",
+    "duration": 30.0,
+    "blackboard": {
+      "attack_speed": 90.0
+    },
+    "skillId": "skchr_tomimi_1"
+  },
+  "skchr_tomimi_2": {
+    "name": "Gavial's Protection Plan",
+    "rangeId": "1-2",
+    "description": "Each attack has a 100% chance to randomly trigger one of the following effects: Stuns the target for 1 second(s), increases the damage of that attack to 220%, or deals AoE damage",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 30,
+      "initSp": 20,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_tomimi_2",
+    "duration": 30.0,
+    "blackboard": {
+      "attack@tomimi_s_2.stun": 1.6,
+      "attack@tomimi_s_2.atk_scale": 2.2,
+      "attack@tomimi_s_2.prob": 1.0,
+      "base_attack_time": 0.0,
+      "atk": 0.0
+    },
+    "skillId": "skchr_tomimi_2"
   },
   "skchr_skfire_2": {
     "name": "Fire of Heaven",
@@ -2232,6 +3267,175 @@
       "attack@stun": 1.0
     },
     "skillId": "skchr_skfire_2"
+  },
+  "skchr_acast_1": {
+    "name": "\"All For Me\"",
+    "rangeId": null,
+    "description": "ASPD +70, the ATK of all Casters +40%",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 40,
+      "initSp": 20,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_acast_1",
+    "duration": 30.0,
+    "blackboard": {
+      "atk": 0.4,
+      "attack_speed": 70.0
+    },
+    "skillId": "skchr_acast_1"
+  },
+  "skchr_leizi_2": {
+    "name": "Thunderclap",
+    "rangeId": null,
+    "description": "ATK +150%, and attacks no longer deal reduced damage on subsequent targets",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 80,
+      "initSp": 50,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_leizi_2",
+    "duration": 35.0,
+    "blackboard": {
+      "atk": 1.5
+    },
+    "skillId": "skchr_leizi_2"
+  },
+  "skchr_beewax_1": {
+    "name": "Growing Sandstorm",
+    "rangeId": "x-2",
+    "description": "Range expands, ATK +60%",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 18,
+      "initSp": 8,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_beewax_1",
+    "duration": 20.0,
+    "blackboard": {
+      "atk": 0.6
+    },
+    "skillId": "skchr_beewax_1"
+  },
+  "skchr_beewax_2": {
+    "name": "Guardian Obelisk",
+    "rangeId": null,
+    "description": "Summons an Obelisk upon a melee tile within this unit's attack range; When the Obelisk appears, it deals 300% Arts Damage to nearby enemies and stuns them for 3 second(s)",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 20,
+      "initSp": 10,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_beewax_2",
+    "duration": 20.0,
+    "blackboard": {
+      "atk_scale": 3.0,
+      "stun": 3.0
+    },
+    "skillId": "skchr_beewax_2"
+  },
+  "sktok_beewax": {
+    "name": "Summon Sand Obelisk",
+    "rangeId": "x-4",
+    "description": "When deployed, deals 300% Arts Damage to nearby enemies and stuns them for 3 seconds",
+    "skillType": 2,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 0,
+      "spCost": 25,
+      "initSp": 10,
+      "increment": 1.0
+    },
+    "prefabId": "sktok_beewax",
+    "duration": 0.0,
+    "blackboard": {
+      "atk_scale": 3.0,
+      "stun": 3.0
+    },
+    "skillId": "sktok_beewax"
+  },
+  "skchr_mint_1": {
+    "name": "Wind Whispers",
+    "rangeId": "x-2",
+    "description": "Range expands; Attacks deal 160% ATK as Arts damage",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 20,
+      "initSp": 8,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_mint_1",
+    "duration": 20.0,
+    "blackboard": {
+      "attack@atk_scale": 1.6
+    },
+    "skillId": "skchr_mint_1"
+  },
+  "skchr_mint_2": {
+    "name": "Swirling Vortex",
+    "rangeId": null,
+    "description": "Every attack drags the target to Mint moderately, dealing 130% ATK as Arts damage. Deal 300% ATK as Arts damage when the skill ends",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 25,
+      "initSp": 15,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_mint_2",
+    "duration": 20.0,
+    "blackboard": {
+      "attack@atk_scale": 1.3,
+      "atk_scale": 3.0,
+      "attack@force": 1.0
+    },
+    "skillId": "skchr_mint_2"
+  },
+  "skchr_lionhd_2": {
+    "name": "Deconstruct and Detonate",
+    "rangeId": "3-3",
+    "description": "Range expands, immediately deals 230% Arts Damage to all enemies within range and reduces their RES by -15% for 6 seconds\nCan store up to 3 charges",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 3,
+      "spCost": 10,
+      "initSp": 0,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_lionhd_2",
+    "duration": -1.0,
+    "blackboard": {
+      "atk_scale": 2.3,
+      "magic_resistance": -0.15,
+      "duration": 6.0,
+      "ct": 3.0,
+      "talent_range_flag": 1.0
+    },
+    "skillId": "skchr_lionhd_2"
   },
   "skchr_otter_1": {
     "name": "Bionic Device",
@@ -2315,6 +3519,72 @@
     },
     "skillId": "sktok_motter_2"
   },
+  "skchr_folivo_1": {
+    "name": "Protective Camouflage",
+    "rangeId": null,
+    "description": "Increases the ATK of all Buggy Cams by +60% and grants them Camouflaged (will not be targeted by enemy ranged attacks when not blocking, but can still take Splash damage)\nUnlimited duration",
+    "skillType": 2,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 60,
+      "initSp": 0,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_folivo_1",
+    "duration": -1.0,
+    "blackboard": {
+      "atk": 0.6
+    },
+    "skillId": "skchr_folivo_1"
+  },
+  "skchr_folivo_2": {
+    "name": "Panoramic Overload",
+    "rangeId": null,
+    "description": "Immediately obtains 1 Buggy Cam and grants all deployed Buggy Cams increased Detection Range, ATK +130%, DEF +130%, and RES +20\nAfter the skill ends, all Buggy Cams are stunned for 5 seconds",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 30,
+      "initSp": 15,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_folivo_2",
+    "duration": 20.0,
+    "blackboard": {
+      "atk": 1.3,
+      "def": 1.3,
+      "magic_resistance": 20.0,
+      "stun": 5.0,
+      "talent_range_flag": 1.0,
+      "cnt": 1.0
+    },
+    "skillId": "skchr_folivo_2"
+  },
+  "sktok_folivo_2": {
+    "name": "Panoramic Overload",
+    "rangeId": "x-2",
+    "description": "All Buggy Cams are stunned for 5 seconds when the skill ends",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 0,
+      "initSp": 0,
+      "increment": 1.0
+    },
+    "prefabId": "sktok_folivo_2",
+    "duration": 10.0,
+    "blackboard": {
+      "stun": 5.0,
+      "talent_range_flag": 1.0
+    },
+    "skillId": "sktok_folivo_2"
+  },
   "skchr_silent_2": {
     "name": "Medical Drone",
     "rangeId": null,
@@ -2379,6 +3649,70 @@
     },
     "skillId": "skchr_bldsk_2"
   },
+  "skchr_folnic_1": {
+    "name": "Max-Dosage Infusion",
+    "rangeId": null,
+    "description": "Range +2 grids; ATK +80%",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 30,
+      "initSp": 20,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_folnic_1",
+    "duration": 40.0,
+    "blackboard": {
+      "atk": 0.8,
+      "ability_range_forward_extend": 2.0
+    },
+    "skillId": "skchr_folnic_1"
+  },
+  "skchr_folnic_2": {
+    "name": "Compound Drug Shell",
+    "rangeId": null,
+    "description": "Attacks instead fire a Compound Drug Shell (prioritizes enemies); when the shell hits, heals surrounding allies by 150% of this unit's ATK, and deals 200% Arts Damage to enemies",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 40,
+      "initSp": 20,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_folnic_2",
+    "duration": 30.0,
+    "blackboard": {
+      "attack@heal_scale": 1.5,
+      "attack@atk_scale": 2.0
+    },
+    "skillId": "skchr_folnic_2"
+  },
+  "skchr_amedic_1": {
+    "name": "Apocalyptic Scene",
+    "rangeId": null,
+    "description": "Range +2, heals 2 target(s); The ATK of all Medics +30%",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 30,
+      "initSp": 10,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_amedic_1",
+    "duration": 30.0,
+    "blackboard": {
+      "atk": 0.3,
+      "ability_range_forward_extend": 2.0,
+      "attack@max_target": 2.0
+    },
+    "skillId": "skchr_amedic_1"
+  },
   "skchr_ceylon_1": {
     "name": "Concentrated Hydrotherapy",
     "rangeId": null,
@@ -2421,6 +3755,51 @@
       "one_minus_status_resistance": -0.5
     },
     "skillId": "skchr_ceylon_2"
+  },
+  "skchr_whispr_1": {
+    "name": "Oriented Diagnosis",
+    "rangeId": null,
+    "description": "The next heal is increased to 130% of ATK, and an additional target will be healed (prioritizes debuffed units) and granted status resistance (reduces the duration of stun, cold, and freeze effects by 50%), lasting for 5 second(s)",
+    "skillType": 2,
+    "spData": {
+      "spType": 2,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 2,
+      "initSp": 0,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_whispr_1",
+    "duration": 0.0,
+    "blackboard": {
+      "heal_scale": 1.3,
+      "status_resistance[limit]": 5.0,
+      "one_minus_status_resistance": -0.5
+    },
+    "skillId": "skchr_whispr_1"
+  },
+  "skchr_whispr_2": {
+    "name": "Pain Suppression",
+    "rangeId": null,
+    "description": "Attack interval reduced, the healing effect of this unit’s Talent is increased to 200%, and each target healed by this unit is granted status resistance for 4 second(s) (reduces the duration of stun, cold, and freeze effects by 50%)\nUnlimited duration",
+    "skillType": 2,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 55,
+      "initSp": 0,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_whispr_2",
+    "duration": -1.0,
+    "blackboard": {
+      "base_attack_time": -0.2,
+      "attack@status_resistance[limit]": 4.0,
+      "attack@one_minus_status_resistance": -0.5,
+      "talent_scale": 2.0
+    },
+    "skillId": "skchr_whispr_2"
   },
   "skchr_deepcl_1": {
     "name": "Shadow Tentacle",
@@ -2484,6 +3863,47 @@
       "sluggish": 0.8
     },
     "skillId": "skchr_skgoat_2"
+  },
+  "skchr_podego_1": {
+    "name": "Aromatherapy",
+    "rangeId": null,
+    "description": "ATK +60%, now heals allied units instead of attacking",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 25,
+      "initSp": 10,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_podego_1",
+    "duration": 25.0,
+    "blackboard": {
+      "atk": 0.6
+    },
+    "skillId": "skchr_podego_1"
+  },
+  "skchr_podego_2": {
+    "name": "Spread Spores",
+    "rangeId": null,
+    "description": "Throws a vial that, upon shattering, releases of cloud of spores for 6 seconds\nAll enemies within the spore cloud are Snared and Silenced, and receive 80% Arts Damage every second",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 23,
+      "initSp": 10,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_podego_2",
+    "duration": 0.0,
+    "blackboard": {
+      "projectile_delay_time": 6.0,
+      "atk_scale": 0.8
+    },
+    "skillId": "skchr_podego_2"
   },
   "skchr_ethan_1": {
     "name": "Fancy Maneuvers",
@@ -2611,6 +4031,49 @@
     },
     "skillId": "skchr_nearl_2"
   },
+  "skchr_hmau_1": {
+    "name": "Treatment Countermeasure",
+    "rangeId": "x-4",
+    "description": "The next attack instead heals an allied unit within range equal to 170% of ATK",
+    "skillType": 2,
+    "spData": {
+      "spType": 4,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 4,
+      "initSp": 4,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_hmau_1",
+    "duration": 0.0,
+    "blackboard": {
+      "heal_scale": 1.7
+    },
+    "skillId": "skchr_hmau_1"
+  },
+  "skchr_hmau_2": {
+    "name": "Medical Mode Countermeasure",
+    "rangeId": "x-4",
+    "description": "ATK and DEF+80%, stops attacking to focus on healing allied units within range, and restores 1 skill point to each healed target.",
+    "skillType": 1,
+    "spData": {
+      "spType": 4,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 20,
+      "initSp": 18,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_hmau_2",
+    "duration": 30.0,
+    "blackboard": {
+      "atk": 0.8,
+      "def": 0.8,
+      "base_attack_time": 1.3,
+      "sp": 1.0
+    },
+    "skillId": "skchr_hmau_2"
+  },
   "skchr_red_1": {
     "name": "Execution Mode",
     "rangeId": null,
@@ -2695,6 +4158,48 @@
       "silence": 8.0
     },
     "skillId": "skchr_waaifu_2"
+  },
+  "skchr_kafka_1": {
+    "name": "Cube of Absurdism",
+    "rangeId": "x-5",
+    "description": "After deployment, stops attacking for 5 seconds, and at the same time puts all surrounding ground enemies to sleep (affected enemies are invulnerable and unable to act); When the skill ends, deals 450% ATK as Arts damage to all surrounding ground enemies",
+    "skillType": 0,
+    "spData": {
+      "spType": 8,
+      "levelUpCost": null,
+      "maxChargeTime": 0,
+      "spCost": 0,
+      "initSp": 0,
+      "increment": 0.0
+    },
+    "prefabId": "skchr_kafka_1",
+    "duration": -1.0,
+    "blackboard": {
+      "atk_scale": 4.5,
+      "duration": 5.0
+    },
+    "skillId": "skchr_kafka_1"
+  },
+  "skchr_kafka_2": {
+    "name": "Shears of Surrealism",
+    "rangeId": "3-16",
+    "description": "After deployment, immediately deals 400% ATK as Arts damage to all enemies within the frontal target tile; For the next 15 seconds, continuously attacks ground units in that target tile with Arts damage",
+    "skillType": 0,
+    "spData": {
+      "spType": 8,
+      "levelUpCost": null,
+      "maxChargeTime": 0,
+      "spCost": 0,
+      "initSp": 0,
+      "increment": 0.0
+    },
+    "prefabId": "skchr_kafka_2",
+    "duration": -1.0,
+    "blackboard": {
+      "atk_scale": 4.0,
+      "duration": 15.0
+    },
+    "skillId": "skchr_kafka_2"
   },
   "skchr_liskam_1": {
     "name": "Charged Defense",
@@ -2852,6 +4357,49 @@
     },
     "skillId": "skchr_hpsts_2"
   },
+  "skchr_asbest_1": {
+    "name": "Resilient Mode",
+    "rangeId": null,
+    "description": "Dodges the next instance of Arts damage, and reduces Arts damage taken by -30% during the skill duration",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 20,
+      "initSp": 0,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_asbest_1",
+    "duration": 20.0,
+    "blackboard": {
+      "damage_scale": 0.7,
+      "fake": 0.3
+    },
+    "skillId": "skchr_asbest_1"
+  },
+  "skchr_asbest_2": {
+    "name": "Thermal Power Mode",
+    "rangeId": "3-13",
+    "description": "Attack Interval increases, ATK +90%, DEF +60%, Attack Range expands significantly, and normal attacks now deal AoE damage",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 50,
+      "initSp": 30,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_asbest_2",
+    "duration": 50.0,
+    "blackboard": {
+      "atk": 0.9,
+      "def": 0.6,
+      "base_attack_time": 0.4
+    },
+    "skillId": "skchr_asbest_2"
+  },
   "skchr_prove_1": {
     "name": "Wolf's Eye",
     "rangeId": null,
@@ -2934,6 +4482,28 @@
     },
     "skillId": "skchr_milu_2"
   },
+  "skchr_cuttle_2": {
+    "name": "Interdictive Sniping Tactics",
+    "rangeId": null,
+    "description": "ATK +240%, but normal attacks no longer attack enemies below 50% HP; Attacks slow enemies hit by -40% for 6 seconds",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 30,
+      "initSp": 15,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_cuttle_2",
+    "duration": 30.0,
+    "blackboard": {
+      "atk": 2.4,
+      "attack@move_speed": -0.4,
+      "attack@duration": 6.0
+    },
+    "skillId": "skchr_cuttle_2"
+  },
   "skchr_slchan_1": {
     "name": "Chain Hook",
     "rangeId": null,
@@ -2958,7 +4528,7 @@
   "skchr_slchan_2": {
     "name": "Binding Chains",
     "rangeId": "3-14",
-    "description": "Drags at most 3 targets in the frontal line to Cliffheart significantly, dealing 200% of ATK damage that ignores targets' DEF and RES to them and Stunning them for 3 seconds",
+    "description": "Immediately drags up to 3 targets in a large frontal area towards this unit significantly, dealing 200% True Damage and stunning for 3 seconds",
     "skillType": 1,
     "spData": {
       "spType": 1,
@@ -2977,6 +4547,50 @@
       "force": 2.0
     },
     "skillId": "skchr_slchan_2"
+  },
+  "skchr_snsant_1": {
+    "name": "Barbed Clawhook",
+    "rangeId": null,
+    "description": "The next attack drags the target towards Snowsant significantly, deals 170% ATK as physical damage to the target, and slows it for 1 seconds",
+    "skillType": 2,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 5,
+      "initSp": 0,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_snsant_1",
+    "duration": 0.0,
+    "blackboard": {
+      "atk_scale": 1.7,
+      "force": 2.0,
+      "sluggish": 1.6
+    },
+    "skillId": "skchr_snsant_1"
+  },
+  "skchr_snsant_2": {
+    "name": "Telescoping Electric Net",
+    "rangeId": "3-2",
+    "description": "Launches a net forward, dragging all enemies caught within it towards Snowsant significantly, deals 200% ATK as Arts Damage, and slows targets for 3 seconds",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 17,
+      "initSp": 10,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_snsant_2",
+    "duration": 0.0,
+    "blackboard": {
+      "atk_scale": 2.0,
+      "force": 2.0,
+      "sluggish": 3.5
+    },
+    "skillId": "skchr_snsant_2"
   },
   "skchr_slbell_1": {
     "name": "Echolocation",
@@ -3020,6 +4634,69 @@
     },
     "skillId": "skchr_slbell_2"
   },
+  "skchr_vodfox_1": {
+    "name": "Malediction",
+    "rangeId": null,
+    "description": "ATK +60%, increases the damage amplification effect of this unit's Talent to 1.8 times\nUnlimited duration",
+    "skillType": 2,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 70,
+      "initSp": 0,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_vodfox_1",
+    "duration": -1.0,
+    "blackboard": {
+      "scale_delta_to_one": 1.8,
+      "atk": 0.6
+    },
+    "skillId": "skchr_vodfox_1"
+  },
+  "skchr_vodfox_2": {
+    "name": "Cursed Doll",
+    "rangeId": null,
+    "description": "Obtains 1 Curse Doll (can store up to 1)\nReduces the ATK and DEF of enemies around the Curse Doll by -50%, lasts for a maximum of 15 seconds",
+    "skillType": 2,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 30,
+      "initSp": 10,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_vodfox_2",
+    "duration": -1.0,
+    "blackboard": {
+      "atk": -0.5,
+      "def": -0.5
+    },
+    "skillId": "skchr_vodfox_2"
+  },
+  "sktok_vodfox_token": {
+    "name": "Cursed Doll",
+    "rangeId": null,
+    "description": "Reduces the ATK and DEF of enemies within range by -50%",
+    "skillType": 0,
+    "spData": {
+      "spType": 8,
+      "levelUpCost": null,
+      "maxChargeTime": 0,
+      "spCost": 0,
+      "initSp": 0,
+      "increment": 0.0
+    },
+    "prefabId": "sktok_vodfox_token",
+    "duration": 15.0,
+    "blackboard": {
+      "atk": -0.5,
+      "def": -0.5
+    },
+    "skillId": "sktok_vodfox_token"
+  },
   "skchr_glassb_1": {
     "name": "Concentration",
     "rangeId": null,
@@ -3057,7 +4734,7 @@
     "duration": 25.0,
     "blackboard": {
       "atk": 0.75,
-      "max_target": 3.0
+      "attack@max_target": 3.0
     },
     "skillId": "skchr_glassb_2"
   },
@@ -3085,7 +4762,7 @@
   "skchr_glacus_2": {
     "name": "Counter EMP",
     "rangeId": "x-3",
-    "description": "Releases a shockwave in an area around this unit. All hit enemies receives Arts Damage equal to ATK 400% and are Restrained for 6 seconds. If the target is a Drone, it will receive double damage and be Stunned",
+    "description": "Releases a shockwave in an area around this unit. All hit enemies receive Arts Damage equal to ATK 400% and are Bound for 6 seconds. If the target is a Drone, it will receive double damage and be Stunned",
     "skillType": 1,
     "spData": {
       "spType": 1,
@@ -3108,7 +4785,7 @@
   "skchr_sora_1": {
     "name": "Hymn of Respite",
     "rangeId": "x-2",
-    "description": "Range expands; All enemies within range are put to Sleep  (Stun and Invincible) and the effect of Sora's Feature increases to 100%",
+    "description": "Attack Range expands, all enemies within range are put to Sleep(affected enemies are Stunned and Invulnerable), and the healing effect of this unit's Trait is increased to 100%",
     "skillType": 1,
     "spData": {
       "spType": 1,
@@ -3144,6 +4821,48 @@
       "atk": 1.0
     },
     "skillId": "skchr_sora_2"
+  },
+  "skchr_tknogi_1": {
+    "name": "Without a Trace",
+    "rangeId": null,
+    "description": "Grants 35% Physical and Arts Dodge to allies in this unit's attack range, and nullifies the Invisibility status of enemies",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 50,
+      "initSp": 25,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_tknogi_1",
+    "duration": 35.0,
+    "blackboard": {
+      "prob": 0.35
+    },
+    "skillId": "skchr_tknogi_1"
+  },
+  "skchr_tknogi_2": {
+    "name": "Forest's Embrace",
+    "rangeId": null,
+    "description": "Stops attacking; HP Ratio required to activate this unit's Talent is increased to 60%, and the Sanctuary effect is increased by 2x; Heals all allies within attack range for 12% of this unit's ATK per second",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 48,
+      "initSp": 23,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_tknogi_2",
+    "duration": 20.0,
+    "blackboard": {
+      "talent@hp_ratio": 0.6,
+      "talent_scale": 2.3,
+      "attack@atk_to_hp_recovery_ratio": 0.12
+    },
+    "skillId": "skchr_tknogi_2"
   },
   "skchr_mantic_1": {
     "name": "Scorpion Venom",
@@ -3233,6 +4952,94 @@
     },
     "skillId": "skchr_panda_2"
   },
+  "skchr_robin_1": {
+    "name": "Binding “Clip”",
+    "rangeId": null,
+    "description": "Passive Effect: When a trap is triggered, deals 350% ATK as Physical damage and binds the target for 3 second(s)\nActive Effect: Immediately gets 1 trap",
+    "skillType": 2,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 12,
+      "initSp": 0,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_robin_1",
+    "duration": 0.0,
+    "blackboard": {
+      "cnt": 1.0,
+      "atk_scale": 3.5,
+      "constraint": 3.0
+    },
+    "skillId": "skchr_robin_1"
+  },
+  "sktok_robin_1": {
+    "name": "Binding “Clip”",
+    "rangeId": null,
+    "description": "When triggered, deals 350% ATK as Physical damage and binds the target for 3 second(s)",
+    "skillType": 2,
+    "spData": {
+      "spType": 8,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 0,
+      "initSp": 0,
+      "increment": 1.0
+    },
+    "prefabId": "sktok_robin_1",
+    "duration": 0.0,
+    "blackboard": {
+      "cnt": 1.0,
+      "atk_scale": 3.5,
+      "constraint": 3.0
+    },
+    "skillId": "sktok_robin_1"
+  },
+  "skchr_robin_2": {
+    "name": "Launching “Clip”",
+    "rangeId": null,
+    "description": "Passive Effect: When a trap is triggered, deals 380% ATK as Physical damage and pushes the target away significantly\nActive Effect: Immediately gets 1 trap",
+    "skillType": 2,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 12,
+      "initSp": 0,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_robin_2",
+    "duration": 0.0,
+    "blackboard": {
+      "cnt": 1.0,
+      "atk_scale": 3.8,
+      "force": 2.0
+    },
+    "skillId": "skchr_robin_2"
+  },
+  "sktok_robin_2": {
+    "name": "Launching “Clip”",
+    "rangeId": null,
+    "description": "When triggered, deals 380% ATK as Physical damage and pushes the target away significantly",
+    "skillType": 2,
+    "spData": {
+      "spType": 8,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 0,
+      "initSp": 0,
+      "increment": 1.0
+    },
+    "prefabId": "sktok_robin_2",
+    "duration": 0.0,
+    "blackboard": {
+      "cnt": 1.0,
+      "atk_scale": 3.8,
+      "force": 2.0
+    },
+    "skillId": "sktok_robin_2"
+  },
   "skchr_angel_1": {
     "name": "Charging Mode",
     "rangeId": null,
@@ -3300,7 +5107,7 @@
   "skchr_shwaz_1": {
     "name": "Charged Shot",
     "rangeId": null,
-    "description": "The next attack deals 220% damage, and increases the chance of triggering this unit's Talent to 80%",
+    "description": "The next attack deals 220% damage, and increases the chance of triggering this unit’s Talent to 80%",
     "skillType": 2,
     "spData": {
       "spType": 2,
@@ -3361,6 +5168,230 @@
     },
     "skillId": "skchr_shwaz_3"
   },
+  "skchr_cqbw_1": {
+    "name": "King of Hearts",
+    "rangeId": null,
+    "description": "Immediately launches a grenade, dealing 350% Physical Damage to all enemies hit and stunning them for 3 seconds",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 16,
+      "initSp": 0,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_cqbw_1",
+    "duration": -1.0,
+    "blackboard": {
+      "atk_scale": 3.5,
+      "stun": 3.0
+    },
+    "skillId": "skchr_cqbw_1"
+  },
+  "skchr_cqbw_2": {
+    "name": "Jack in the Box",
+    "rangeId": null,
+    "description": "The next attack buries a mine (lasts for 120 seconds) in a deployable tile within this unit's attack range; The mine will detonate when an enemy passes by it, dealing 280% Physical Damage to all nearby enemies and stunning them for 2 seconds",
+    "skillType": 2,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 8,
+      "initSp": 0,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_cqbw_2",
+    "duration": 0.0,
+    "blackboard": {
+      "atk_scale": 2.8,
+      "stun": 2.2
+    },
+    "skillId": "skchr_cqbw_2"
+  },
+  "sktok_cqbw_token": {
+    "name": "Victim Seeker",
+    "rangeId": null,
+    "description": "Explodes when an enemy passes by, dealing Physical Damage to all nearby enemies and stunning them.",
+    "skillType": 2,
+    "spData": {
+      "spType": 8,
+      "levelUpCost": null,
+      "maxChargeTime": 0,
+      "spCost": 0,
+      "initSp": 0,
+      "increment": 1.0
+    },
+    "prefabId": "sktok_cqbw_token",
+    "duration": 0.0,
+    "blackboard": {
+      "atk_scale": 2.8,
+      "stun": 2.2
+    },
+    "skillId": "sktok_cqbw_token"
+  },
+  "skchr_cqbw_3": {
+    "name": "D12",
+    "rangeId": null,
+    "description": "Places bombs on up to 4 enemies within range, prioritizing enemies with the highest HP; after a delay, bombs will detonate, each dealing 310% Physical Damage to nearby enemies and stunning them for 5 seconds",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 33,
+      "initSp": 20,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_cqbw_3",
+    "duration": 0.0,
+    "blackboard": {
+      "max_target": 4.0,
+      "atk_scale": 3.1,
+      "stun": 5.0
+    },
+    "skillId": "skchr_cqbw_3"
+  },
+  "skchr_poca_2": {
+    "name": "Split Shot",
+    "rangeId": null,
+    "description": "ATK +90%, and attacks hit one additional enemy",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 65,
+      "initSp": 45,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_poca_2",
+    "duration": 60.0,
+    "blackboard": {
+      "atk": 0.9,
+      "attack@max_target": 2.0
+    },
+    "skillId": "skchr_poca_2"
+  },
+  "skchr_poca_3": {
+    "name": "Avalanche Breaker",
+    "rangeId": null,
+    "description": "ATK +25%; Immediately fires harpoons at the 4 heaviest enemies in range, Binding them and attacking them once each second during the duration of this skill",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 30,
+      "initSp": 15,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_poca_3",
+    "duration": 8.0,
+    "blackboard": {
+      "max_target": 4.0,
+      "hit_interval": 1.0,
+      "atk": 0.25,
+      "hit_duration": 8.0
+    },
+    "skillId": "skchr_poca_3"
+  },
+  "skchr_rosmon_1": {
+    "name": "Expanded Cognition",
+    "rangeId": null,
+    "description": "The next attack deals an additional hit equal to 180% ATK as Arts damage",
+    "skillType": 2,
+    "spData": {
+      "spType": 2,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 2,
+      "initSp": 0,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_rosmon_1",
+    "duration": 0.0,
+    "blackboard": {
+      "extra_atk_scale": 1.8,
+      "append_atk_scale": 0.5
+    },
+    "skillId": "skchr_rosmon_1"
+  },
+  "skchr_rosmon_2": {
+    "name": "Nociceptor Inhibition",
+    "rangeId": null,
+    "description": "Attack interval increases, ATK +55%, splash area expands, and each attack causes 2 additional shockwaves; Enemies hit by this unit’s attacks and shockwaves have a 20% chance to be stunned for 1 second(s)",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 30,
+      "initSp": 20,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_rosmon_2",
+    "duration": 40.0,
+    "blackboard": {
+      "base_attack_time": 0.5,
+      "atk": 0.55,
+      "attack@times": 4.0,
+      "attack@prob": 0.2,
+      "attack@stun": 1.5
+    },
+    "skillId": "skchr_rosmon_2"
+  },
+  "skchr_rosmon_3": {
+    "name": "“As You Wish”",
+    "rangeId": null,
+    "description": "Attack interval reduced, ATK +75%, and attacks up to 2 blocked enemies at a time; Immediately deploys two pieces of Tactical Equipment on ground tiles within attack range(After deployment, surrounding enemies are stunned for 3 second(s), and the blocked enemies' DEF  -160)",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 60,
+      "initSp": 35,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_rosmon_3",
+    "duration": 30.0,
+    "blackboard": {
+      "base_attack_time": -0.5,
+      "atk": 0.75,
+      "attack@max_target": 2.0,
+      "def": 1.0,
+      "attack@append_atk_scale": 0.5,
+      "stun": 3.0
+    },
+    "skillId": "skchr_rosmon_3"
+  },
+  "sktok_rosmon": {
+    "name": "Call Tactical Equipment",
+    "rangeId": null,
+    "description": "Upon appearing, stuns nearby enemies for 3 seconds",
+    "skillType": 2,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 0,
+      "initSp": 0,
+      "increment": 1.0
+    },
+    "prefabId": "sktok_rosmon",
+    "duration": 0.0,
+    "blackboard": {
+      "base_attack_time": -0.5,
+      "atk": 0.75,
+      "attack@max_target": 2.0,
+      "def": 1.0,
+      "attack@append_atk_scale": 0.5,
+      "stun": 3.0
+    },
+    "skillId": "sktok_rosmon"
+  },
   "skchr_siege_2": {
     "name": "Aerial Hammer",
     "rangeId": "x-5",
@@ -3405,6 +5436,50 @@
       "base_attack_time": 1.0
     },
     "skillId": "skchr_siege_3"
+  },
+  "skchr_bpipe_2": {
+    "name": "High-Impact Assault",
+    "rangeId": null,
+    "description": "Increases the ATK of the next attack to 200%, and strikes an additional time\nCan store up to 3 charges",
+    "skillType": 2,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 3,
+      "spCost": 4,
+      "initSp": 0,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_bpipe_2",
+    "duration": 0.0,
+    "blackboard": {
+      "atk_scale": 2.0,
+      "cnt": 3.0
+    },
+    "skillId": "skchr_bpipe_2"
+  },
+  "skchr_bpipe_3": {
+    "name": "Locked Breech Burst",
+    "rangeId": null,
+    "description": "ATK interval increases, Block +1, ATK and DEF +120%, and attacks hit 3 times in a row",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 40,
+      "initSp": 25,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_bpipe_3",
+    "duration": 20.0,
+    "blackboard": {
+      "atk": 1.2,
+      "def": 1.2,
+      "base_attack_time": 0.7,
+      "block_cnt": 1.0
+    },
+    "skillId": "skchr_bpipe_3"
   },
   "skchr_ifrit_1": {
     "name": "Fanaticism",
@@ -3585,6 +5660,69 @@
     },
     "skillId": "skchr_amgoat_3"
   },
+  "skchr_cerber_1": {
+    "name": "\"Really Cold Axe\"",
+    "rangeId": null,
+    "description": "Increases the ATK of the next attack to 210%, prioritizing enemies that are not blocked, and binds the target for 3 seconds\nCan store up to 3 charges",
+    "skillType": 2,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 3,
+      "spCost": 6,
+      "initSp": 0,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_cerber_1",
+    "duration": -1.0,
+    "blackboard": {
+      "atk_scale": 2.1,
+      "duration": 3.0,
+      "cnt": 3.0
+    },
+    "skillId": "skchr_cerber_1"
+  },
+  "skchr_cerber_2": {
+    "name": "\"Really Hot Knives\"",
+    "rangeId": null,
+    "description": "Attack Interval is reduced greatly, and attacks prioritize enemies with the highest DEF",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 40,
+      "initSp": 25,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_cerber_2",
+    "duration": 40.0,
+    "blackboard": {
+      "base_attack_time": 0.33
+    },
+    "skillId": "skchr_cerber_2"
+  },
+  "skchr_cerber_3": {
+    "name": "\"Really Heavy Spear\"",
+    "rangeId": "3-3",
+    "description": "Attack Range expands, ATK +210%, attacks now deal Physical damage, prioritize enemies with the lowest defense, and silences targets  for 5 seconds",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 80,
+      "initSp": 55,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_cerber_3",
+    "duration": 60.0,
+    "blackboard": {
+      "atk": 2.1,
+      "attack@silence": 5.0
+    },
+    "skillId": "skchr_cerber_3"
+  },
   "skchr_aglina_1": {
     "name": "Arcane Staff - Quick Charge Mode",
     "rangeId": null,
@@ -3648,6 +5786,69 @@
     },
     "skillId": "skchr_aglina_3"
   },
+  "skchr_lisa_1": {
+    "name": "I'll Do My Best",
+    "rangeId": null,
+    "description": "ATK +80%, ASPD +30\nSkill activated automatically",
+    "skillType": 2,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 20,
+      "initSp": 0,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_lisa_1",
+    "duration": 30.0,
+    "blackboard": {
+      "atk": 0.8,
+      "attack_speed": 30.0
+    },
+    "skillId": "skchr_lisa_1"
+  },
+  "skchr_lisa_2": {
+    "name": "Childhood Frolic",
+    "rangeId": null,
+    "description": "ATK +60%, attacks hit up to 3 enemies\nUnlimited duration",
+    "skillType": 2,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 80,
+      "initSp": 0,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_lisa_2",
+    "duration": -1.0,
+    "blackboard": {
+      "atk": 0.6,
+      "attack@max_target": 3.0
+    },
+    "skillId": "skchr_lisa_2"
+  },
+  "skchr_lisa_3": {
+    "name": "Foxfire Haze",
+    "rangeId": "y-8",
+    "description": "Stops attacking; Attack Range expands, the effect of the second Talent is increased to 2 times, and all enemies within range are Slowed; Heals all allied units within range for 20% of this unit's ATK each second",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 70,
+      "initSp": 50,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_lisa_3",
+    "duration": 35.0,
+    "blackboard": {
+      "scale_delta_to_one": 2.0,
+      "attack@atk_to_hp_recovery_ratio": 0.2
+    },
+    "skillId": "skchr_lisa_3"
+  },
   "skchr_mgllan_1": {
     "name": "High-Efficiency Freezing Module",
     "rangeId": null,
@@ -3693,7 +5894,7 @@
   "skchr_mgllan_3": {
     "name": "Armed Combat Module",
     "rangeId": null,
-    "description": "Passive: Drones may be deployed on ranged tiles, dealing AoE physical damage. \nActive: Magallan and her drones gain +150% ATK, and increases the AoE of drones' attacks. Retreats all drones after this effect ends.",
+    "description": "Passive: Drones may be deployed on ranged tiles, dealing AoE physical damage. \nActive: Magallan and her drones gain +150% ATK, and increases the AoE of drones’ attacks. Retreats all drones after this effect ends.",
     "skillType": 1,
     "spData": {
       "spType": 1,
@@ -3763,6 +5964,301 @@
     "duration": 0.0,
     "blackboard": {},
     "skillId": "sktok_mgllan_drone3"
+  },
+  "skchr_phatom_1": {
+    "name": "Phantom of the Night",
+    "rangeId": null,
+    "description": "Upon deployment, gains 50% Physical Dodge and a shield that can absorb Physical Damage equal to 80% Max HP for 10 seconds",
+    "skillType": 0,
+    "spData": {
+      "spType": 8,
+      "levelUpCost": null,
+      "maxChargeTime": 0,
+      "spCost": 0,
+      "initSp": 0,
+      "increment": 0.0
+    },
+    "prefabId": "skchr_phatom_1",
+    "duration": -1.0,
+    "blackboard": {
+      "prob": 0.5,
+      "hp_ratio": 0.8,
+      "duration": 10.0
+    },
+    "skillId": "skchr_phatom_1"
+  },
+  "skchr_phatom_2": {
+    "name": "Bloody Opus",
+    "rangeId": null,
+    "description": "Upon deployment, immediately gains 10 charges of a stacking +20% ATK buff (each attack consumes one charge)",
+    "skillType": 0,
+    "spData": {
+      "spType": 8,
+      "levelUpCost": null,
+      "maxChargeTime": 0,
+      "spCost": 0,
+      "initSp": 0,
+      "increment": 0.0
+    },
+    "prefabId": "skchr_phatom_2",
+    "duration": -1.0,
+    "blackboard": {
+      "times": 10.0,
+      "atk": 0.2
+    },
+    "skillId": "skchr_phatom_2"
+  },
+  "skchr_phatom_3": {
+    "name": "Night Raid",
+    "rangeId": "x-4",
+    "description": "Upon deployment, immediately deals 300% ATK as Physical damage to all nearby enemies, pushes them back slightly, and randomly inflicts one of the following statuses to all targets hit (slow, bind, or stun) for 4 seconds",
+    "skillType": 0,
+    "spData": {
+      "spType": 8,
+      "levelUpCost": null,
+      "maxChargeTime": 0,
+      "spCost": 0,
+      "initSp": 0,
+      "increment": 0.0
+    },
+    "prefabId": "skchr_phatom_3",
+    "duration": -1.0,
+    "blackboard": {
+      "atk_scale": 3.0,
+      "force": 0.0,
+      "sluggish": 4.5,
+      "root": 4.5,
+      "stun": 4.5
+    },
+    "skillId": "skchr_phatom_3"
+  },
+  "sktok_phatom_1": {
+    "name": "Phantom of the Night",
+    "rangeId": null,
+    "description": "Upon deployment, gains 50% Physical Dodge and a shield that can absorb Physical Damage equal to 80% Max HP for 10 seconds",
+    "skillType": 0,
+    "spData": {
+      "spType": 8,
+      "levelUpCost": null,
+      "maxChargeTime": 0,
+      "spCost": 0,
+      "initSp": 0,
+      "increment": 0.0
+    },
+    "prefabId": "sktok_phatom_1",
+    "duration": -1.0,
+    "blackboard": {
+      "prob": 0.5,
+      "hp_ratio": 0.8,
+      "duration": 10.0
+    },
+    "skillId": "sktok_phatom_1"
+  },
+  "sktok_phatom_2": {
+    "name": "Bloody Opus",
+    "rangeId": null,
+    "description": "Upon deployment, immediately gains 10 charges of a stacking +20% ATK buff (each attack consumes one charge)",
+    "skillType": 0,
+    "spData": {
+      "spType": 8,
+      "levelUpCost": null,
+      "maxChargeTime": 0,
+      "spCost": 0,
+      "initSp": 0,
+      "increment": 0.0
+    },
+    "prefabId": "sktok_phatom_2",
+    "duration": -1.0,
+    "blackboard": {
+      "times": 10.0,
+      "atk": 0.2
+    },
+    "skillId": "sktok_phatom_2"
+  },
+  "sktok_phatom_3": {
+    "name": "Night Raid",
+    "rangeId": "x-4",
+    "description": "Upon deployment, immediately deals 300% ATK as Physical damage to all nearby enemies, pushes them back slightly, and randomly inflicts one of the following statuses to all targets hit (slow, bind, or stun) for 4 seconds",
+    "skillType": 0,
+    "spData": {
+      "spType": 8,
+      "levelUpCost": null,
+      "maxChargeTime": 0,
+      "spCost": 0,
+      "initSp": 0,
+      "increment": 0.0
+    },
+    "prefabId": "sktok_phatom_3",
+    "duration": -1.0,
+    "blackboard": {
+      "atk_scale": 3.0,
+      "force": 0.0,
+      "sluggish": 4.5,
+      "root": 4.5,
+      "stun": 4.5
+    },
+    "skillId": "sktok_phatom_3"
+  },
+  "skchr_weedy_1": {
+    "name": "Barrel Burst",
+    "rangeId": null,
+    "description": "The next attack pushes the target towards the attack direction significantly, dealing 150% Physical Damage and stunning for 1 seconds",
+    "skillType": 2,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 5,
+      "initSp": 0,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_weedy_1",
+    "duration": 0.0,
+    "blackboard": {
+      "atk_scale": 1.5,
+      "force": 2.0,
+      "stun": 1.2
+    },
+    "skillId": "skchr_weedy_1"
+  },
+  "skchr_weedy_2": {
+    "name": "Hydraulics Mode",
+    "rangeId": null,
+    "description": "Attack Interval increases,  ATK +200%, Attack Range extends by +2 and becomes a long-range AoE attack, attacks now push enemies away moderately\nUnlimited duration",
+    "skillType": 2,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 70,
+      "initSp": 0,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_weedy_2",
+    "duration": 0.0,
+    "blackboard": {
+      "atk": 2.0,
+      "ability_range_forward_extend": 2.0,
+      "base_attack_time": 2.2,
+      "base_force_level": 1.0
+    },
+    "skillId": "skchr_weedy_2"
+  },
+  "skchr_weedy_3": {
+    "name": "Liquid Nitrogen Cannon",
+    "rangeId": "4-1",
+    "description": "Immediately fires a compressed liquid nitrogen cannon, dealing 350% Arts Damage in an area and pushing enemies away greatly; For 8 seconds, enemies hit by this ability take True Damage proportional to distance travelled; If the Reserve Water Cannon is located within 4 tiles, it will also activate this ability",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 33,
+      "initSp": 20,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_weedy_3",
+    "duration": -1.0,
+    "blackboard": {
+      "force": 3.0,
+      "stun": 0.0,
+      "atk_scale": 3.5,
+      "duration": 8.0,
+      "dist": 1.0,
+      "value": 1200.0,
+      "interval": 0.066
+    },
+    "skillId": "skchr_weedy_3"
+  },
+  "sktok_weedy_token": {
+    "name": "Liquid Nitrogen Cannon",
+    "rangeId": "4-1",
+    "description": "Immediately fires a compressed liquid nitrogen cannon, dealing 350% Arts Damage in an area and pushing enemies away greatly; For 8 seconds, enemies hit by this ability take True Damage proportional to distance travelled; If the Reserve Water Cannon is located within 4 tiles, it will also activate this ability",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 0,
+      "initSp": 0,
+      "increment": 1.0
+    },
+    "prefabId": "sktok_weedy_token",
+    "duration": -1.0,
+    "blackboard": {
+      "force": 3.0,
+      "stun": 0.0,
+      "atk_scale": 3.5,
+      "duration": 8.0,
+      "dist": 1.0,
+      "value": 1200.0,
+      "interval": 0.066
+    },
+    "skillId": "sktok_weedy_token"
+  },
+  "skchr_haak_1": {
+    "name": "Rapid Fire",
+    "rangeId": null,
+    "description": "ASPD +100",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 30,
+      "initSp": 20,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_haak_1",
+    "duration": 30.0,
+    "blackboard": {
+      "attack_speed": 100.0
+    },
+    "skillId": "skchr_haak_1"
+  },
+  "skchr_haak_2": {
+    "name": "Type-γ Stimpack",
+    "rangeId": null,
+    "description": "Attacks an ally within range (prioritizes allies directly in front of this unit) 15 times for 500 damage, and then increases the Max HP and DEF of self and that unit by +80% for the remaining duration of this skill",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 30,
+      "initSp": 25,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_haak_2",
+    "duration": 30.0,
+    "blackboard": {
+      "max_hp": 0.8,
+      "def": 0.8,
+      "damage": 500.0
+    },
+    "skillId": "skchr_haak_2"
+  },
+  "skchr_haak_3": {
+    "name": "Durian-Flavored Stimpack",
+    "rangeId": null,
+    "description": "Attacks an ally within range (prioritizes allies directly in front of this unit) 15 times for 500 damage, and then increases ATK by +50% and ASPD by +50 of self and that unit for the remaining duration of this skill",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 35,
+      "initSp": 30,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_haak_3",
+    "duration": 20.0,
+    "blackboard": {
+      "atk": 0.5,
+      "attack_speed": 50.0,
+      "damage": 500.0
+    },
+    "skillId": "skchr_haak_3"
   },
   "skchr_shining_1": {
     "name": "Creed",
@@ -4001,6 +6497,255 @@
     },
     "skillId": "skchr_demkni_3"
   },
+  "skchr_blemsh_1": {
+    "name": "Surging Brilliance",
+    "rangeId": "x-4",
+    "description": "The next attack deals 260% ATK as physical damage and restores the HP of a nearby ally for 150% of Blemishine's ATK\nCan store 3 charge(s)",
+    "skillType": 2,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 3,
+      "spCost": 4,
+      "initSp": 0,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_blemsh_1",
+    "duration": 0.0,
+    "blackboard": {
+      "atk_scale": 2.6,
+      "heal_scale": 1.5,
+      "ct": 3.0
+    },
+    "skillId": "skchr_blemsh_1"
+  },
+  "skchr_blemsh_2": {
+    "name": "Deterring Radiance",
+    "rangeId": "x-1",
+    "description": "ATK +110% and all ground enemies within the same tile as herself are put to Sleep(affected enemies are Stunned and Invulnerable); Restore the HP of all nearby allies by 20% of Blemishine's ATK every second",
+    "skillType": 1,
+    "spData": {
+      "spType": 4,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 12,
+      "initSp": 0,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_blemsh_2",
+    "duration": 10.0,
+    "blackboard": {
+      "atk": 1.1,
+      "attack@atk_to_hp_recovery_ratio": 0.2
+    },
+    "skillId": "skchr_blemsh_2"
+  },
+  "skchr_blemsh_3": {
+    "name": "Divine Avatar",
+    "rangeId": "x-1",
+    "description": "ATK +110%, DEF +60%; Every attack deals an additional 100% ATK as Arts damage and restores the HP of a nearby ally besides herself for 100% of Blemishine's ATK",
+    "skillType": 1,
+    "spData": {
+      "spType": 4,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 25,
+      "initSp": 15,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_blemsh_3",
+    "duration": 30.0,
+    "blackboard": {
+      "atk": 1.1,
+      "def": 0.6,
+      "attack@blemsh_s_3_extra_dmg[magic].atk_scale": 1.0,
+      "heal_scale": 1.0
+    },
+    "skillId": "skchr_blemsh_3"
+  },
+  "skchr_nian_1": {
+    "name": "Tin Burning",
+    "rangeId": null,
+    "description": "DEF +70%, ATK +45%, and normal attacks now deal Arts damage",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 30,
+      "initSp": 10,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_nian_1",
+    "duration": 30.0,
+    "blackboard": {
+      "atk": 0.45,
+      "def": 0.7
+    },
+    "skillId": "skchr_nian_1"
+  },
+  "skchr_nian_2": {
+    "name": "Copper Seal",
+    "rangeId": null,
+    "description": "Stops attacking; DEF +130%, Block +1, upon receiving an enemy attack, deals Arts damage to the attacker equal to 90% of Nian's ATK and silences them for 5 seconds",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 50,
+      "initSp": 35,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_nian_2",
+    "duration": 35.0,
+    "blackboard": {
+      "def": 1.3,
+      "block_cnt": 1.0,
+      "atk_scale": 0.9,
+      "silence": 5.0
+    },
+    "skillId": "skchr_nian_2"
+  },
+  "skchr_nian_3": {
+    "name": "Iron Defense",
+    "rangeId": "x-2",
+    "description": "ATK +120%; increases the DEF of nearby Operators by +80%, grants them Block +1, and status resistance (Reduces the duration of stun, cold, and freeze effects by 50%)",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 85,
+      "initSp": 70,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_nian_3",
+    "duration": 45.0,
+    "blackboard": {
+      "nian_s_3[self].block_cnt": 0.0,
+      "nian_s_3[ally].block_cnt": 1.0,
+      "nian_s_3[ally].def": 0.8,
+      "one_minus_status_resistance": -0.5,
+      "nian_s_3[self].atk": 1.2
+    },
+    "skillId": "skchr_nian_3"
+  },
+  "skchr_mudrok_2": {
+    "name": "Crag Splitter",
+    "rangeId": "x-4",
+    "description": "The next attack restores 6% of this unit’s Max HP and deals 270% ATK as Physical damage to all surrounding ground enemies, with a 30% chance to stun affected targets for 1 second(s)",
+    "skillType": 2,
+    "spData": {
+      "spType": 4,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 4,
+      "initSp": 0,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_mudrok_2",
+    "duration": 0.0,
+    "blackboard": {
+      "atk_scale": 2.7,
+      "buff_prob": 0.3,
+      "stun": 1.2,
+      "hp_ratio": 0.06
+    },
+    "skillId": "skchr_mudrok_2"
+  },
+  "skchr_mudrok_3": {
+    "name": "Bloodline of Desecrated Earth",
+    "rangeId": "x-1",
+    "description": "Upon skill activation, Mudrock stops attacking and does not take damage for 10 seconds, reducing the movement speed of surrounding enemies by -60%; After this state ends, Mudrock stuns surrounding ground enemies for 5 seconds and gains ATK +140%, reduced attack interval, DEF +80%, and the ability to attack all blocked enemies",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 25,
+      "initSp": 15,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_mudrok_3",
+    "duration": 30.0,
+    "blackboard": {
+      "atk": 1.4,
+      "def": 0.8,
+      "move_speed": -0.6,
+      "sleep": 10.0,
+      "awake": 20.0,
+      "base_attack_time": -0.3,
+      "stun": 5.0
+    },
+    "skillId": "skchr_mudrok_3"
+  },
+  "skchr_zumama_1": {
+    "name": "Tomahawk",
+    "rangeId": null,
+    "description": "ATK+25%, DEF+25%",
+    "skillType": 0,
+    "spData": {
+      "spType": 8,
+      "levelUpCost": null,
+      "maxChargeTime": 0,
+      "spCost": 0,
+      "initSp": 0,
+      "increment": 0.0
+    },
+    "prefabId": "skchr_zumama_1",
+    "duration": 0.0,
+    "blackboard": {
+      "def": 0.25,
+      "atk": 0.25
+    },
+    "skillId": "skchr_zumama_1"
+  },
+  "skchr_zumama_2": {
+    "name": "Menacing Slash",
+    "rangeId": null,
+    "description": "Attack Interval increases a bit; ATK +180%. Stuns all the blocked targets during the skill duration",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 28,
+      "initSp": 15,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_zumama_2",
+    "duration": 18.0,
+    "blackboard": {
+      "atk": 1.8,
+      "base_attack_time": 0.4
+    },
+    "skillId": "skchr_zumama_2"
+  },
+  "skchr_zumama_3": {
+    "name": "Iron Will",
+    "rangeId": null,
+    "description": "ATK +230%, DEF +160%, Blocked enemies +2, restores 6% HP each second\nAfter this skill ends, this unit is stunned for 5 second(s)",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 45,
+      "initSp": 25,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_zumama_3",
+    "duration": 35.0,
+    "blackboard": {
+      "atk": 2.3,
+      "def": 1.6,
+      "block_cnt": 2.0,
+      "hp_recovery_per_sec_by_max_hp_ratio": 0.06,
+      "stun": 5.0
+    },
+    "skillId": "skchr_zumama_3"
+  },
   "skchr_skadi_2": {
     "name": "Wave Strike",
     "rangeId": null,
@@ -4044,8 +6789,76 @@
     },
     "skillId": "skchr_skadi_3"
   },
+  "skchr_f12yin_1": {
+    "name": "Left Hook",
+    "rangeId": null,
+    "description": "The next attack deals 230% ATK damage and hits 1 additional target",
+    "skillType": 2,
+    "spData": {
+      "spType": 2,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 3,
+      "initSp": 0,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_f12yin_1",
+    "duration": 0.0,
+    "blackboard": {
+      "atk_scale": 2.3,
+      "max_target": 2.0
+    },
+    "skillId": "skchr_f12yin_1"
+  },
+  "skchr_f12yin_2": {
+    "name": "Sweeping Stance",
+    "rangeId": "0-1",
+    "description": "Can switch between the original state and the following state:\nDEF -20%, Attack Range reduces, ATK +80%, Block +1, attacks all blocked enemies, and restores 0.07% Max HP per second",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 5,
+      "initSp": 0,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_f12yin_2",
+    "duration": 0.0,
+    "blackboard": {
+      "atk": 0.8,
+      "def": -0.2,
+      "hp_recovery_per_sec_by_max_hp_ratio": 0.07,
+      "block_cnt": 1.0
+    },
+    "skillId": "skchr_f12yin_2"
+  },
+  "skchr_f12yin_3": {
+    "name": "Earth-Shattering Smash",
+    "rangeId": "x-5",
+    "description": "Attack interval increases, ATK +100%, attacks hit 2 times, increases the activation rate of the first Talent to 75%, and each attack pushes up to 4 surrounding targets away moderately",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 40,
+      "initSp": 25,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_f12yin_3",
+    "duration": 30.0,
+    "blackboard": {
+      "base_attack_time": 0.7,
+      "atk": 1.0,
+      "talent@prob": 0.75,
+      "attack@force": 1.0,
+      "attack@max_target": 4.0
+    },
+    "skillId": "skchr_f12yin_3"
+  },
   "skchr_svrash_1": {
-    "name": "Power Strike \u03b3",
+    "name": "Power Strike γ",
     "rangeId": null,
     "description": "Increases the ATK of next attack to 290%",
     "skillType": 2,
@@ -4106,6 +6919,53 @@
       "attack@max_target": 6.0
     },
     "skillId": "skchr_svrash_3"
+  },
+  "skchr_thorns_2": {
+    "name": "Protective Spikes",
+    "rangeId": "3-1",
+    "description": "Stops attacking; ATK +60%, DEF +110%; When hit by an enemy's normal attack, launches long-ranged spikes at up to 4 enemies in front (0.6-second cooldown)",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 25,
+      "initSp": 10,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_thorns_2",
+    "duration": 40.0,
+    "blackboard": {
+      "atk": 0.6,
+      "def": 1.1,
+      "cooldown": 0.6,
+      "max_target": 4.0
+    },
+    "skillId": "skchr_thorns_2"
+  },
+  "skchr_thorns_3": {
+    "name": "Destreza",
+    "rangeId": "3-3",
+    "description": "Attack Range expands, ATK +60%, ASPD +25, and ranged attacks no longer deal reduced damage\nUpon the second activation of this skill and afterwards, this skill has unlimited duration, and its bonuses are twice the base amount",
+    "skillType": 1,
+    "spData": {
+      "spType": 2,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 15,
+      "initSp": 0,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_thorns_3",
+    "duration": 30.0,
+    "blackboard": {
+      "atk": 0.6,
+      "attack_speed": 25.0,
+      "thorns_s_3[b].atk": 1.2,
+      "thorns_s_3[b].attack_speed": 50.0,
+      "thorns_s_3[b].duration": -1.0
+    },
+    "skillId": "skchr_thorns_3"
   },
   "skchr_chen_1": {
     "name": "Sheathed Strike",
@@ -4172,7 +7032,7 @@
     "skillId": "skchr_chen_3"
   },
   "skchr_huang_1": {
-    "name": "Power Strike \u03b3",
+    "name": "Power Strike γ",
     "rangeId": null,
     "description": "Increases the ATK of next attack to 290%",
     "skillType": 2,
@@ -4234,6 +7094,75 @@
       "damage_by_atk_scale": 4.0
     },
     "skillId": "skchr_huang_3"
+  },
+  "skchr_surtr_1": {
+    "name": "Laevatain",
+    "rangeId": null,
+    "description": "Increases the ATK of the next attack to 310%. If the target is defeated, immediately recover all Skill Points",
+    "skillType": 2,
+    "spData": {
+      "spType": 2,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 2,
+      "initSp": 0,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_surtr_1",
+    "duration": 0.0,
+    "blackboard": {
+      "atk_scale": 3.1
+    },
+    "skillId": "skchr_surtr_1"
+  },
+  "skchr_surtr_2": {
+    "name": "Molten Giant",
+    "rangeId": null,
+    "description": "ATK +120%, attack range +1 and attack target count +1. When attacking only one enemy, deal 160% ATK as damage to the target",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 18,
+      "initSp": 12,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_surtr_2",
+    "duration": 18.0,
+    "blackboard": {
+      "atk": 1.2,
+      "ability_range_forward_extend": 1.0,
+      "attack@max_target": 2.0,
+      "attack@surtr_s_2[critical].atk_scale": 1.6
+    },
+    "skillId": "skchr_surtr_2"
+  },
+  "skchr_surtr_3": {
+    "name": "Twilight",
+    "rangeId": null,
+    "description": "Immediately recover all HP; ATK +330%, attack range +2, attack target count +3 and Max HP +5000. Gradually lose HP (HP loss caps at 20%/second after 60 seconds); Unlimited duration",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 5,
+      "initSp": 0,
+      "increment": 1.0
+    },
+    "prefabId": "skchr_surtr_3",
+    "duration": -1.0,
+    "blackboard": {
+      "atk": 3.3,
+      "ability_range_forward_extend": 2.0,
+      "max_hp": 5000.0,
+      "interval": 0.2,
+      "hp_ratio": 0.2,
+      "duration": 60.0,
+      "attack@max_target": 4.0
+    },
+    "skillId": "skchr_surtr_3"
   },
   "skchr_helage_1": {
     "name": "Crescent Moon",
@@ -4337,7 +7266,7 @@
   "sktok_emp": {
     "name": "EMP Blast",
     "rangeId": "x-4",
-    "description": "Consumes 10 DP to immediately deal damage to all nearby enemies and Stun the targets hit for 7 seconds",
+    "description": "Consumes 10 DP to immediately deal damage to all nearby enemies and Stun the targets hit for 15 seconds",
     "skillType": 1,
     "spData": {
       "spType": 1,
@@ -4350,7 +7279,7 @@
     "prefabId": "sktok_emp",
     "duration": 0.0,
     "blackboard": {
-      "stun": 7.0,
+      "stun": 15.0,
       "cost": 10.0
     },
     "skillId": "sktok_emp"
@@ -4476,5 +7405,280 @@
       "freeze": 10.0
     },
     "skillId": "sktok_frosts"
+  },
+  "sktok_ore": {
+    "name": "Pulse Wave",
+    "rangeId": "x-1",
+    "description": "Emits a pulse wave in the surrounding tiles, dealing 500 True Damage to all allied and enemy units; Certain enemies are strengthened",
+    "skillType": 2,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 7,
+      "initSp": 0,
+      "increment": 1.0
+    },
+    "prefabId": "sktok_ore",
+    "duration": 0.0,
+    "blackboard": {
+      "value": 500.0
+    },
+    "skillId": "sktok_ore"
+  },
+  "sktok_mine": {
+    "name": "Detonate",
+    "rangeId": null,
+    "description": "Explodes when an enemy passes by, dealing 2000 True Damage to all nearby enemies and making them take +50% more damage for 15 seconds",
+    "skillType": 2,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 25,
+      "initSp": 0,
+      "increment": 1.0
+    },
+    "prefabId": "sktok_mine",
+    "duration": -1.0,
+    "blackboard": {
+      "damage": 2000.0,
+      "damage_scale": 1.5,
+      "duration": 15.0
+    },
+    "skillId": "sktok_mine"
+  },
+  "sktok_blower": {
+    "name": "Airflow",
+    "rangeId": null,
+    "description": "Blows out an airflow towards the 3 frontal tiles; Operators deployed downstream/upstream from the airflow have increased/decreased ATK; Enemies moving downstream/upstream from the airflow have increased/decreased Movement Speed",
+    "skillType": 0,
+    "spData": {
+      "spType": 8,
+      "levelUpCost": null,
+      "maxChargeTime": 0,
+      "spCost": 0,
+      "initSp": 0,
+      "increment": 0.0
+    },
+    "prefabId": "sktok_blower",
+    "duration": 0.0,
+    "blackboard": {
+      "blower_s_character[equal].atk": 0.3,
+      "blower_s_character[vertical].atk": 0.0,
+      "blower_s_character[opposite].atk": -0.3,
+      "blower_s_enemy[equal].move_speed": 0.8,
+      "blower_s_enemy[opposite].move_speed": -0.5
+    },
+    "skillId": "sktok_blower"
+  },
+  "sktok_tower": {
+    "name": "Arts Transfer Protocol",
+    "rangeId": "x-5",
+    "description": "Each attack deals Arts damage to an enemy equal to 5% of its Max HP; Every 5 seconds, restores 10% HP to an allied unit",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 100,
+      "initSp": 100,
+      "increment": 0.0
+    },
+    "prefabId": "sktok_tower",
+    "duration": 0.0,
+    "blackboard": {
+      "talent_range_flag": 1.0,
+      "talent@tower_t_4[magic_attack].atk_scale": 0.05,
+      "talent@tower_t_5[heal][persistent].interval": 5.0,
+      "attack@tower_heal[target].hp_ratio": 0.1
+    },
+    "skillId": "sktok_tower"
+  },
+  "sktok_tree": {
+    "name": "Natural Camouflage",
+    "rangeId": "x-5",
+    "description": "Increases the DEF of adjacent allied units; Aftering being cleared by a [Rhodes Island Temporary Employee], turns into a deployable Ranged tile",
+    "skillType": 0,
+    "spData": {
+      "spType": 8,
+      "levelUpCost": null,
+      "maxChargeTime": 0,
+      "spCost": 0,
+      "initSp": 0,
+      "increment": 0.0
+    },
+    "prefabId": "sktok_tree",
+    "duration": 0.0,
+    "blackboard": {
+      "def": 150.0
+    },
+    "skillId": "sktok_tree"
+  },
+  "sktok_bomb": {
+    "name": "Ill Temper",
+    "rangeId": "x-5",
+    "description": "Stun all enemies in the four adjacent tiles for 12 seconds",
+    "skillType": 0,
+    "spData": {
+      "spType": 8,
+      "levelUpCost": null,
+      "maxChargeTime": 0,
+      "spCost": 0,
+      "initSp": 0,
+      "increment": 0.0
+    },
+    "prefabId": "sktok_bomb",
+    "duration": -1.0,
+    "blackboard": {
+      "attack@duration": 1.5,
+      "attack@stun": 12.0
+    },
+    "skillId": "sktok_bomb"
+  },
+  "sktok_electric": {
+    "name": "Energized!",
+    "rangeId": "x-2",
+    "description": "Activation: Trigger an electric current every 2 seconds, dealing 250 Arts damage to passing enemies and inflicting Slow for 1 seconds",
+    "skillType": 0,
+    "spData": {
+      "spType": 8,
+      "levelUpCost": null,
+      "maxChargeTime": 0,
+      "spCost": 0,
+      "initSp": 0,
+      "increment": 0.0
+    },
+    "prefabId": "sktok_electric",
+    "duration": -1.0,
+    "blackboard": {
+      "interval": 2.3,
+      "attack@value": 250.0,
+      "attack@sluggish": 1.5
+    },
+    "skillId": "sktok_electric"
+  },
+  "sktok_roadblock": {
+    "name": "Obstruction",
+    "rangeId": null,
+    "description": "Blocks the advance of Talulah, the Fighter, and Ursus Civilians; Able to be destroyed by your units",
+    "skillType": 0,
+    "spData": {
+      "spType": 8,
+      "levelUpCost": null,
+      "maxChargeTime": 0,
+      "spCost": 0,
+      "initSp": 0,
+      "increment": 0.0
+    },
+    "prefabId": "sktok_roadblock",
+    "duration": -1.0,
+    "blackboard": {},
+    "skillId": "sktok_roadblock"
+  },
+  "sktok_flame": {
+    "name": "Energy Crystallization",
+    "rangeId": null,
+    "description": "Self-destructs after 25s, sending fireballs in the cardinal directions that deal 1500 Arts damage; Targets hit are afflicted with [Burning Breath] (Deals increasing True damage each second, but can be resisted)",
+    "skillType": 2,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 25,
+      "initSp": 0,
+      "increment": 1.0
+    },
+    "prefabId": "sktok_flame",
+    "duration": 0.0,
+    "blackboard": {
+      "damage": 1500.0,
+      "dragon_fire.duration": 30.5,
+      "dragon_fire.basedamage": 50.0,
+      "dragon_fire.addondamage": 180.0,
+      "dragon_fire.addonduration": 30.0
+    },
+    "skillId": "sktok_flame"
+  },
+  "sktok_frosts_friend": {
+    "name": "Frigid Tide",
+    "rangeId": "x-1",
+    "description": "Launches a frigid shockwave, inflicting the Cold status upon enemy targets hit for 10 seconds",
+    "skillType": 2,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 15,
+      "initSp": 0,
+      "increment": 1.0
+    },
+    "prefabId": "sktok_frosts_friend",
+    "duration": 0.0,
+    "blackboard": {
+      "freeze": 10.0
+    },
+    "skillId": "sktok_frosts_friend"
+  },
+  "sktok_ore_friend": {
+    "name": "Pulse Wave",
+    "rangeId": "x-1",
+    "description": "Emits a pulse wave in the surrounding tiles, dealing 2000 True damage to all surrounding enemy units",
+    "skillType": 2,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 15,
+      "initSp": 0,
+      "increment": 1.0
+    },
+    "prefabId": "sktok_ore_friend",
+    "duration": 0.0,
+    "blackboard": {
+      "value": 2000.0
+    },
+    "skillId": "sktok_ore_friend"
+  },
+  "sktok_npcsld": {
+    "name": "Form Up!",
+    "rangeId": null,
+    "description": "More likely to be attacked by enemies",
+    "skillType": 0,
+    "spData": {
+      "spType": 8,
+      "levelUpCost": null,
+      "maxChargeTime": 0,
+      "spCost": 0,
+      "initSp": 0,
+      "increment": 0.0
+    },
+    "prefabId": "sktok_npcsld",
+    "duration": -1.0,
+    "blackboard": {
+      "taunt_level": 1.0
+    },
+    "skillId": "sktok_npcsld"
+  },
+  "sktok_prison": {
+    "name": "Lock ‘em Up!",
+    "rangeId": "3-15",
+    "description": "Consumes 5 DP to immediately Stun all targets within range for 2 seconds and Imprison them (Will not reset the attack count of Imprisoned enemies)",
+    "skillType": 1,
+    "spData": {
+      "spType": 1,
+      "levelUpCost": null,
+      "maxChargeTime": 1,
+      "spCost": 25,
+      "initSp": 0,
+      "increment": 1.0
+    },
+    "prefabId": "sktok_prison",
+    "duration": 0.0,
+    "blackboard": {
+      "stun": 2.0,
+      "cost": 5.0
+    },
+    "skillId": "sktok_prison"
   }
 }

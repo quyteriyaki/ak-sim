@@ -1,0 +1,83 @@
+{
+  "name": "Asbestos",
+  "rarity": 5,
+  "profession": "Defender",
+  "potential": {
+    "cost": -2.0,
+    "respawn": -10.0,
+    "maxHp": 210.0
+  },
+  "skills": [
+    {
+      "name": "Resilient Mode",
+      "rangeId": null,
+      "description": "Dodges the next instance of Arts damage, and reduces Arts damage taken by -30% during the skill duration",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 20,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_asbest_1",
+      "duration": 20.0,
+      "blackboard": {
+        "damage_scale": 0.7,
+        "fake": 0.3
+      },
+      "skillId": "skchr_asbest_1"
+    },
+    {
+      "name": "Thermal Power Mode",
+      "rangeId": "3-13",
+      "description": "Attack Interval increases, ATK +90%, DEF +60%, Attack Range expands significantly, and normal attacks now deal AoE damage",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 50,
+        "initSp": 30,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_asbest_2",
+      "duration": 50.0,
+      "blackboard": {
+        "atk": 0.9,
+        "def": 0.6,
+        "base_attack_time": 0.4
+      },
+      "skillId": "skchr_asbest_2"
+    }
+  ],
+  "stats": {
+    "level": 80,
+    "maxHp": 3135,
+    "atk": 633,
+    "def": 555,
+    "res": 15.0,
+    "cost": 25,
+    "block": 3,
+    "atkSpd": 100.0,
+    "atkTime": 1.6,
+    "hpRec": 0.0,
+    "spRec": 1.0,
+    "respawn": 70
+  },
+  "talents": [
+    {
+      "name": "Moist Skin",
+      "description": "RES +10, restores 3 SP when hit by an enemy's normal Arts attack",
+      "blackboard": {
+        "magic_resistance": 10.0,
+        "sp": 3.0
+      }
+    }
+  ],
+  "trust": {
+    "atk": 40,
+    "def": 40
+  }
+}

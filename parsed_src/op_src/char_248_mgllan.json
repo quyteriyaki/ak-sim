@@ -88,7 +88,7 @@
   "talents": [
     {
       "name": "Support Drone - Soaring Dragon",
-      "description": "Can use up to 5 drones that do not block (max 3 deployed at once). Drones\u2019 effect changes based upon Skill.",
+      "description": "Can use up to 5 drones that do not block (max 3 deployed at once). Drones’ effect changes based upon Skill.",
       "blackboard": {
         "cnt": 5.0
       }

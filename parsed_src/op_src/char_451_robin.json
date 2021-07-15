@@ -1,0 +1,82 @@
+{
+  "name": "Robin",
+  "rarity": 5,
+  "profession": "Specialist",
+  "potential": {
+    "cost": -3.0,
+    "respawn": -10.0
+  },
+  "skills": [
+    {
+      "name": "Binding “Clip”",
+      "rangeId": null,
+      "description": "Passive Effect: When a trap is triggered, deals 350% ATK as Physical damage and binds the target for 3 second(s)\nActive Effect: Immediately gets 1 trap",
+      "skillType": 2,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 12,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_robin_1",
+      "duration": 0.0,
+      "blackboard": {
+        "cnt": 1.0,
+        "atk_scale": 3.5,
+        "constraint": 3.0
+      },
+      "skillId": "skchr_robin_1"
+    },
+    {
+      "name": "Launching “Clip”",
+      "rangeId": null,
+      "description": "Passive Effect: When a trap is triggered, deals 380% ATK as Physical damage and pushes the target away significantly\nActive Effect: Immediately gets 1 trap",
+      "skillType": 2,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 12,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_robin_2",
+      "duration": 0.0,
+      "blackboard": {
+        "cnt": 1.0,
+        "atk_scale": 3.8,
+        "force": 2.0
+      },
+      "skillId": "skchr_robin_2"
+    }
+  ],
+  "stats": {
+    "level": 80,
+    "maxHp": 1442,
+    "atk": 513,
+    "def": 166,
+    "res": 0.0,
+    "cost": 13,
+    "block": 1,
+    "atkSpd": 100.0,
+    "atkTime": 0.85,
+    "hpRec": 0.0,
+    "spRec": 1.0,
+    "respawn": 80
+  },
+  "talents": [
+    {
+      "name": "\"Clip\" Specialist",
+      "description": "Can deploy up to 10 <@ba.talpu>(+2)</> “Clip” traps (Can store up to 10); The first enemy that steps on a trap will trigger its effect",
+      "blackboard": {
+        "cnt": 10.0
+      }
+    }
+  ],
+  "trust": {
+    "maxHp": 200,
+    "atk": 40
+  }
+}

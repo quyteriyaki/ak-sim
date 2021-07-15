@@ -1,0 +1,66 @@
+{
+  "name": "\"Clip\"",
+  "rarity": 5,
+  "profession": "TOKEN",
+  "potential": [],
+  "skills": [
+    {
+      "name": "Binding “Clip”",
+      "rangeId": null,
+      "description": "When triggered, deals 350% ATK as Physical damage and binds the target for 3 second(s)",
+      "skillType": 2,
+      "spData": {
+        "spType": 8,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 0,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "sktok_robin_1",
+      "duration": 0.0,
+      "blackboard": {
+        "cnt": 1.0,
+        "atk_scale": 3.5,
+        "constraint": 3.0
+      },
+      "skillId": "sktok_robin_1"
+    },
+    {
+      "name": "Launching “Clip”",
+      "rangeId": null,
+      "description": "When triggered, deals 380% ATK as Physical damage and pushes the target away significantly",
+      "skillType": 2,
+      "spData": {
+        "spType": 8,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 0,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "sktok_robin_2",
+      "duration": 0.0,
+      "blackboard": {
+        "cnt": 1.0,
+        "atk_scale": 3.8,
+        "force": 2.0
+      },
+      "skillId": "sktok_robin_2"
+    }
+  ],
+  "stats": {
+    "level": 80,
+    "maxHp": 1000,
+    "atk": 100,
+    "def": 0,
+    "res": 0.0,
+    "cost": 3,
+    "block": 0,
+    "atkSpd": 100.0,
+    "atkTime": 1.0,
+    "hpRec": 0.0,
+    "spRec": 1.0,
+    "respawn": 5
+  }
+}

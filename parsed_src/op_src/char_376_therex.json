@@ -1,0 +1,35 @@
+{
+  "name": "THRM-EX",
+  "rarity": 1,
+  "profession": "Specialist",
+  "potential": {},
+  "stats": {
+    "level": 30,
+    "maxHp": 1443,
+    "atk": 260,
+    "def": 443,
+    "res": 50.0,
+    "cost": 3,
+    "block": 0,
+    "atkSpd": 100.0,
+    "atkTime": 0.93,
+    "hpRec": 0.0,
+    "spRec": 1.0,
+    "respawn": 200
+  },
+  "talents": [
+    {
+      "name": "Delayed Detonation 6",
+      "description": "3 seconds after deployment, inflicts 400% Physical Damage to enemies in the nearby 8 tiles and inflicts [Fragile] (affected units take 30% more damage, only the highest effect of this type applies), then automatically retreats from battle",
+      "blackboard": {
+        "interval": 3.0,
+        "damage_by_atk_scale": 4.0,
+        "weak[limit]": 8.0,
+        "damage_scale": 1.3
+      }
+    }
+  ],
+  "trust": {
+    "atk": 90
+  }
+}

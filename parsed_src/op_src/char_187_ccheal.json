@@ -11,7 +11,7 @@
     {
       "name": "Vitality Restoration",
       "rangeId": null,
-      "description": "Buffs the target ally in the next healing, restoring HP by 35% of Gavial's ATK (by 70% of Gavial's ATK when the target's HP is lower than 50%) per second, lasting 5 seconds\nCan store 2 charge(s)",
+      "description": "Buffs the target ally in the next healing, restoring HP by 35% of Gavial's ATK (by 70% of Gavial's ATK when the target's HP is lower than 50%) per second, lasting 5 seconds\nCan store 3 charge(s)",
       "skillType": 2,
       "spData": {
         "spType": 1,
@@ -29,7 +29,7 @@
         "hp_ratio": 0.5,
         "interval": 1.0,
         "duration": 5.0,
-        "ct": 2.0
+        "ct": 3.0
       },
       "skillId": "skchr_ccheal_1"
     },

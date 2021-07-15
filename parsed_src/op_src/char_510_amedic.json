@@ -1,0 +1,54 @@
+{
+  "name": "Touch",
+  "rarity": 5,
+  "profession": "Medic",
+  "potential": [],
+  "skills": [
+    {
+      "name": "Apocalyptic Scene",
+      "rangeId": null,
+      "description": "Range +2, heals 2 target(s); The ATK of all Medics +30%",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 30,
+        "initSp": 10,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_amedic_1",
+      "duration": 30.0,
+      "blackboard": {
+        "atk": 0.3,
+        "ability_range_forward_extend": 2.0,
+        "attack@max_target": 2.0
+      },
+      "skillId": "skchr_amedic_1"
+    }
+  ],
+  "stats": {
+    "level": 80,
+    "maxHp": 1633,
+    "atk": 595,
+    "def": 135,
+    "res": 0.0,
+    "cost": 18,
+    "block": 1,
+    "atkSpd": 100.0,
+    "atkTime": 2.85,
+    "hpRec": 0.0,
+    "spRec": 1.0,
+    "respawn": 60
+  },
+  "talents": [
+    {
+      "name": "Promotion",
+      "description": "Targets healed by this unit gain +3 SP",
+      "blackboard": {
+        "sp": 3.0
+      }
+    }
+  ],
+  "trust": {}
+}

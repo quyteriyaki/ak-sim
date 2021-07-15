@@ -1,0 +1,111 @@
+{
+  "name": "W",
+  "rarity": 6,
+  "profession": "Sniper",
+  "potential": {
+    "cost": -2.0,
+    "respawn": -4.0,
+    "atk": 35.0
+  },
+  "skills": [
+    {
+      "name": "King of Hearts",
+      "rangeId": null,
+      "description": "Immediately launches a grenade, dealing 350% Physical Damage to all enemies hit and stunning them for 3 seconds",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 16,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_cqbw_1",
+      "duration": -1.0,
+      "blackboard": {
+        "atk_scale": 3.5,
+        "stun": 3.0
+      },
+      "skillId": "skchr_cqbw_1"
+    },
+    {
+      "name": "Jack in the Box",
+      "rangeId": null,
+      "description": "The next attack buries a mine (lasts for 120 seconds) in a deployable tile within this unit's attack range; The mine will detonate when an enemy passes by it, dealing 280% Physical Damage to all nearby enemies and stunning them for 2 seconds",
+      "skillType": 2,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 8,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_cqbw_2",
+      "duration": 0.0,
+      "blackboard": {
+        "atk_scale": 2.8,
+        "stun": 2.2
+      },
+      "skillId": "skchr_cqbw_2"
+    },
+    {
+      "name": "D12",
+      "rangeId": null,
+      "description": "Places bombs on up to 4 enemies within range, prioritizing enemies with the highest HP; after a delay, bombs will detonate, each dealing 310% Physical Damage to nearby enemies and stunning them for 5 seconds",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 33,
+        "initSp": 20,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_cqbw_3",
+      "duration": 0.0,
+      "blackboard": {
+        "max_target": 4.0,
+        "atk_scale": 3.1,
+        "stun": 5.0
+      },
+      "skillId": "skchr_cqbw_3"
+    }
+  ],
+  "stats": {
+    "level": 90,
+    "maxHp": 1605,
+    "atk": 912,
+    "def": 133,
+    "res": 0.0,
+    "cost": 29,
+    "block": 1,
+    "atkSpd": 100.0,
+    "atkTime": 2.8,
+    "hpRec": 0.0,
+    "spRec": 1.0,
+    "respawn": 70
+  },
+  "talents": [
+    {
+      "name": "Ambush",
+      "description": "After remaining deployed for 10 seconds, obtains 60% Physical and Arts Dodge, and is less likely to be targeted by enemies",
+      "blackboard": {
+        "interval": 10.0,
+        "prob": 0.6,
+        "taunt_level": -1.0
+      }
+    },
+    {
+      "name": "Insult to Injury",
+      "description": "Enemies in range take +21% <@ba.talpu>(+3%)</> physical damage when stunned",
+      "blackboard": {
+        "damage_scale": 1.21
+      }
+    }
+  ],
+  "trust": {
+    "atk": 100
+  }
+}

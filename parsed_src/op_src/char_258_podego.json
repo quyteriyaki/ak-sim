@@ -1,0 +1,84 @@
+{
+  "name": "Podenco",
+  "rarity": 4,
+  "profession": "Supporter",
+  "potential": {
+    "cost": -2.0,
+    "respawn": -4.0,
+    "atk": 21.0
+  },
+  "skills": [
+    {
+      "name": "Aromatherapy",
+      "rangeId": null,
+      "description": "ATK +60%, now heals allied units instead of attacking",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 25,
+        "initSp": 10,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_podego_1",
+      "duration": 25.0,
+      "blackboard": {
+        "atk": 0.6
+      },
+      "skillId": "skchr_podego_1"
+    },
+    {
+      "name": "Spread Spores",
+      "rangeId": null,
+      "description": "Throws a vial that, upon shattering, releases of cloud of spores for 6 seconds\nAll enemies within the spore cloud are Snared and Silenced, and receive 80% Arts Damage every second",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 23,
+        "initSp": 10,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_podego_2",
+      "duration": 0.0,
+      "blackboard": {
+        "projectile_delay_time": 6.0,
+        "atk_scale": 0.8
+      },
+      "skillId": "skchr_podego_2"
+    }
+  ],
+  "stats": {
+    "level": 70,
+    "maxHp": 1163,
+    "atk": 492,
+    "def": 96,
+    "res": 20.0,
+    "cost": 14,
+    "block": 1,
+    "atkSpd": 100.0,
+    "atkTime": 1.9,
+    "hpRec": 0.0,
+    "spRec": 1.0,
+    "respawn": 70
+  },
+  "talents": [
+    {
+      "name": "Gardener",
+      "description": "When deployed, all Supporter Operators gain +11% <@ba.talpu>(+2%)</>ATK",
+      "blackboard": {
+        "atk": 0.11
+      }
+    }
+  ],
+  "trait": [
+    {
+      "sluggish": 0.8
+    }
+  ],
+  "trust": {
+    "atk": 50
+  }
+}

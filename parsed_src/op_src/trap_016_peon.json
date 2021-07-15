@@ -1,0 +1,29 @@
+{
+  "name": "Temporary Rhodes Island Employee",
+  "rarity": 1,
+  "profession": "TRAP",
+  "potential": [],
+  "stats": {
+    "level": 30,
+    "maxHp": 100,
+    "atk": 13,
+    "def": 0,
+    "res": 0.0,
+    "cost": 5,
+    "block": 0,
+    "atkSpd": 100.0,
+    "atkTime": 1.0,
+    "hpRec": 0.0,
+    "spRec": 1.0,
+    "respawn": 5
+  },
+  "talents": [
+    {
+      "name": null,
+      "description": "-",
+      "blackboard": {
+        "duration": 9.0
+      }
+    }
+  ]
+}

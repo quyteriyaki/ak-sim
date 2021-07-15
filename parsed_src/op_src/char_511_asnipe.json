@@ -1,0 +1,54 @@
+{
+  "name": "Stormeye",
+  "rarity": 5,
+  "profession": "Sniper",
+  "potential": [],
+  "skills": [
+    {
+      "name": "Spiral Arm",
+      "rangeId": null,
+      "description": "Attacks 2 targets simultaneously for 2 times each",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 30,
+        "initSp": 10,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_asnipe_1",
+      "duration": 30.0,
+      "blackboard": {
+        "attack@max_target": 2.0,
+        "attack@times": 2.0
+      },
+      "skillId": "skchr_asnipe_1"
+    }
+  ],
+  "stats": {
+    "level": 80,
+    "maxHp": 1549,
+    "atk": 595,
+    "def": 159,
+    "res": 0.0,
+    "cost": 12,
+    "block": 1,
+    "atkSpd": 100.0,
+    "atkTime": 1.0,
+    "hpRec": 0.0,
+    "spRec": 1.0,
+    "respawn": 60
+  },
+  "talents": [
+    {
+      "name": "Windfall",
+      "description": "Has a 25% chance to increase ATK to 200%",
+      "blackboard": {
+        "atk_scale": 2.0,
+        "prob": 0.25
+      }
+    }
+  ],
+  "trust": {}
+}

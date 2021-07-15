@@ -1,0 +1,82 @@
+{
+  "name": "Tsukinogi",
+  "rarity": 5,
+  "profession": "Supporter",
+  "potential": {
+    "cost": -2.0,
+    "respawn": -4.0,
+    "maxHp": 160.0
+  },
+  "skills": [
+    {
+      "name": "Without a Trace",
+      "rangeId": null,
+      "description": "Grants 35% Physical and Arts Dodge to allies in this unit's attack range, and nullifies the Invisibility status of enemies",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 50,
+        "initSp": 25,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_tknogi_1",
+      "duration": 35.0,
+      "blackboard": {
+        "prob": 0.35
+      },
+      "skillId": "skchr_tknogi_1"
+    },
+    {
+      "name": "Forest's Embrace",
+      "rangeId": null,
+      "description": "Stops attacking; HP Ratio required to activate this unit's Talent is increased to 60%, and the Sanctuary effect is increased by 2x; Heals all allies within attack range for 12% of this unit's ATK per second",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 48,
+        "initSp": 23,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_tknogi_2",
+      "duration": 20.0,
+      "blackboard": {
+        "talent@hp_ratio": 0.6,
+        "talent_scale": 2.3,
+        "attack@atk_to_hp_recovery_ratio": 0.12
+      },
+      "skillId": "skchr_tknogi_2"
+    }
+  ],
+  "stats": {
+    "level": 80,
+    "maxHp": 1620,
+    "atk": 385,
+    "def": 175,
+    "res": 25.0,
+    "cost": 12,
+    "block": 1,
+    "atkSpd": 100.0,
+    "atkTime": 1.6,
+    "hpRec": 0.0,
+    "spRec": 1.0,
+    "respawn": 70
+  },
+  "talents": [
+    {
+      "name": "Blessing",
+      "description": "When the HP of allies within this unit's ATK Range is under 40%, they will gain the [Shelter] effect (reduces the Physical and Arts damage they take by 20% <@ba.talpu>(+2%)</>, only the highest effect of this type is applied)",
+      "blackboard": {
+        "hp_ratio": 0.4,
+        "damage_resistance": 0.2
+      }
+    }
+  ],
+  "trust": {
+    "maxHp": 300,
+    "atk": 40
+  }
+}

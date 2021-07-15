@@ -1,0 +1,21 @@
+{
+  "name": "Reserve Operator - Melee",
+  "rarity": 3,
+  "profession": "Vanguard",
+  "potential": [],
+  "stats": {
+    "level": 55,
+    "maxHp": 1165,
+    "atk": 309,
+    "def": 278,
+    "res": 0.0,
+    "cost": 10,
+    "block": 2,
+    "atkSpd": 100.0,
+    "atkTime": 1.05,
+    "hpRec": 0.0,
+    "spRec": 1.0,
+    "respawn": 70
+  },
+  "trust": {}
+}

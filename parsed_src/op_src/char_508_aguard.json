@@ -1,0 +1,54 @@
+{
+  "name": "Sharp",
+  "rarity": 5,
+  "profession": "Guard",
+  "potential": [],
+  "skills": [
+    {
+      "name": "Drawing Sword",
+      "rangeId": null,
+      "description": "DEF reduces to 0, Max HP +50%, each Attack's ATK increases to 300%",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 30,
+        "initSp": 10,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_aguard_1",
+      "duration": 30.0,
+      "blackboard": {
+        "max_hp": 0.5,
+        "attack@atk_scale": 3.0
+      },
+      "skillId": "skchr_aguard_1"
+    }
+  ],
+  "stats": {
+    "level": 80,
+    "maxHp": 3565,
+    "atk": 957,
+    "def": 265,
+    "res": 0.0,
+    "cost": 17,
+    "block": 1,
+    "atkSpd": 100.0,
+    "atkTime": 1.5,
+    "hpRec": 0.0,
+    "spRec": 1.0,
+    "respawn": 60
+  },
+  "talents": [
+    {
+      "name": "Invisible Blade",
+      "description": "ATK +15%; Obtains 30% Physical Dodge",
+      "blackboard": {
+        "atk": 0.15,
+        "prob": 0.3
+      }
+    }
+  ],
+  "trust": {}
+}

@@ -1,0 +1,87 @@
+{
+  "name": "Jaye",
+  "rarity": 4,
+  "profession": "Specialist",
+  "potential": {
+    "cost": -2.0,
+    "respawn": -3.0,
+    "atk": 23.0
+  },
+  "skills": [
+    {
+      "name": "Shell Splitter",
+      "rangeId": null,
+      "description": "ATK +70%, attacks Silence the target for 2 second(s)\nUnlimited duration",
+      "skillType": 2,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 4,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_strong_1",
+      "duration": -1.0,
+      "blackboard": {
+        "atk": 0.7,
+        "attack@silence": 2.0
+      },
+      "skillId": "skchr_strong_1"
+    },
+    {
+      "name": "Sashimi Platter",
+      "rangeId": "x-4",
+      "description": "ATK +60%, each attack heals a nearby friendly unit's HP equal to 50% of the damage dealt\nUnlimited duration",
+      "skillType": 2,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 8,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_strong_2",
+      "duration": -1.0,
+      "blackboard": {
+        "atk": 0.6,
+        "scale": 0.5
+      },
+      "skillId": "skchr_strong_2"
+    }
+  ],
+  "stats": {
+    "level": 70,
+    "maxHp": 2284,
+    "atk": 674,
+    "def": 378,
+    "res": 0.0,
+    "cost": 7,
+    "block": 1,
+    "atkSpd": 100.0,
+    "atkTime": 1.0,
+    "hpRec": 0.0,
+    "spRec": 1.0,
+    "respawn": 25
+  },
+  "talents": [
+    {
+      "name": "Anatomy Master",
+      "description": "Increases ATK to 150% <@ba.talpu>(+5%)</> when attacking [Infected Creatures]",
+      "blackboard": {
+        "atk_scale": 1.5
+      }
+    }
+  ],
+  "trait": [
+    {
+      "interval": 3.0,
+      "cost": -3.0
+    }
+  ],
+  "trust": {
+    "maxHp": 200,
+    "atk": 40
+  }
+}

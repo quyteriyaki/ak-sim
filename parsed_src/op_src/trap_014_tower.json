@@ -1,0 +1,72 @@
+{
+  "name": "L-44 \"Gramophone\"",
+  "rarity": 1,
+  "profession": "TRAP",
+  "potential": [],
+  "skills": [
+    {
+      "name": "Arts Transfer Protocol",
+      "rangeId": "x-5",
+      "description": "Each attack deals Arts damage to an enemy equal to 5% of its Max HP; Every 5 seconds, restores 10% HP to an allied unit",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 100,
+        "initSp": 100,
+        "increment": 0.0
+      },
+      "prefabId": "sktok_tower",
+      "duration": 0.0,
+      "blackboard": {
+        "talent_range_flag": 1.0,
+        "talent@tower_t_4[magic_attack].atk_scale": 0.05,
+        "talent@tower_t_5[heal][persistent].interval": 5.0,
+        "attack@tower_heal[target].hp_ratio": 0.1
+      },
+      "skillId": "sktok_tower"
+    }
+  ],
+  "stats": {
+    "level": 30,
+    "maxHp": 100,
+    "atk": 0,
+    "def": 0,
+    "res": 0.0,
+    "cost": 5,
+    "block": 0,
+    "atkSpd": 100.0,
+    "atkTime": 1.5,
+    "hpRec": 0.0,
+    "spRec": 1.0,
+    "respawn": 7
+  },
+  "talents": [
+    {
+      "name": null,
+      "description": null,
+      "blackboard": {}
+    },
+    {
+      "name": null,
+      "description": null,
+      "blackboard": {}
+    },
+    {
+      "name": null,
+      "description": null,
+      "blackboard": {}
+    },
+    {
+      "name": null,
+      "description": null,
+      "blackboard": {}
+    },
+    {
+      "name": null,
+      "description": null,
+      "blackboard": {}
+    }
+  ]
+}

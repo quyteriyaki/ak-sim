@@ -1,0 +1,46 @@
+{
+  "name": "Energy Aggregate",
+  "rarity": 1,
+  "profession": "TRAP",
+  "potential": [],
+  "skills": [
+    {
+      "name": "Energy Crystallization",
+      "rangeId": null,
+      "description": "Self-destructs after 25s, sending fireballs in the cardinal directions that deal 1500 Arts damage; Targets hit are afflicted with [Burning Breath] (Deals increasing True damage each second, but can be resisted)",
+      "skillType": 2,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 25,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "sktok_flame",
+      "duration": 0.0,
+      "blackboard": {
+        "damage": 1500.0,
+        "dragon_fire.duration": 30.5,
+        "dragon_fire.basedamage": 50.0,
+        "dragon_fire.addondamage": 180.0,
+        "dragon_fire.addonduration": 30.0
+      },
+      "skillId": "sktok_flame"
+    }
+  ],
+  "stats": {
+    "level": 30,
+    "maxHp": 6000,
+    "atk": 0,
+    "def": 200,
+    "res": 20.0,
+    "cost": 5,
+    "block": 0,
+    "atkSpd": 100.0,
+    "atkTime": 1.0,
+    "hpRec": 0.0,
+    "spRec": 1.0,
+    "respawn": 5
+  }
+}

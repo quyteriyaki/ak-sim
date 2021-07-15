@@ -45,7 +45,7 @@
       "duration": 25.0,
       "blackboard": {
         "atk": 0.75,
-        "max_target": 3.0
+        "attack@max_target": 3.0
       },
       "skillId": "skchr_glassb_2"
     }

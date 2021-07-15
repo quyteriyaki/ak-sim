@@ -1,0 +1,82 @@
+{
+  "name": "Tomimi",
+  "rarity": 5,
+  "profession": "Caster",
+  "potential": {
+    "cost": -3.0,
+    "respawn": -10.0
+  },
+  "skills": [
+    {
+      "name": "Tribal Techniques",
+      "rangeId": "1-2",
+      "description": "ASPD +90",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 30,
+        "initSp": 15,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_tomimi_1",
+      "duration": 30.0,
+      "blackboard": {
+        "attack_speed": 90.0
+      },
+      "skillId": "skchr_tomimi_1"
+    },
+    {
+      "name": "Gavial's Protection Plan",
+      "rangeId": "1-2",
+      "description": "Each attack has a 100% chance to randomly trigger one of the following effects: Stuns the target for 1 second(s), increases the damage of that attack to 220%, or deals AoE damage",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 30,
+        "initSp": 20,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_tomimi_2",
+      "duration": 30.0,
+      "blackboard": {
+        "attack@tomimi_s_2.stun": 1.6,
+        "attack@tomimi_s_2.atk_scale": 2.2,
+        "attack@tomimi_s_2.prob": 1.0,
+        "base_attack_time": 0.0,
+        "atk": 0.0
+      },
+      "skillId": "skchr_tomimi_2"
+    }
+  ],
+  "stats": {
+    "level": 80,
+    "maxHp": 1920,
+    "atk": 600,
+    "def": 119,
+    "res": 20.0,
+    "cost": 22,
+    "block": 1,
+    "atkSpd": 100.0,
+    "atkTime": 1.6,
+    "hpRec": 0.0,
+    "spRec": 1.0,
+    "respawn": 80
+  },
+  "talents": [
+    {
+      "name": "Arts of the Wild",
+      "description": "Range reduces, attacks now deal Physical damage (only to ground enemies), ATK +120% <@ba.talpu>(+20%)</> when this skill is activated",
+      "blackboard": {
+        "atk": 1.2
+      }
+    }
+  ],
+  "trust": {
+    "maxHp": 200,
+    "atk": 35
+  }
+}

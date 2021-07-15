@@ -2,10 +2,12 @@
   "name": "Savage",
   "rarity": 5,
   "profession": "Guard",
-  "potential": [],
+  "potential": {
+    "atk": 35.0
+  },
   "skills": [
     {
-      "name": "Power Strike \u03b2",
+      "name": "Power Strike β",
       "rangeId": null,
       "description": "Increases the ATK of next attack to 230%",
       "skillType": 2,

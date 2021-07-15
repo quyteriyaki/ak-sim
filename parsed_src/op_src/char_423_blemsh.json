@@ -1,0 +1,112 @@
+{
+  "name": "Blemishine",
+  "rarity": 6,
+  "profession": "Defender",
+  "potential": {
+    "cost": -2.0,
+    "respawn": -4.0,
+    "atk": 26.0
+  },
+  "skills": [
+    {
+      "name": "Surging Brilliance",
+      "rangeId": "x-4",
+      "description": "The next attack deals 260% ATK as physical damage and restores the HP of a nearby ally for 150% of Blemishine's ATK\nCan store 3 charge(s)",
+      "skillType": 2,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 3,
+        "spCost": 4,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_blemsh_1",
+      "duration": 0.0,
+      "blackboard": {
+        "atk_scale": 2.6,
+        "heal_scale": 1.5,
+        "ct": 3.0
+      },
+      "skillId": "skchr_blemsh_1"
+    },
+    {
+      "name": "Deterring Radiance",
+      "rangeId": "x-1",
+      "description": "ATK +110% and all ground enemies within the same tile as herself are put to Sleep(affected enemies are Stunned and Invulnerable); Restore the HP of all nearby allies by 20% of Blemishine's ATK every second",
+      "skillType": 1,
+      "spData": {
+        "spType": 4,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 12,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_blemsh_2",
+      "duration": 10.0,
+      "blackboard": {
+        "atk": 1.1,
+        "attack@atk_to_hp_recovery_ratio": 0.2
+      },
+      "skillId": "skchr_blemsh_2"
+    },
+    {
+      "name": "Divine Avatar",
+      "rangeId": "x-1",
+      "description": "ATK +110%, DEF +60%; Every attack deals an additional 100% ATK as Arts damage and restores the HP of a nearby ally besides herself for 100% of Blemishine's ATK",
+      "skillType": 1,
+      "spData": {
+        "spType": 4,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 25,
+        "initSp": 15,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_blemsh_3",
+      "duration": 30.0,
+      "blackboard": {
+        "atk": 1.1,
+        "def": 0.6,
+        "attack@blemsh_s_3_extra_dmg[magic].atk_scale": 1.0,
+        "heal_scale": 1.0
+      },
+      "skillId": "skchr_blemsh_3"
+    }
+  ],
+  "stats": {
+    "level": 90,
+    "maxHp": 3242,
+    "atk": 491,
+    "def": 581,
+    "res": 10.0,
+    "cost": 22,
+    "block": 3,
+    "atkSpd": 100.0,
+    "atkTime": 1.2,
+    "hpRec": 0.0,
+    "spRec": 1.0,
+    "respawn": 70
+  },
+  "talents": [
+    {
+      "name": "Knight of Sword and Shield",
+      "description": "When deployed, allies that have a Defensive Recovery skill also gain 1 SP when attacking",
+      "blackboard": {
+        "sp": 1.0
+      }
+    },
+    {
+      "name": "Mercy",
+      "description": "Blemishine can attack and will prioritize Sleeping enemies; Increase ATK to 144% <@ba.talpu>(+4%)</> when attacking Sleeping enemies",
+      "blackboard": {
+        "atk_scale": 1.44
+      }
+    }
+  ],
+  "trust": {
+    "atk": 90,
+    "def": 20
+  }
+}

@@ -67,6 +67,41 @@
       "atk": 60
     }
   },
+  "char_376_therex": {
+    "name": "THRM-EX",
+    "rarity": 1,
+    "profession": "Specialist",
+    "potential": {},
+    "stats": {
+      "level": 30,
+      "maxHp": 1443,
+      "atk": 260,
+      "def": 443,
+      "res": 50.0,
+      "cost": 3,
+      "block": 0,
+      "atkSpd": 100.0,
+      "atkTime": 0.93,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 200
+    },
+    "talents": [
+      {
+        "name": "Delayed Detonation 6",
+        "description": "3 seconds after deployment, inflicts 400% Physical Damage to enemies in the nearby 8 tiles and inflicts [Fragile] (affected units take 30% more damage, only the highest effect of this type applies), then automatically retreats from battle",
+        "blackboard": {
+          "interval": 3.0,
+          "damage_by_atk_scale": 4.0,
+          "weak[limit]": 8.0,
+          "damage_scale": 1.3
+        }
+      }
+    ],
+    "trust": {
+      "atk": 90
+    }
+  },
   "char_502_nblade": {
     "name": "Yato",
     "rarity": 2,
@@ -325,6 +360,27 @@
     "trust": {
       "atk": 50
     }
+  },
+  "char_504_rguard": {
+    "name": "Reserve Operator - Melee",
+    "rarity": 3,
+    "profession": "Vanguard",
+    "potential": [],
+    "stats": {
+      "level": 55,
+      "maxHp": 1165,
+      "atk": 309,
+      "def": 278,
+      "res": 0.0,
+      "cost": 10,
+      "block": 2,
+      "atkSpd": 100.0,
+      "atkTime": 1.05,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 70
+    },
+    "trust": {}
   },
   "char_192_falco": {
     "name": "Plume",
@@ -639,13 +695,34 @@
         "name": "Shortcoming Breakthrough",
         "description": "ASPD +8; Attacks ranged enemies first",
         "blackboard": {
-          "attack_speed": 0.08
+          "attack_speed": 8.0
         }
       }
     ],
     "trust": {
       "atk": 50
     }
+  },
+  "char_507_rsnipe": {
+    "name": "Reserve Operator - Sniper",
+    "rarity": 3,
+    "profession": "Sniper",
+    "potential": [],
+    "stats": {
+      "level": 55,
+      "maxHp": 980,
+      "atk": 401,
+      "def": 115,
+      "res": 0.0,
+      "cost": 10,
+      "block": 1,
+      "atkSpd": 100.0,
+      "atkTime": 1.0,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 70
+    },
+    "trust": {}
   },
   "char_121_lava": {
     "name": "Lava",
@@ -764,6 +841,27 @@
       "atk": 45
     }
   },
+  "char_506_rmedic": {
+    "name": "Reserve Operator - Logistics",
+    "rarity": 3,
+    "profession": "Medic",
+    "potential": [],
+    "stats": {
+      "level": 55,
+      "maxHp": 1080,
+      "atk": 338,
+      "def": 102,
+      "res": 0.0,
+      "cost": 16,
+      "block": 1,
+      "atkSpd": 100.0,
+      "atkTime": 2.85,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 70
+    },
+    "trust": {}
+  },
   "char_210_stward": {
     "name": "Steward",
     "rarity": 3,
@@ -802,6 +900,27 @@
     "trust": {
       "atk": 50
     }
+  },
+  "char_505_rcast": {
+    "name": "Reserve Operator - Caster",
+    "rarity": 3,
+    "profession": "Caster",
+    "potential": [],
+    "stats": {
+      "level": 55,
+      "maxHp": 1050,
+      "atk": 456,
+      "def": 84,
+      "res": 15.0,
+      "cost": 17,
+      "block": 1,
+      "atkSpd": 100.0,
+      "atkTime": 1.6,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 70
+    },
+    "trust": {}
   },
   "char_278_orchid": {
     "name": "Orchid",
@@ -968,6 +1087,54 @@
     ],
     "trust": {
       "maxHp": 300
+    }
+  },
+  "char_328_cammou": {
+    "name": "Click",
+    "rarity": 4,
+    "profession": "Caster",
+    "potential": {
+      "cost": -2.0,
+      "respawn": -10.0,
+      "attackSpeed": 6.0
+    },
+    "skills": [
+      "skcom_atk_up[2]",
+      "skchr_cammou_2"
+    ],
+    "stats": {
+      "level": 70,
+      "maxHp": 1440,
+      "atk": 315,
+      "def": 120,
+      "res": 20.0,
+      "cost": 20,
+      "block": 1,
+      "atkSpd": 100.0,
+      "atkTime": 1.3,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 70
+    },
+    "talents": [
+      {
+        "name": "Coordinated",
+        "description": "Click and her Drones gain +12 ASPD",
+        "blackboard": {
+          "attack_speed": 12.0
+        }
+      }
+    ],
+    "trait": [
+      {
+        "init_atk_scale": 0.2,
+        "delta_atk_scale": 0.15,
+        "max_atk_scale": 1.1,
+        "max_stack_cnt": 6.0
+      }
+    ],
+    "trust": {
+      "atk": 60
     }
   },
   "char_235_jesica": {
@@ -1172,6 +1339,52 @@
       "atk": 70
     }
   },
+  "char_440_pinecn": {
+    "name": "Pinecone",
+    "rarity": 4,
+    "profession": "Sniper",
+    "potential": {
+      "cost": -2.0,
+      "respawn": -4.0,
+      "atk": 28.0
+    },
+    "skills": [
+      "skchr_pinecn_1",
+      "skchr_pinecn_2"
+    ],
+    "stats": {
+      "level": 70,
+      "maxHp": 2200,
+      "atk": 667,
+      "def": 167,
+      "res": 0.0,
+      "cost": 30,
+      "block": 1,
+      "atkSpd": 100.0,
+      "atkTime": 2.3,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 70
+    },
+    "talents": [
+      {
+        "name": "Portable Energy Source",
+        "description": "Improves own SP recovery rate by +0.5 <@ba.talpu>(+0.05)</>/second for 60 seconds after deployment",
+        "blackboard": {
+          "sp_recovery_per_sec": 0.5,
+          "duration": 60.0
+        }
+      }
+    ],
+    "trait": [
+      {
+        "atk_scale": 1.5
+      }
+    ],
+    "trust": {
+      "atk": 55
+    }
+  },
   "char_302_glaze": {
     "name": "Ambriel",
     "rarity": 4,
@@ -1211,6 +1424,47 @@
     ],
     "trust": {
       "atk": 75
+    }
+  },
+  "char_366_acdrop": {
+    "name": "Aciddrop",
+    "rarity": 4,
+    "profession": "Sniper",
+    "potential": {
+      "cost": -2.0,
+      "respawn": -8.0,
+      "atk": 30.0
+    },
+    "skills": [
+      "skchr_acdrop_1",
+      "skchr_acdrop_2"
+    ],
+    "stats": {
+      "level": 70,
+      "maxHp": 1576,
+      "atk": 735,
+      "def": 209,
+      "res": 0.0,
+      "cost": 18,
+      "block": 1,
+      "atkSpd": 100.0,
+      "atkTime": 1.6,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 70
+    },
+    "talents": [
+      {
+        "name": "Slideshot Style",
+        "description": "Each attack deals at least 25% of this unit's ATK damage (increases to 40% of ATK when the enemy is in the two frontal grids)",
+        "blackboard": {
+          "atk_scale": 0.25,
+          "atk_scale_2": 0.4
+        }
+      }
+    ],
+    "trust": {
+      "atk": 80
     }
   },
   "char_198_blackd": {
@@ -1325,7 +1579,7 @@
     "talents": [
       {
         "name": "Fierce Stabbing",
-        "description": "When attacking, has a 10% chance to increase the current damage of that attack by 110% <@ba.talpu>(+10%). The chance increases to 30% when Vigna\u2019s skill is active.",
+        "description": "When attacking, has a 10% chance to increase the current damage of that attack by 110% <@ba.talpu>(+10%). The chance increases to 30% when Vigna’s skill is active.",
         "blackboard": {
           "atk": 1.1,
           "prob1": 0.1,
@@ -1464,6 +1718,46 @@
       "maxHp": 450
     }
   },
+  "char_159_peacok": {
+    "name": "Conviction",
+    "rarity": 4,
+    "profession": "Guard",
+    "potential": [],
+    "skills": [
+      "skchr_peacok_1",
+      "skchr_peacok_2"
+    ],
+    "stats": {
+      "level": 70,
+      "maxHp": 3333,
+      "atk": 866,
+      "def": 166,
+      "res": 0.0,
+      "cost": 16,
+      "block": 1,
+      "atkSpd": 100.0,
+      "atkTime": 1.5,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 70
+    },
+    "talents": [
+      {
+        "name": "Safe Landing",
+        "description": "DP Cost -4, Redeployment Time -15 seconds. This unit is stunned for 10 seconds upon deployment.",
+        "blackboard": {
+          "cost": -4.0,
+          "respawn_time": -15.0,
+          "stun": 10.0
+        }
+      }
+    ],
+    "trust": {
+      "maxHp": 222,
+      "atk": 22,
+      "def": 22
+    }
+  },
   "char_193_frostl": {
     "name": "Frostleaf",
     "rarity": 4,
@@ -1590,6 +1884,141 @@
       "def": 35
     }
   },
+  "char_301_cutter": {
+    "name": "Cutter",
+    "rarity": 4,
+    "profession": "Guard",
+    "potential": {
+      "cost": -2.0,
+      "respawn": -4.0,
+      "atk": 21.0
+    },
+    "skills": [
+      "skchr_cutter_1",
+      "skchr_cutter_2"
+    ],
+    "stats": {
+      "level": 70,
+      "maxHp": 2320,
+      "atk": 571,
+      "def": 325,
+      "res": 0.0,
+      "cost": 21,
+      "block": 2,
+      "atkSpd": 100.0,
+      "atkTime": 1.3,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 70
+    },
+    "talents": [
+      {
+        "name": "Photoetched Marks",
+        "description": "Normal attacks have a 23% <@ba.talpu>(+3%)</> chance to restore 1 additional SP",
+        "blackboard": {
+          "sp": 1.0,
+          "prob": 0.23
+        }
+      }
+    ],
+    "trust": {
+      "atk": 70
+    }
+  },
+  "char_337_utage": {
+    "name": "Utage",
+    "rarity": 4,
+    "profession": "Guard",
+    "potential": {
+      "cost": -2.0,
+      "respawn": -10.0,
+      "atk": 23.0
+    },
+    "skills": [
+      "skchr_utage_1",
+      "skchr_utage_2"
+    ],
+    "stats": {
+      "level": 70,
+      "maxHp": 3444,
+      "atk": 693,
+      "def": 312,
+      "res": 0.0,
+      "cost": 24,
+      "block": 1,
+      "atkSpd": 100.0,
+      "atkTime": 1.2,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 70
+    },
+    "talents": [
+      {
+        "name": "Serious Mode",
+        "description": "Increases ASPD based on lost HP (Reaches max boosted ASPD +100 when below 30% HP)",
+        "blackboard": {
+          "min_attack_speed": 100.0,
+          "max_attack_speed": 0.0,
+          "max_hp_ratio": 1.0,
+          "min_hp_ratio": 0.3
+        }
+      }
+    ],
+    "trait": [
+      {
+        "value": 30.0
+      }
+    ],
+    "trust": {
+      "atk": 30,
+      "def": 40
+    }
+  },
+  "char_271_spikes": {
+    "name": "Arene",
+    "rarity": 4,
+    "profession": "Guard",
+    "potential": {
+      "cost": -2.0,
+      "respawn": -4.0,
+      "atk": 18.0
+    },
+    "skills": [
+      "skchr_spikes_1",
+      "skchr_spikes_2"
+    ],
+    "stats": {
+      "level": 70,
+      "maxHp": 2250,
+      "atk": 640,
+      "def": 340,
+      "res": 10.0,
+      "cost": 18,
+      "block": 2,
+      "atkSpd": 100.0,
+      "atkTime": 1.3,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 70
+    },
+    "talents": [
+      {
+        "name": "Structural Decomposition",
+        "description": "Prioritize attacking drones; ATK +43% <@ba.talpu>(+3%)</> when attacking drones",
+        "blackboard": {
+          "atk_scale": 1.43
+        }
+      }
+    ],
+    "trait": [
+      {
+        "atk_scale": 0.8
+      }
+    ],
+    "trust": {
+      "atk": 55
+    }
+  },
   "char_237_gravel": {
     "name": "Gravel",
     "rarity": 4,
@@ -1620,7 +2049,7 @@
     "talents": [
       {
         "name": "Support of the Little",
-        "description": "DP Cost -1; The DEF of all allies with DP Cost lower than 10 increases by 8% <@ba.talpu>(+2%)</>",
+        "description": "DP Cost -1; All units that cost 10 or less DP gain +6% <@ba.talpu>(+2%)</> DEF",
         "blackboard": {
           "cost": -1.0,
           "def": 0.08,
@@ -1630,6 +2059,53 @@
     ],
     "trust": {
       "maxHp": 300
+    }
+  },
+  "char_272_strong": {
+    "name": "Jaye",
+    "rarity": 4,
+    "profession": "Specialist",
+    "potential": {
+      "cost": -2.0,
+      "respawn": -3.0,
+      "atk": 23.0
+    },
+    "skills": [
+      "skchr_strong_1",
+      "skchr_strong_2"
+    ],
+    "stats": {
+      "level": 70,
+      "maxHp": 2284,
+      "atk": 674,
+      "def": 378,
+      "res": 0.0,
+      "cost": 7,
+      "block": 1,
+      "atkSpd": 100.0,
+      "atkTime": 1.0,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 25
+    },
+    "talents": [
+      {
+        "name": "Anatomy Master",
+        "description": "Increases ATK to 150% <@ba.talpu>(+5%)</> when attacking [Infected Creatures]",
+        "blackboard": {
+          "atk_scale": 1.5
+        }
+      }
+    ],
+    "trait": [
+      {
+        "interval": 3.0,
+        "cost": -3.0
+      }
+    ],
+    "trust": {
+      "maxHp": 200,
+      "atk": 40
     }
   },
   "char_236_rope": {
@@ -1837,6 +2313,53 @@
       "atk": 25
     }
   },
+  "char_385_finlpp": {
+    "name": "Purestream",
+    "rarity": 4,
+    "profession": "Medic",
+    "potential": {
+      "cost": -2.0,
+      "respawn": -10.0,
+      "atk": 23.0
+    },
+    "skills": [
+      "skchr_finlpp_1",
+      "skchr_finlpp_2"
+    ],
+    "stats": {
+      "level": 70,
+      "maxHp": 1365,
+      "atk": 430,
+      "def": 118,
+      "res": 5.0,
+      "cost": 19,
+      "block": 1,
+      "atkSpd": 100.0,
+      "atkTime": 2.85,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 80
+    },
+    "talents": [
+      {
+        "name": "Rapid Restoration",
+        "description": "Targets healed by this unit gain status resistance for 4 seconds (reduces the duration of stun, cold, and freeze effects by 50%)",
+        "blackboard": {
+          "status_resistance[limit]": 4.0,
+          "one_minus_status_resistance": -0.5
+        }
+      }
+    ],
+    "trait": [
+      {
+        "heal_scale": 0.7
+      }
+    ],
+    "trust": {
+      "maxHp": 150,
+      "atk": 35
+    }
+  },
   "char_199_yak": {
     "name": "Matterhorn",
     "rarity": 4,
@@ -1910,6 +2433,47 @@
         "description": "DEF +12%",
         "blackboard": {
           "def": 0.12
+        }
+      }
+    ],
+    "trust": {
+      "def": 75
+    }
+  },
+  "char_381_bubble": {
+    "name": "Bubble",
+    "rarity": 4,
+    "profession": "Defender",
+    "potential": {
+      "cost": -2.0,
+      "respawn": -10.0,
+      "def": 25.0
+    },
+    "skills": [
+      "skcom_def_up[2]",
+      "skchr_bubble_2"
+    ],
+    "stats": {
+      "level": 70,
+      "maxHp": 3416,
+      "atk": 370,
+      "def": 645,
+      "res": 0.0,
+      "cost": 21,
+      "block": 3,
+      "atkSpd": 100.0,
+      "atkTime": 1.2,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 70
+    },
+    "talents": [
+      {
+        "name": "Spiked Shield",
+        "description": "Enemies that attack Bubble have their ATK reduced by 8% for 5 seconds",
+        "blackboard": {
+          "atk": -0.08,
+          "duration": 5.0
         }
       }
     ],
@@ -2074,6 +2638,51 @@
         "description": "Extends Slow duration moderately",
         "blackboard": {
           "sluggish": 0.13
+        }
+      }
+    ],
+    "trait": [
+      {
+        "sluggish": 0.8
+      }
+    ],
+    "trust": {
+      "atk": 50
+    }
+  },
+  "char_258_podego": {
+    "name": "Podenco",
+    "rarity": 4,
+    "profession": "Supporter",
+    "potential": {
+      "cost": -2.0,
+      "respawn": -4.0,
+      "atk": 21.0
+    },
+    "skills": [
+      "skchr_podego_1",
+      "skchr_podego_2"
+    ],
+    "stats": {
+      "level": 70,
+      "maxHp": 1163,
+      "atk": 492,
+      "def": 96,
+      "res": 20.0,
+      "cost": 14,
+      "block": 1,
+      "atkSpd": 100.0,
+      "atkTime": 1.9,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 70
+    },
+    "talents": [
+      {
+        "name": "Gardener",
+        "description": "When deployed, all Supporter Operators gain +11% <@ba.talpu>(+2%)</>ATK",
+        "blackboard": {
+          "atk": 0.11
         }
       }
     ],
@@ -2334,6 +2943,134 @@
       "atk": 70
     }
   },
+  "char_349_chiave": {
+    "name": "Chiave",
+    "rarity": 5,
+    "profession": "Vanguard",
+    "potential": {
+      "cost": -2.0,
+      "respawn": -4.0,
+      "atk": 24.0
+    },
+    "skills": [
+      "skcom_charge_cost[3]",
+      "skchr_chiave_2"
+    ],
+    "stats": {
+      "level": 80,
+      "maxHp": 1824,
+      "atk": 522,
+      "def": 342,
+      "res": 0.0,
+      "cost": 13,
+      "block": 2,
+      "atkSpd": 100.0,
+      "atkTime": 1.05,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 70
+    },
+    "talents": [
+      {
+        "name": "Technical Expertise",
+        "description": "When deployed, all 1-star Operators have -75% Redeployment Time; For every 1-star Operator currently deployed, this unit gains +13% <@ba.talpu>(+2%)</> ATK and DEF",
+        "blackboard": {
+          "respawn_time": 0.25,
+          "atk": 0.13,
+          "def": 0.13
+        }
+      }
+    ],
+    "trust": {
+      "atk": 70
+    }
+  },
+  "char_261_sddrag": {
+    "name": "Reed",
+    "rarity": 5,
+    "profession": "Vanguard",
+    "potential": {
+      "cost": -2.0,
+      "respawn": -10.0,
+      "atk": 25.0
+    },
+    "skills": [
+      "skcom_quickattack[3]",
+      "skchr_sddrag_2"
+    ],
+    "stats": {
+      "level": 80,
+      "maxHp": 2215,
+      "atk": 562,
+      "def": 364,
+      "res": 0.0,
+      "cost": 12,
+      "block": 1,
+      "atkSpd": 100.0,
+      "atkTime": 1.0,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 70
+    },
+    "talents": [
+      {
+        "name": "Blighted Blood",
+        "description": "RES +20",
+        "blackboard": {
+          "magic_resistance": 20.0
+        }
+      }
+    ],
+    "trait": [
+      {
+        "cost": 1.0
+      }
+    ],
+    "trust": {
+      "atk": 70
+    }
+  },
+  "char_401_elysm": {
+    "name": "Elysium",
+    "rarity": 5,
+    "profession": "Vanguard",
+    "potential": {
+      "cost": -2.0,
+      "respawn": -4.0,
+      "def": 23.0
+    },
+    "skills": [
+      "skcom_assist_cost[3]",
+      "skchr_elysm_2"
+    ],
+    "stats": {
+      "level": 80,
+      "maxHp": 1669,
+      "atk": 533,
+      "def": 335,
+      "res": 0.0,
+      "cost": 11,
+      "block": 1,
+      "atkSpd": 100.0,
+      "atkTime": 1.3,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 70
+    },
+    "talents": [
+      {
+        "name": "Sniper Support",
+        "description": "When deployed, all [Sniper] Operators have -2 DP Cost and gain +23 <@ba.talpu>(+3)</> ASPD when Elysium's skill is active",
+        "blackboard": {
+          "value": -2.0,
+          "attack_speed": 23.0
+        }
+      }
+    ],
+    "trust": {
+      "def": 60
+    }
+  },
   "char_308_swire": {
     "name": "Swire",
     "rarity": 5,
@@ -2373,6 +3110,49 @@
     "trust": {
       "atk": 40,
       "def": 30
+    }
+  },
+  "char_265_sophia": {
+    "name": "Whislash",
+    "rarity": 5,
+    "profession": "Guard",
+    "potential": {
+      "cost": -3.0,
+      "respawn": -10.0
+    },
+    "skills": [
+      "skchr_sophia_1",
+      "skchr_sophia_2"
+    ],
+    "stats": {
+      "level": 80,
+      "maxHp": 1757,
+      "atk": 584,
+      "def": 420,
+      "res": 0.0,
+      "cost": 18,
+      "block": 2,
+      "atkSpd": 100.0,
+      "atkTime": 1.05,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 80
+    },
+    "talents": [
+      {
+        "name": "Rebuke",
+        "description": "When deployed, all Melee allies with 3 or more Block gain +8 <@ba.talpu>(+2)</> ASPD and +14% <@ba.talpu>(+2%)</> DEF",
+        "blackboard": {
+          "attack_speed": 8.0,
+          "def": 0.14,
+          "sophia_t_1_less.attack_speed": 4.0,
+          "sophia_t_1_less.def": 0.07
+        }
+      }
+    ],
+    "trust": {
+      "atk": 30,
+      "def": 40
     }
   },
   "char_106_franka": {
@@ -2457,6 +3237,40 @@
       "atk": 45
     }
   },
+  "char_508_aguard": {
+    "name": "Sharp",
+    "rarity": 5,
+    "profession": "Guard",
+    "potential": [],
+    "skills": [
+      "skchr_aguard_1"
+    ],
+    "stats": {
+      "level": 80,
+      "maxHp": 3565,
+      "atk": 957,
+      "def": 265,
+      "res": 0.0,
+      "cost": 17,
+      "block": 1,
+      "atkSpd": 100.0,
+      "atkTime": 1.5,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 60
+    },
+    "talents": [
+      {
+        "name": "Invisible Blade",
+        "description": "ATK +15%; Obtains 30% Physical Dodge",
+        "blackboard": {
+          "atk": 0.15,
+          "prob": 0.3
+        }
+      }
+    ],
+    "trust": {}
+  },
   "char_155_tiger": {
     "name": "Indra",
     "rarity": 5,
@@ -2472,8 +3286,8 @@
     ],
     "stats": {
       "level": 80,
-      "maxHp": 2265,
-      "atk": 500,
+      "maxHp": 2565,
+      "atk": 530,
       "def": 350,
       "res": 0.0,
       "cost": 10,
@@ -2491,6 +3305,46 @@
         "blackboard": {
           "tiger_t_1[evade].prob": 0.33,
           "charge_on_evade.atk": 1.0
+        }
+      }
+    ],
+    "trust": {
+      "atk": 75
+    }
+  },
+  "char_415_flint": {
+    "name": "Flint",
+    "rarity": 5,
+    "profession": "Guard",
+    "potential": {
+      "cost": -2.0,
+      "respawn": -4.0,
+      "atk": 24.0
+    },
+    "skills": [
+      "skchr_flint_1",
+      "skchr_flint_2"
+    ],
+    "stats": {
+      "level": 80,
+      "maxHp": 2495,
+      "atk": 545,
+      "def": 334,
+      "res": 0.0,
+      "cost": 10,
+      "block": 1,
+      "atkSpd": 100.0,
+      "atkTime": 0.78,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 70
+    },
+    "talents": [
+      {
+        "name": "Featherweight",
+        "description": "Deals 45% <@ba.talpu>(+5%)</> more damage to enemies that are not blocked by this unit",
+        "blackboard": {
+          "damage_scale": 1.45
         }
       }
     ],
@@ -2543,6 +3397,92 @@
       "atk": 75
     }
   },
+  "char_294_ayer": {
+    "name": "Ayerscarpe",
+    "rarity": 5,
+    "profession": "Guard",
+    "potential": {
+      "cost": -2.0,
+      "respawn": -4.0,
+      "atk": 26.0
+    },
+    "skills": [
+      "skchr_ayer_1",
+      "skchr_ayer_2"
+    ],
+    "stats": {
+      "level": 80,
+      "maxHp": 2420,
+      "atk": 670,
+      "def": 375,
+      "res": 10.0,
+      "cost": 19,
+      "block": 2,
+      "atkSpd": 100.0,
+      "atkTime": 1.3,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 70
+    },
+    "talents": [
+      {
+        "name": "Seek Aid",
+        "description": "This unit and allied Operators in the surrounding 8 tiles gain +10 <@ba.talpu>(+2)</> ASPD",
+        "blackboard": {
+          "attack_speed": 10.0
+        }
+      }
+    ],
+    "trait": [
+      {
+        "atk_scale": 0.8
+      }
+    ],
+    "trust": {
+      "atk": 75
+    }
+  },
+  "char_252_bibeak": {
+    "name": "Bibeak",
+    "rarity": 5,
+    "profession": "Guard",
+    "potential": {
+      "cost": -2.0,
+      "respawn": -4.0,
+      "atk": 22.0
+    },
+    "skills": [
+      "skchr_bibeak_1",
+      "skchr_bibeak_2"
+    ],
+    "stats": {
+      "level": 80,
+      "maxHp": 2550,
+      "atk": 602,
+      "def": 332,
+      "res": 0.0,
+      "cost": 22,
+      "block": 2,
+      "atkSpd": 100.0,
+      "atkTime": 1.3,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 70
+    },
+    "talents": [
+      {
+        "name": "Soul Drinker",
+        "description": "ASPD +6 after defeating an enemy (stacks up to 6 <@ba.talpu>(+1)</> times)",
+        "blackboard": {
+          "attack_speed": 6.0,
+          "max_stack_cnt": 6.0
+        }
+      }
+    ],
+    "trust": {
+      "atk": 80
+    }
+  },
   "char_143_ghost": {
     "name": "Specter",
     "rarity": 5,
@@ -2577,6 +3517,48 @@
         "blackboard": {
           "max_hp": 0.12,
           "hp_recovery_per_sec_by_max_hp_ratio": 0.025
+        }
+      }
+    ],
+    "trust": {
+      "atk": 80
+    }
+  },
+  "char_356_broca": {
+    "name": "Broca",
+    "rarity": 5,
+    "profession": "Guard",
+    "potential": {
+      "cost": -2.0,
+      "respawn": -4.0,
+      "atk": 28.0
+    },
+    "skills": [
+      "skchr_broca_1",
+      "skchr_broca_2"
+    ],
+    "stats": {
+      "level": 80,
+      "maxHp": 2335,
+      "atk": 762,
+      "def": 366,
+      "res": 0.0,
+      "cost": 23,
+      "block": 3,
+      "atkSpd": 100.0,
+      "atkTime": 1.2,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 70
+    },
+    "talents": [
+      {
+        "name": "Drill Strengthening",
+        "description": "Increases ATK and DEF by 14% <@ba.talpu>(+2%)</> when blocking 2 or more enemies",
+        "blackboard": {
+          "atk": 0.14,
+          "def": 0.14,
+          "cnt": 2.0
         }
       }
     ],
@@ -2625,6 +3607,47 @@
     "trust": {
       "atk": 30,
       "def": 55
+    }
+  },
+  "char_333_sidero": {
+    "name": "Sideroca",
+    "rarity": 5,
+    "profession": "Guard",
+    "potential": {
+      "cost": -3.0,
+      "respawn": -10.0
+    },
+    "skills": [
+      "skcom_heal_self[3]",
+      "skchr_sidero_2"
+    ],
+    "stats": {
+      "level": 80,
+      "maxHp": 2845,
+      "atk": 620,
+      "def": 369,
+      "res": 15.0,
+      "cost": 23,
+      "block": 1,
+      "atkSpd": 100.0,
+      "atkTime": 1.25,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 80
+    },
+    "talents": [
+      {
+        "name": "Mercenary's Tenacity",
+        "description": "After defeating 5 <@ba.talpu>(-2)</>enemies, this unit gains +15 ASPD and status resistance (reduces the duration of stun, cold, and freeze effects by 50%)",
+        "blackboard": {
+          "times": 5.0,
+          "attack_speed": 15.0,
+          "one_minus_status_resistance": -0.5
+        }
+      }
+    ],
+    "trust": {
+      "maxHp": 500
     }
   },
   "char_129_bluep": {
@@ -2753,6 +3776,81 @@
       "atk": 75
     }
   },
+  "char_511_asnipe": {
+    "name": "Stormeye",
+    "rarity": 5,
+    "profession": "Sniper",
+    "potential": [],
+    "skills": [
+      "skchr_asnipe_1"
+    ],
+    "stats": {
+      "level": 80,
+      "maxHp": 1549,
+      "atk": 595,
+      "def": 159,
+      "res": 0.0,
+      "cost": 12,
+      "block": 1,
+      "atkSpd": 100.0,
+      "atkTime": 1.0,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 60
+    },
+    "talents": [
+      {
+        "name": "Windfall",
+        "description": "Has a 25% chance to increase ATK to 200%",
+        "blackboard": {
+          "atk_scale": 2.0,
+          "prob": 0.25
+        }
+      }
+    ],
+    "trust": {}
+  },
+  "char_365_aprl": {
+    "name": "April",
+    "rarity": 5,
+    "profession": "Sniper",
+    "potential": {
+      "cost": -2.0,
+      "respawn": -10.0,
+      "atk": 23.0
+    },
+    "skills": [
+      "skchr_aprl_1",
+      "skchr_aprl_2"
+    ],
+    "stats": {
+      "level": 80,
+      "maxHp": 1280,
+      "atk": 528,
+      "def": 160,
+      "res": 0.0,
+      "cost": 13,
+      "block": 1,
+      "atkSpd": 100.0,
+      "atkTime": 1.0,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 70
+    },
+    "talents": [
+      {
+        "name": "Experienced Hunter",
+        "description": "Redeployment Time -20 seconds, DP Cost -1",
+        "blackboard": {
+          "respawn_time": -20.0,
+          "cost": -1.0
+        }
+      }
+    ],
+    "trust": {
+      "atk": 75
+    }
+  },
   "char_219_meteo": {
     "name": "Meteorite",
     "rarity": 5,
@@ -2794,6 +3892,46 @@
       "atk": 85
     }
   },
+  "char_379_sesa": {
+    "name": "Sesa",
+    "rarity": 5,
+    "profession": "Sniper",
+    "potential": {
+      "cost": -2.0,
+      "respawn": -4.0,
+      "atk": 33.0
+    },
+    "skills": [
+      "skcom_atk_up[3]",
+      "skchr_sesa_2"
+    ],
+    "stats": {
+      "level": 80,
+      "maxHp": 1655,
+      "atk": 833,
+      "def": 123,
+      "res": 0.0,
+      "cost": 28,
+      "block": 1,
+      "atkSpd": 100.0,
+      "atkTime": 2.8,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 70
+    },
+    "talents": [
+      {
+        "name": "Vulnerability Deconstruction",
+        "description": "When deployed, all blocked enemies take +16% <@ba.talpu>(+2%)</> Physical damage",
+        "blackboard": {
+          "damage_scale": 1.16
+        }
+      }
+    ],
+    "trust": {
+      "atk": 85
+    }
+  },
   "char_279_excu": {
     "name": "Executor",
     "rarity": 5,
@@ -2827,6 +3965,52 @@
         "description": "Attacks ignore 175 <@ba.talpu>(+15)</> DEF",
         "blackboard": {
           "def_penetrate_fixed": 175.0
+        }
+      }
+    ],
+    "trait": [
+      {
+        "atk_scale": 1.5
+      }
+    ],
+    "trust": {
+      "atk": 65
+    }
+  },
+  "char_346_aosta": {
+    "name": "Aosta",
+    "rarity": 5,
+    "profession": "Sniper",
+    "potential": {
+      "cost": -2.0,
+      "respawn": -4.0,
+      "atk": 26.0
+    },
+    "skills": [
+      "skcom_quickattack[3]",
+      "skchr_aosta_2"
+    ],
+    "stats": {
+      "level": 80,
+      "maxHp": 2376,
+      "atk": 691,
+      "def": 192,
+      "res": 0.0,
+      "cost": 31,
+      "block": 1,
+      "atkSpd": 100.0,
+      "atkTime": 2.3,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 70
+    },
+    "talents": [
+      {
+        "name": "Sharp Nails",
+        "description": "Attacks inflict Bleed to unblocked enemies, dealing 20% <@ba.talpu>(+2%)</> ATK as Arts damage (unaffected by trait) every second for 3 seconds",
+        "blackboard": {
+          "atk_scale": 0.2,
+          "duration": 3.0
         }
       }
     ],
@@ -2882,6 +4066,86 @@
       "atk": 70
     }
   },
+  "char_405_absin": {
+    "name": "Absinthe",
+    "rarity": 5,
+    "profession": "Caster",
+    "potential": {
+      "cost": -3.0,
+      "respawn": -10.0
+    },
+    "skills": [
+      "skchr_absin_1",
+      "skchr_absin_2"
+    ],
+    "stats": {
+      "level": 80,
+      "maxHp": 1420,
+      "atk": 633,
+      "def": 124,
+      "res": 20.0,
+      "cost": 22,
+      "block": 1,
+      "atkSpd": 100.0,
+      "atkTime": 1.6,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 80
+    },
+    "talents": [
+      {
+        "name": "Enforcer",
+        "description": "Increases damage dealt to enemies below 40% HP by 30% <@ba.talpu>(+6%)</>",
+        "blackboard": {
+          "hp_ratio": 0.4,
+          "damage_scale": 1.3
+        }
+      }
+    ],
+    "trust": {
+      "atk": 70
+    }
+  },
+  "char_411_tomimi": {
+    "name": "Tomimi",
+    "rarity": 5,
+    "profession": "Caster",
+    "potential": {
+      "cost": -3.0,
+      "respawn": -10.0
+    },
+    "skills": [
+      "skchr_tomimi_1",
+      "skchr_tomimi_2"
+    ],
+    "stats": {
+      "level": 80,
+      "maxHp": 1920,
+      "atk": 600,
+      "def": 119,
+      "res": 20.0,
+      "cost": 22,
+      "block": 1,
+      "atkSpd": 100.0,
+      "atkTime": 1.6,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 80
+    },
+    "talents": [
+      {
+        "name": "Arts of the Wild",
+        "description": "Range reduces, attacks now deal Physical damage (only to ground enemies), ATK +120% <@ba.talpu>(+20%)</> when this skill is activated",
+        "blackboard": {
+          "atk": 1.2
+        }
+      }
+    ],
+    "trust": {
+      "maxHp": 200,
+      "atk": 35
+    }
+  },
   "char_166_skfire": {
     "name": "Skyfire",
     "rarity": 5,
@@ -2920,6 +4184,221 @@
     ],
     "trust": {
       "atk": 90
+    }
+  },
+  "char_509_acast": {
+    "name": "Pith",
+    "rarity": 5,
+    "profession": "Caster",
+    "potential": [],
+    "skills": [
+      "skchr_acast_1"
+    ],
+    "stats": {
+      "level": 80,
+      "maxHp": 1655,
+      "atk": 821,
+      "def": 128,
+      "res": 20.0,
+      "cost": 32,
+      "block": 1,
+      "atkSpd": 100.0,
+      "atkTime": 2.9,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 60
+    },
+    "talents": [
+      {
+        "name": "\"All That I See\"",
+        "description": "Attacks ignore 20 RES",
+        "blackboard": {
+          "magic_resist_penetrate_fixed": 20.0
+        }
+      }
+    ],
+    "trust": {}
+  },
+  "char_306_leizi": {
+    "name": "Leizi",
+    "rarity": 5,
+    "profession": "Caster",
+    "potential": {
+      "cost": -2.0,
+      "respawn": -4.0,
+      "atk": 28.0
+    },
+    "skills": [
+      "skcom_atk_up[3]",
+      "skchr_leizi_2"
+    ],
+    "stats": {
+      "level": 80,
+      "maxHp": 1443,
+      "atk": 573,
+      "def": 119,
+      "res": 20.0,
+      "cost": 32,
+      "block": 1,
+      "atkSpd": 100.0,
+      "atkTime": 2.3,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 70
+    },
+    "talents": [
+      {
+        "name": "Unobstructed Flow",
+        "description": "Increases ATK by 23% <@ba.talpu>(+3%)</> when attacking unblocked enemies",
+        "blackboard": {
+          "atk_scale": 1.23
+        }
+      }
+    ],
+    "trait": [
+      {
+        "attack@max_target": 3.0,
+        "attack@sluggish": 0.2
+      }
+    ],
+    "trust": {
+      "atk": 75
+    }
+  },
+  "char_344_beewax": {
+    "name": "Beeswax",
+    "rarity": 5,
+    "profession": "Caster",
+    "potential": {
+      "cost": -2.0,
+      "respawn": -10.0,
+      "atk": 30.0
+    },
+    "skills": [
+      "skchr_beewax_1",
+      "skchr_beewax_2"
+    ],
+    "stats": {
+      "level": 80,
+      "maxHp": 2005,
+      "atk": 735,
+      "def": 205,
+      "res": 15.0,
+      "cost": 23,
+      "block": 1,
+      "atkSpd": 100.0,
+      "atkTime": 2.0,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 70
+    },
+    "talents": [
+      {
+        "name": "Shambhala's Sanctuary",
+        "description": "When this unit's skill is not active, restores 4% Max HP per second",
+        "blackboard": {
+          "hp_recovery_per_sec_by_max_hp_ratio": 0.04
+        }
+      }
+    ],
+    "trait": [
+      {
+        "def": 2.0,
+        "magic_resistance": 20.0
+      }
+    ],
+    "trust": {
+      "atk": 70,
+      "def": 20
+    }
+  },
+  "char_373_lionhd": {
+    "name": "Leonhardt",
+    "rarity": 5,
+    "profession": "Caster",
+    "potential": {
+      "cost": -2.0,
+      "respawn": -4.0,
+      "atk": 32.0
+    },
+    "skills": [
+      "skcom_atk_up[3]",
+      "skchr_lionhd_2"
+    ],
+    "stats": {
+      "level": 80,
+      "maxHp": 1550,
+      "atk": 707,
+      "def": 120,
+      "res": 20.0,
+      "cost": 33,
+      "block": 1,
+      "atkSpd": 100.0,
+      "atkTime": 2.9,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 70
+    },
+    "talents": [
+      {
+        "name": "Lethal Fragmentation",
+        "description": "This unit gains +4% ATK for every enemy in range (stacks up to 6 <@ba.talpu>(+1)</> times)",
+        "blackboard": {
+          "atk": 0.04,
+          "max_valid_stack_cnt": 6.0
+        }
+      }
+    ],
+    "trust": {
+      "atk": 90
+    }
+  },
+  "char_388_mint": {
+    "name": "Mint",
+    "rarity": 5,
+    "profession": "Caster",
+    "potential": {
+      "cost": -3.0,
+      "respawn": -10.0
+    },
+    "skills": [
+      "skchr_mint_1",
+      "skchr_mint_2"
+    ],
+    "stats": {
+      "level": 80,
+      "maxHp": 1945,
+      "atk": 732,
+      "def": 196,
+      "res": 15.0,
+      "cost": 25,
+      "block": 1,
+      "atkSpd": 100.0,
+      "atkTime": 2.0,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 80
+    },
+    "talents": [
+      {
+        "name": "Geologist",
+        "description": "When this unit's skill is not active, adjacent allies gain +12% <@ba.talpu>(+2%)</> DEF; When this unit's skill is active, become less likely to be targeted by enemies",
+        "blackboard": {
+          "def": 0.12,
+          "atk": 0.0,
+          "taunt_level": -1.0
+        }
+      }
+    ],
+    "trait": [
+      {
+        "def": 2.0,
+        "magic_resistance": 20.0
+      }
+    ],
+    "trust": {
+      "atk": 75,
+      "def": 15
     }
   },
   "char_242_otter": {
@@ -2961,6 +4440,47 @@
     "trust": {
       "maxHp": 200,
       "atk": 35
+    }
+  },
+  "char_336_folivo": {
+    "name": "Scene",
+    "rarity": 5,
+    "profession": "Supporter",
+    "potential": {
+      "cost": -2.0,
+      "respawn": -10.0,
+      "res": 8.0
+    },
+    "skills": [
+      "skchr_folivo_1",
+      "skchr_folivo_2"
+    ],
+    "stats": {
+      "level": 80,
+      "maxHp": 1105,
+      "atk": 432,
+      "def": 155,
+      "res": 20.0,
+      "cost": 11,
+      "block": 1,
+      "atkSpd": 100.0,
+      "atkTime": 1.6,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 70
+    },
+    "talents": [
+      {
+        "name": "Camera Squad",
+        "description": "Can summon 5 Buggy Cams; Buggy Cams will reveal Invisible enemies within the surrounding 8 tiles",
+        "blackboard": {
+          "cnt": 5.0
+        }
+      }
+    ],
+    "trust": {
+      "maxHp": 200,
+      "def": 35
     }
   },
   "char_108_silent": {
@@ -3044,6 +4564,80 @@
       "atk": 75
     }
   },
+  "char_345_folnic": {
+    "name": "Folinic",
+    "rarity": 5,
+    "profession": "Medic",
+    "potential": {
+      "cost": -3.0,
+      "respawn": -10.0
+    },
+    "skills": [
+      "skchr_folnic_1",
+      "skchr_folnic_2"
+    ],
+    "stats": {
+      "level": 80,
+      "maxHp": 1585,
+      "atk": 479,
+      "def": 133,
+      "res": 0.0,
+      "cost": 21,
+      "block": 1,
+      "atkSpd": 100.0,
+      "atkTime": 2.85,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 80
+    },
+    "talents": [
+      {
+        "name": "Drug Inhibition Technique",
+        "description": "Status Resistance (reduces the duration of stun, cold, and freeze effects by 50%), -50% <@ba.talpu>(+10%)</> damage taken from environmental effects",
+        "blackboard": {
+          "one_minus_status_resistance": -0.5,
+          "damage_scale": 0.5
+        }
+      }
+    ],
+    "trust": {
+      "maxHp": 200,
+      "atk": 50
+    }
+  },
+  "char_510_amedic": {
+    "name": "Touch",
+    "rarity": 5,
+    "profession": "Medic",
+    "potential": [],
+    "skills": [
+      "skchr_amedic_1"
+    ],
+    "stats": {
+      "level": 80,
+      "maxHp": 1633,
+      "atk": 595,
+      "def": 135,
+      "res": 0.0,
+      "cost": 18,
+      "block": 1,
+      "atkSpd": 100.0,
+      "atkTime": 2.85,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 60
+    },
+    "talents": [
+      {
+        "name": "Promotion",
+        "description": "Targets healed by this unit gain +3 SP",
+        "blackboard": {
+          "sp": 3.0
+        }
+      }
+    ],
+    "trust": {}
+  },
   "char_348_ceylon": {
     "name": "Ceylon",
     "rarity": 5,
@@ -3077,6 +4671,52 @@
         "blackboard": {
           "ceylon_t_1[common].atk": 0.06,
           "celyon_t_1[map].atk": 0.18
+        }
+      }
+    ],
+    "trait": [
+      {
+        "heal_scale": 0.7
+      }
+    ],
+    "trust": {
+      "maxHp": 200,
+      "atk": 40
+    }
+  },
+  "char_436_whispr": {
+    "name": "Whisperain",
+    "rarity": 5,
+    "profession": "Medic",
+    "potential": {
+      "cost": -2.0,
+      "respawn": -4.0,
+      "atk": 23.0
+    },
+    "skills": [
+      "skchr_whispr_1",
+      "skchr_whispr_2"
+    ],
+    "stats": {
+      "level": 80,
+      "maxHp": 1432,
+      "atk": 467,
+      "def": 119,
+      "res": 5.0,
+      "cost": 20,
+      "block": 1,
+      "atkSpd": 100.0,
+      "atkTime": 2.85,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 70
+    },
+    "talents": [
+      {
+        "name": "Tower of Life",
+        "description": "Friendly units with status resistance within this unit’s attack range will restore HP per second equal to 7% <@ba.talpu>(+1%)</> of Whisperain’s ATK (Unaffected by this unit's Trait)",
+        "blackboard": {
+          "atk_to_hp_recovery_ratio": 0.07
         }
       }
     ],
@@ -3129,6 +4769,48 @@
     "trust": {
       "atk": 40,
       "def": 50
+    }
+  },
+  "char_226_hmau": {
+    "name": "Hung",
+    "rarity": 5,
+    "profession": "Defender",
+    "potential": {
+      "cost": -2.0,
+      "respawn": -4.0,
+      "def": 25.0
+    },
+    "skills": [
+      "skchr_hmau_1",
+      "skchr_hmau_2"
+    ],
+    "stats": {
+      "level": 80,
+      "maxHp": 2823,
+      "atk": 442,
+      "def": 585,
+      "res": 10.0,
+      "cost": 21,
+      "block": 3,
+      "atkSpd": 100.0,
+      "atkTime": 1.2,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 70
+    },
+    "talents": [
+      {
+        "name": "Gatekeeper",
+        "description": "DEF +8%<@ba.talpu>(+2%)</>, if the tile behind this unit is an elevated tile, this unit receives 85%<@ba.talpu>(+10%)</> healing",
+        "blackboard": {
+          "heal_scale": 1.85,
+          "def": 0.08
+        }
+      }
+    ],
+    "trust": {
+      "maxHp": 200,
+      "def": 60
     }
   },
   "char_144_red": {
@@ -3212,6 +4894,46 @@
     "trust": {
       "atk": 50,
       "def": 30
+    }
+  },
+  "char_214_kafka": {
+    "name": "Kafka",
+    "rarity": 5,
+    "profession": "Specialist",
+    "potential": {
+      "cost": -2.0,
+      "maxHp": 150.0,
+      "respawn": -2.0
+    },
+    "skills": [
+      "skchr_kafka_1",
+      "skchr_kafka_2"
+    ],
+    "stats": {
+      "level": 80,
+      "maxHp": 1675,
+      "atk": 525,
+      "def": 311,
+      "res": 0.0,
+      "cost": 9,
+      "block": 1,
+      "atkSpd": 100.0,
+      "atkTime": 0.93,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 18
+    },
+    "talents": [
+      {
+        "name": "Misdirection",
+        "description": "When skill is active, ATK +18% <@ba.talpu>(+3%)</>, Block becomes 0 and gain Camouflage",
+        "blackboard": {
+          "atk": 0.18
+        }
+      }
+    ],
+    "trust": {
+      "maxHp": 350
     }
   },
   "char_107_liskam": {
@@ -3385,6 +5107,48 @@
       "atk": 50
     }
   },
+  "char_378_asbest": {
+    "name": "Asbestos",
+    "rarity": 5,
+    "profession": "Defender",
+    "potential": {
+      "cost": -2.0,
+      "respawn": -10.0,
+      "maxHp": 210.0
+    },
+    "skills": [
+      "skchr_asbest_1",
+      "skchr_asbest_2"
+    ],
+    "stats": {
+      "level": 80,
+      "maxHp": 3135,
+      "atk": 633,
+      "def": 555,
+      "res": 15.0,
+      "cost": 25,
+      "block": 3,
+      "atkSpd": 100.0,
+      "atkTime": 1.6,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 70
+    },
+    "talents": [
+      {
+        "name": "Moist Skin",
+        "description": "RES +10, restores 3 SP when hit by an enemy's normal Arts attack",
+        "blackboard": {
+          "magic_resistance": 10.0,
+          "sp": 3.0
+        }
+      }
+    ],
+    "trust": {
+      "atk": 40,
+      "def": 40
+    }
+  },
   "char_145_prove": {
     "name": "Provence",
     "rarity": 5,
@@ -3467,6 +5231,47 @@
       "atk": 90
     }
   },
+  "char_218_cuttle": {
+    "name": "Andreana",
+    "rarity": 5,
+    "profession": "Sniper",
+    "potential": {
+      "cost": -2.0,
+      "respawn": -4.0,
+      "atk": 35.0
+    },
+    "skills": [
+      "skcom_atk_up[3]",
+      "skchr_cuttle_2"
+    ],
+    "stats": {
+      "level": 80,
+      "maxHp": 1498,
+      "atk": 1070,
+      "def": 128,
+      "res": 0.0,
+      "cost": 21,
+      "block": 1,
+      "atkSpd": 100.0,
+      "atkTime": 2.7,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 70
+    },
+    "talents": [
+      {
+        "name": "Abyssal Intuition",
+        "description": "When this unit is in the squad, all [Abyssal Hunters] Operators gain +14 <@ba.talpu>(+2)</> ASPD",
+        "blackboard": {
+          "attack_speed": 14.0
+        }
+      }
+    ],
+    "trust": {
+      "maxHp": 300,
+      "atk": 40
+    }
+  },
   "char_173_slchan": {
     "name": "Cliffheart",
     "rarity": 5,
@@ -3508,6 +5313,47 @@
       "atk": 70
     }
   },
+  "char_383_snsant": {
+    "name": "Snowsant",
+    "rarity": 5,
+    "profession": "Specialist",
+    "potential": {
+      "cost": -3.0,
+      "respawn": -10.0
+    },
+    "skills": [
+      "skchr_snsant_1",
+      "skchr_snsant_2"
+    ],
+    "stats": {
+      "level": 80,
+      "maxHp": 1835,
+      "atk": 745,
+      "def": 355,
+      "res": 0.0,
+      "cost": 15,
+      "block": 2,
+      "atkSpd": 100.0,
+      "atkTime": 1.8,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 80
+    },
+    "talents": [
+      {
+        "name": "Bug Catcher",
+        "description": "When dragging an \"Infected Creature,\" the strength of the shift increases by 1 degree, and silences the target for 8 <@ba.talpu>(+4)</> seconds",
+        "blackboard": {
+          "skill@delta_force": 1.0,
+          "skill@silence": 8.0
+        }
+      }
+    ],
+    "trust": {
+      "maxHp": 300,
+      "def": 40
+    }
+  },
   "char_174_slbell": {
     "name": "Pramanix",
     "rarity": 5,
@@ -3538,7 +5384,7 @@
     "talents": [
       {
         "name": "Weakening",
-        "description": "Enemies in range are affected by [Fragile], making them take 133% <@ba.talpu>(+3%) </>damage when their HP is under 40%.",
+        "description": "Enemies in range with less than 40% HP are inflicted with [Fragile] (affected units take 33% <@ba.talpu>(+3%)</> more damage, only the highest effect of this type is applied)",
         "blackboard": {
           "hp_ratio": 0.4,
           "damage_scale": 1.33
@@ -3549,6 +5395,47 @@
         "description": "Attacks 2 enemies simultaneously",
         "blackboard": {
           "attack@max_target": 2.0
+        }
+      }
+    ],
+    "trust": {
+      "atk": 65
+    }
+  },
+  "char_254_vodfox": {
+    "name": "Shamare",
+    "rarity": 5,
+    "profession": "Supporter",
+    "potential": {
+      "cost": -2.0,
+      "respawn": -4.0,
+      "res": 8.0
+    },
+    "skills": [
+      "skchr_vodfox_1",
+      "skchr_vodfox_2"
+    ],
+    "stats": {
+      "level": 80,
+      "maxHp": 1728,
+      "atk": 408,
+      "def": 105,
+      "res": 25.0,
+      "cost": 12,
+      "block": 1,
+      "atkSpd": 100.0,
+      "atkTime": 1.6,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 70
+    },
+    "talents": [
+      {
+        "name": "Omen of Defeat",
+        "description": "Enemies in range with less than 40% HP are inflicted with [Fragile] (affected units take 33% <@ba.talpu>(+3%)</> more damage, only the highest effect of this type is applied)",
+        "blackboard": {
+          "hp_ratio": 0.4,
+          "damage_scale": 1.33
         }
       }
     ],
@@ -3690,6 +5577,48 @@
       "def": 20
     }
   },
+  "char_343_tknogi": {
+    "name": "Tsukinogi",
+    "rarity": 5,
+    "profession": "Supporter",
+    "potential": {
+      "cost": -2.0,
+      "respawn": -4.0,
+      "maxHp": 160.0
+    },
+    "skills": [
+      "skchr_tknogi_1",
+      "skchr_tknogi_2"
+    ],
+    "stats": {
+      "level": 80,
+      "maxHp": 1620,
+      "atk": 385,
+      "def": 175,
+      "res": 25.0,
+      "cost": 12,
+      "block": 1,
+      "atkSpd": 100.0,
+      "atkTime": 1.6,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 70
+    },
+    "talents": [
+      {
+        "name": "Blessing",
+        "description": "When the HP of allies within this unit's ATK Range is under 40%, they will gain the [Shelter] effect (reduces the Physical and Arts damage they take by 20% <@ba.talpu>(+2%)</>, only the highest effect of this type is applied)",
+        "blackboard": {
+          "hp_ratio": 0.4,
+          "damage_resistance": 0.2
+        }
+      }
+    ],
+    "trust": {
+      "maxHp": 300,
+      "atk": 40
+    }
+  },
   "char_215_mantic": {
     "name": "Manticore",
     "rarity": 5,
@@ -3776,6 +5705,46 @@
     "trust": {
       "maxHp": 300,
       "atk": 45
+    }
+  },
+  "char_451_robin": {
+    "name": "Robin",
+    "rarity": 5,
+    "profession": "Specialist",
+    "potential": {
+      "cost": -3.0,
+      "respawn": -10.0
+    },
+    "skills": [
+      "skchr_robin_1",
+      "skchr_robin_2"
+    ],
+    "stats": {
+      "level": 80,
+      "maxHp": 1442,
+      "atk": 513,
+      "def": 166,
+      "res": 0.0,
+      "cost": 13,
+      "block": 1,
+      "atkSpd": 100.0,
+      "atkTime": 0.85,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 80
+    },
+    "talents": [
+      {
+        "name": "\"Clip\" Specialist",
+        "description": "Can deploy up to 10 <@ba.talpu>(+2)</> “Clip” traps (Can store up to 10); The first enemy that steps on a trap will trigger its effect",
+        "blackboard": {
+          "cnt": 10.0
+        }
+      }
+    ],
+    "trust": {
+      "maxHp": 200,
+      "atk": 40
     }
   },
   "char_103_angel": {
@@ -3877,6 +5846,159 @@
       "atk": 100
     }
   },
+  "char_113_cqbw": {
+    "name": "W",
+    "rarity": 6,
+    "profession": "Sniper",
+    "potential": {
+      "cost": -2.0,
+      "respawn": -4.0,
+      "atk": 35.0
+    },
+    "skills": [
+      "skchr_cqbw_1",
+      "skchr_cqbw_2",
+      "skchr_cqbw_3"
+    ],
+    "stats": {
+      "level": 90,
+      "maxHp": 1605,
+      "atk": 912,
+      "def": 133,
+      "res": 0.0,
+      "cost": 29,
+      "block": 1,
+      "atkSpd": 100.0,
+      "atkTime": 2.8,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 70
+    },
+    "talents": [
+      {
+        "name": "Ambush",
+        "description": "After remaining deployed for 10 seconds, obtains 60% Physical and Arts Dodge, and is less likely to be targeted by enemies",
+        "blackboard": {
+          "interval": 10.0,
+          "prob": 0.6,
+          "taunt_level": -1.0
+        }
+      },
+      {
+        "name": "Insult to Injury",
+        "description": "Enemies in range take +21% <@ba.talpu>(+3%)</> physical damage when stunned",
+        "blackboard": {
+          "damage_scale": 1.21
+        }
+      }
+    ],
+    "trust": {
+      "atk": 100
+    }
+  },
+  "char_197_poca": {
+    "name": "Rosa",
+    "rarity": 6,
+    "profession": "Sniper",
+    "potential": {
+      "cost": -2.0,
+      "respawn": -4.0,
+      "atk": 34.0
+    },
+    "skills": [
+      "skcom_atk_up[3]",
+      "skchr_poca_2",
+      "skchr_poca_3"
+    ],
+    "stats": {
+      "level": 90,
+      "maxHp": 1755,
+      "atk": 1032,
+      "def": 122,
+      "res": 0.0,
+      "cost": 24,
+      "block": 1,
+      "atkSpd": 100.0,
+      "atkTime": 2.4,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 70
+    },
+    "talents": [
+      {
+        "name": "Bone Piercer",
+        "description": "When attacking a heavy enemy, ignores 60% of its DEF (enemies with 3 weight or higher count for this effect)",
+        "blackboard": {
+          "value": 3.0,
+          "def_penetrate": 0.6
+        }
+      },
+      {
+        "name": "Ideal Student",
+        "description": "When this unit is in the squad, all [Ursus Student Self-Government Group] Operators gain +10% ATK <@ba.talpu>(+2%)</>",
+        "blackboard": {
+          "atk": 0.1
+        }
+      }
+    ],
+    "trust": {
+      "atk": 110
+    }
+  },
+  "char_391_rosmon": {
+    "name": "Rosmontis",
+    "rarity": 6,
+    "profession": "Sniper",
+    "potential": {
+      "cost": -2.0,
+      "respawn": -4.0,
+      "atk": 32.0
+    },
+    "skills": [
+      "skchr_rosmon_1",
+      "skchr_rosmon_2",
+      "skchr_rosmon_3"
+    ],
+    "stats": {
+      "level": 90,
+      "maxHp": 1944,
+      "atk": 688,
+      "def": 245,
+      "res": 15.0,
+      "cost": 25,
+      "block": 1,
+      "atkSpd": 100.0,
+      "atkTime": 2.1,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 70
+    },
+    "talents": [
+      {
+        "name": "Armaments of Annihilation",
+        "description": "Attacks ignore 175 <@ba.talpu>(+15)</> DEF",
+        "blackboard": {
+          "def_penetrate_fixed": 175.0
+        }
+      },
+      {
+        "name": "Stable Esthesia",
+        "description": "When deployed, grants +8% ATK to this unit and a random deployed Caster Operator",
+        "blackboard": {
+          "atk": 0.08
+        }
+      }
+    ],
+    "trait": [
+      {
+        "attack@append_atk_scale": 0.5
+      }
+    ],
+    "trust": {
+      "atk": 60,
+      "def": 30
+    }
+  },
   "char_112_siege": {
     "name": "Siege",
     "rarity": 6,
@@ -3925,6 +6047,59 @@
     "trust": {
       "atk": 60,
       "def": 25
+    }
+  },
+  "char_222_bpipe": {
+    "name": "Bagpipe",
+    "rarity": 6,
+    "profession": "Vanguard",
+    "potential": {
+      "cost": -2.0,
+      "atk": 25.0
+    },
+    "skills": [
+      "skcom_quickattack[3]",
+      "skchr_bpipe_2",
+      "skchr_bpipe_3"
+    ],
+    "stats": {
+      "level": 90,
+      "maxHp": 2484,
+      "atk": 586,
+      "def": 382,
+      "res": 0.0,
+      "cost": 13,
+      "block": 1,
+      "atkSpd": 100.0,
+      "atkTime": 1.0,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 70
+    },
+    "talents": [
+      {
+        "name": "Precise Reloading",
+        "description": "When attacking, has a 28%<@ba.talpu>(+3%)</> chance to increase ATK to 130% and strike an additional target",
+        "blackboard": {
+          "atk_scale": 1.3,
+          "prob": 0.28
+        }
+      },
+      {
+        "name": "Martial Tradition",
+        "description": "When this unit is in the squad, all Vanguards gain +8<@ba.talpu>(+2)</> Initial SP",
+        "blackboard": {
+          "sp": 8.0
+        }
+      }
+    ],
+    "trait": [
+      {
+        "cost": 1.0
+      }
+    ],
+    "trust": {
+      "atk": 85
     }
   },
   "char_134_ifrit": {
@@ -4071,6 +6246,55 @@
       "atk": 90
     }
   },
+  "char_2013_cerber": {
+    "name": "Ceobe",
+    "rarity": 6,
+    "profession": "Caster",
+    "potential": {
+      "cost": -2.0,
+      "respawn": -4.0,
+      "atk": 27.0
+    },
+    "skills": [
+      "skchr_cerber_1",
+      "skchr_cerber_2",
+      "skchr_cerber_3"
+    ],
+    "stats": {
+      "level": 90,
+      "maxHp": 1565,
+      "atk": 667,
+      "def": 128,
+      "res": 20.0,
+      "cost": 21,
+      "block": 1,
+      "atkSpd": 100.0,
+      "atkTime": 1.6,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 70
+    },
+    "talents": [
+      {
+        "name": "Thresher",
+        "description": "Each attack deals additional Arts damage to the target equal to 44%<@ba.talpu>(+4%)</> of its DEF",
+        "blackboard": {
+          "atk_scale": 0.44
+        }
+      },
+      {
+        "name": "Lone Journey",
+        "description": "When there are no other friendly units in the surrounding 4 tiles, ATK +8% and ASPD +8",
+        "blackboard": {
+          "atk": 0.08,
+          "attack_speed": 8.0
+        }
+      }
+    ],
+    "trust": {
+      "atk": 90
+    }
+  },
   "char_291_aglina": {
     "name": "Angelina",
     "rarity": 6,
@@ -4123,6 +6347,59 @@
       "atk": 75
     }
   },
+  "char_358_lisa": {
+    "name": "Suzuran",
+    "rarity": 6,
+    "profession": "Supporter",
+    "potential": {
+      "cost": -2.0,
+      "respawn": -4.0,
+      "atk": 25.0
+    },
+    "skills": [
+      "skchr_lisa_1",
+      "skchr_lisa_2",
+      "skchr_lisa_3"
+    ],
+    "stats": {
+      "level": 90,
+      "maxHp": 1480,
+      "atk": 521,
+      "def": 128,
+      "res": 25.0,
+      "cost": 16,
+      "block": 1,
+      "atkSpd": 100.0,
+      "atkTime": 1.9,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 70
+    },
+    "talents": [
+      {
+        "name": "Skill Aura - Supporter",
+        "description": "When deployed, increases the SP recovery rate of all Supporters by +0.4/second (only the highest effect of this type takes place)",
+        "blackboard": {
+          "sp_recovery_per_sec": 0.4
+        }
+      },
+      {
+        "name": "Binding Circle",
+        "description": "Enemies in range that are Slowed are inflicted with [Fragile] (affected units take 23% <@ba.talpu>(+3%)</> more damage, only the highest effect of this type is applied)",
+        "blackboard": {
+          "damage_scale": 1.23
+        }
+      }
+    ],
+    "trait": [
+      {
+        "sluggish": 0.8
+      }
+    ],
+    "trust": {
+      "atk": 75
+    }
+  },
   "char_248_mgllan": {
     "name": "Magallan",
     "rarity": 6,
@@ -4154,7 +6431,7 @@
     "talents": [
       {
         "name": "Support Drone - Soaring Dragon",
-        "description": "Can use up to 5 drones that do not block (max 3 deployed at once). Drones\u2019 effect changes based upon Skill.",
+        "description": "Can use up to 5 drones that do not block (max 3 deployed at once). Drones’ effect changes based upon Skill.",
         "blackboard": {
           "cnt": 5.0
         }
@@ -4168,6 +6445,158 @@
     "trust": {
       "maxHp": 300,
       "atk": 40
+    }
+  },
+  "char_250_phatom": {
+    "name": "Phantom",
+    "rarity": 6,
+    "profession": "Specialist",
+    "potential": {
+      "cost": -2.0,
+      "atk": 22.0,
+      "respawn": -2.0,
+      "maxHp": 130.0
+    },
+    "skills": [
+      "skchr_phatom_1",
+      "skchr_phatom_2",
+      "skchr_phatom_3"
+    ],
+    "stats": {
+      "level": 90,
+      "maxHp": 1645,
+      "atk": 558,
+      "def": 322,
+      "res": 0.0,
+      "cost": 10,
+      "block": 1,
+      "atkSpd": 100.0,
+      "atkTime": 0.93,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 18
+    },
+    "talents": [
+      {
+        "name": "Phantom in the Mirror",
+        "description": "Can summon a stronger clone with the same abilities as Phantom, but has its own redeployment time",
+        "blackboard": {
+          "cnt": 1.0
+        }
+      },
+      {
+        "name": "Phantom Mastery",
+        "description": "Redeployment time of clone is reduced by 10 seconds",
+        "blackboard": {}
+      }
+    ],
+    "trust": {
+      "atk": 90
+    }
+  },
+  "char_400_weedy": {
+    "name": "Weedy",
+    "rarity": 6,
+    "profession": "Specialist",
+    "potential": {
+      "cost": -2.0,
+      "respawn": -4.0,
+      "attackSpeed": 8.0,
+      "maxHp": 140.0
+    },
+    "skills": [
+      "skchr_weedy_1",
+      "skchr_weedy_2",
+      "skchr_weedy_3"
+    ],
+    "stats": {
+      "level": 90,
+      "maxHp": 2133,
+      "atk": 677,
+      "def": 394,
+      "res": 0.0,
+      "cost": 21,
+      "block": 2,
+      "atkSpd": 100.0,
+      "atkTime": 1.2,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 70
+    },
+    "talents": [
+      {
+        "name": "Industrial Water Cannon",
+        "description": "Can deploy a Reserve Water Cannon that lasts for 20s; the Water Cannon can attack 1 target and push it away slightly",
+        "blackboard": {
+          "cnt": 1.0
+        }
+      },
+      {
+        "name": "Upgraded Water Cannon",
+        "description": "Increases the shift level of the Water Cannon's normal attacks and skills by 1, and Weedy will restore 1 SP per 3 seconds if the Water Cannon is located within 4 tiles of her",
+        "blackboard": {}
+      }
+    ],
+    "trust": {
+      "atk": 45,
+      "def": 45
+    }
+  },
+  "char_225_haak": {
+    "name": "Aak",
+    "rarity": 6,
+    "profession": "Specialist",
+    "potential": {
+      "cost": -2.0,
+      "respawn": -4.0,
+      "maxHp": 150.0
+    },
+    "skills": [
+      "skchr_haak_1",
+      "skchr_haak_2",
+      "skchr_haak_3"
+    ],
+    "stats": {
+      "level": 90,
+      "maxHp": 2034,
+      "atk": 703,
+      "def": 152,
+      "res": 10.0,
+      "cost": 13,
+      "block": 1,
+      "atkSpd": 100.0,
+      "atkTime": 1.3,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 70
+    },
+    "talents": [
+      {
+        "name": "Drug Cocktail Administration",
+        "description": "Each attack will randomly trigger one of the following effects: Restores own health by 15%, that attack instead deals 150% damage, binds the enemy for 1.4 second, or stuns the enemy for 1 second",
+        "blackboard": {
+          "hp_ratio": 0.15,
+          "atk_scale": 1.5,
+          "sluggish": 1.4,
+          "stun": 1.0
+        }
+      },
+      {
+        "name": "Pharmaceutical Diffusion",
+        "description": "Increases healing effects on this unit by 25%<@ba.talpu>(+5%)</>",
+        "blackboard": {
+          "heal_scale": 1.25
+        }
+      }
+    ],
+    "trait": [
+      {
+        "hp_ratio": 0.03
+      }
+    ],
+    "trust": {
+      "maxHp": 300,
+      "atk": 50
     }
   },
   "char_147_shining": {
@@ -4366,6 +6795,260 @@
       "def": 60
     }
   },
+  "char_423_blemsh": {
+    "name": "Blemishine",
+    "rarity": 6,
+    "profession": "Defender",
+    "potential": {
+      "cost": -2.0,
+      "respawn": -4.0,
+      "atk": 26.0
+    },
+    "skills": [
+      "skchr_blemsh_1",
+      "skchr_blemsh_2",
+      "skchr_blemsh_3"
+    ],
+    "stats": {
+      "level": 90,
+      "maxHp": 3242,
+      "atk": 491,
+      "def": 581,
+      "res": 10.0,
+      "cost": 22,
+      "block": 3,
+      "atkSpd": 100.0,
+      "atkTime": 1.2,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 70
+    },
+    "talents": [
+      {
+        "name": "Knight of Sword and Shield",
+        "description": "When deployed, allies that have a Defensive Recovery skill also gain 1 SP when attacking",
+        "blackboard": {
+          "sp": 1.0
+        }
+      },
+      {
+        "name": "Mercy",
+        "description": "Blemishine can attack and will prioritize Sleeping enemies; Increase ATK to 144% <@ba.talpu>(+4%)</> when attacking Sleeping enemies",
+        "blackboard": {
+          "atk_scale": 1.44
+        }
+      }
+    ],
+    "trust": {
+      "atk": 90,
+      "def": 20
+    }
+  },
+  "char_2014_nian": {
+    "name": "Nian",
+    "rarity": 6,
+    "profession": "Defender",
+    "potential": {
+      "cost": -2.0,
+      "atk": 24.0,
+      "def": 30.0
+    },
+    "skills": [
+      "skchr_nian_1",
+      "skchr_nian_2",
+      "skchr_nian_3"
+    ],
+    "stats": {
+      "level": 90,
+      "maxHp": 3699,
+      "atk": 619,
+      "def": 726,
+      "res": 0.0,
+      "cost": 23,
+      "block": 3,
+      "atkSpd": 100.0,
+      "atkTime": 1.5,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 70
+    },
+    "talents": [
+      {
+        "name": "Tectonic Armor",
+        "description": "When this unit is in the squad, all Defenders gain +20%<@ba.talpu>(+4%)</> Max HP",
+        "blackboard": {
+          "max_hp": 0.2
+        }
+      },
+      {
+        "name": "Clairvoyance",
+        "description": "When deployed, this unit gains 3 shields (each shield can block 1 instance of damage)",
+        "blackboard": {
+          "times": 3.0
+        }
+      }
+    ],
+    "trust": {
+      "maxHp": 400,
+      "def": 70
+    }
+  },
+  "char_311_mudrok": {
+    "name": "Mudrock",
+    "rarity": 6,
+    "profession": "Defender",
+    "potential": {
+      "cost": -2.0,
+      "respawn": -4.0,
+      "def": 29.0
+    },
+    "skills": [
+      "skcom_def_up[3]",
+      "skchr_mudrok_2",
+      "skchr_mudrok_3"
+    ],
+    "stats": {
+      "level": 90,
+      "maxHp": 3928,
+      "atk": 882,
+      "def": 602,
+      "res": 10.0,
+      "cost": 36,
+      "block": 3,
+      "atkSpd": 100.0,
+      "atkTime": 1.6,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 70
+    },
+    "talents": [
+      {
+        "name": "Ward of the Fertile Soil",
+        "description": "Every 9 seconds, gains one shield stack (Each stack can block 1 instance of damage; Can have up to 3 stacks, with 1 stack granted immediately when deployed); When a shield is broken, restores 22% <@ba.talpu>(+2%)</> of Max HP",
+        "blackboard": {
+          "interval": 9.0,
+          "times": 1.0,
+          "max_times": 3.0,
+          "hp_ratio": 0.22
+        }
+      },
+      {
+        "name": "Unshakable Solidarity",
+        "description": "Takes 30% less damage from Sarkaz enemies",
+        "blackboard": {
+          "damage_resistance": 0.3
+        }
+      }
+    ],
+    "trust": {
+      "maxHp": 500,
+      "def": 60
+    }
+  },
+  "char_416_zumama": {
+    "name": "Eunectes",
+    "rarity": 6,
+    "profession": "Defender",
+    "potential": {
+      "cost": -2.0,
+      "respawn": -4.0,
+      "def": 27.0
+    },
+    "skills": [
+      "skchr_zumama_1",
+      "skchr_zumama_2",
+      "skchr_zumama_3"
+    ],
+    "stats": {
+      "level": 90,
+      "maxHp": 4468,
+      "atk": 1007,
+      "def": 615,
+      "res": 0.0,
+      "cost": 33,
+      "block": 1,
+      "atkSpd": 100.0,
+      "atkTime": 1.6,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 70
+    },
+    "talents": [
+      {
+        "name": "Peerless Bravery",
+        "description": "When HP is above 50%, attacks deal 117% <@ba.talpu>(+2%)</> damage; When HP is 50% or lower, gains the [Sanctuary] effect (reduces the Physical and Arts damage taken by 22% <@ba.talpu(+2%)</>, only the highest effect of this type is applied)",
+        "blackboard": {
+          "hp_ratio": 0.5,
+          "damage_resistance": 0.22,
+          "atk_scale": 1.17
+        }
+      },
+      {
+        "name": "Resilience",
+        "description": "Increases this unit's SP recovery by 0.2/sec when blocking enemies",
+        "blackboard": {
+          "sp_recovery_per_sec": 0.2
+        }
+      }
+    ],
+    "trust": {
+      "atk": 70,
+      "def": 70
+    }
+  },
+  "char_264_f12yin": {
+    "name": "Mountain",
+    "rarity": 6,
+    "profession": "Guard",
+    "potential": {
+      "cost": -2.0,
+      "respawn": -4.0,
+      "atk": 24.0
+    },
+    "skills": [
+      "skchr_f12yin_1",
+      "skchr_f12yin_2",
+      "skchr_f12yin_3"
+    ],
+    "stats": {
+      "level": 90,
+      "maxHp": 2745,
+      "atk": 587,
+      "def": 357,
+      "res": 0.0,
+      "cost": 11,
+      "block": 1,
+      "atkSpd": 100.0,
+      "atkTime": 0.78,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 70
+    },
+    "talents": [
+      {
+        "name": "Forceful Fist",
+        "description": "20% chance for attacks to deal 165% <@ba.talpu>(+5%)</> damage and reduce the target’s ATK by 15% for 3 seconds (Does not stack)",
+        "blackboard": {
+          "atk_scale": 1.65,
+          "prob": 0.2,
+          "atk": -0.15,
+          "duration": 3.0
+        }
+      },
+      {
+        "name": "Sturdy Constitution",
+        "description": "DEF +10%; Physical Dodge +15%",
+        "blackboard": {
+          "def": 0.1,
+          "prob": 0.15
+        }
+      }
+    ],
+    "trust": {
+      "atk": 45,
+      "def": 45
+    }
+  },
   "char_172_svrash": {
     "name": "SilverAsh",
     "rarity": 6,
@@ -4417,6 +7100,62 @@
     "trust": {
       "atk": 50,
       "def": 50
+    }
+  },
+  "char_293_thorns": {
+    "name": "Thorns",
+    "rarity": 6,
+    "profession": "Guard",
+    "potential": {
+      "cost": -2.0,
+      "atk": 26.0
+    },
+    "skills": [
+      "skcom_atk_up[3]",
+      "skchr_thorns_2",
+      "skchr_thorns_3"
+    ],
+    "stats": {
+      "level": 90,
+      "maxHp": 2612,
+      "atk": 711,
+      "def": 402,
+      "res": 10.0,
+      "cost": 20,
+      "block": 2,
+      "atkSpd": 100.0,
+      "atkTime": 1.3,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 70
+    },
+    "talents": [
+      {
+        "name": "Nerve Corrosion",
+        "description": "Poisons the targets when attacking, dealing 140 <@ba.talpu>（+15）</> Arts Damage to them per second, lasting 3 seconds (damage is doubled against Ranged enemies)",
+        "blackboard": {
+          "damage[normal]": 140.0,
+          "damage[ranged]": 280.0,
+          "duration": 3.0
+        }
+      },
+      {
+        "name": "Echoes of Ancestral Waves",
+        "description": "If this unit hasn't attacked for 2 seconds, restores 4% <@ba.talpu>(+0.5%)</> of Max HP every second",
+        "blackboard": {
+          "delay": 2.0,
+          "hp_recovery_per_sec_by_max_hp_ratio": 0.04
+        }
+      }
+    ],
+    "trait": [
+      {
+        "atk_scale": 0.8
+      }
+    ],
+    "trust": {
+      "atk": 30,
+      "def": 70
     }
   },
   "char_010_chen": {
@@ -4521,6 +7260,53 @@
     "trust": {
       "atk": 60,
       "def": 45
+    }
+  },
+  "char_350_surtr": {
+    "name": "Surtr",
+    "rarity": 6,
+    "profession": "Guard",
+    "potential": {
+      "cost": -2.0,
+      "atk": 28.0
+    },
+    "skills": [
+      "skchr_surtr_1",
+      "skchr_surtr_2",
+      "skchr_surtr_3"
+    ],
+    "stats": {
+      "level": 90,
+      "maxHp": 2916,
+      "atk": 672,
+      "def": 414,
+      "res": 15.0,
+      "cost": 21,
+      "block": 1,
+      "atkSpd": 100.0,
+      "atkTime": 1.25,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 70
+    },
+    "talents": [
+      {
+        "name": "Molten Flame",
+        "description": "Attacks ignore 22 <@ba.talpu>(+2)</> RES",
+        "blackboard": {
+          "magic_resist_penetrate_fixed": 22.0
+        }
+      },
+      {
+        "name": "Remnant Ash",
+        "description": "After receiving fatal damage, continuously prevent HP from falling below 1. Retreat from the battlefield 9 <@ba.talpu>(+1)</> seconds later",
+        "blackboard": {
+          "surtr_t_2[withdraw].interval": 9.0
+        }
+      }
+    ],
+    "trust": {
+      "atk": 100
     }
   },
   "char_188_helage": {
@@ -4833,6 +7619,277 @@
       }
     ]
   },
+  "token_10006_vodfox_doll": {
+    "name": "Cursed Doll",
+    "rarity": 5,
+    "profession": "TOKEN",
+    "potential": [],
+    "skills": [
+      null,
+      "sktok_vodfox_token"
+    ],
+    "stats": {
+      "level": 80,
+      "maxHp": 1000,
+      "atk": 100,
+      "def": 0,
+      "res": 0.0,
+      "cost": 5,
+      "block": 0,
+      "atkSpd": 100.0,
+      "atkTime": 1.0,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 5
+    }
+  },
+  "token_10007_phatom_twin": {
+    "name": "Phantom in the Mirror",
+    "rarity": 6,
+    "profession": "TOKEN",
+    "potential": [],
+    "skills": [
+      "sktok_phatom_1",
+      "sktok_phatom_2",
+      "sktok_phatom_3"
+    ],
+    "stats": {
+      "level": 90,
+      "maxHp": 1416,
+      "atk": 548,
+      "def": 268,
+      "res": 0.0,
+      "cost": 5,
+      "block": 1,
+      "atkSpd": 100.0,
+      "atkTime": 0.93,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 45
+    },
+    "talents": [
+      {
+        "name": "Phantom in the Mirror",
+        "description": "Can summon a clone with the same abilities as Phantom, but has its own redeployment time",
+        "blackboard": {}
+      },
+      {
+        "name": "Phantom Mastery",
+        "description": "Redeployment time of clone is reduced by 10 seconds",
+        "blackboard": {
+          "respawn_time": -10.0
+        }
+      }
+    ],
+    "trust": {}
+  },
+  "token_10008_cqbw_box": {
+    "name": "Front Toward Enemy",
+    "rarity": 6,
+    "profession": "TOKEN",
+    "potential": [],
+    "skills": [
+      null,
+      "sktok_cqbw_token",
+      null
+    ],
+    "stats": {
+      "level": 90,
+      "maxHp": 1000,
+      "atk": 100,
+      "def": 0,
+      "res": 0.0,
+      "cost": 0,
+      "block": 0,
+      "atkSpd": 100.0,
+      "atkTime": 1.0,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 0
+    },
+    "talents": [
+      {
+        "name": null,
+        "description": "-",
+        "blackboard": {
+          "duration": 120.0
+        }
+      }
+    ]
+  },
+  "token_10009_weedy_cannon": {
+    "name": "Industrial Reserve Water Cannon",
+    "rarity": 6,
+    "profession": "TOKEN",
+    "potential": [],
+    "skills": [
+      null,
+      null,
+      "sktok_weedy_token"
+    ],
+    "stats": {
+      "level": 90,
+      "maxHp": 100,
+      "atk": 585,
+      "def": 100,
+      "res": 0.0,
+      "cost": 5,
+      "block": 0,
+      "atkSpd": 100.0,
+      "atkTime": 2.4,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 35
+    },
+    "talents": [
+      {
+        "name": null,
+        "description": "-",
+        "blackboard": {
+          "duration": 20.0
+        }
+      },
+      {
+        "name": null,
+        "description": "-",
+        "blackboard": {
+          "base_force_level": 1.0,
+          "interval": 3.0,
+          "sp": 1.0
+        }
+      }
+    ],
+    "trust": {}
+  },
+  "token_10010_folivo_car": {
+    "name": "Mobile Buggy Cam",
+    "rarity": 5,
+    "profession": "TOKEN",
+    "potential": [],
+    "skills": [
+      null,
+      "sktok_folivo_2"
+    ],
+    "stats": {
+      "level": 80,
+      "maxHp": 2020,
+      "atk": 477,
+      "def": 377,
+      "res": 0.0,
+      "cost": 5,
+      "block": 1,
+      "atkSpd": 100.0,
+      "atkTime": 1.25,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 10
+    },
+    "talents": [
+      {
+        "name": null,
+        "description": "-",
+        "blackboard": {
+          "max_deploy_count": 4.0,
+          "max_deck_stack_cnt": 5.0
+        }
+      }
+    ],
+    "trust": {}
+  },
+  "token_10011_beewax_oblisk": {
+    "name": "Sand Obelisk",
+    "rarity": 5,
+    "profession": "TOKEN",
+    "potential": [],
+    "skills": [
+      null,
+      "sktok_beewax"
+    ],
+    "stats": {
+      "level": 80,
+      "maxHp": 5000,
+      "atk": 100,
+      "def": 560,
+      "res": 10.0,
+      "cost": 0,
+      "block": 3,
+      "atkSpd": 100.0,
+      "atkTime": 1.0,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 0
+    },
+    "talents": [
+      {
+        "name": null,
+        "description": "-",
+        "blackboard": {
+          "duration": 20.0
+        }
+      }
+    ],
+    "trust": {}
+  },
+  "token_10012_rosmon_shield": {
+    "name": "Rosmontis's Tactical Equipment",
+    "rarity": 6,
+    "profession": "TOKEN",
+    "potential": [],
+    "skills": [
+      null,
+      null,
+      "sktok_rosmon"
+    ],
+    "stats": {
+      "level": 90,
+      "maxHp": 5000,
+      "atk": 100,
+      "def": 520,
+      "res": 0.0,
+      "cost": 0,
+      "block": 2,
+      "atkSpd": 100.0,
+      "atkTime": 1.0,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 0
+    },
+    "talents": [
+      {
+        "name": null,
+        "description": "-",
+        "blackboard": {
+          "duration": 25.0,
+          "def": -160.0
+        }
+      }
+    ],
+    "trust": {}
+  },
+  "token_10013_robin_mine": {
+    "name": "\"Clip\"",
+    "rarity": 5,
+    "profession": "TOKEN",
+    "potential": [],
+    "skills": [
+      "sktok_robin_1",
+      "sktok_robin_2"
+    ],
+    "stats": {
+      "level": 80,
+      "maxHp": 1000,
+      "atk": 100,
+      "def": 0,
+      "res": 0.0,
+      "cost": 3,
+      "block": 0,
+      "atkSpd": 100.0,
+      "atkTime": 1.0,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 5
+    }
+  },
   "trap_001_crate": {
     "name": "Roadblock",
     "rarity": 1,
@@ -5056,11 +8113,377 @@
       "respawn": 5
     }
   },
+  "trap_011_ore": {
+    "name": "Originium Altar",
+    "rarity": 1,
+    "profession": "TRAP",
+    "potential": [],
+    "skills": [
+      "sktok_ore"
+    ],
+    "stats": {
+      "level": 30,
+      "maxHp": 100,
+      "atk": 0,
+      "def": 0,
+      "res": 0.0,
+      "cost": 5,
+      "block": 0,
+      "atkSpd": 100.0,
+      "atkTime": 1.0,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 5
+    }
+  },
+  "trap_012_mine": {
+    "name": "Interference Mine",
+    "rarity": 1,
+    "profession": "TRAP",
+    "potential": [],
+    "skills": [
+      "sktok_mine"
+    ],
+    "stats": {
+      "level": 30,
+      "maxHp": 100,
+      "atk": 0,
+      "def": 0,
+      "res": 0.0,
+      "cost": 5,
+      "block": 0,
+      "atkSpd": 100.0,
+      "atkTime": 1.0,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 7
+    },
+    "talents": [
+      {
+        "name": null,
+        "description": "-",
+        "blackboard": {
+          "interval": 25.0
+        }
+      }
+    ]
+  },
+  "trap_013_blower": {
+    "name": "Originium Flow Generator",
+    "rarity": 1,
+    "profession": "TRAP",
+    "potential": [],
+    "skills": [
+      "sktok_blower"
+    ],
+    "stats": {
+      "level": 30,
+      "maxHp": 100,
+      "atk": 0,
+      "def": 0,
+      "res": 0.0,
+      "cost": 5,
+      "block": 0,
+      "atkSpd": 100.0,
+      "atkTime": 1.0,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 7
+    }
+  },
+  "trap_014_tower": {
+    "name": "L-44 \"Gramophone\"",
+    "rarity": 1,
+    "profession": "TRAP",
+    "potential": [],
+    "skills": [
+      "sktok_tower"
+    ],
+    "stats": {
+      "level": 30,
+      "maxHp": 100,
+      "atk": 0,
+      "def": 0,
+      "res": 0.0,
+      "cost": 5,
+      "block": 0,
+      "atkSpd": 100.0,
+      "atkTime": 1.5,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 7
+    },
+    "talents": [
+      {
+        "name": null,
+        "description": null,
+        "blackboard": {}
+      },
+      {
+        "name": null,
+        "description": null,
+        "blackboard": {}
+      },
+      {
+        "name": null,
+        "description": null,
+        "blackboard": {}
+      },
+      {
+        "name": null,
+        "description": null,
+        "blackboard": {}
+      },
+      {
+        "name": null,
+        "description": null,
+        "blackboard": {}
+      }
+    ]
+  },
+  "trap_015_tree": {
+    "name": "Giant Mushroom",
+    "rarity": 1,
+    "profession": "TRAP",
+    "potential": [],
+    "skills": [
+      "sktok_tree"
+    ],
+    "stats": {
+      "level": 30,
+      "maxHp": 100,
+      "atk": 0,
+      "def": 0,
+      "res": 0.0,
+      "cost": 5,
+      "block": 0,
+      "atkSpd": 100.0,
+      "atkTime": 1.0,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 5
+    }
+  },
+  "trap_016_peon": {
+    "name": "Temporary Rhodes Island Employee",
+    "rarity": 1,
+    "profession": "TRAP",
+    "potential": [],
+    "stats": {
+      "level": 30,
+      "maxHp": 100,
+      "atk": 13,
+      "def": 0,
+      "res": 0.0,
+      "cost": 5,
+      "block": 0,
+      "atkSpd": 100.0,
+      "atkTime": 1.0,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 5
+    },
+    "talents": [
+      {
+        "name": null,
+        "description": "-",
+        "blackboard": {
+          "duration": 9.0
+        }
+      }
+    ]
+  },
+  "trap_018_bomb": {
+    "name": "Mr. Boom",
+    "rarity": 1,
+    "profession": "TRAP",
+    "potential": [],
+    "skills": [
+      "sktok_bomb"
+    ],
+    "stats": {
+      "level": 30,
+      "maxHp": 100,
+      "atk": 0,
+      "def": 0,
+      "res": 0.0,
+      "cost": 5,
+      "block": 0,
+      "atkSpd": 100.0,
+      "atkTime": 1.0,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 5
+    }
+  },
+  "trap_019_electric": {
+    "name": "Mieszko Coil",
+    "rarity": 1,
+    "profession": "TRAP",
+    "potential": [],
+    "skills": [
+      "sktok_electric"
+    ],
+    "stats": {
+      "level": 30,
+      "maxHp": 100,
+      "atk": 0,
+      "def": 0,
+      "res": 0.0,
+      "cost": 5,
+      "block": 0,
+      "atkSpd": 100.0,
+      "atkTime": 1.0,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 5
+    }
+  },
+  "trap_020_roadblock": {
+    "name": "Static Roadblock",
+    "rarity": 1,
+    "profession": "TRAP",
+    "potential": [],
+    "skills": [
+      "sktok_roadblock"
+    ],
+    "stats": {
+      "level": 30,
+      "maxHp": 8000,
+      "atk": 0,
+      "def": 200,
+      "res": 20.0,
+      "cost": 5,
+      "block": 0,
+      "atkSpd": 100.0,
+      "atkTime": 1.0,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 5
+    }
+  },
+  "trap_021_flame": {
+    "name": "Energy Aggregate",
+    "rarity": 1,
+    "profession": "TRAP",
+    "potential": [],
+    "skills": [
+      "sktok_flame"
+    ],
+    "stats": {
+      "level": 30,
+      "maxHp": 6000,
+      "atk": 0,
+      "def": 200,
+      "res": 20.0,
+      "cost": 5,
+      "block": 0,
+      "atkSpd": 100.0,
+      "atkTime": 1.0,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 5
+    }
+  },
+  "trap_022_frosts_friend": {
+    "name": "FrostNova's Originium Ice Crystal",
+    "rarity": 1,
+    "profession": "TRAP",
+    "potential": [],
+    "skills": [
+      "sktok_frosts_friend"
+    ],
+    "stats": {
+      "level": 30,
+      "maxHp": 100,
+      "atk": 0,
+      "def": 0,
+      "res": 0.0,
+      "cost": 5,
+      "block": 0,
+      "atkSpd": 100.0,
+      "atkTime": 1.0,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 5
+    }
+  },
+  "trap_023_ore_friend": {
+    "name": "Patriot's Originium Altar",
+    "rarity": 1,
+    "profession": "TRAP",
+    "potential": [],
+    "skills": [
+      "sktok_ore_friend"
+    ],
+    "stats": {
+      "level": 30,
+      "maxHp": 100,
+      "atk": 0,
+      "def": 0,
+      "res": 0.0,
+      "cost": 5,
+      "block": 0,
+      "atkSpd": 100.0,
+      "atkTime": 1.0,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 5
+    }
+  },
+  "trap_024_npcsld": {
+    "name": "Shieldguard",
+    "rarity": 1,
+    "profession": "TRAP",
+    "potential": [],
+    "skills": [
+      "sktok_npcsld"
+    ],
+    "stats": {
+      "level": 30,
+      "maxHp": 20000,
+      "atk": 700,
+      "def": 1000,
+      "res": 60.0,
+      "cost": 5,
+      "block": 3,
+      "atkSpd": 100.0,
+      "atkTime": 4.0,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 5
+    }
+  },
+  "trap_025_prison": {
+    "name": "Imprisonment Device",
+    "rarity": 1,
+    "profession": "TRAP",
+    "potential": [],
+    "skills": [
+      "sktok_prison"
+    ],
+    "stats": {
+      "level": 30,
+      "maxHp": 2000,
+      "atk": 0,
+      "def": 0,
+      "res": 0.0,
+      "cost": 5,
+      "block": 0,
+      "atkSpd": 100.0,
+      "atkTime": 1.0,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 7
+    }
+  },
   "char_230_savage": {
     "name": "Savage",
     "rarity": 5,
     "profession": "Guard",
-    "potential": [],
+    "potential": {
+      "atk": 35.0
+    },
     "skills": [
       "skchr_savage_1",
       "skchr_savage_2"
@@ -5193,8 +8616,8 @@
     ],
     "stats": {
       "level": 70,
-      "maxHp": 2135,
-      "atk": 488,
+      "maxHp": 2435,
+      "atk": 513,
       "def": 312,
       "res": 0.0,
       "cost": 9,
@@ -5212,6 +8635,48 @@
         "blackboard": {
           "max_stack_cnt": 5.0,
           "atk": 0.06
+        }
+      }
+    ],
+    "trust": {
+      "atk": 60
+    }
+  },
+  "char_347_jaksel": {
+    "name": "Jackie",
+    "rarity": 4,
+    "profession": "Guard",
+    "potential": {
+      "cost": -2.0,
+      "respawn": -4.0,
+      "atk": 21.0
+    },
+    "skills": [
+      "skchr_jaksel_1",
+      "skchr_jaksel_2"
+    ],
+    "stats": {
+      "level": 70,
+      "maxHp": 2378,
+      "atk": 529,
+      "def": 308,
+      "res": 0.0,
+      "cost": 9,
+      "block": 1,
+      "atkSpd": 100.0,
+      "atkTime": 0.78,
+      "hpRec": 0.0,
+      "spRec": 1.0,
+      "respawn": 70
+    },
+    "talents": [
+      {
+        "name": "Extreme Evasion",
+        "description": "33% <@ba.talpu>(+3%)</> Physical Dodge; After a successful dodge, gains +12 ASPD (Lasts for 5s, does not stack)",
+        "blackboard": {
+          "prob": 0.33,
+          "charge_atk_speed_on_evade.attack_speed": 12.0,
+          "charge_atk_speed_on_evade.duration": 5.0
         }
       }
     ],

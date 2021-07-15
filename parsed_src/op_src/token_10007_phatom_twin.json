@@ -1,0 +1,104 @@
+{
+  "name": "Phantom in the Mirror",
+  "rarity": 6,
+  "profession": "TOKEN",
+  "potential": [],
+  "skills": [
+    {
+      "name": "Phantom of the Night",
+      "rangeId": null,
+      "description": "Upon deployment, gains 50% Physical Dodge and a shield that can absorb Physical Damage equal to 80% Max HP for 10 seconds",
+      "skillType": 0,
+      "spData": {
+        "spType": 8,
+        "levelUpCost": null,
+        "maxChargeTime": 0,
+        "spCost": 0,
+        "initSp": 0,
+        "increment": 0.0
+      },
+      "prefabId": "sktok_phatom_1",
+      "duration": -1.0,
+      "blackboard": {
+        "prob": 0.5,
+        "hp_ratio": 0.8,
+        "duration": 10.0
+      },
+      "skillId": "sktok_phatom_1"
+    },
+    {
+      "name": "Bloody Opus",
+      "rangeId": null,
+      "description": "Upon deployment, immediately gains 10 charges of a stacking +20% ATK buff (each attack consumes one charge)",
+      "skillType": 0,
+      "spData": {
+        "spType": 8,
+        "levelUpCost": null,
+        "maxChargeTime": 0,
+        "spCost": 0,
+        "initSp": 0,
+        "increment": 0.0
+      },
+      "prefabId": "sktok_phatom_2",
+      "duration": -1.0,
+      "blackboard": {
+        "times": 10.0,
+        "atk": 0.2
+      },
+      "skillId": "sktok_phatom_2"
+    },
+    {
+      "name": "Night Raid",
+      "rangeId": "x-4",
+      "description": "Upon deployment, immediately deals 300% ATK as Physical damage to all nearby enemies, pushes them back slightly, and randomly inflicts one of the following statuses to all targets hit (slow, bind, or stun) for 4 seconds",
+      "skillType": 0,
+      "spData": {
+        "spType": 8,
+        "levelUpCost": null,
+        "maxChargeTime": 0,
+        "spCost": 0,
+        "initSp": 0,
+        "increment": 0.0
+      },
+      "prefabId": "sktok_phatom_3",
+      "duration": -1.0,
+      "blackboard": {
+        "atk_scale": 3.0,
+        "force": 0.0,
+        "sluggish": 4.5,
+        "root": 4.5,
+        "stun": 4.5
+      },
+      "skillId": "sktok_phatom_3"
+    }
+  ],
+  "stats": {
+    "level": 90,
+    "maxHp": 1416,
+    "atk": 548,
+    "def": 268,
+    "res": 0.0,
+    "cost": 5,
+    "block": 1,
+    "atkSpd": 100.0,
+    "atkTime": 0.93,
+    "hpRec": 0.0,
+    "spRec": 1.0,
+    "respawn": 45
+  },
+  "talents": [
+    {
+      "name": "Phantom in the Mirror",
+      "description": "Can summon a clone with the same abilities as Phantom, but has its own redeployment time",
+      "blackboard": {}
+    },
+    {
+      "name": "Phantom Mastery",
+      "description": "Redeployment time of clone is reduced by 10 seconds",
+      "blackboard": {
+        "respawn_time": -10.0
+      }
+    }
+  ],
+  "trust": {}
+}

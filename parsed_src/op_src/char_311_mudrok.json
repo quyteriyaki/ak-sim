@@ -1,0 +1,118 @@
+{
+  "name": "Mudrock",
+  "rarity": 6,
+  "profession": "Defender",
+  "potential": {
+    "cost": -2.0,
+    "respawn": -4.0,
+    "def": 29.0
+  },
+  "skills": [
+    {
+      "name": "DEF Up γ",
+      "rangeId": null,
+      "description": "DEF +100%",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 30,
+        "initSp": 15,
+        "increment": 1.0
+      },
+      "prefabId": "skcom_def_up",
+      "duration": 40.0,
+      "blackboard": {
+        "def": 1.0
+      },
+      "skillId": "skcom_def_up[3]"
+    },
+    {
+      "name": "Crag Splitter",
+      "rangeId": "x-4",
+      "description": "The next attack restores 6% of this unit's Max HP and deals 270% ATK as Physical damage to all surrounding ground enemies, with a 30% chance to stun affected targets for 1 second(s)",
+      "skillType": 2,
+      "spData": {
+        "spType": 4,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 4,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_mudrok_2",
+      "duration": 0.0,
+      "blackboard": {
+        "atk_scale": 2.7,
+        "buff_prob": 0.3,
+        "stun": 1.2,
+        "hp_ratio": 0.06
+      },
+      "skillId": "skchr_mudrok_2"
+    },
+    {
+      "name": "Bloodline of Desecrated Earth",
+      "rangeId": "x-1",
+      "description": "Upon skill activation, Mudrock stops attacking and does not take damage for 10 seconds, reducing the movement speed of surrounding enemies by -60%; After this state ends, Mudrock stuns surrounding ground enemies for 5 seconds and gains ATK +140%, reduced attack interval, DEF +80%, and the ability to attack all blocked enemies",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 25,
+        "initSp": 15,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_mudrok_3",
+      "duration": 30.0,
+      "blackboard": {
+        "atk": 1.4,
+        "def": 0.8,
+        "move_speed": -0.6,
+        "sleep": 10.0,
+        "awake": 20.0,
+        "base_attack_time": -0.3,
+        "stun": 5.0
+      },
+      "skillId": "skchr_mudrok_3"
+    }
+  ],
+  "stats": {
+    "level": 90,
+    "maxHp": 3928,
+    "atk": 882,
+    "def": 602,
+    "res": 10.0,
+    "cost": 36,
+    "block": 3,
+    "atkSpd": 100.0,
+    "atkTime": 1.6,
+    "hpRec": 0.0,
+    "spRec": 1.0,
+    "respawn": 70
+  },
+  "talents": [
+    {
+      "name": "Ward of the Fertile Soil",
+      "description": "Every 9 seconds, gains one shield stack (Each stack can block 1 instance of damage; Can have up to 3 stacks, with 1 stack granted immediately when deployed); When a shield is broken, restores 22% <@ba.talpu>(+2%)</> of Max HP",
+      "blackboard": {
+        "interval": 9.0,
+        "times": 1.0,
+        "max_times": 3.0,
+        "hp_ratio": 0.22
+      }
+    },
+    {
+      "name": "Unshakable Solidarity",
+      "description": "Takes 30% less damage from Sarkaz enemies",
+      "blackboard": {
+        "damage_resistance": 0.3
+      }
+    }
+  ],
+  "trust": {
+    "maxHp": 500,
+    "def": 60
+  }
+}

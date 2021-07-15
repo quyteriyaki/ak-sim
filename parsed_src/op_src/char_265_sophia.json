@@ -1,0 +1,84 @@
+{
+  "name": "Whislash",
+  "rarity": 5,
+  "profession": "Guard",
+  "potential": {
+    "cost": -3.0,
+    "respawn": -10.0
+  },
+  "skills": [
+    {
+      "name": "Motivational Skills",
+      "rangeId": null,
+      "description": "Talent effect increases to 3 and Melee Operators with less than 3 Block gain half the effect",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 30,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_sophia_1",
+      "duration": 20.0,
+      "blackboard": {
+        "talent_scale": 3.0
+      },
+      "skillId": "skchr_sophia_1"
+    },
+    {
+      "name": "Whip Sword",
+      "rangeId": null,
+      "description": "Talent effect increases to 2, ATK +60%, attack range +1, Block +1 and attack all blocked targets",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 60,
+        "initSp": 20,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_sophia_2",
+      "duration": 25.0,
+      "blackboard": {
+        "talent_scale": 2.0,
+        "atk": 0.6,
+        "ability_range_forward_extend": 1.0,
+        "block_cnt": 1.0
+      },
+      "skillId": "skchr_sophia_2"
+    }
+  ],
+  "stats": {
+    "level": 80,
+    "maxHp": 1757,
+    "atk": 584,
+    "def": 420,
+    "res": 0.0,
+    "cost": 18,
+    "block": 2,
+    "atkSpd": 100.0,
+    "atkTime": 1.05,
+    "hpRec": 0.0,
+    "spRec": 1.0,
+    "respawn": 80
+  },
+  "talents": [
+    {
+      "name": "Rebuke",
+      "description": "When deployed, all Melee allies with 3 or more Block gain +8 <@ba.talpu>(+2)</> ASPD and +14% <@ba.talpu>(+2%)</> DEF",
+      "blackboard": {
+        "attack_speed": 8.0,
+        "def": 0.14,
+        "sophia_t_1_less.attack_speed": 4.0,
+        "sophia_t_1_less.def": 0.07
+      }
+    }
+  ],
+  "trust": {
+    "atk": 30,
+    "def": 40
+  }
+}

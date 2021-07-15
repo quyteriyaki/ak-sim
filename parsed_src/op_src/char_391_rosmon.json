@@ -1,0 +1,121 @@
+{
+  "name": "Rosmontis",
+  "rarity": 6,
+  "profession": "Sniper",
+  "potential": {
+    "cost": -2.0,
+    "respawn": -4.0,
+    "atk": 32.0
+  },
+  "skills": [
+    {
+      "name": "Expanded Cognition",
+      "rangeId": null,
+      "description": "The next attack deals an additional hit equal to 180% ATK as Arts damage",
+      "skillType": 2,
+      "spData": {
+        "spType": 2,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 2,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_rosmon_1",
+      "duration": 0.0,
+      "blackboard": {
+        "extra_atk_scale": 1.8,
+        "append_atk_scale": 0.5
+      },
+      "skillId": "skchr_rosmon_1"
+    },
+    {
+      "name": "Nociceptor Inhibition",
+      "rangeId": null,
+      "description": "Attack interval increases, ATK +55%, splash area expands, and each attack causes 2 additional shockwaves; Enemies hit by this unit's attacks and shockwaves have a 20% chance to be stunned for 1 second(s)",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 30,
+        "initSp": 20,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_rosmon_2",
+      "duration": 40.0,
+      "blackboard": {
+        "base_attack_time": 0.5,
+        "atk": 0.55,
+        "attack@times": 4.0,
+        "attack@prob": 0.2,
+        "attack@stun": 1.5
+      },
+      "skillId": "skchr_rosmon_2"
+    },
+    {
+      "name": "“As You Wish”",
+      "rangeId": null,
+      "description": "Attack interval reduced, ATK +75%, and attacks up to 2 blocked enemies at a time; Immediately deploys two pieces of Tactical Equipment on ground tiles within attack range(After deployment, surrounding enemies are stunned for 3 second(s), and the blocked enemies' DEF  -160)",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 60,
+        "initSp": 35,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_rosmon_3",
+      "duration": 30.0,
+      "blackboard": {
+        "base_attack_time": -0.5,
+        "atk": 0.75,
+        "attack@max_target": 2.0,
+        "def": 1.0,
+        "attack@append_atk_scale": 0.5,
+        "stun": 3.0
+      },
+      "skillId": "skchr_rosmon_3"
+    }
+  ],
+  "stats": {
+    "level": 90,
+    "maxHp": 1944,
+    "atk": 688,
+    "def": 245,
+    "res": 15.0,
+    "cost": 25,
+    "block": 1,
+    "atkSpd": 100.0,
+    "atkTime": 2.1,
+    "hpRec": 0.0,
+    "spRec": 1.0,
+    "respawn": 70
+  },
+  "talents": [
+    {
+      "name": "Armaments of Annihilation",
+      "description": "Attacks ignore 175 <@ba.talpu>(+15)</> DEF",
+      "blackboard": {
+        "def_penetrate_fixed": 175.0
+      }
+    },
+    {
+      "name": "Stable Esthesia",
+      "description": "When deployed, grants +8% ATK to this unit and a random deployed Caster Operator",
+      "blackboard": {
+        "atk": 0.08
+      }
+    }
+  ],
+  "trait": [
+    {
+      "attack@append_atk_scale": 0.5
+    }
+  ],
+  "trust": {
+    "atk": 60,
+    "def": 30
+  }
+}

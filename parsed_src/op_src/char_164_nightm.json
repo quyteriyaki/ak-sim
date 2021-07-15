@@ -32,7 +32,7 @@
     {
       "name": "Night Phantom",
       "rangeId": null,
-      "description": "Inflict Nightmare on at most 5 enemies within range:\nTargets' Movement Speed -60%; Deals damage while ignoring targets' DEF and RES according to targets' movement distance for 10 seconds",
+      "description": "Applies the Nightmare effect to up to 5 enemies within range:\nDecreases the Movement Speed of affected enemies by -60% for 10 seconds, and makes them suffer Pure damage proportional to the distance they move during this effect",
       "skillType": 2,
       "spData": {
         "spType": 1,
@@ -47,8 +47,8 @@
       "blackboard": {
         "move_speed": -0.6,
         "max_target": 5.0,
-        "interval": 0.33,
-        "value": 800.0,
+        "interval": 0.066,
+        "value": 1200.0,
         "duration": 10.0
       },
       "skillId": "skchr_nightm_2"

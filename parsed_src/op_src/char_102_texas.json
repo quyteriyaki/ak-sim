@@ -9,7 +9,7 @@
   },
   "skills": [
     {
-      "name": "Charge \u03b3",
+      "name": "Charge γ",
       "rangeId": null,
       "description": "Instantly gains 12 Deployment Points.",
       "skillType": 2,
@@ -46,8 +46,7 @@
       "blackboard": {
         "cost": 12.0,
         "atk_scale": 1.7,
-        "stun": 3.0,
-        "atk": 0.95
+        "stun": 3.0
       },
       "skillId": "skchr_texas_2"
     }

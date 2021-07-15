@@ -32,7 +32,7 @@
     {
       "name": "Counter EMP",
       "rangeId": "x-3",
-      "description": "Releases a shockwave in an area around this unit. All hit enemies receives Arts Damage equal to ATK 400% and are Restrained for 6 seconds. If the target is a Drone, it will receive double damage and be Stunned",
+      "description": "Releases a shockwave in an area around this unit. All hit enemies receive Arts Damage equal to ATK 400% and are Bound for 6 seconds. If the target is a Drone, it will receive double damage and be Stunned",
       "skillType": 1,
       "spData": {
         "spType": 1,

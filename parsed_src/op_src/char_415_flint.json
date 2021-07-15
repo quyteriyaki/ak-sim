@@ -1,0 +1,82 @@
+{
+  "name": "Flint",
+  "rarity": 5,
+  "profession": "Guard",
+  "potential": {
+    "cost": -2.0,
+    "respawn": -4.0,
+    "atk": 24.0
+  },
+  "skills": [
+    {
+      "name": "Relentless",
+      "rangeId": null,
+      "description": "Increases the ATK of next attack to 230%, pushes the target towards the attack direction slightly and slows the target for 1 second",
+      "skillType": 2,
+      "spData": {
+        "spType": 2,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 4,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_flint_1",
+      "duration": 0.0,
+      "blackboard": {
+        "atk_scale": 2.3,
+        "force": 0.0,
+        "sluggish": 1.0
+      },
+      "skillId": "skchr_flint_1"
+    },
+    {
+      "name": "Display of Might",
+      "rangeId": null,
+      "description": "Cannot block enemies, ATK +55%, ASPD +55. Each attack slows the target for 0.3 seconds",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 35,
+        "initSp": 25,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_flint_2",
+      "duration": 20.0,
+      "blackboard": {
+        "atk": 0.55,
+        "attack_speed": 55.0,
+        "attack@sluggish": 0.3
+      },
+      "skillId": "skchr_flint_2"
+    }
+  ],
+  "stats": {
+    "level": 80,
+    "maxHp": 2495,
+    "atk": 545,
+    "def": 334,
+    "res": 0.0,
+    "cost": 10,
+    "block": 1,
+    "atkSpd": 100.0,
+    "atkTime": 0.78,
+    "hpRec": 0.0,
+    "spRec": 1.0,
+    "respawn": 70
+  },
+  "talents": [
+    {
+      "name": "Featherweight",
+      "description": "Deals 45% <@ba.talpu>(+5%)</> more damage to enemies that are not blocked by this unit",
+      "blackboard": {
+        "damage_scale": 1.45
+      }
+    }
+  ],
+  "trust": {
+    "atk": 75
+  }
+}

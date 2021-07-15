@@ -1,0 +1,79 @@
+{
+  "name": "Aciddrop",
+  "rarity": 4,
+  "profession": "Sniper",
+  "potential": {
+    "cost": -2.0,
+    "respawn": -8.0,
+    "atk": 30.0
+  },
+  "skills": [
+    {
+      "name": "Fancy Shot",
+      "rangeId": null,
+      "description": "ASPD +70",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 35,
+        "initSp": 20,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_acdrop_1",
+      "duration": 20.0,
+      "blackboard": {
+        "attack_speed": 70.0
+      },
+      "skillId": "skchr_acdrop_1"
+    },
+    {
+      "name": "Trigger Time",
+      "rangeId": null,
+      "description": "ATK +40%, attacks 2 times consecutively",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 50,
+        "initSp": 35,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_acdrop_2",
+      "duration": 25.0,
+      "blackboard": {
+        "atk": 0.4
+      },
+      "skillId": "skchr_acdrop_2"
+    }
+  ],
+  "stats": {
+    "level": 70,
+    "maxHp": 1576,
+    "atk": 735,
+    "def": 209,
+    "res": 0.0,
+    "cost": 18,
+    "block": 1,
+    "atkSpd": 100.0,
+    "atkTime": 1.6,
+    "hpRec": 0.0,
+    "spRec": 1.0,
+    "respawn": 70
+  },
+  "talents": [
+    {
+      "name": "Slideshot Style",
+      "description": "Each attack deals at least 25% of this unit's ATK damage (increases to 40% of ATK when the enemy is in the two frontal grids)",
+      "blackboard": {
+        "atk_scale": 0.25,
+        "atk_scale_2": 0.4
+      }
+    }
+  ],
+  "trust": {
+    "atk": 80
+  }
+}

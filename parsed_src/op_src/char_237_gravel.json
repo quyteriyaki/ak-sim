@@ -68,7 +68,7 @@
   "talents": [
     {
       "name": "Support of the Little",
-      "description": "DP Cost -1; The DEF of all allies with DP Cost lower than 10 increases by 8% <@ba.talpu>(+2%)</>",
+      "description": "DP Cost -1; All units that cost 10 or less DP gain +6% <@ba.talpu>(+2%)</> DEF",
       "blackboard": {
         "cost": -1.0,
         "def": 0.08,

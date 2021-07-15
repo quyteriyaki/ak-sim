@@ -1,0 +1,81 @@
+{
+  "name": "Folinic",
+  "rarity": 5,
+  "profession": "Medic",
+  "potential": {
+    "cost": -3.0,
+    "respawn": -10.0
+  },
+  "skills": [
+    {
+      "name": "Max-Dosage Infusion",
+      "rangeId": null,
+      "description": "Range +2 grids; ATK +80%",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 30,
+        "initSp": 20,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_folnic_1",
+      "duration": 40.0,
+      "blackboard": {
+        "atk": 0.8,
+        "ability_range_forward_extend": 2.0
+      },
+      "skillId": "skchr_folnic_1"
+    },
+    {
+      "name": "Compound Drug Shell",
+      "rangeId": null,
+      "description": "Attacks instead fire a Compound Drug Shell (prioritizes enemies); when the shell hits, heals surrounding allies by 150% of this unit's ATK, and deals 200% Arts Damage to enemies",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 40,
+        "initSp": 20,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_folnic_2",
+      "duration": 30.0,
+      "blackboard": {
+        "attack@heal_scale": 1.5,
+        "attack@atk_scale": 2.0
+      },
+      "skillId": "skchr_folnic_2"
+    }
+  ],
+  "stats": {
+    "level": 80,
+    "maxHp": 1585,
+    "atk": 479,
+    "def": 133,
+    "res": 0.0,
+    "cost": 21,
+    "block": 1,
+    "atkSpd": 100.0,
+    "atkTime": 2.85,
+    "hpRec": 0.0,
+    "spRec": 1.0,
+    "respawn": 80
+  },
+  "talents": [
+    {
+      "name": "Drug Inhibition Technique",
+      "description": "Status Resistance (reduces the duration of stun, cold, and freeze effects by 50%), -50% <@ba.talpu>(+10%)</> damage taken from environmental effects",
+      "blackboard": {
+        "one_minus_status_resistance": -0.5,
+        "damage_scale": 0.5
+      }
+    }
+  ],
+  "trust": {
+    "maxHp": 200,
+    "atk": 50
+  }
+}

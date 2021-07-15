@@ -1,0 +1,113 @@
+{
+  "name": "Suzuran",
+  "rarity": 6,
+  "profession": "Supporter",
+  "potential": {
+    "cost": -2.0,
+    "respawn": -4.0,
+    "atk": 25.0
+  },
+  "skills": [
+    {
+      "name": "I'll Do My Best",
+      "rangeId": null,
+      "description": "ATK +80%, ASPD +30\nSkill activated automatically",
+      "skillType": 2,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 20,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_lisa_1",
+      "duration": 30.0,
+      "blackboard": {
+        "atk": 0.8,
+        "attack_speed": 30.0
+      },
+      "skillId": "skchr_lisa_1"
+    },
+    {
+      "name": "Childhood Frolic",
+      "rangeId": null,
+      "description": "ATK +60%, attacks hit up to 3 enemies\nUnlimited duration",
+      "skillType": 2,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 80,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_lisa_2",
+      "duration": -1.0,
+      "blackboard": {
+        "atk": 0.6,
+        "attack@max_target": 3.0
+      },
+      "skillId": "skchr_lisa_2"
+    },
+    {
+      "name": "Foxfire Haze",
+      "rangeId": "y-8",
+      "description": "Stops attacking; Attack Range expands, the effect of the second Talent is increased to 2 times, and all enemies within range are Slowed; Heals all allied units within range for 20% of this unit's ATK each second",
+      "skillType": 1,
+      "spData": {
+        "spType": 1,
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 70,
+        "initSp": 50,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_lisa_3",
+      "duration": 35.0,
+      "blackboard": {
+        "scale_delta_to_one": 2.0,
+        "attack@atk_to_hp_recovery_ratio": 0.2
+      },
+      "skillId": "skchr_lisa_3"
+    }
+  ],
+  "stats": {
+    "level": 90,
+    "maxHp": 1480,
+    "atk": 521,
+    "def": 128,
+    "res": 25.0,
+    "cost": 16,
+    "block": 1,
+    "atkSpd": 100.0,
+    "atkTime": 1.9,
+    "hpRec": 0.0,
+    "spRec": 1.0,
+    "respawn": 70
+  },
+  "talents": [
+    {
+      "name": "Skill Aura - Supporter",
+      "description": "When deployed, increases the SP recovery rate of all Supporters by +0.4/second (only the highest effect of this type takes place)",
+      "blackboard": {
+        "sp_recovery_per_sec": 0.4
+      }
+    },
+    {
+      "name": "Binding Circle",
+      "description": "Enemies in range that are Slowed are inflicted with [Fragile] (affected units take 23% <@ba.talpu>(+3%)</> more damage, only the highest effect of this type is applied)",
+      "blackboard": {
+        "damage_scale": 1.23
+      }
+    }
+  ],
+  "trait": [
+    {
+      "sluggish": 0.8
+    }
+  ],
+  "trust": {
+    "atk": 75
+  }
+}
